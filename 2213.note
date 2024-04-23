@@ -1,5 +1,20 @@
 当下社会的特色是什么?
 ====
+PS C:\Users\null3> cat .\.ssh\known_hosts
+45.32.200.249 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKxMH3K0thmfLuaPKWmvHf1nnNklvoF8boeKa4CWlYU/
+45.32.200.249 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHAFhl7HpVuXUxtFxyX2sezv59296uLfPbxEbW02XaRYkjL08VvRKJzyCcjfnJeAQP7WLBcoq5m+aMrOKZm6qcs=
+[45.32.200.249]:6000 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBjD0ra8qPNgBYXiT94VzwtEDDnSawxUGZbQqBE/+R6J
+[45.32.200.249]:6000 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLl3VoEY0dSrYNygjA9qsNBiv95ZGm0wZUtsM0P0x0T7BdLfobgMY1V1RMTFtCRL+xV9evXx2IJCD3gAfuSDE/U=
+cnepearls.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINPS1fBYpr1O72vI6L0aOVlilNAFmcWcgdr988JIadQD
+cnepearls.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBMTkSsKXrB6YmVZrE8a71oyiz5oXTko0ZgzE5e2AOMJPIgx7nAvO6WhhEi3vbOj/5VDxqe0ryM2BSjMpBlH6ts=
+[localhost]:58413 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL5btr68ezxX4w7vFuAqIGgl0NyWYfzEqi6BE6s39GBG
+[localhost]:58413 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1aNq4oxvPIpX74JPR2tMVKDXg2J/oVlIjXFojcN09wq6jMa1sZ056XI9xntfofakh2fkB39J/eo5DKGQG2jacaGrnHTOOlRVQXvpnScb1OjLiZvywmqvUjaaqMmjKWql2yrh6+w0SRv2wTIOWNaNnIcyk5A05FoZFoHiCkrSnr7bJZ4TQdHZ1v0K7TT8eFeCrNmMQPZXLLwnsWyKpgZuFbmDKZyNl0Ef/BvDwLuQkc9D0LR1qpU+Vcld0IuMUbKpIy5VFDa4nRmI38sLMhWsLJ55fqFnjUBCfEDEV1BQZpJUf6qMi9ajztDN68KZ8tne6PgCeqPgGKRceDAdDTZiU+qKs8ftuGKePeCQsGLLeCV9iTHFnrEaK5VNPy2TlmdvrTcRvYNWkdAdeIzPz9PfkbkzdmsdkkgjkYNsmc40/2jg29wL74LubD1koHwHK02CgiaT2MQRbTW0P52nlCvkMTSfK1CUr4jLHjrRyh2BSSo5Ro6ScLrYkBdzsPkFZLds=
+[localhost]:58413 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAbnJlOAFjcrtJwX7re+6QnYAs0JR5cnsersjntjznBs6O1p0BPptCzGMrw9Jxx+aC2bYfdQ118eFv+mO1+OLAY=
+pastes.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOK6d3Pqn3y2GI64BwBKXsxrvyk9xemgSZqJ8IWgXgUp
+pico.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4W9+nN9/y8tU7CHRmbEdMg1wq9oGh3cmm7TKz4WhKM
+pgs.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4W9+nN9/y8tU7CHRmbEdMg1wq9oGh3cmm7TKz4WhKM
+feeds.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGWK4c/PC0mpls7ops0HAPuNifGs4P3dd//GXzMiLe5E
+------------------------------------------
 Then add your email, the digest interval, and the rss feeds for which you want to receive email notifications.
 null.vnbv4@simplelogin.co 7gxsbm3x@anonaddy.me
 =: email 7gxsbm3x@anonaddy.me
