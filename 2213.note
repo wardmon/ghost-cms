@@ -1,6 +1,15 @@
 当下社会的特色是什么?
 ====
+Then add your email, the digest interval, and the rss feeds for which you want to receive email notifications.
+null.vnbv4@simplelogin.co 7gxsbm3x@anonaddy.me
+=: email 7gxsbm3x@anonaddy.me
+=: digest_interval 1day
+=> https://hey.prose.sh/rss
+=> https://erock.prose.sh/rss
+Then copy the file to our server
 
+rsync daily.txt feeds.sh:/
+------------------------
 Token created! Save this secret, you won't see it again: 5a7b3648-3bb2-4a5a-9d5b-b7438333a02f
 
 -----------------------------------
