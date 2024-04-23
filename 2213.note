@@ -20,6 +20,8 @@ pico.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4W9+nN9/y8tU7CHRmbEdMg1wq9oGh3cmm7
 pgs.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4W9+nN9/y8tU7CHRmbEdMg1wq9oGh3cmm7TKz4WhKM
 feeds.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGWK4c/PC0mpls7ops0HAPuNifGs4P3dd//GXzMiLe5E
 ------------------------------------------
+不要因为睡懒觉而感到自责，因为你起来也创造不了什么价值。能从浪费时间中获得乐趣，就不是浪费时间。—罗素
+
 Then add your email, the digest interval, and the rss feeds for which you want to receive email notifications.
 null.vnbv4@simplelogin.co 7gxsbm3x@anonaddy.me
 =: email 7gxsbm3x@anonaddy.me
