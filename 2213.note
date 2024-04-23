@@ -1,5 +1,10 @@
 当下社会的特色是什么?
 ====
+# Usage
+# if you have a local webserver on localhost:8000:
+ssh -R dev:80:localhost:8000 tuns.sh
+# now anyone can access it at 
+https://dev.tuns.sh
 PS C:\Users\null3> cat .\.ssh\known_hosts
 45.32.200.249 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKxMH3K0thmfLuaPKWmvHf1nnNklvoF8boeKa4CWlYU/
 45.32.200.249 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHAFhl7HpVuXUxtFxyX2sezv59296uLfPbxEbW02XaRYkjL08VvRKJzyCcjfnJeAQP7WLBcoq5m+aMrOKZm6qcs=
