@@ -1,5 +1,28 @@
 当下社会的特色是什么?
 ====
+To use the TUI just SSH into our site:
+
+ssh pico.sh
+# Web UI
+This is an experimental web-based UI leveraging web tunnels.
+
+To use the web UI, create an SSH local forward connection to our pgs site:
+
+ssh -L 1337:localhost:80 -N pico-ui@pgs.sh
+Then open your browser and navigate to localhost:1337.
+
+# SSH Config
+The SSH tunnel command can be quite a lot to remember if you aren't using it consistently everyday. Instead, you can setup an SSH config entry to do all the work for you, here is an example config entry inside ~/.ssh/config:
+
+Host ui
+    User pico-ui
+    Hostname pgs.sh
+    LocalForward 0.0.0.0:1337 localhost:80
+    SessionType none
+# imgs
+If you want to view your docker repositories on imgs.sh then you need to open an additional SSH tunnel:
+
+ssh -L 1338:localhost:80 -N imgs.sh
 
 PS C:\Users\null3> cat .\.ssh\id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/hv/14OAp2bwVtJyVCXCwWdqoqWCj6cH4/iBEjJquTF2vOrmBYWcp4trqNov7rASdd8Wqn1sGZyDAA4Z+M2AW5kUfuY+MnGjS+4fLowPMXPiwWYtllUVNwt5/qaHigL+viXVzbsRXn1+Q8Yd1Mmc0tWgmfxaLnVaz1dBR258lA2TMtrgqh669tORPYB155nqZQHWu+kpryCDI8bCqbkLxySJNwub1c+FE1EdFEyvRMLZTgWRtZbg/3MoYL/pCgOvkRDKF7l8SR+0ENhB1VT3p+83FpiC1ovIlJvAiODINTKxgK9ZX0ecdGDtIJxdRTdsvEdzKX69yDCfvvbQK9aJwa9eqMbgAXXXvDHkBvzim5DBpxOv7SB87TN9n5Pwd6XZq90gcTRn5AJ1bb2HxebSi+/FG1DdWaPXeKV7mtqJ7hoVgeIgTUoJST/xxGGINxquO0AU1CHeBJTbzXFZkeoD10dAI4k0Weib50JuaWovbEX79NvcH8ViwyNhQnjYt0nk= null3@maxt
