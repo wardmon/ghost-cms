@@ -1,5 +1,10 @@
 当下社会的特色是什么?
 ====
+
+cmake -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CC_COMPILER=gcc -DCMAKE_MAKE_PROGRAM=mingw32-make -G "MinGW Makefiles" 
+&& make
+
+
 # Usage
 # if you have a local webserver on localhost:8000:
 ssh -R dev:80:localhost:8000 tuns.sh
