@@ -1,5 +1,7 @@
 当下社会的特色是什么?
 ====
+马尔克斯曾说过，你要关注具体的个体，眼里有个体和具体人的喜怒哀乐，才是一个人。
+
 
 cmake -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CC_COMPILER=gcc -DCMAKE_MAKE_PROGRAM=mingw32-make -G "MinGW Makefiles" 
 && make
