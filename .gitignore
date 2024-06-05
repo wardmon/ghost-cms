@@ -6,3 +6,5 @@
 /content/adapters/storage/**/*
 /content/adapters/scheduling/**/*
 /mysql/*
+/.obsidian
+.obsidian
