@@ -11,7 +11,7 @@ These are some reassons why use this Docker Compose in your production environme
 🔒 SSL auto-renewed
 
 ## Stack
-
+1111111111111111
 - Ghost CMS (Last version)
 - MySQL 5.7
 - NGINX
