@@ -43,11 +43,11 @@ G:\obsidiandata\ghost-cms\OmnivoreClient.exe
 sleep 20s
 cp documents\*.md G:\obsidiandata\ghost-cms\documents
 cp g:\maoxian-web-clipper\download\jsMind-intro*.jm G:\obsidiandata\ghost-cms\documents
-cp G:\ztaskerportabale\hedgedownload.bat G:\obsidiandata\ghost-cms\ztaskerportabale\.
+cp G:\ztaskerportabale\hedgedownload.bat G:\obsidiandata\ghost-cms\.
 sleep 20s
-git --git-dir=G:\obsidiandata\ghost-cms\.git add .
+git --git-dir=G:\obsidiandata\ghost-cms\.git --work-tree=G:\obsidiandata\ghost-cms\ add .
 sleep 5s
-git --git-dir=G:\obsidiandata\ghost-cms\.git commit -m "commitby"
+git --git-dir=G:\obsidiandata\ghost-cms\.git --work-tree=G:\obsidiandata\ghost-cms\ commit -m "commitby"
 sleep 5s
-git --git-dir=G:\obsidiandata\ghost-cms\.git push origin master
+git --git-dir=G:\obsidiandata\ghost-cms\.git --work-tree=G:\obsidiandata\ghost-cms\ push origin master
 sleep 10s
