@@ -1,0 +1,1 @@
+![](https://proxy-prod.omnivore-image-cache.app/0x0,shryD93Wz9WGky5fq-xiWtOwaodsqRAlI2LBgGwTSudE/https://api.openapi-generator.tech/logo.png) 
