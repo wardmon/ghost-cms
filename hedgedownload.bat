@@ -33,7 +33,7 @@ scp "g:\maoxian-web-clipper\download\jsMind-intro (1).jm" pgs.sh:/myproj
 mv "g:\maoxian-web-clipper\download\jsMind-intro (1).jm" "g:\maoxian-web-clipper\download\jsmind.jm"
 mv "g:\maoxian-web-clipper\download\jsMind-intro (10).jm" "g:\maoxian-web-clipper\download\jsmind10.jm"
 rem echo 'ls -l myproj' | sftp pgs.sh
-sleep 20s
+sleep 10s
 
 
 rem $env:OMNIVORE_AUTH_TOKEN="af428811-0ae7-4b07-a1c5-659db15e67be"
@@ -44,7 +44,11 @@ sleep 20s
 cp documents\*.md G:\obsidiandata\ghost-cms\documents
 cp g:\maoxian-web-clipper\download\jsMind-intro*.jm G:\obsidiandata\ghost-cms\documents
 cp G:\ztaskerportabale\hedgedownload.bat G:\obsidiandata\ghost-cms\.
-sleep 20s
+
+scp  pia@45.32.200.249:/home/pia/SingleFile-dockerized/*  G:\obsidiandata\ghost-cms\*
+chmod -w G:\obsidiandata\ghost-cms\*
+sleep 5s
+
 git --git-dir=G:\obsidiandata\ghost-cms\.git --work-tree=G:\obsidiandata\ghost-cms\ add .
 sleep 5s
 git --git-dir=G:\obsidiandata\ghost-cms\.git --work-tree=G:\obsidiandata\ghost-cms\ commit -m "commitby"
