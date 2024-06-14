@@ -40,13 +40,13 @@ rem $env:OMNIVORE_AUTH_TOKEN="af428811-0ae7-4b07-a1c5-659db15e67be"
 setx OMNIVORE_AUTH_TOKEN "af428811-0ae7-4b07-a1c5-659db15e67be"
 echo %OMNIVORE_AUTH_TOKEN%
 G:\obsidiandata\ghost-cms\OmnivoreClient.exe
-sleep 20s
+sleep 10s
 cp documents\*.md G:\obsidiandata\ghost-cms\documents
 cp g:\maoxian-web-clipper\download\jsMind-intro*.jm G:\obsidiandata\ghost-cms\documents
 cp G:\ztaskerportabale\hedgedownload.bat G:\obsidiandata\ghost-cms\.
 
-scp  pia@45.32.200.249:/home/pia/SingleFile-dockerized/*  G:\obsidiandata\ghost-cms\*
-chmod -w G:\obsidiandata\ghost-cms\*
+scp  pia@45.32.200.249:/home/pia/SingleFile-dockerized/*  G:\obsidiandata\ghost-cms\SingleFile-dockerized\.
+chmod -w G:\obsidiandata\ghost-cms\SingleFile-dockerized\*
 sleep 5s
 
 git --git-dir=G:\obsidiandata\ghost-cms\.git --work-tree=G:\obsidiandata\ghost-cms\ add .
