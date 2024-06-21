@@ -55,3 +55,7 @@ Thu Jun 20 10:04:39 UTC 2024
 bash 1.sh
 Thu Jun 20 10:06:20 UTC 2024
 cat ../webserver.py
+Thu Jun 20 14:50:54 UTC 2024
+bash r.sh
+Thu Jun 20 14:56:02 UTC 2024
+ls
