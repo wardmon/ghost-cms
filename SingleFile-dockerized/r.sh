@@ -47,7 +47,7 @@ cp github-actions-cron/bookmarklet-test.js bookmarklet-test.js
 echo 'http://45.32.200.249:8000'
 echo '<a href="http://45.32.200.249:8060/ddd?url=dd&ddd=ls -l;ps">ddd</a> https://informedainews.com/ https://github.dev/wardmon/github-actions-cron'
 echo 'result = subprocess.Popen(args='ls -l', shell=True, stdout=subprocess.PIPE)'
-echo 'aa'
+echo 'null.vnbv4@simplelogin.co 45.32.200.249.21p42@aleeas.com'
 echo 'aa'
 echo 'aa'
 #cat r.sh

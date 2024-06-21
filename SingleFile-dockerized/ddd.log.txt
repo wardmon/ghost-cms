@@ -59,3 +59,9 @@ Thu Jun 20 14:50:54 UTC 2024
 bash r.sh
 Thu Jun 20 14:56:02 UTC 2024
 ls
+Fri Jun 21 07:07:17 UTC 2024
+bash 1.sh
+Fri Jun 21 08:12:26 UTC 2024
+ps -ef
+Fri Jun 21 08:24:03 UTC 2024
+bash 1.sh
