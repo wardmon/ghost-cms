@@ -86,3 +86,44 @@ bash 2.sh
 null
 Tue Jun 25 08:10:26 UTC 2024
 bash 2.sh
+Tue Jun 25 08:43:29 UTC 2024
+mv renam.sh renam.sh.bak
+Tue Jun 25 08:43:40 UTC 2024
+bash 2.sh
+Tue Jun 25 08:45:27 UTC 2024
+bash 1.sh
+Tue Jun 25 08:48:25 UTC 2024
+ls
+Tue Jun 25 08:50:17 UTC 2024
+Tue Jun 25 08:50:32 UTC 2024
+Tue Jun 25 08:58:29 UTC 2024
+bash 1.sh
+Tue Jun 25 09:00:00 UTC 2024
+bash 1.sh
+bash fb.sh
+bash fb.sh
+Tue Jun 25 09:38:02 UTC 2024
+bash 2.sh
+Tue Jun 25 09:38:28 UTC 2024
+bash 2.sh 11 22
+bash fb.sh
+date %H
+Tue Jun 25 10:05:21 UTC 2024
+date
+date %H
+date %H-%F
+date %H-%F
+date %H-%F
+date %H-%F
+Tue Jun 25 10:07:51 UTC 2024
+du -sh
+ind aa -type f
+Tue Jun 25 10:08:43 UTC 2024
+find aa -type f
+Tue Jun 25 10:09:19 UTC 2024
+Tue Jun 25 10:09:24 UTC 2024
+sar -n DEV 1 59
+Tue Jun 25 10:22:18 UTC 2024
+ls
+sar -n DEV 1 59
+sar -n DEV 1 59
