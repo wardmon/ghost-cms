@@ -81,3 +81,8 @@ Sat Jun 22 15:20:59 UTC 2024
 32035 ?        00:00:00 sshd
 Sat Jun 22 15:21:42 UTC 2024
 bash r.sh
+Tue Jun 25 08:09:33 UTC 2024
+bash 2.sh
+null
+Tue Jun 25 08:10:26 UTC 2024
+bash 2.sh
