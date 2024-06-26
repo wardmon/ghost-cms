@@ -285,3 +285,8 @@ cat
 cat aaa eof
 cat echo aa eof
 bash fb.sh
+Wed Jun 26 02:30:21 UTC 2024
+bash 1.sh
+Wed Jun 26 02:36:18 UTC 2024
+ls
+bash fb.sh
