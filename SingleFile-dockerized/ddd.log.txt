@@ -304,3 +304,116 @@ bash r.sh
 bash fb.sh
 Wed Jun 26 08:27:38 UTC 2024
 ls
+Wed Jun 26 08:29:20 UTC 2024
+bash 1.sh
+ls *.shcat 1.sh
+ls 1.sh 2.sh debug-github-actions.sh fb.sh fbstop.sh not-exist-file.sh r.sh cat 1.sh
+Wed Jun 26 08:31:21 UTC 2024
+#curl https://wardmon.serv00.net/r.txt -o r.sh
+#curl https://raw.githubusercontent.com/wardmon/ghost-cms/master/demo.txt -o r.sh -H 'Cache-Control: no-cache, no-store'
+#curl https://cdn.jsdelivr.net/gh/wardmon/ghost-cms@master/demo.txt -o r.sh
+rm -rf  github-actions-cron
+
+git clone  https://github.com/wardmon/github-actions-cron
+rm r.sh
+cp  github-actions-cron/not-exist-file.sh r.sh
+bash r.sh
+Wed Jun 26 08:31:58 UTC 2024
+2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+ls
+ls
+Wed Jun 26 08:43:07 UTC 2024
+ls
+Wed Jun 26 08:43:13 UTC 2024
+ls
+Wed Jun 26 08:43:20 UTC 2024
+ls
+ls ls 2.txt a.txt ddd.log.txt filename.txt heredoc.txt herestr.txt jsMind-intro - 2024-06-25T165644.281.jm.txt requirements.txt r.txt
+Wed Jun 26 08:44:25 UTC 2024
+2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+Wed Jun 26 08:49:42 UTC 2024
+2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+Wed Jun 26 08:52:09 UTC 2024
+1.sh
+2.sh
+debug-github-actions.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+Wed Jun 26 08:57:14 UTC 2024
+1.sh
+2.sh
+debug-github-actions.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+bash fb.sh
+Wed Jun 26 09:04:01 UTC 2024
+1.sh
+2.sh
+debug-github-actions.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+Wed Jun 26 09:05:35 UTC 2024
+1.sh
+2.sh
+debug-github-actions.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+Wed Jun 26 09:09:55 UTC 2024
+ ls *.txt; ls *.sh 
+Wed Jun 26 09:09:58 UTC 2024
+ ls *.txt; ls *.sh 
+Wed Jun 26 09:10:21 UTC 2024
+ ls *.txt; ls *.sh 
+ ls *.shls *.txt 
+Wed Jun 26 09:11:00 UTC 2024
+ ls *.sh ;ls *.txt 
+Wed Jun 26 09:11:39 UTC 2024
+ wget https://res.zvo.cn/msg/msg.js 
+Wed Jun 26 09:12:50 UTC 2024
+ bash 1.sh 
+Wed Jun 26 09:15:43 UTC 2024
+ ls *.txt ;cat *.txt 
+Wed Jun 26 09:16:16 UTC 2024
+ cat 1.sh;cat 2.sh 
+Wed Jun 26 09:16:38 UTC 2024
+ cat 2.sh 
+Wed Jun 26 09:17:42 UTC 2024
+ cat 1.sh;cat r.sh 
+ null 
+ null 
+ ls *.shcat 1.sh 
+ null 
+ bash fb.sh 
+ bash fb.sh 
