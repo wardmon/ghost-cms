@@ -127,3 +127,161 @@ Tue Jun 25 10:22:18 UTC 2024
 ls
 sar -n DEV 1 59
 sar -n DEV 1 59
+Tue Jun 25 10:27:06 UTC 2024
+ls
+lls
+sar -n DEV 1 59
+Tue Jun 25 10:28:12 UTC 2024
+ls
+lls
+2.sh
+Tue Jun 25 10:28:30 UTC 2024
+bash 2.sh
+sudo yum install -y sysstat
+sar --help
+Tue Jun 25 10:45:29 UTC 2024
+sar -n DEV 1 59
+Tue Jun 25 10:46:06 UTC 2024
+Tue Jun 25 10:47:13 UTC 2024
+mv https:##6r52jm-8000.csb.app#.html
+Tue Jun 25 10:47:38 UTC 2024
+sed -n p a.txt
+for file in bbs_1.html
+bbs_1jquerybookmarklet.html
+bbs_2024_6_14.html
+bbs_chrome-error:##chromewebdata#.html
+bbs_chrome-error###chromewebdata#.html
+bbs_guide_for_writing_bookmarklet.html.html
+bbs_http:##45.32.200.249:8000#webserver.py.html
+bbs_http###45.32.200.249#8000#webserver.py.html
+bbs_http##example.com.html
+bbs_https##6r52jm-8000.csb.app#.html
+bbs_https##alternativeto.net#software#gitpod#.html
+bbs_https##codepen.io#wardmon#pen#JjqOabO?editors=1000.html
+bbs_https##github.com#gildas-lormeau#single-file-cli.html
+bbs_https##github.com#lwch#natpass.html
+bbs_https###github.com#lzwme#vm-gh-proxy-cn#tree#main.html
+bbs_https###github.com#magicoflolis#Userscript-Plus?tab=readme-ov-file.html
+bbs_https##github.com#michaelbrooks#jquery-bookmarklet.html
+bbs_https##github.com#mjmlio#mjml.html
+bbs_https##github.com#ruanyf#weekly#issues#4618.html
+bbs_https##github.com#screenbreak#SingleFile-dockerized.html
+bbs_https###github.com#vdsm#virtual-dsm#blob#master#Dockerfile.html
+bbs_https###github.dev#wardmon#github-actions-cron.html
+bbs_https##gpt4o.so#app#7a232fd0002db53b1a624012e8e99f0c.html
+bbs_https##laragon.org#download#.html
+bbs_https###mp.weixin.qq.com#s#EiUH31oH5fYqMWeUrp6x9A.html
+bbs_https###mp.weixin.qq.com#s#FaF8MvafA4sU0dkPns8kFw.html
+bbs_https##mp.weixin.qq.com#s#T7nlsgei2DMwf1oiF1Eatg.html
+bbs_https###omnivore.app#null395922#https-mp-weixin-qq-com-s-biz-mz-ax-odi-5-od-mw-oa-3-d-3-d-chksm--1903db05172.html
+bbs_https##play.tailwindcss.com#AsFhH7AXPB.html
+bbs_https###postsecret.com#.html
+bbs_https##priyank-vaghela.github.io#Awesome-Bookmarklets#.html
+bbs_https##sr5sh-40677.csb.app#clxe2795s00uudaf2fskrcxzw.html
+bbs_https##wardmon.serv00.net#1.js.html
+bbs_https###windowsreport.com#windows-11-remote-desktop-without-password#.html
+bbs_https###www.cnblogs.com#orcl-2018#p#14001168.html.html
+bbs_https###www.cnblogs.com#wpjamer#p#ffmpeg.html.html
+bbs_https##www.diskgenius.cn#help#export-directory-html.php.html
+bbs_https###www.freecodecamp.org#news#javascript-get-request-tutorial#.html
+bbs_https##www.freecodecamp.org#news#javascript-post-request-how-to-send-an-http-post-request-in-js#.html
+bbs_https##www.ruanyifeng.com#blog#2024#06#weekly-issue-304.html.html
+bbs_https##www.sockstack.cn#github.html
+bbs_https##www.xmodulo.com#skip-existing-files-scp.html.html
+bbs_jquerybookmarklet.html
+bbs_Rsx-6Ul4J0UQ.html; do  echo  ; done
+for i in $(echo "4 5 6"); do    eval a$i=$idoneecho $a4 $a5 $a6
+for i in $(echo "4 5 6"); do    eval a$i=$i;doneecho $a4 $a5 $a6
+for size in 91
+3238
+1055320
+0
+0
+111271
+2655
+2689
+1410
+1698789
+0
+4209
+401198
+4931073
+300357
+7507170
+323984
+819055
+438101
+298434
+331657
+114164
+252013
+435823
+0
+654235
+0
+2663716
+315635
+5121812
+286179
+721657
+1613
+2691243
+310367
+220696
+331480
+469863
+493760
+1958644
+132400
+520663
+3238
+222160; do      sum=0  done  echo 
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09do echo ; done
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09do echo ; done
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+do echo ; done
+null
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09do echo $u; done
+Tue Jun 25 11:11:53 UTC 2024
+cat
+Tue Jun 25 11:14:18 UTC 2024
+cat
+cat aaa eof
+cat echo aa eof
+bash fb.sh
