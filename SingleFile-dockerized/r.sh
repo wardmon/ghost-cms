@@ -51,7 +51,5 @@ echo 'null.vnbv4@simplelogin.co 45.32.200.249.21p42@aleeas.com'
 echo 'aa'
 echo 'aa'
 #cat r.sh
-
-
-cat *.txt
-ls -lth
+#cat *.txt
+ls 
