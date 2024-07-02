@@ -434,3 +434,41 @@ Mon Jul  1 10:33:15 UTC 2024
  bash 1.sh 
 Tue Jul  2 03:55:36 UTC 2024
  bash 1.sh 
+Tue Jul  2 06:40:02 UTC 2024
+ for output in 2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+do
+    cat r.txt
+done 
+Tue Jul  2 06:40:49 UTC 2024
+ for output in a.txt
+do
+    cat a.txt
+done 
+Tue Jul  2 06:41:03 UTC 2024
+ ls *.txt 
+Tue Jul  2 06:41:25 UTC 2024
+ for output in 2.txt
+do
+    cat 2.txt
+done 
+ ./shiori server --portable 
+ for output in 2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+do
+    cat r.txt
+done 
