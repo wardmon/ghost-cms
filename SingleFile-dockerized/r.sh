@@ -1,6 +1,6 @@
 #ps -ef | grep http.server | awk '{print $2}'| xargs kill -9
 ps -ef | grep server
-echo 'https://ward-myproj.pgs.sh/jsMind-intro%20(1).jm'
+echo 'https://github.dev/wardmon/github-actions-cron https://ward-myproj.pgs.sh/jsMind-intro%20(1).jm'
 
 tail -n 3 ddd.log.txt
 echo '-------------------------------------------'
@@ -49,7 +49,8 @@ echo '<a href="http://45.32.200.249:8060/ddd?url=dd&ddd=ls -l;ps">ddd</a> https:
 echo 'result = subprocess.Popen(args='ls -l', shell=True, stdout=subprocess.PIPE)'
 echo 'null.vnbv4@simplelogin.co 45.32.200.249.21p42@aleeas.com'
 echo 'aa'
-echo 'aa'
+echo 'abbbbbbbbba'
 #cat r.sh
-#cat *.txt
-ls 
+ls -lth
+cat *.txt
+
