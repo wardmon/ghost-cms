@@ -46,7 +46,7 @@ cp g:\maoxian-web-clipper\download\jsMind-intro*.jm G:\obsidiandata\ghost-cms\do
 cp G:\ztaskerportabale\hedgedownload.bat G:\obsidiandata\ghost-cms\.
 
 scp  pia@45.32.200.249:/home/pia/SingleFile-dockerized/*  G:\obsidiandata\ghost-cms\SingleFile-dockerized\.
-
+scp  -r pia@45.32.200.249:/home/pia/SingleFile-dockerized/shiori-data G:\obsidiandata\ghost-cms\SingleFile-dockerized\
  
 chmod -w G:\obsidiandata\ghost-cms\SingleFile-dockerized\*
 chmod +w G:\obsidiandata\ghost-cms\SingleFile-dockerized\jquerybookmarklet.html G:\obsidiandata\ghost-cms\SingleFile-dockerized\bookmarklet-test.js G:\obsidiandata\ghost-cms\SingleFile-dockerized\not-exist-file.sh G:\obsidiandata\ghost-cms\SingleFile-dockerized\r.sh G:\obsidiandata\ghost-cms\SingleFile-dockerized\ddd.log.txt G:\obsidiandata\ghost-cms\SingleFile-dockerized\heredoc.txt G:\obsidiandata\ghost-cms\SingleFile-dockerized\herestr.txt 
