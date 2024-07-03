@@ -472,3 +472,6 @@ r.txt
 do
     cat r.txt
 done 
+ null 
+ ./shiori server --portable 
+ nohup  ./shiori server --portable  
