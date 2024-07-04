@@ -475,3 +475,14 @@ done
  null 
  ./shiori server --portable 
  nohup  ./shiori server --portable  
+Thu Jul  4 02:56:38 UTC 2024
+ bash 1.sh 
+Thu Jul  4 02:56:46 UTC 2024
+ echo {1..10} echo {a..z} 
+Thu Jul  4 02:56:54 UTC 2024
+ echo {1..10} echo {a..z} 
+ null 
+Thu Jul  4 03:35:58 UTC 2024
+ bash 1.sh 
+Thu Jul  4 03:37:48 UTC 2024
+ bash 1.sh 
