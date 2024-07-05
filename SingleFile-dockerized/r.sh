@@ -3,7 +3,7 @@ ps -ef | grep server
 echo 'https://pastebin.com/edit/bQDfsXWg https://github.dev/wardmon/github-actions-cron https://ward-myproj.pgs.sh/jsMind-intro%20(1).jm'
 
 tail -n 3 ddd.log.txt
-echo '-------------------------------------------'
+echo 'sed -i '/ub/d' ddd.log.txt-------------------------------------------'
 date
 cat > heredoc.txt<< EOF
 // Create a new div element
