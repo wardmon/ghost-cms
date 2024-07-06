@@ -536,3 +536,16 @@ Fri Jul  5 10:02:03 UTC 2024
  df -lh 
 Fri Jul  5 10:10:50 UTC 2024
  df -lh 
+Fri Jul  5 11:10:42 UTC 2024
+ cat ddd.log.txt 
+Fri Jul  5 11:11:23 UTC 2024
+ ls 
+Fri Jul  5 11:11:28 UTC 2024
+ cat ddd.log.txt 
+Fri Jul  5 11:24:16 UTC 2024
+ sudo ls 
+Fri Jul  5 11:24:42 UTC 2024
+Fri Jul  5 11:24:59 UTC 2024
+ sudo ls 
+Fri Jul  5 11:27:31 UTC 2024
+ df -lh 
