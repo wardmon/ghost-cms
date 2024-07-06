@@ -581,3 +581,129 @@ Sat Jul  6 03:58:08 UTC 2024
  df -lh 
 Sat Jul  6 04:10:51 UTC 2024
  df -lh 
+Sat Jul  6 04:48:28 UTC 2024
+ wget https://codeload.kkgithub.com/jgamblin/curluseragent/zip/refs/heads/master 
+Sat Jul  6 04:48:52 UTC 2024
+ wget https://kkgithub.com/jgamblin/curluseragent/archive/refs/heads/master.zip 
+Sat Jul  6 04:49:09 UTC 2024
+ wget https://github.com/jgamblin/curluseragent/archive/refs/heads/master.zip 
+Sat Jul  6 04:49:43 UTC 2024
+ unzip master.zip 
+Sat Jul  6 07:46:19 UTC 2024
+ 1.html
+1jquery.bookmarklet.js
+1.sh
+2.sh
+2.txt
+7-ZipPortable_24.06.paf.exe
+aa
+a.txt
+bbs_1.html
+bbs_1jquerybookmarklet.html
+bbs_2024_6_14.html
+bbs_chrome-error:##chromewebdata#.html
+bbs_chrome-error###chromewebdata#.html
+bbs_guide_for_writing_bookmarklet.html.html
+bbs_http:##45.32.200.249:8000#webserver.py.html
+bbs_http###45.32.200.249#8000#webserver.py.html
+bbs_http##example.com.html
+bbs_https##6r52jm-8000.csb.app#.html
+bbs_https##alternativeto.net#software#gitpod#.html
+bbs_https##codepen.io#wardmon#pen#JjqOabO?editors=1000.html
+bbs_https##github.com#gildas-lormeau#single-file-cli.html
+bbs_https##github.com#lwch#natpass.html
+bbs_https###github.com#lzwme#vm-gh-proxy-cn#tree#main.html
+bbs_https###github.com#magicoflolis#Userscript-Plus?tab=readme-ov-file.html
+bbs_https##github.com#michaelbrooks#jquery-bookmarklet.html
+bbs_https##github.com#mjmlio#mjml.html
+bbs_https##github.com#ruanyf#weekly#issues#4618.html
+bbs_https##github.com#screenbreak#SingleFile-dockerized.html
+bbs_https###github.com#vdsm#virtual-dsm#blob#master#Dockerfile.html
+bbs_https###github.dev#wardmon#github-actions-cron.html
+bbs_https##gpt4o.so#app#7a232fd0002db53b1a624012e8e99f0c.html
+bbs_https##laragon.org#download#.html
+bbs_https###mp.weixin.qq.com#s#EiUH31oH5fYqMWeUrp6x9A.html
+bbs_https###mp.weixin.qq.com#s#FaF8MvafA4sU0dkPns8kFw.html
+bbs_https##mp.weixin.qq.com#s#T7nlsgei2DMwf1oiF1Eatg.html
+bbs_https###omnivore.app#null395922#https-mp-weixin-qq-com-s-biz-mz-ax-odi-5-od-mw-oa-3-d-3-d-chksm--1903db05172.html
+bbs_https##play.tailwindcss.com#AsFhH7AXPB.html
+bbs_https###postsecret.com#.html
+bbs_https##priyank-vaghela.github.io#Awesome-Bookmarklets#.html
+bbs_https##sr5sh-40677.csb.app#clxe2795s00uudaf2fskrcxzw.html
+bbs_https##wardmon.serv00.net#1.js.html
+bbs_https###windowsreport.com#windows-11-remote-desktop-without-password#.html
+bbs_https###www.cnblogs.com#orcl-2018#p#14001168.html.html
+bbs_https###www.cnblogs.com#wpjamer#p#ffmpeg.html.html
+bbs_https##www.diskgenius.cn#help#export-directory-html.php.html
+bbs_https###www.freecodecamp.org#news#javascript-get-request-tutorial#.html
+bbs_https##www.freecodecamp.org#news#javascript-post-request-how-to-send-an-http-post-request-in-js#.html
+bbs_https##www.ruanyifeng.com#blog#2024#06#weekly-issue-304.html.html
+bbs_https##www.sockstack.cn#github.html
+bbs_https##www.xmodulo.com#skip-existing-files-scp.html.html
+bbs_jquerybookmarklet.html
+bbs_Rsx-6Ul4J0UQ.html
+bin
+bookmarklet-test.bak.js
+bookmarklet-test.js
+bookmarklet-test.js
+bookmarklet-test.js.bak
+bookmarklet-test - 副本.js
+bootstrap.min.css
+bootstrap.min.js
+CHANGELOG.md
+chrome-error###chromewebdata#.html
+curluseragent-master
+curluseraget
+db.json
+ddd.log.txt
+debug-github-actions.sh
+docker-compose.yml
+Dockerfile
+examples
+fb.sh
+fbstop.sh
+filebrowser
+filebrowser.db
+filename.txt
+github-actions-cron
+heredoc.txt
+herestr.txt
+https###kkgithub.com#go-shiori#shiori#tree#master.html
+https##zhuanlan.zhihu.com#p#64241944.htm
+include
+install.ps1
+jquery.bookmarklet.js
+jquery.min.js
+jsmind.draggable-node.js
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+jsmind.js
+jsmind.screenshot.js
+lib
+lib64
+LICENSE
+linux-amd64-filebrowser.tar.gz
+msg.js
+ngrokssh.yml
+nohup.out
+not-exist-file.sh
+package.json
+package-lock.json
+picocrypt
+Picocrypt.1
+pip-selfcheck.json
+pyvenv.cfg
+README.md
+renam.sh.bak
+requirements.txt
+r.sh
+r.txt
+sed71svAl
+sedgX5Rfz
+sedkAVPRK
+server.js
+sf
+shiori
+shiori-data
+shiori_Linux_x86_64_1.7.0.tar.gz 
+Sat Jul  6 07:47:59 UTC 2024
+ command ls 
