@@ -707,3 +707,36 @@ shiori-data
 shiori_Linux_x86_64_1.7.0.tar.gz 
 Sat Jul  6 07:47:59 UTC 2024
  command ls 
+Tue Jul  9 02:03:26 UTC 2024
+ wget https://github.com/codeskyblue/gohttpserver/releases/download/1.1.4/gohttpserver_1.1.4_linux_amd64.tar.gz 
+Tue Jul  9 02:03:53 UTC 2024
+ tar xzvf gohttpserver_1.1.4_linux_amd64.tar.gz 
+Tue Jul  9 02:04:04 UTC 2024
+ ./gohttpserver 
+Tue Jul  9 02:05:06 UTC 2024
+ ./gohttpserver --help 
+Tue Jul  9 02:17:12 UTC 2024
+ ./gohttpserver --help 
+Tue Jul  9 02:23:20 UTC 2024
+ ps -ef | grep gohttp 
+Tue Jul  9 02:24:07 UTC 2024
+ kill 25332 
+Tue Jul  9 02:24:27 UTC 2024
+ kill 24338 
+Tue Jul  9 02:24:32 UTC 2024
+ ps -ef | grep gohttp 
+Tue Jul  9 02:25:09 UTC 2024
+ kill 24339 25333 
+Tue Jul  9 02:25:14 UTC 2024
+ ps -ef | grep gohttp 
+Tue Jul  9 02:25:24 UTC 2024
+ bash fb.sh 
+Tue Jul  9 02:26:30 UTC 2024
+ cat fb.sh 
+Tue Jul  9 02:27:04 UTC 2024
+ /home/pia/SingleFile-dockerized/filebrowser -a 45.32.200.249:9000 
+Tue Jul  9 05:00:24 UTC 2024
+ node --version 
+Tue Jul  9 05:04:41 UTC 2024
+Tue Jul  9 05:05:38 UTC 2024
+ echo 'console.log(Hello)'| node - 
