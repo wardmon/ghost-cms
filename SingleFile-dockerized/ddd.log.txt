@@ -740,3 +740,109 @@ Tue Jul  9 05:00:24 UTC 2024
 Tue Jul  9 05:04:41 UTC 2024
 Tue Jul  9 05:05:38 UTC 2024
  echo 'console.log(Hello)'| node - 
+Tue Jul  9 06:14:50 UTC 2024
+ bash 1.sh 
+Tue Jul  9 06:18:32 UTC 2024
+ str= 'console.log(aa); 
+console.log(bbbb);
+console.log(cccc);'
+echo  | node - 
+Tue Jul  9 06:19:36 UTC 2024
+ str= 'console.log(aa); console.log(bbbb);console.log(cccc);'
+echo  | node - 
+Tue Jul  9 06:20:34 UTC 2024
+ #str=
+echo  'console.log(aa); console.log(bbbb);console.log(cccc);' | node - 
+Tue Jul  9 06:21:23 UTC 2024
+ export str= 'console.log(aa); console.log(bbbb);console.log(cccc);'
+echo  | node - 
+Tue Jul  9 06:22:00 UTC 2024
+ export str= 'console.log(aa); console.log(bbbb);console.log(cccc);'
+echo   
+Tue Jul  9 06:27:49 UTC 2024
+ ls *.js 
+Tue Jul  9 06:29:17 UTC 2024
+ :export str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo  
+Tue Jul  9 06:29:40 UTC 2024
+ export str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo  
+Tue Jul  9 06:29:58 UTC 2024
+ export str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo -e  
+Tue Jul  9 06:30:16 UTC 2024
+ str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo -e  
+Tue Jul  9 06:30:59 UTC 2024
+ str= '111111111111'
+echo -e  
+Tue Jul  9 06:31:10 UTC 2024
+ str= '111111111111'
+echo   
+Tue Jul  9 06:32:53 UTC 2024
+ str= 111111111111
+echo   
+Tue Jul  9 06:33:05 UTC 2024
+ str= 111111111111;
+echo   
+Tue Jul  9 06:33:49 UTC 2024
+ str= 111111111111;
+echo  {} 
+Tue Jul  9 06:33:59 UTC 2024
+ str= 111111111111;
+echo   
+Tue Jul  9 06:34:48 UTC 2024
+ your_name=tomecho =alibabaecho  
+Tue Jul  9 06:35:07 UTC 2024
+ null 
+Tue Jul  9 06:35:19 UTC 2024
+ your_name=tomecho tomecho 
+Tue Jul  9 06:35:31 UTC 2024
+ null 
+Tue Jul  9 06:35:40 UTC 2024
+ your_name=tom
+echo tom 
+Tue Jul  9 06:37:20 UTC 2024
+ your_name=console.log
+echo console.log 
+Tue Jul  9 06:37:57 UTC 2024
+ your_name=console.log(aa)
+echo console.log\('aa'\) 
+Tue Jul  9 06:39:01 UTC 2024
+ your_name=console.log(aa)
+echo -e console.log\('aa'\) 
+Tue Jul  9 06:43:41 UTC 2024
+ your_name='console.logaa'
+echo -e console.logaa 
+Tue Jul  9 06:43:58 UTC 2024
+ your_name='console.log\(aa'
+echo -e console.log\(aa 
+Tue Jul  9 06:44:11 UTC 2024
+ your_name='console.log\(aa'
+echo  console.log\(aa 
+Tue Jul  9 06:46:26 UTC 2024
+ /home/pia/SingleFile-dockerized/filebrowser -a 45.32.200.249 -p 9000 
+Tue Jul  9 06:48:43 UTC 2024
+ node 1.js 
+Tue Jul  9 06:49:50 UTC 2024
+ python 1.js 
+Tue Jul  9 06:50:07 UTC 2024
+ python 1.js 
+Tue Jul  9 06:50:54 UTC 2024
+ python 1.js 
+Tue Jul  9 06:51:09 UTC 2024
+ python 1.js 
+Tue Jul  9 06:52:35 UTC 2024
+ python 1 
+Tue Jul  9 06:54:51 UTC 2024
+ python 1 
+Tue Jul  9 06:55:19 UTC 2024
+ python 1 
