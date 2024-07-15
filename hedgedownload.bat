@@ -21,7 +21,7 @@ rem "F:\Scoop\apps\busybox\current\busybox.exe wget.exe -Uri -OutFile
 
 rem sudo powershell wget.exe   https://ward.pastes.sh/raw/1713854029829493470 -O F:\pastes-sh.txt  
 
-powershell wget.exe http://45.32.200.249:9000/api/public/dl/r40Yf-oy/1.html
+wget.exe http://45.32.200.249:9000/api/public/dl/r40Yf-oy/1.html -O G:\obsidiandata\ghost-cms\SingleFile-dockerized\1.html 
 
 rem wslaa -s podman-machine-default --exec "curl -s --head http://cnepearls.com | head -n 1 | grep 'HTTP/1.[01] [23]..' && curl -G 'http://wxpusher.zjiecode.com/demo/send/custom/UID_5QnYdwyoFEuEV9sXQ6MqVqYpCn8Z' --data-urlencode 'content=reachable' || curl -G 'http://wxpusher.zjiecode.com/demo/send/custom/UID_5QnYdwyoFEuEV9sXQ6MqVqYpCn8Z' --data-urlencode 'content=unreachable' "
 rem curl -s --head http://cnepearls.com | head -n 1 | grep 'HTTP/1.[01] [23]..' && curl -G http://wxpusher.zjiecode.com/demo/send/custom/UID_5QnYdwyoFEuEV9sXQ6MqVqYpCn8Z --data-urlencode "content=reachable" || curl -G http://wxpusher.zjiecode.com/demo/send/custom/UID_5QnYdwyoFEuEV9sXQ6MqVqYpCn8Z --data-urlencode "content=unreachable"
