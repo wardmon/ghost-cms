@@ -1,4 +1,112 @@
-1111111111111111
-222222222
-33333333
-ps -ef | grep filebrowser | awk '{print $2}'|xargs kill
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="zh-CN">
+	<meta name="author" content="管雷鸣">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<script src="https://res.zvo.cn/msg/msg.js"></script>
+</head>
+<body>
+ 
+ <h1>JavaScript Operators</h1>
+<h2>The typeof Operator</h2>
+<p>The typeof operator returns object for both objects, arrays, maps, sets, and null.</p>
+<p>The typeof operator does not return object for functions.</p>
+
+<p id="demo"></p>
+http://45.32.200.249:8000/1.html
+https://www.w3schools.com.cn/
+https://stackblitz.com/edit/vitejs-vite-n7lr5b?file=src%2Fmain.js,src%2FApp.vue
+
+(NULL) 9:23:05
+@鲁-2025-晨妈 通过百度网盘分享的文件：092【完结】驴...
+链接：https://pan.baidu.com/s/1r6SgJV_dmgVVcQcCotiMng 
+提取码：1234 
+复制这段内容打开「百度网盘APP 即可获取」
+
+(NULL) 9:30:40
+【超级会员V3】通过百度网盘分享的文件：初中英语语法练习…
+链接:https://pan.baidu.com/s/1hNptaO2f5n5fpBGEFDS46w 
+提取码:rfp8
+复制这段内容打开「百度网盘APP 即可获取」
+
+(NULL) 9:31:04
+【超级会员V7】通过百度网盘分享的文件：初中数学小蓝本8…
+链接:https://pan.baidu.com/s/1x_snvq080BvWHNqdctfUVw 
+提取码:4va3
+复制这段内容打开「百度网盘APP 即可获取」
+
+(NULL) 9:31:57
+@闽-2026-飞爸 【超级会员V8】通过百度网盘分享的文件：04小黄刷书(完…
+链接:https://pan.baidu.com/s/11eWPig53ygNhFIvTHgFz5g?pwd=ba82 
+提取码:ba82
+复制这段内容打开「百度网盘APP 即可获取」
+
+(NULL) 9:32:30
+@闽-2026-飞爸 【超级会员V8】通过百度网盘分享的文件：04小黄刷书(完…
+链接:https://pan.baidu.com/s/11eWPig53ygNhFIvTHgFz5g?pwd=ba82 
+提取码:ba82
+复制这段内容打开「百度网盘APP 即可获取」
+
+(NULL) 9:33:07
+【超级会员V5】通过百度网盘分享的文件：课程视频等2个文件
+链接:https://pan.baidu.com/s/1KyKKqQujv3EgN48QpQzLUQ 
+提取码:7257
+复制这段内容打开「百度网盘APP 即可获取」
+
+(NULL) 9:33:48
+@鲁-2025-晨妈 通过百度网盘分享的文件：092【完结】驴...
+链接：https://pan.baidu.com/s/1r6SgJV_dmgVVcQcCotiMng 
+提取码：1234 
+复制这段内容打开「百度网盘APP 即可获取」
+
+
+
+<script>
+document.getElementById("demo").innerHTML = 
+typeof {name:'John'} + "<br>" +
+typeof [1,2,3,4] + "<br>" +
+typeof new Map() + "<br>" +
+typeof new Set() + "<br>" +
+typeof null + "<br>" +
+typeof function myFunc(){};
+</script>
+
+
+javascript:(function(){  var script = document.createElement('script');  script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js';  script.onload = function() {    jQuery.noConflict();    (function($) {      // Your jQuery code goes here      $('body').css('background-color', 'lightblue');    })(jQuery);  };  document.head.appendChild(script);})();
+
+javascript:void(window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+prompt('injectandrun:js,function:', 'bash 1.sh', '_blank'),'ddd'))
+
+
+javascript:(function(){    var script=document.createElement('script');    script.setAttribute('src',  'http://45.32.200.249:8000/jquery.min.js');    document.getElementsByTagName('head')[0] .appendChild(script);    script=document.createElement('script');   script.setAttribute('src',  'https://res.zvo.cn/msg/msg.js');    document.getElementsByTagName('head')[0] .appendChild(script);  msg.textarea('input',function(value){window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+value);
+	}, 'bash 1.sh'); })();
+
+
+javascript:(function(){    var script=document.createElement('script');   script.setAttribute('src',  'https://res.zvo.cn/msg/msg.js');    document.getElementsByTagName('head')[0] .appendChild(script);  msg.textarea('input',function(value){window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+value);
+	}, 'bash 1.sh'); })();
+	
+
+<button onclick="
+	msg.textarea('请输入您的名字',function(value){
+		alert('您输入的是:'+value);
+	}, '默认值是管雷鸣');" "="">弹出带有默认值的多行文本输入框</button>
+<script src="https://res.zvo.cn/websocket.js/websocket.js"></script>
+<script>
+websocket.connect({
+	url:'ws://localhost:8081/', //服务端的WebSocket地址
+	onopen:function(){ //如果不需要，此不传即可。
+		websocket.send({"type":"CONNECT","token":"123456"}); //当WebSocket通道连接成功后，自动给服务器发送一条json格式的消息
+	},
+	onmessage:function(message){ //如果不需要，此不传即可
+		//console.log(message); //服务端发送来的消息会在这里接收到
+		document.getElementById('showMessage').innerHTML = JSON.stringify(message) + '<br/>' + document.getElementById('showMessage').innerHTML;
+	}
+});
+</script>
+
+<div id="showMessage" style="width:500px; height:300px; font-size: 12px;">服务器发送来的消息在此显示</div>
+<button onclick="websocket.send({type:'MSG', text:'Hello Word'}); ">发送个Hello Word</button>
+
+</body>
+</html>
