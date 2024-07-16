@@ -5,6 +5,7 @@ echo 'https://pastebin.com/edit/bQDfsXWg https://github.dev/wardmon/github-actio
 tail -n 3 ddd.log.txt
 echo 'sed -i '/ub/d' ddd.log.txt-------------------------------------------'
 date
+ls *.txt
 cat > heredoc.txt<< EOF
 // Create a new div element
 const newDiv = document.createElement("div");
@@ -52,5 +53,5 @@ echo 'aa'
 echo 'abbbbbbbbba'
 #cat r.sh
 ls -lth
-cat *.txt
+
 

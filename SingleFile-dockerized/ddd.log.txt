@@ -924,3 +924,25 @@ Mon Jul 15 06:48:24 UTC 2024
  bash 11.sh 2 
 Tue Jul 16 04:06:34 UTC 2024
  null 
+Tue Jul 16 06:41:09 UTC 2024
+ null 
+Tue Jul 16 06:42:10 UTC 2024
+ bash 11.sh 
+Tue Jul 16 06:45:35 UTC 2024
+ bash 11.sh 
+Tue Jul 16 08:12:02 UTC 2024
+ npx github:piuccio/cowsay hello 
+Tue Jul 16 08:13:00 UTC 2024
+ npx github:piuccio/cowsay hello 
+Tue Jul 16 08:13:54 UTC 2024
+ npm run env | grep npm_ 
+Tue Jul 16 08:15:04 UTC 2024
+ npx -c 'echo ' 
+Tue Jul 16 08:16:47 UTC 2024
+ npx -p cowsay 'cowsay hello' 
+Tue Jul 16 08:17:14 UTC 2024
+ npm list 
+Tue Jul 16 08:17:31 UTC 2024
+ npm --help 
+Tue Jul 16 08:18:51 UTC 2024
+ npm ls 
