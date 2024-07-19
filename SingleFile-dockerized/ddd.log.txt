@@ -974,3 +974,29 @@ Thu Jul 18 07:56:26 UTC 2024
  null 
 Thu Jul 18 08:00:07 UTC 2024
  bash 11.sh 2 
+Thu Jul 18 08:45:24 UTC 2024
+ bash 11.sh 
+Thu Jul 18 08:59:55 UTC 2024
+ wget https://github.com/sigoden/dufs/releases/download/v0.41.0/dufs-v0.41.0-x86_64-unknown-linux-musl.tar.gz 
+Thu Jul 18 09:00:16 UTC 2024
+ tar xzvf dufs-v0.41.0-x86_64-unknown-linux-musl.tar.gz 
+Thu Jul 18 09:00:29 UTC 2024
+ ls dufs 
+Thu Jul 18 09:04:20 UTC 2024
+ ps -ef |grep dufs 
+Thu Jul 18 09:04:48 UTC 2024
+ kill 7203 7204 
+Thu Jul 18 09:05:05 UTC 2024
+ null 
+Thu Jul 18 09:05:15 UTC 2024
+ dufs -A 
+Thu Jul 18 09:05:57 UTC 2024
+ ps -ef | grep dufs 
+Thu Jul 18 09:11:18 UTC 2024
+ bash fbstop.sh 
+Thu Jul 18 09:11:26 UTC 2024
+ bash 11.sh 
+Fri Jul 19 04:21:49 UTC 2024
+ bash fbstop.sh 
+Fri Jul 19 04:21:49 UTC 2024
+ bash 11.sh 2 
