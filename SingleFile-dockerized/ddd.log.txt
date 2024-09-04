@@ -1,0 +1,1322 @@
+ls
+ls
+bash r.sh
+ls a.txt ddd.log.txt filename.txt heredoc.txt herestr.txt requirements.txt r.txt
+bash r.sh
+ls
+bash r.sh
+bash r.sh
+Thu Jun 20 09:48:14 UTC 2024
+bash r.sh
+Thu Jun 20 09:48:23 UTC 2024
+ls
+Thu Jun 20 09:48:32 UTC 2024
+bash r.sh
+Thu Jun 20 09:48:37 UTC 2024
+ls
+Thu Jun 20 09:49:03 UTC 2024
+ls 1jquery.bookmarklet.js bookmarklet-test.bak.js bookmarklet-test.js bookmarklet-test - 副本.js bootstrap.min.js jquery.bookmarklet.js jquery.min.js jsmind.draggable-node.js jsmind.js jsmind.screenshot.js server.js
+ls 1jquery.bookmarklet.js bookmarklet-test.bak.js bookmarklet-test.js bookmarklet-test - 副本.js bootstrap.min.js jquery.bookmarklet.js jquery.min.js jsmind.draggable-node.js jsmind.js jsmind.screenshot.js server.js
+Thu Jun 20 09:51:09 UTC 2024
+bash r.sh
+Thu Jun 20 09:51:35 UTC 2024
+bash 1.sh
+bat r.sh
+Thu Jun 20 09:54:59 UTC 2024
+tac ddd.log.txt
+Thu Jun 20 09:55:07 UTC 2024
+tac ddd.log.txt
+null
+Thu Jun 20 09:55:54 UTC 2024
+bash r.sh
+Thu Jun 20 09:56:11 UTC 2024
+tac ddd.log.txt
+Thu Jun 20 09:56:36 UTC 2024
+tail ddd.log.txt
+Thu Jun 20 09:57:51 UTC 2024
+bash r.sh
+Thu Jun 20 09:58:14 UTC 2024
+bash r.sh
+Thu Jun 20 09:58:47 UTC 2024
+bash 1.sh
+Thu Jun 20 09:59:11 UTC 2024
+bash r.sh
+Thu Jun 20 10:00:16 UTC 2024
+bash 1.sh
+Thu Jun 20 10:01:04 UTC 2024
+bash 1.sh
+Thu Jun 20 10:02:48 UTC 2024
+bash 1.sh
+Thu Jun 20 10:04:16 UTC 2024
+bash 1.sh
+Thu Jun 20 10:04:22 UTC 2024
+ls
+Thu Jun 20 10:04:39 UTC 2024
+bash 1.sh
+Thu Jun 20 10:06:20 UTC 2024
+cat ../webserver.py
+Thu Jun 20 14:50:54 UTC 2024
+bash r.sh
+Thu Jun 20 14:56:02 UTC 2024
+ls
+Fri Jun 21 07:07:17 UTC 2024
+bash 1.sh
+Fri Jun 21 08:12:26 UTC 2024
+ps -ef
+Fri Jun 21 08:24:03 UTC 2024
+bash 1.sh
+Fri Jun 21 08:26:00 UTC 2024
+Fri Jun 21 10:02:31 UTC 2024
+netstat
+Sat Jun 22 15:20:59 UTC 2024
+  PID TTY          TIME CMD
+ 2411 ?        00:00:00 sh <defunct>
+ 2417 ?        00:00:00 sendmail
+ 2418 ?        00:00:00 python3
+ 2426 ?        00:00:00 postdrop
+ 2427 ?        00:00:00 python3
+ 2468 ?        00:00:00 sh
+ 2474 ?        00:00:00 ps
+32035 ?        00:00:00 sshd
+Sat Jun 22 15:21:42 UTC 2024
+bash r.sh
+Tue Jun 25 08:09:33 UTC 2024
+bash 2.sh
+null
+Tue Jun 25 08:10:26 UTC 2024
+bash 2.sh
+Tue Jun 25 08:43:29 UTC 2024
+mv renam.sh renam.sh.bak
+Tue Jun 25 08:43:40 UTC 2024
+bash 2.sh
+Tue Jun 25 08:45:27 UTC 2024
+bash 1.sh
+Tue Jun 25 08:48:25 UTC 2024
+ls
+Tue Jun 25 08:50:17 UTC 2024
+Tue Jun 25 08:50:32 UTC 2024
+Tue Jun 25 08:58:29 UTC 2024
+bash 1.sh
+Tue Jun 25 09:00:00 UTC 2024
+bash 1.sh
+bash fb.sh
+bash fb.sh
+Tue Jun 25 09:38:02 UTC 2024
+bash 2.sh
+Tue Jun 25 09:38:28 UTC 2024
+bash 2.sh 11 22
+bash fb.sh
+date %H
+Tue Jun 25 10:05:21 UTC 2024
+date
+date %H
+date %H-%F
+date %H-%F
+date %H-%F
+date %H-%F
+Tue Jun 25 10:07:51 UTC 2024
+du -sh
+ind aa -type f
+Tue Jun 25 10:08:43 UTC 2024
+find aa -type f
+Tue Jun 25 10:09:19 UTC 2024
+Tue Jun 25 10:09:24 UTC 2024
+sar -n DEV 1 59
+Tue Jun 25 10:22:18 UTC 2024
+ls
+sar -n DEV 1 59
+sar -n DEV 1 59
+Tue Jun 25 10:27:06 UTC 2024
+ls
+lls
+sar -n DEV 1 59
+Tue Jun 25 10:28:12 UTC 2024
+ls
+lls
+2.sh
+Tue Jun 25 10:28:30 UTC 2024
+bash 2.sh
+sudo yum install -y sysstat
+sar --help
+Tue Jun 25 10:45:29 UTC 2024
+sar -n DEV 1 59
+Tue Jun 25 10:46:06 UTC 2024
+Tue Jun 25 10:47:13 UTC 2024
+mv https:##6r52jm-8000.csb.app#.html
+Tue Jun 25 10:47:38 UTC 2024
+sed -n p a.txt
+for file in bbs_1.html
+bbs_1jquerybookmarklet.html
+bbs_2024_6_14.html
+bbs_chrome-error:##chromewebdata#.html
+bbs_chrome-error###chromewebdata#.html
+bbs_guide_for_writing_bookmarklet.html.html
+bbs_http:##45.32.200.249:8000#webserver.py.html
+bbs_http###45.32.200.249#8000#webserver.py.html
+bbs_http##example.com.html
+bbs_https##6r52jm-8000.csb.app#.html
+bbs_https##alternativeto.net#software#gitpod#.html
+bbs_https##codepen.io#wardmon#pen#JjqOabO?editors=1000.html
+bbs_https##gpt4o.so#app#7a232fd0002db53b1a624012e8e99f0c.html
+bbs_https##laragon.org#download#.html
+bbs_https###mp.weixin.qq.com#s#EiUH31oH5fYqMWeUrp6x9A.html
+bbs_https###mp.weixin.qq.com#s#FaF8MvafA4sU0dkPns8kFw.html
+bbs_https##mp.weixin.qq.com#s#T7nlsgei2DMwf1oiF1Eatg.html
+bbs_https###omnivore.app#null395922#https-mp-weixin-qq-com-s-biz-mz-ax-odi-5-od-mw-oa-3-d-3-d-chksm--1903db05172.html
+bbs_https##play.tailwindcss.com#AsFhH7AXPB.html
+bbs_https###postsecret.com#.html
+bbs_https##sr5sh-40677.csb.app#clxe2795s00uudaf2fskrcxzw.html
+bbs_https##wardmon.serv00.net#1.js.html
+bbs_https###windowsreport.com#windows-11-remote-desktop-without-password#.html
+bbs_https###www.cnblogs.com#orcl-2018#p#14001168.html.html
+bbs_https###www.cnblogs.com#wpjamer#p#ffmpeg.html.html
+bbs_https##www.diskgenius.cn#help#export-directory-html.php.html
+bbs_https###www.freecodecamp.org#news#javascript-get-request-tutorial#.html
+bbs_https##www.freecodecamp.org#news#javascript-post-request-how-to-send-an-http-post-request-in-js#.html
+bbs_https##www.ruanyifeng.com#blog#2024#06#weekly-issue-304.html.html
+bbs_https##www.xmodulo.com#skip-existing-files-scp.html.html
+bbs_jquerybookmarklet.html
+bbs_Rsx-6Ul4J0UQ.html; do  echo  ; done
+for i in $(echo "4 5 6"); do    eval a$i=$idoneecho $a4 $a5 $a6
+for i in $(echo "4 5 6"); do    eval a$i=$i;doneecho $a4 $a5 $a6
+for size in 91
+3238
+1055320
+0
+0
+111271
+2655
+2689
+1410
+1698789
+0
+4209
+401198
+4931073
+300357
+7507170
+323984
+819055
+438101
+298434
+331657
+114164
+252013
+435823
+0
+654235
+0
+2663716
+315635
+5121812
+286179
+721657
+1613
+2691243
+310367
+220696
+331480
+469863
+493760
+1958644
+132400
+520663
+3238
+222160; do      sum=0  done  echo 
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09do echo ; done
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09do echo ; done
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+do echo ; done
+null
+for u in 00
+01
+02
+03
+04
+05
+06
+07
+08
+09do echo $u; done
+Tue Jun 25 11:11:53 UTC 2024
+cat
+Tue Jun 25 11:14:18 UTC 2024
+cat
+cat aaa eof
+cat echo aa eof
+bash fb.sh
+Wed Jun 26 02:30:21 UTC 2024
+bash 1.sh
+Wed Jun 26 02:36:18 UTC 2024
+ls
+bash fb.sh
+Wed Jun 26 07:40:54 UTC 2024
+bash 1.sh
+Wed Jun 26 08:02:33 UTC 2024
+bash 1.sh
+bash fb.sh
+Wed Jun 26 08:25:47 UTC 2024
+bash 1.sh
+Wed Jun 26 08:26:18 UTC 2024
+bash 2.sh
+Wed Jun 26 08:26:33 UTC 2024
+bash r.sh
+bash fb.sh
+Wed Jun 26 08:27:38 UTC 2024
+ls
+Wed Jun 26 08:29:20 UTC 2024
+bash 1.sh
+ls *.shcat 1.sh
+Wed Jun 26 08:31:21 UTC 2024
+#curl https://wardmon.serv00.net/r.txt -o r.sh
+#curl https://cdn.jsdelivr.net/gh/wardmon/ghost-cms@master/demo.txt -o r.sh
+
+rm r.sh
+bash r.sh
+Wed Jun 26 08:31:58 UTC 2024
+2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+ls
+ls
+Wed Jun 26 08:43:07 UTC 2024
+ls
+Wed Jun 26 08:43:13 UTC 2024
+ls
+Wed Jun 26 08:43:20 UTC 2024
+ls
+ls ls 2.txt a.txt ddd.log.txt filename.txt heredoc.txt herestr.txt jsMind-intro - 2024-06-25T165644.281.jm.txt requirements.txt r.txt
+Wed Jun 26 08:44:25 UTC 2024
+2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+Wed Jun 26 08:49:42 UTC 2024
+2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+Wed Jun 26 08:52:09 UTC 2024
+1.sh
+2.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+Wed Jun 26 08:57:14 UTC 2024
+1.sh
+2.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+bash fb.sh
+Wed Jun 26 09:04:01 UTC 2024
+1.sh
+2.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+Wed Jun 26 09:05:35 UTC 2024
+1.sh
+2.sh
+fb.sh
+fbstop.sh
+not-exist-file.sh
+r.sh
+Wed Jun 26 09:09:55 UTC 2024
+ ls *.txt; ls *.sh 
+Wed Jun 26 09:09:58 UTC 2024
+ ls *.txt; ls *.sh 
+Wed Jun 26 09:10:21 UTC 2024
+ ls *.txt; ls *.sh 
+ ls *.shls *.txt 
+Wed Jun 26 09:11:00 UTC 2024
+ ls *.sh ;ls *.txt 
+Wed Jun 26 09:11:39 UTC 2024
+ wget https://res.zvo.cn/msg/msg.js 
+Wed Jun 26 09:12:50 UTC 2024
+ bash 1.sh 
+Wed Jun 26 09:15:43 UTC 2024
+ ls *.txt ;cat *.txt 
+Wed Jun 26 09:16:16 UTC 2024
+ cat 1.sh;cat 2.sh 
+Wed Jun 26 09:16:38 UTC 2024
+ cat 2.sh 
+Wed Jun 26 09:17:42 UTC 2024
+ cat 1.sh;cat r.sh 
+ null 
+ null 
+ ls *.shcat 1.sh 
+ null 
+ bash fb.sh 
+ bash fb.sh 
+ bash 1.sh 
+ bash 1.sh 
+ bash 1.sh 
+ bash 1.sh 
+ bash r.sh 
+Mon Jul  1 10:27:31 UTC 2024
+ bash r.sh 
+Mon Jul  1 10:28:50 UTC 2024
+ bash 1.sh 
+Mon Jul  1 10:30:03 UTC 2024
+ bash 1.sh 
+Mon Jul  1 10:31:52 UTC 2024
+ bash 1.sh 
+Mon Jul  1 10:33:15 UTC 2024
+ bash 1.sh 
+Tue Jul  2 03:55:36 UTC 2024
+ bash 1.sh 
+Tue Jul  2 06:40:02 UTC 2024
+ for output in 2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+do
+    cat r.txt
+done 
+Tue Jul  2 06:40:49 UTC 2024
+ for output in a.txt
+do
+    cat a.txt
+done 
+Tue Jul  2 06:41:03 UTC 2024
+ ls *.txt 
+Tue Jul  2 06:41:25 UTC 2024
+ for output in 2.txt
+do
+    cat 2.txt
+done 
+ ./shiori server --portable 
+ for output in 2.txt
+a.txt
+ddd.log.txt
+filename.txt
+heredoc.txt
+herestr.txt
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+requirements.txt
+r.txt
+do
+    cat r.txt
+done 
+ null 
+ ./shiori server --portable 
+ nohup  ./shiori server --portable  
+Thu Jul  4 02:56:38 UTC 2024
+ bash 1.sh 
+Thu Jul  4 02:56:46 UTC 2024
+ echo {1..10} echo {a..z} 
+Thu Jul  4 02:56:54 UTC 2024
+ echo {1..10} echo {a..z} 
+ null 
+Thu Jul  4 03:35:58 UTC 2024
+ bash 1.sh 
+Thu Jul  4 03:37:48 UTC 2024
+ bash 1.sh 
+Fri Jul  5 09:39:21 UTC 2024
+ bash 1.sh 
+Fri Jul  5 09:39:42 UTC 2024
+ bash 1.sh 
+Fri Jul  5 09:39:54 UTC 2024
+ ls 
+Fri Jul  5 09:40:09 UTC 2024
+ bash r.sh 
+Fri Jul  5 09:40:25 UTC 2024
+ bash 1.sh 
+Fri Jul  5 09:40:46 UTC 2024
+ cat 1.sh 
+Fri Jul  5 09:41:31 UTC 2024
+ curl https://pastebin.com/raw/bQDfsXWg -o r.sh 
+Fri Jul  5 09:41:39 UTC 2024
+ cat r.sh 
+Fri Jul  5 09:43:35 UTC 2024
+ bash 1.sh 
+Fri Jul  5 09:44:00 UTC 2024
+ df -lh 
+Fri Jul  5 09:46:09 UTC 2024
+ df -lh 
+Fri Jul  5 09:46:15 UTC 2024
+ df -lh 
+Fri Jul  5 09:46:18 UTC 2024
+ df -lh 
+Fri Jul  5 09:46:33 UTC 2024
+ df -lh 
+Fri Jul  5 09:46:36 UTC 2024
+ df -lh 
+Fri Jul  5 09:46:38 UTC 2024
+ df -lh 
+Fri Jul  5 09:47:14 UTC 2024
+ sudo docker images 
+Fri Jul  5 09:47:29 UTC 2024
+ docker images 
+Fri Jul  5 09:47:58 UTC 2024
+Fri Jul  5 09:48:48 UTC 2024
+Fri Jul  5 09:52:34 UTC 2024
+Fri Jul  5 09:54:00 UTC 2024
+Fri Jul  5 09:54:26 UTC 2024
+ cat ddd.log 
+Fri Jul  5 09:54:33 UTC 2024
+ ls *.log 
+Fri Jul  5 09:54:53 UTC 2024
+ ls ../log 
+Fri Jul  5 09:54:59 UTC 2024
+ ls .. 
+Fri Jul  5 09:55:12 UTC 2024
+ ls ddd.log.txt 
+Fri Jul  5 09:55:18 UTC 2024
+ cat ddd.log.txt 
+Fri Jul  5 09:56:57 UTC 2024
+Fri Jul  5 09:57:20 UTC 2024
+Fri Jul  5 09:57:27 UTC 2024
+Fri Jul  5 09:58:28 UTC 2024
+ sed -i '/d\.d/p' ddd.log.txt 
+Fri Jul  5 09:58:34 UTC 2024
+Fri Jul  5 09:59:17 UTC 2024
+ sed -i '/ub/d' ddd.log.txt 
+Fri Jul  5 09:59:39 UTC 2024
+ sed -n '/ub/p' ddd.log.txt 
+Fri Jul  5 10:00:09 UTC 2024
+ bash 1.sh 
+Fri Jul  5 10:00:20 UTC 2024
+ bash 1.sh 
+Fri Jul  5 10:01:38 UTC 2024
+ bash 1.sh 
+Fri Jul  5 10:02:03 UTC 2024
+ df -lh 
+Fri Jul  5 10:10:50 UTC 2024
+ df -lh 
+Fri Jul  5 11:10:42 UTC 2024
+ cat ddd.log.txt 
+Fri Jul  5 11:11:23 UTC 2024
+ ls 
+Fri Jul  5 11:11:28 UTC 2024
+ cat ddd.log.txt 
+Fri Jul  5 11:24:16 UTC 2024
+ sudo ls 
+Fri Jul  5 11:24:42 UTC 2024
+Fri Jul  5 11:24:59 UTC 2024
+ sudo ls 
+Fri Jul  5 11:27:31 UTC 2024
+ df -lh 
+Sat Jul  6 03:19:03 UTC 2024
+ curl cheat.sh/sed 
+Sat Jul  6 03:20:29 UTC 2024
+ lynx cheat.sh/sed 
+Sat Jul  6 03:26:38 UTC 2024
+ df -lh 
+Sat Jul  6 03:27:43 UTC 2024
+ df -lh 
+Sat Jul  6 03:27:51 UTC 2024
+ df -lh 
+Sat Jul  6 03:28:32 UTC 2024
+ df -lh 
+Sat Jul  6 03:28:39 UTC 2024
+ df -lh 
+Sat Jul  6 03:28:47 UTC 2024
+ df -lh 
+Sat Jul  6 03:29:17 UTC 2024
+ df -lh 
+Sat Jul  6 03:29:21 UTC 2024
+ df -lh 
+Sat Jul  6 03:29:24 UTC 2024
+ df -lh 
+Sat Jul  6 03:33:14 UTC 2024
+ df -lh 
+Sat Jul  6 03:33:22 UTC 2024
+ df -lh 
+Sat Jul  6 03:50:39 UTC 2024
+ df -lh 
+Sat Jul  6 03:58:08 UTC 2024
+ df -lh 
+Sat Jul  6 04:10:51 UTC 2024
+ df -lh 
+Sat Jul  6 04:48:28 UTC 2024
+ wget https://codeload.kkgithub.com/jgamblin/curluseragent/zip/refs/heads/master 
+Sat Jul  6 04:48:52 UTC 2024
+ wget https://kkgithub.com/jgamblin/curluseragent/archive/refs/heads/master.zip 
+Sat Jul  6 04:49:09 UTC 2024
+ wget https://github.com/jgamblin/curluseragent/archive/refs/heads/master.zip 
+Sat Jul  6 04:49:43 UTC 2024
+ unzip master.zip 
+Sat Jul  6 07:46:19 UTC 2024
+ 1.html
+1jquery.bookmarklet.js
+1.sh
+2.sh
+2.txt
+7-ZipPortable_24.06.paf.exe
+aa
+a.txt
+bbs_1.html
+bbs_1jquerybookmarklet.html
+bbs_2024_6_14.html
+bbs_chrome-error:##chromewebdata#.html
+bbs_chrome-error###chromewebdata#.html
+bbs_guide_for_writing_bookmarklet.html.html
+bbs_http:##45.32.200.249:8000#webserver.py.html
+bbs_http###45.32.200.249#8000#webserver.py.html
+bbs_http##example.com.html
+bbs_https##6r52jm-8000.csb.app#.html
+bbs_https##alternativeto.net#software#gitpod#.html
+bbs_https##codepen.io#wardmon#pen#JjqOabO?editors=1000.html
+bbs_https##github.com#gildas-lormeau#single-file-cli.html
+bbs_https##github.com#lwch#natpass.html
+bbs_https###github.com#lzwme#vm-gh-proxy-cn#tree#main.html
+bbs_https###github.com#magicoflolis#Userscript-Plus?tab=readme-ov-file.html
+bbs_https##github.com#michaelbrooks#jquery-bookmarklet.html
+bbs_https##github.com#mjmlio#mjml.html
+bbs_https##github.com#ruanyf#weekly#issues#4618.html
+bbs_https##github.com#screenbreak#SingleFile-dockerized.html
+bbs_https###github.com#vdsm#virtual-dsm#blob#master#Dockerfile.html
+bbs_https###github.dev#wardmon#github-actions-cron.html
+bbs_https##gpt4o.so#app#7a232fd0002db53b1a624012e8e99f0c.html
+bbs_https##laragon.org#download#.html
+bbs_https###mp.weixin.qq.com#s#EiUH31oH5fYqMWeUrp6x9A.html
+bbs_https###mp.weixin.qq.com#s#FaF8MvafA4sU0dkPns8kFw.html
+bbs_https##mp.weixin.qq.com#s#T7nlsgei2DMwf1oiF1Eatg.html
+bbs_https###omnivore.app#null395922#https-mp-weixin-qq-com-s-biz-mz-ax-odi-5-od-mw-oa-3-d-3-d-chksm--1903db05172.html
+bbs_https##play.tailwindcss.com#AsFhH7AXPB.html
+bbs_https###postsecret.com#.html
+bbs_https##priyank-vaghela.github.io#Awesome-Bookmarklets#.html
+bbs_https##sr5sh-40677.csb.app#clxe2795s00uudaf2fskrcxzw.html
+bbs_https##wardmon.serv00.net#1.js.html
+bbs_https###windowsreport.com#windows-11-remote-desktop-without-password#.html
+bbs_https###www.cnblogs.com#orcl-2018#p#14001168.html.html
+bbs_https###www.cnblogs.com#wpjamer#p#ffmpeg.html.html
+bbs_https##www.diskgenius.cn#help#export-directory-html.php.html
+bbs_https###www.freecodecamp.org#news#javascript-get-request-tutorial#.html
+bbs_https##www.freecodecamp.org#news#javascript-post-request-how-to-send-an-http-post-request-in-js#.html
+bbs_https##www.ruanyifeng.com#blog#2024#06#weekly-issue-304.html.html
+bbs_https##www.sockstack.cn#github.html
+bbs_https##www.xmodulo.com#skip-existing-files-scp.html.html
+bbs_jquerybookmarklet.html
+bbs_Rsx-6Ul4J0UQ.html
+bin
+bookmarklet-test.bak.js
+bookmarklet-test.js
+bookmarklet-test.js
+bookmarklet-test.js.bak
+bookmarklet-test - 副本.js
+bootstrap.min.css
+bootstrap.min.js
+CHANGELOG.md
+chrome-error###chromewebdata#.html
+curluseragent-master
+curluseraget
+db.json
+ddd.log.txt
+debug-github-actions.sh
+docker-compose.yml
+Dockerfile
+examples
+fb.sh
+fbstop.sh
+filebrowser
+filebrowser.db
+filename.txt
+github-actions-cron
+heredoc.txt
+herestr.txt
+https###kkgithub.com#go-shiori#shiori#tree#master.html
+https##zhuanlan.zhihu.com#p#64241944.htm
+include
+install.ps1
+jquery.bookmarklet.js
+jquery.min.js
+jsmind.draggable-node.js
+jsMind-intro - 2024-06-25T165644.281.jm.txt
+jsmind.js
+jsmind.screenshot.js
+lib
+lib64
+LICENSE
+linux-amd64-filebrowser.tar.gz
+msg.js
+ngrokssh.yml
+nohup.out
+not-exist-file.sh
+package.json
+package-lock.json
+picocrypt
+Picocrypt.1
+pip-selfcheck.json
+pyvenv.cfg
+README.md
+renam.sh.bak
+requirements.txt
+r.sh
+r.txt
+sed71svAl
+sedgX5Rfz
+sedkAVPRK
+server.js
+sf
+shiori
+shiori-data
+shiori_Linux_x86_64_1.7.0.tar.gz 
+Sat Jul  6 07:47:59 UTC 2024
+ command ls 
+Tue Jul  9 02:03:26 UTC 2024
+ wget https://github.com/codeskyblue/gohttpserver/releases/download/1.1.4/gohttpserver_1.1.4_linux_amd64.tar.gz 
+Tue Jul  9 02:03:53 UTC 2024
+ tar xzvf gohttpserver_1.1.4_linux_amd64.tar.gz 
+Tue Jul  9 02:04:04 UTC 2024
+ ./gohttpserver 
+Tue Jul  9 02:05:06 UTC 2024
+ ./gohttpserver --help 
+Tue Jul  9 02:17:12 UTC 2024
+ ./gohttpserver --help 
+Tue Jul  9 02:23:20 UTC 2024
+ ps -ef | grep gohttp 
+Tue Jul  9 02:24:07 UTC 2024
+ kill 25332 
+Tue Jul  9 02:24:27 UTC 2024
+ kill 24338 
+Tue Jul  9 02:24:32 UTC 2024
+ ps -ef | grep gohttp 
+Tue Jul  9 02:25:09 UTC 2024
+ kill 24339 25333 
+Tue Jul  9 02:25:14 UTC 2024
+ ps -ef | grep gohttp 
+Tue Jul  9 02:25:24 UTC 2024
+ bash fb.sh 
+Tue Jul  9 02:26:30 UTC 2024
+ cat fb.sh 
+Tue Jul  9 02:27:04 UTC 2024
+ /home/pia/SingleFile-dockerized/filebrowser -a 45.32.200.249:9000 
+Tue Jul  9 05:00:24 UTC 2024
+ node --version 
+Tue Jul  9 05:04:41 UTC 2024
+Tue Jul  9 05:05:38 UTC 2024
+ echo 'console.log(Hello)'| node - 
+Tue Jul  9 06:14:50 UTC 2024
+ bash 1.sh 
+Tue Jul  9 06:18:32 UTC 2024
+ str= 'console.log(aa); 
+console.log(bbbb);
+console.log(cccc);'
+echo  | node - 
+Tue Jul  9 06:19:36 UTC 2024
+ str= 'console.log(aa); console.log(bbbb);console.log(cccc);'
+echo  | node - 
+Tue Jul  9 06:20:34 UTC 2024
+ #str=
+echo  'console.log(aa); console.log(bbbb);console.log(cccc);' | node - 
+Tue Jul  9 06:21:23 UTC 2024
+ export str= 'console.log(aa); console.log(bbbb);console.log(cccc);'
+echo  | node - 
+Tue Jul  9 06:22:00 UTC 2024
+ export str= 'console.log(aa); console.log(bbbb);console.log(cccc);'
+echo   
+Tue Jul  9 06:27:49 UTC 2024
+ ls *.js 
+Tue Jul  9 06:29:17 UTC 2024
+ :export str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo  
+Tue Jul  9 06:29:40 UTC 2024
+ export str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo  
+Tue Jul  9 06:29:58 UTC 2024
+ export str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo -e  
+Tue Jul  9 06:30:16 UTC 2024
+ str= 'console.log(aa);
+console.log(bbbb);
+console.log(cccc);'
+echo -e  
+Tue Jul  9 06:30:59 UTC 2024
+ str= '111111111111'
+echo -e  
+Tue Jul  9 06:31:10 UTC 2024
+ str= '111111111111'
+echo   
+Tue Jul  9 06:32:53 UTC 2024
+ str= 111111111111
+echo   
+Tue Jul  9 06:33:05 UTC 2024
+ str= 111111111111;
+echo   
+Tue Jul  9 06:33:49 UTC 2024
+ str= 111111111111;
+echo  {} 
+Tue Jul  9 06:33:59 UTC 2024
+ str= 111111111111;
+echo   
+Tue Jul  9 06:34:48 UTC 2024
+ your_name=tomecho =alibabaecho  
+Tue Jul  9 06:35:07 UTC 2024
+ null 
+Tue Jul  9 06:35:19 UTC 2024
+ your_name=tomecho tomecho 
+Tue Jul  9 06:35:31 UTC 2024
+ null 
+Tue Jul  9 06:35:40 UTC 2024
+ your_name=tom
+echo tom 
+Tue Jul  9 06:37:20 UTC 2024
+ your_name=console.log
+echo console.log 
+Tue Jul  9 06:37:57 UTC 2024
+ your_name=console.log(aa)
+echo console.log\('aa'\) 
+Tue Jul  9 06:39:01 UTC 2024
+ your_name=console.log(aa)
+echo -e console.log\('aa'\) 
+Tue Jul  9 06:43:41 UTC 2024
+ your_name='console.logaa'
+echo -e console.logaa 
+Tue Jul  9 06:43:58 UTC 2024
+ your_name='console.log\(aa'
+echo -e console.log\(aa 
+Tue Jul  9 06:44:11 UTC 2024
+ your_name='console.log\(aa'
+echo  console.log\(aa 
+Tue Jul  9 06:46:26 UTC 2024
+ /home/pia/SingleFile-dockerized/filebrowser -a 45.32.200.249 -p 9000 
+Tue Jul  9 06:48:43 UTC 2024
+ node 1.js 
+Tue Jul  9 06:49:50 UTC 2024
+ python 1.js 
+Tue Jul  9 06:50:07 UTC 2024
+ python 1.js 
+Tue Jul  9 06:50:54 UTC 2024
+ python 1.js 
+Tue Jul  9 06:51:09 UTC 2024
+ python 1.js 
+Tue Jul  9 06:52:35 UTC 2024
+ python 1 
+Tue Jul  9 06:54:51 UTC 2024
+ python 1 
+Tue Jul  9 06:55:19 UTC 2024
+ python 1 
+Tue Jul  9 09:45:32 UTC 2024
+ bash fb.sh 
+Wed Jul 10 06:56:08 UTC 2024
+ bash fb.sh 
+Wed Jul 10 06:56:31 UTC 2024
+ bash fb.sh 
+Wed Jul 10 06:57:02 UTC 2024
+ bash fb.sh 
+Wed Jul 10 06:58:43 UTC 2024
+ bash 2.sh 
+Wed Jul 10 06:59:00 UTC 2024
+ bash 2.sh 
+Wed Jul 10 07:05:38 UTC 2024
+ bash 11.sh 
+Wed Jul 10 07:10:31 UTC 2024
+ bash 11.sh 
+Wed Jul 10 07:10:48 UTC 2024
+ bash 11.sh 1 
+Wed Jul 10 07:11:17 UTC 2024
+ bash 11.sh 1 
+Wed Jul 10 07:12:52 UTC 2024
+ bash 11.sh 2 
+Wed Jul 10 07:15:13 UTC 2024
+ bash 11.sh 2 
+Wed Jul 10 07:16:10 UTC 2024
+ bash 11.sh 
+Wed Jul 10 07:16:37 UTC 2024
+ bash 11.sh 
+Wed Jul 10 07:16:44 UTC 2024
+ bash 11.sh 1 
+Wed Jul 10 07:17:22 UTC 2024
+ bash 11.sh 2 
+Wed Jul 10 07:17:29 UTC 2024
+ bash 11.sh 1 
+Wed Jul 10 07:17:37 UTC 2024
+ bash 11.sh 2 
+Wed Jul 10 10:41:40 UTC 2024
+ bash fb.sh 
+Wed Jul 10 17:25:34 UTC 2024
+ bash fb.sh 
+Thu Jul 11 03:10:54 UTC 2024
+ null 
+Fri Jul 12 02:10:52 UTC 2024
+ bash fb.sh 
+Mon Jul 15 02:29:08 UTC 2024
+ bash 11.sh 
+Mon Jul 15 03:54:37 UTC 2024
+ bash fb.sh 
+Mon Jul 15 04:04:21 UTC 2024
+ bash 11.sh 11 
+Mon Jul 15 04:05:00 UTC 2024
+ null 
+Mon Jul 15 04:06:30 UTC 2024
+ bash 11.sh 
+Mon Jul 15 04:40:48 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:42:32 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:43:06 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:43:39 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:44:30 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:45:48 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:48:21 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:48:39 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 04:49:07 UTC 2024
+ bash 11.sh 2 
+Mon Jul 15 06:32:51 UTC 2024
+ bash fb.sh 
+Mon Jul 15 06:48:24 UTC 2024
+ bash 11.sh 2 
+Tue Jul 16 04:06:34 UTC 2024
+ null 
+Tue Jul 16 06:41:09 UTC 2024
+ null 
+Tue Jul 16 06:42:10 UTC 2024
+ bash 11.sh 
+Tue Jul 16 06:45:35 UTC 2024
+ bash 11.sh 
+Tue Jul 16 08:12:02 UTC 2024
+ npx github:piuccio/cowsay hello 
+Tue Jul 16 08:13:00 UTC 2024
+ npx github:piuccio/cowsay hello 
+Tue Jul 16 08:13:54 UTC 2024
+ npm run env | grep npm_ 
+Tue Jul 16 08:15:04 UTC 2024
+ npx -c 'echo ' 
+Tue Jul 16 08:16:47 UTC 2024
+ npx -p cowsay 'cowsay hello' 
+Tue Jul 16 08:17:14 UTC 2024
+ npm list 
+Tue Jul 16 08:17:31 UTC 2024
+ npm --help 
+Tue Jul 16 08:18:51 UTC 2024
+ npm ls 
+Tue Jul 16 10:24:32 UTC 2024
+ bash fb.sh 
+Wed Jul 17 01:13:31 UTC 2024
+ bash 11.sh 
+Wed Jul 17 08:45:26 UTC 2024
+ bash 11.sh 
+Wed Jul 17 09:55:30 UTC 2024
+ bash 11.sh 
+Wed Jul 17 23:11:38 UTC 2024
+ bash 11.sh 
+Thu Jul 18 02:39:23 UTC 2024
+ null 
+Thu Jul 18 02:39:49 UTC 2024
+ null 
+Thu Jul 18 02:42:29 UTC 2024
+ bash 1.sh 
+Thu Jul 18 02:43:15 UTC 2024
+ bash 11.sh 
+Thu Jul 18 07:49:27 UTC 2024
+ bash 11.sh 0 
+Thu Jul 18 07:55:48 UTC 2024
+ null 
+Thu Jul 18 07:56:12 UTC 2024
+ null 
+Thu Jul 18 07:56:26 UTC 2024
+ null 
+Thu Jul 18 08:00:07 UTC 2024
+ bash 11.sh 2 
+Thu Jul 18 08:45:24 UTC 2024
+ bash 11.sh 
+Thu Jul 18 08:59:55 UTC 2024
+ wget https://github.com/sigoden/dufs/releases/download/v0.41.0/dufs-v0.41.0-x86_64-unknown-linux-musl.tar.gz 
+Thu Jul 18 09:00:16 UTC 2024
+ tar xzvf dufs-v0.41.0-x86_64-unknown-linux-musl.tar.gz 
+Thu Jul 18 09:00:29 UTC 2024
+ ls dufs 
+Thu Jul 18 09:04:20 UTC 2024
+ ps -ef |grep dufs 
+Thu Jul 18 09:04:48 UTC 2024
+ kill 7203 7204 
+Thu Jul 18 09:05:05 UTC 2024
+ null 
+Thu Jul 18 09:05:15 UTC 2024
+ dufs -A 
+Thu Jul 18 09:05:57 UTC 2024
+ ps -ef | grep dufs 
+Thu Jul 18 09:11:18 UTC 2024
+ bash fbstop.sh 
+Thu Jul 18 09:11:26 UTC 2024
+ bash 11.sh 
+Fri Jul 19 04:21:49 UTC 2024
+ bash fbstop.sh 
+Fri Jul 19 04:21:49 UTC 2024
+ bash 11.sh 2 
+Tue Jul 23 08:41:34 UTC 2024
+ bash fb.sh 
+Tue Jul 23 10:03:55 UTC 2024
+ bash fb.sh 
+Wed Jul 31 08:07:52 UTC 2024
+ df -loh 
+Wed Jul 31 08:08:02 UTC 2024
+ df -lh 
+Wed Jul 31 08:22:24 UTC 2024
+ curl 8836ck.net 
+Wed Jul 31 08:23:15 UTC 2024
+ null 
+Wed Jul 31 08:23:41 UTC 2024
+ bash curl bing.com 
+Wed Jul 31 08:32:01 UTC 2024
+ null 
+Wed Jul 31 08:40:43 UTC 2024
+ bash curl 8836ck.cc 
+Wed Jul 31 08:41:08 UTC 2024
+ curl 8836ck.cc 
+Wed Jul 31 08:41:55 UTC 2024
+ lynx 
+Wed Jul 31 08:43:03 UTC 2024
+ curl 8836ck.cc -o 8836ck.txt 
+Wed Jul 31 08:43:19 UTC 2024
+ null 
+Wed Jul 31 08:43:45 UTC 2024
+ bash fb.sh 
+Wed Jul 31 08:45:43 UTC 2024
+ curl 8836ck.cc//vodtype/8.html -o 8836ck.txt 
+Wed Jul 31 08:49:38 UTC 2024
+ curl 8836ck.cc//vodplay/48474-1-1.html -o m3u.txt 
+Wed Jul 31 08:50:49 UTC 2024
+ youtube-dl https:\/\/t25.cdn2020.com\/video\/m3u8\/2024\/07\/26\/55492ab1\/index.m3u8 
+Wed Jul 31 08:51:28 UTC 2024
+ youtubedl 
+Wed Jul 31 08:51:37 UTC 2024
+ youtube-dl 
+Wed Jul 31 08:52:20 UTC 2024
+ youtube-dl 
+Wed Jul 31 08:52:47 UTC 2024
+ /usr/bin/youtube-dl 
+Wed Jul 31 08:53:18 UTC 2024
+ /usr/local/youtube-dl 
+Wed Jul 31 08:53:39 UTC 2024
+ /usr/local/bin/youtube-dl 
+Wed Jul 31 09:00:03 UTC 2024
+ /usr/local/bin/youtube-dl https:\/\/t25.cdn2020.com\/video\/m3u8\/2024\/07\/26\/55492ab1\/index.m3u8 
+Wed Jul 31 09:00:49 UTC 2024
+ bash fb.sh 
+Wed Jul 31 09:20:05 UTC 2024
+ /usr/local/bin/youtube-dl https:\/\/t25.cdn2020.com\/video\/m3u8\/2024\/07\/26\/55492ab1\/index.m3u8 
+Wed Jul 31 09:41:25 UTC 2024
+ bash fb.sh 
+Wed Jul 31 11:06:21 UTC 2024
+ bash fb.sh 
+Wed Jul 31 11:31:28 UTC 2024
+ bash fb.sh 
+Thu Aug  1 03:20:55 UTC 2024
+ for i in 4 5 6; do  
+   eval a6=6
+done  
+echo 4 5 6  
+Thu Aug  1 03:22:36 UTC 2024
+ arr=(4 5 6)  
+INDEX1=4  
+INDEX2=5  
+INDEX3=6 
+Thu Aug  1 03:23:36 UTC 2024
+ arr=(4 5 6)  
+INDEX1=1111  
+INDEX2=5  
+INDEX3=6 
+Thu Aug  1 03:24:31 UTC 2024
+ arr=(4 5 6)  
+INDEX1=1111  
+echo 5
+INDEX3=6 
+Thu Aug  1 03:25:53 UTC 2024
+ arr=(4 5 6)  
+INDEX1=1111  
+INDEX2=5  
+INDEX3=6
+echo INDEX3 
+Thu Aug  1 03:26:13 UTC 2024
+ arr=(4 5 6)  
+INDEX1=1111  
+INDEX2=5  
+INDEX3=6
+echo 6 
+Tue Aug  6 02:17:38 UTC 2024
+ ls 
+Tue Aug  6 02:18:41 UTC 2024
+ null 
+Tue Aug  6 03:00:44 UTC 2024
+ bash fb.sh 
+Tue Aug  6 03:01:01 UTC 2024
+ null 
+Tue Aug  6 03:21:08 UTC 2024
+ bash fb.sh 
+Tue Aug  6 03:40:39 UTC 2024
+ bash fb.sh 
+Tue Aug  6 03:40:56 UTC 2024
+ null 
+Tue Aug  6 05:00:09 UTC 2024
+ bash fb.sh 
+Tue Aug  6 06:58:27 UTC 2024
+ a=hi; b=!; echo hi! 
+Tue Aug  6 07:22:00 UTC 2024
+ date ' %m/%d/%y' 
+Tue Aug  6 07:22:31 UTC 2024
+ echo  
+Tue Aug  6 07:22:53 UTC 2024
+ echo  
+Tue Aug  6 07:23:00 UTC 2024
+ date 
+Tue Aug  6 07:23:20 UTC 2024
+ date --help 
+Tue Aug  6 07:24:31 UTC 2024
+ date  %m-%d-%Y 
+Tue Aug  6 07:24:54 UTC 2024
+ null 
+Tue Aug  6 07:25:59 UTC 2024
+ echo  
+Tue Aug  6 07:27:22 UTC 2024
+ if [ -d /tmp ]; then echo 1; fi 
+Tue Aug  6 07:28:09 UTC 2024
+ null 
+Tue Aug  6 07:31:38 UTC 2024
+ for i in 1
+2
+3
+4
+5
+6
+7
+8
+9
+10; do echo 10; done 
+Tue Aug  6 07:33:03 UTC 2024
+ declare -a arrary=(string1 string2 string3)
+for i in ; do echo ; done 
+Tue Aug  6 07:33:31 UTC 2024
+ declare -a arrary=(string1 string2 string3)
+for i in ; do echo ; done 
+Tue Aug  6 07:34:29 UTC 2024
+ while IFS= read -r p || [ -n  ]; do echo ; done < file.txt 
+Tue Aug  6 07:34:45 UTC 2024
+ while IFS= read -r p || [ -n  ]; do echo ; done < 1.txt 
+Tue Aug  6 07:35:01 UTC 2024
+ while IFS= read -r p || [ -n  ]; do echo ; done < 1.html 
+Tue Aug  6 07:37:14 UTC 2024
+ haystack=Bash is so so
+search=so so
+replace=good
+echo Bash is good 
+Tue Aug  6 07:39:12 UTC 2024
+Tue Aug  6 07:39:27 UTC 2024
+Tue Aug  6 07:39:50 UTC 2024
+Tue Aug  6 07:44:22 UTC 2024
+ printf %s 'some string' | jq -sRr @uri 
+Wed Aug  7 01:34:12 UTC 2024
+ for i in 1
+2
+3
+4
+5
+6
+7
+8
+9
+10; do echo 10; done 
+Wed Aug  7 03:51:36 UTC 2024
+ bash fb.sh 
+Wed Aug  7 04:02:42 UTC 2024
+ bash fb.sh 
+Wed Aug  7 04:39:26 UTC 2024
+ curl https://oneliner.vercel.app/ 
+Wed Aug  7 04:40:29 UTC 2024
+ curl https://oneliner.vercel.app/ - 
+Wed Aug  7 04:41:33 UTC 2024
+ curl -s https://oneliner.vercel.app/ 
+Wed Aug  7 04:41:57 UTC 2024
+ curl -s bing.com 
+Wed Aug  7 04:42:09 UTC 2024
+ curl bing.com 
+Wed Aug  7 04:42:27 UTC 2024
+ curl baidu.com 
+Wed Aug  7 04:43:06 UTC 2024
+ curl commandfu.com 
+Wed Aug  7 04:43:20 UTC 2024
+ curl commandlinefu.com 
+Wed Aug  7 06:33:46 UTC 2024
+ bash fb.sh 
+Thu Aug  8 02:16:40 UTC 2024
+ bash fb.sh 
+Thu Aug  8 03:23:23 UTC 2024
+ null 
+Thu Aug  8 04:17:35 UTC 2024
+ fc -l 1 
+Thu Aug  8 07:02:59 UTC 2024
+ ls 
+Thu Aug  8 07:03:37 UTC 2024
+ ls 
+Thu Aug  8 07:05:56 UTC 2024
+ ls 
+Thu Aug  8 07:16:53 UTC 2024
+ ls 
+Thu Aug  8 10:53:37 UTC 2024
+ cat 25-250.html | head -n 1000 
+Thu Aug  8 10:54:40 UTC 2024
+ null 
+Thu Aug  8 10:54:47 UTC 2024
+ null 
+Thu Aug  8 10:55:26 UTC 2024
+ cat 25-250.html 
+Thu Aug  8 10:59:01 UTC 2024
+ head -n 1000 25-50.html 
+Thu Aug  8 10:59:32 UTC 2024
+ ls *.html 
+Thu Aug  8 10:59:57 UTC 2024
+ head -n 500 25-250.html 
+Thu Aug  8 11:09:45 UTC 2024
+ cat 25.txt 
+Mon Aug 12 02:57:27 UTC 2024
+ top -b -o  %MEM |head -17 
+Mon Aug 12 02:58:55 UTC 2024
+ ps aux | sort -nk  4 | tail 
+Mon Aug 12 02:59:58 UTC 2024
+ ps aux --sort -rss | head 
+Wed Aug 21 03:30:42 UTC 2024
+ r 
+Wed Aug 21 03:33:11 UTC 2024
+ bash 11.sh 
+Wed Aug 21 03:36:41 UTC 2024
+ null 
+Wed Aug 21 03:37:28 UTC 2024
+ null 
+Wed Aug 21 03:38:49 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn' 
+Wed Aug 21 03:40:25 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn'    -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM0Mzc0MjBiMjEzNTI0MTEzYzU3MDUiLCJpYXQiOjE3MjQxMzU2MDcsImV4cCI6MTc4NjM0MzYwN30.SjstxYdvZ8MLHsbzXUcUczewx_H6gj6JbGs0whfVbQ8' 
+Wed Aug 21 03:41:22 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn'    -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM0Mzc0MjBiMjEzNTI0MTEzYzU3MDUiLCJpYXQiOjE3MjQxMzU2MDcsImV4cCI6MTc4NjM0MzYwN30.SjstxYdvZ8MLHsbzXUcUczewx_H6gj6JbGs0whfVbQ8'  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0' 
+Wed Aug 21 03:41:34 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn'    -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM0Mzc0MjBiMjEzNTI0MTEzYzU3MDUiLCJpYXQiOjE3MjQxMzU2MDcsImV4cCI6MTc4NjM0MzYwN30.SjstxYdvZ8MLHsbzXUcUczewx_H6gj6JbGs0whfVbQ8'  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0' 
+Wed Aug 21 03:42:06 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn'    -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM0Mzc0MjBiMjEzNTI0MTEzYzU3MDUiLCJpYXQiOjE3MjQxMzU2MDcsImV4cCI6MTc4NjM0MzYwN30.SjstxYdvZ8MLHsbzXUcUczewx_H6gj6JbGs0whfVbQ8'  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0' 
+Wed Aug 21 03:53:12 UTC 2024
+ ddd 
+Wed Aug 21 03:54:46 UTC 2024
+ ls 
+Wed Aug 21 03:56:00 UTC 2024
+ null 
+Wed Aug 21 03:56:06 UTC 2024
+ ls 
+Wed Aug 21 03:57:18 UTC 2024
+ null 
+Wed Aug 21 03:58:13 UTC 2024
+ ls 
+Wed Aug 21 03:58:25 UTC 2024
+ null 
+Wed Aug 21 04:00:04 UTC 2024
+ ls 
+Wed Aug 21 04:00:26 UTC 2024
+ null 
+Wed Aug 21 04:00:37 UTC 2024
+ ls 
+Wed Aug 21 04:01:47 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:08:46 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn'    -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM0Mzc0MjBiMjEzNTI0MTEzYzU3MDUiLCJpYXQiOjE3MjQxMzU2MDcsImV4cCI6MTc4NjM0MzYwN30.SjstxYdvZ8MLHsbzXUcUczewx_H6gj6JbGs0whfVbQ8'  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0' 
+Wed Aug 21 04:17:13 UTC 2024
+ curl 'https://api.codelife.cc/yiyan/random?lang=cn'    -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM0Mzc0MjBiMjEzNTI0MTEzYzU3MDUiLCJpYXQiOjE3MjQxMzU2MDcsImV4cCI6MTc4NjM0MzYwN30.SjstxYdvZ8MLHsbzXUcUczewx_H6gj6JbGs0whfVbQ8'  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0' 
+Wed Aug 21 04:20:18 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:20:36 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:20:47 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:20:56 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:21:27 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:22:39 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:23:02 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:23:39 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:25:00 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:25:12 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:25:32 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:25:59 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:26:52 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:27:02 UTC 2024
+ bash 11.sh 
+Wed Aug 21 04:27:11 UTC 2024
+ bash 11.sh 
+Wed Aug 21 08:36:55 UTC 2024
+ bash 11.sh 
+Wed Aug 21 08:37:06 UTC 2024
+ bash 11.sh 
+Fri Aug 23 09:46:59 UTC 2024
+ null 
+Sat Aug 24 03:29:23 UTC 2024
+ curl -L http://www.commandlinefu.com/commands/random/plaintext | sed -n '1d; /./p' 
+Sat Aug 24 03:30:00 UTC 2024
+ curl -L http://www.commandlinefu.com/commands/random/plaintext | sed -n '1d; /./p' 
+Wed Sep  4 07:42:26 UTC 2024
+ bash 11.sh 
+Wed Sep  4 08:15:31 UTC 2024
+ bash fs.sh 
+Wed Sep  4 09:39:42 UTC 2024
+ bash fb.sh 

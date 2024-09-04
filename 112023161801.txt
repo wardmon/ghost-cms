@@ -1,0 +1,38 @@
+
+
+
+
+wget --mirror --convert-links --adjust-extension --page-requisites  --no-parent http://example.org
+
+例如，考虑一个场景，您正在等待一个文件出现在您的目录中。以下命令将监视指定文件的目录。一旦出现，watch命令将停止运行，并且终端上将显示消息"file arrived"。
+watch -g "ls -l | grep filename" && echo "file arrived"
+``````
+另一个有用的示例是在特定用户登录到系统时进行通知：
+watch -g "who | grep username" && echo "username logged in"
+
+
+
+Global web icon
+HedgeDoc
+https://hedgedoc.org
+https://microsoftedge.microsoft.com/addons/detail/easyview-reader-view/nliopidpecelaedknfeanmkanoabfahi
+Easyview Reader view
+(1.2K)``````
+
+wget https://demo.hedgedoc.org/Ypg4fQXfTUaxOM91ygm8Vw/download
+mail -s 'authlogAccepted' null395922@qq.com <<< $(grep Accept /var/log/auth.log)
+#mail -s 'authlogAccepted' 444395922@qq.com <<< $(grep Accept /var/log/auth.log)
+i=$(((RANDOM % 9553)+1))
+url=$(eval sed -n '"$i"p' list.html)
+msg=$(curl $url)
+txt=$(echo $msg | sed  's/<[^>]*>/ \n/g')
+txt=$(echo $txt | sed 's/^.*ico//g')
+txt=$(echo $txt | sed 's/64 64//g')
+txt=$(echo $txt | sed 's/+0800/---<br>\n\t/g')
+txt=$(echo $txt | sed 's/https/<br>https/g')
+txt=$(echo $txt | sed 's/$/\n/g')
+txt=$(echo $txt | sed 's/\(https\{0,1\}:\/\/[^\/]*\/s\/.\{22\}\)/<a href=\1 >æŸ¥çœ‹ <\/a>/g')
+
+curl -G "http://wxpusher.zjiecode.com/demo/send/custom/UID_5QnYdwyoFEuEV9sXQ6MqVqYpCn8Z" --data-urlencode "content=$txt"
+wxpush=$(date +%F)
+echo $txt | tee -a /root/$wxpush.html

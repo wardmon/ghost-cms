@@ -1,0 +1,2621 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta name="author" content="" />
+    <meta name="description" content="A repository for the most elegant and useful UNIX commands.  Great commands can be shared, discussed and voted on to provide a comprehensive resource for working from the command-line" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="verify-v1" content="hEPILeJT+vssH+kKHD8JrK8sqHYIg4GWIVV8P1I8gsY=" />
+    <meta name="google-site-verification" content="r2fSppde5Egt3_2qSPb6LEsT2BqWAM0wRlb00A8LLhg" />
+     <META NAME="ROBOTS" CONTENT="NOINDEX">
+    <link rel="stylesheet" href="/css/browser_reset.css?2012-03-04-09-53" type="text/css" /> 
+    <link rel="stylesheet" href="/css/styles.css?2012-03-04-09-53" type="text/css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Droid+Sans+Mono" type="text/css" >
+    
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="commandlinefu.com search plugin" href="/mozilla_search_plugin.xml" />
+    
+            <link href="http://feeds2.feedburner.com/Command-line-fu" title="RSS" type="application/rss+xml" rel="alternate" />
+        
+    <title>All commands</title>
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js?load=effects,controls"></script>
+    <script type="text/javascript" src="/js/site-behaviour.js?2018-03-04-09-53"></script>
+    <script type="text/javascript" src="/js/Growler.js?2018-03-04-09-53"></script>
+    <script type="text/javascript" src="/js/prettify/prettify.js?2018-03-04-09-53"></script>
+    <link rel="stylesheet" href="/js/prettify/prettify.css?2018-03-04-09-53" type="text/css" />
+    
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/clf.min.css" type="text/css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-55581850-1', 'auto', {'allowLinker': true});
+	  ga('require', 'linker');
+	  ga('linker:autoLink', ['danstools.com','unixtimestamp.com','url-encode-decode.com','cssfontstack.com','hexcolortool.com','htaccessredirect.net','jspretty.com','jsmini.com','jsobfuscate.com','md5hashgenerator.com','regextester.com','cleancss.com','favicon-generator.org','website-performance.org','permissions-calculator.org','conversoes.org','convertissez.fr','convertitore.net','elconvertidor.com','files-conversion.com','henkan-muryo.com','konvertirung.org','konvertor.org','tahwil.net','zhuan-huan.com','bootsnipp.com','commandlinefu.com'] );
+	  ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-bootsnipp animate" role="navigation" style="z-index: 9999999">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="animbrand">
+        <a class="navbar-brand animate" href="//www.commandlinefu.com"><strong><span class="glyphicon glyphicon-console" style="padding:2px 4px 4px 4px;margin-right:5px;background:#333"></span><span style="color:black;">COMMANDLINEFU</span>.COM</strong></a>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/commands/edit" class="">+New</a></li>
+        <li class="dropdown dropdown-right">
+          <a href="#" class="dropdown-toggle " data-toggle="dropdown">Commands <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class=""><a href="/" class="">Latest </a></li>
+            <li class=""><a href="/commands/browse/sort-by-votes" class="">All-time Greats </a></li>
+            <li class=""><a href="/commands/browse/last-month/sort-by-votes" class="">Hot this month </a></li>
+            <li class=""><a href="/commands/forthewicked" class="">The Wicked </a></li>
+            <li class=""><a href="/commands/random" class="">Random </a></li>
+<!--            <li class=""><a href="/" class="">Tags </a></li>
+            <li class=""><a href="/" class="">Functions </a></li>-->
+          </ul>
+        </li>
+        <li >
+          <a href="/users/signin">Login </a>
+        </li>
+      </ul>
+		<div id="search" style="display:inline;">
+          <form id="search-form" action="/search/handler" method="post">
+				<div id="search-container" style="margin-top:9px;">
+				  <img id="loading" src="/images/tag-loader.gif" style="display:none;float:right;margin: 5px 5px 0 0;" />
+	              <input id="search-query" type="text" class="inactive" autocomplete="off" name="q" placeholder="grep the archive">
+				</div>
+          </form>
+			<div id="search-options" style="display:none"></div>
+		</div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container" style="padding-top:20px;">
+ <div class="row">
+  <div class="col-md-9 col-lg-8">
+		
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</p>
+<ins class="adsbygoogle"
+     style="display:block;"
+     data-ad-client="ca-pub-8815422507798180"
+     data-ad-slot="5700240528"
+    data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>
+        	<div class="panel panel-default">
+  <div class="panel-heading" style="background:white">
+    	<h3 class="panel-title">All commands (14,184)
+		        <form action="/commands/filter" method="post" class="pull-right form-inline">
+			<div class="hidden-xs hidden-sm form-group" style="margin-top:-14px">
+            <input type="hidden" name="base-url" value="/commands/browse" />
+            <select class="form-control" name="time-period" onchange="javascript:this.form.submit();">
+                                    <option value="last-day" >the last day</option>
+                                    <option value="last-week" >the last week</option>
+                                    <option value="last-month" >the last month</option>
+                                    <option value="" selected>all time</option>
+                            </select>
+            sorted by
+            <select class="form-control" name="sort-by" onchange="javascript:this.form.submit();">
+                                    <option value="sort-by-date" selected>date</option>
+                                    <option value="sort-by-votes" >votes</option>
+                            </select>
+			</div>
+        </form>
+		
+		</h3>
+	  </div>
+	<ul class="list-group">
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/30544/urldecode-with-awk" title="Find out what others think of this command">urldecode with AWK</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    Fast and simple awk urldecoder!
+Note: Parameter -n is specific to GNU awk 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-30544'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-30544">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>echo -e  &quot;asdf%2Fxx%2Cx\n%2F%2Cxx&quot;  | awk -niord '{printf RT?$0chr(&quot;0x&quot;substr(RT,2)):$0}' RS=%..
+asdf/xx,x
+/,xx
+</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-30544" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-30544" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-30544">2</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">awk -niord '{printf RT?$0chr(&quot;0x&quot;substr(RT,2)):$0}' RS=%..</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/emphazer">emphazer</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2023-03-30 15:05:58                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/30544/urldecode-with-awk#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						322</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-30544" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/30544" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-30544" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/30544" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/awk">awk</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/112/awk">awk</a>
+                         
+                            <a href="/commands/tagged/1029/urldecode">urldecode</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/30053/create-a-square-thumbnail-or-favicon-using-imagemagick" title="Find out what others think of this command">Create a square thumbnail or favicon using ImageMagick</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    Resize `file.png` to a 32x32 px image. Use a value other than 32 to create other icon sizes (e.g. 16x16 or 32x32). Combine two favicon sizes using: `convert icon-16px.png icon-32px.png favicon.ico`
+For a social media preview image, use `2:1#` for the extent and `1200` for the scale. 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-30053">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-30053" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-30053" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-30053">9</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">convert file.png -background transparent -gravity Center -extent 1:1# -scale 32 file-32px.png</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/lgarron">lgarron</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2023-03-08 04:11:12                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/30053/create-a-square-thumbnail-or-favicon-using-imagemagick#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						614</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-30053" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/30053" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-30053" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/30053" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/29886/list-all-files-in-a-folder-in-a-git-repository-by-last-commit-date" title="Find out what others think of this command">List all files in a folder in a git repository by last commit date</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    This lists all the files in a folder, then finds the commit date for them one by one, then sorts them from newest to oldest 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-29886">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-29886" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-29886" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-29886">5</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">git ls-tree --name-only HEAD foldername/ | while read filename; do   echo &quot;$(git log -1 --format=&quot;%ci &quot; -- $filename) $filename&quot;; done | sort -r</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/fivestones">fivestones</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2023-03-01 17:02:51                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/29886/list-all-files-in-a-folder-in-a-git-repository-by-last-commit-date#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						275</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-29886" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/29886" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-29886" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/29886" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/echo">echo</a>
+                         
+                            <a href="/commands/using/read">read</a>
+                         
+                            <a href="/commands/using/sort">sort</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/67/git">git</a>
+                         
+                            <a href="/commands/tagged/309/sorting">sorting</a>
+                         
+                            <a href="/commands/tagged/332/dates">dates</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/29844/a-console-based-audio-visualizer-for-alsa" title="Find out what others think of this command">A Console-based Audio Visualizer for ALSA</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    # Installing
+apt search cava
+sudo apt install cava
+# modify the default config to change the colors by their hex color code
+cava -p
+mkdir ~/.cava
+nano ~/.cava/config
+cava # run with changes! 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-29844">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-29844" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-29844" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-29844">3</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">cava</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/ioshield">ioshield</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2023-02-28 19:53:42                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/29844/a-console-based-audio-visualizer-for-alsa#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						367</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-29844" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/29844" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-29844" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/29844" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/29556/speak-spell-esque-glitch-sounds" title="Find out what others think of this command">Speak &amp; Spell-esque glitch sounds</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    The Speak & Spell's sound chip uses a compressed audio format called "linear predictive coding". This command will read random bytes and attempt to decompress them as if it were audio data compressed in this format, then play it. This results in a unique sound which is similar to a glitching Speak & Spell. 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-29556">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-29556" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-29556" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-29556">6</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">play -tlpc /dev/urandom</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/Sparkette">Sparkette</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2023-02-16 22:28:16                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/29556/speak-spell-esque-glitch-sounds#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						551</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-29556" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/29556" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-29556" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/29556" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/28993/bypass-with-hexencoding-dump-etcpasswd" title="Find out what others think of this command">Bypass with hexencoding, dump /etc/passwd</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-28993">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-28993" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-28993" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-28993">4</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">cat $(echo -e &quot;\x2f\x65\x74\x63\x2f\x70\x61\x73\x73\x77\x64&quot;)</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/wuseman1">wuseman1</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2023-01-14 06:43:27                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/28993/bypass-with-hexencoding-dump-etcpasswd#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						1048</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-28993" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/28993" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-28993" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/28993" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/cat">cat</a>
+                         
+                            <a href="/commands/using/echo">echo</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/31/cat">cat</a>
+                         
+                            <a href="/commands/tagged/121/echo">echo</a>
+                         
+                            <a href="/commands/tagged/447/shadow">shadow</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/28444/list-all-files-and-folders-with-attributes" title="Find out what others think of this command">List all files and folders with attributes</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-28444">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-28444" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-28444" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-28444">-3</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">gci -rec | Select-Object Mode, Name, CreationTime, LastAccessTime, LastWriteTime | ft -autosize</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/swarzynski">swarzynski</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-12-07 13:24:42                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/28444/list-all-files-and-folders-with-attributes#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						1478</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-28444" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/28444" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-28444" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/28444" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/1714/powershell">PowerShell</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/28303/copy-a-file-with-progress-and-save-hash-to-a-different-file" title="Find out what others think of this command">Copy a file with progress and save hash to a different file</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-28303">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-28303" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-28303" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-28303">4</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">pv file.txt | tee &gt;(sha1sum &gt; file.sha1) &gt; file-copy.txt</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/bugmenot">bugmenot</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-11-24 20:23:02                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/28303/copy-a-file-with-progress-and-save-hash-to-a-different-file#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						1302</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-28303" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/28303" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-28303" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/28303" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/sha1sum">sha1sum</a>
+                         
+                            <a href="/commands/using/tee">tee</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/38/tee">tee</a>
+                         
+                            <a href="/commands/tagged/609/pv">pv</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/28265/aws-s3api-cli-can-be-used-to-filter-objects-in-a-s3-bucket-based-on-the-last-modified-date-using-the-query-filter." title="Find out what others think of this command">AWS s3api CLI can be used to filter objects in a S3 bucket based on the Last Modified Date using the --query filter.</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    as explained in the blog post: https://www.learnaws.org/2022/10/10/aws-s3-list-files-date/ 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-28265">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-28265" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-28265" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-28265">-2</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">aws s3api list-objects-v2 --bucket my-bucket  --query 'Contents[?LastModified&gt;`2022-01-01`].Key'</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/shantanuo">shantanuo</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-11-22 07:57:44                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/28265/aws-s3api-cli-can-be-used-to-filter-objects-in-a-s3-bucket-based-on-the-last-modified-date-using-the-query-filter.#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						945</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-28265" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/28265" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-28265" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/28265" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/1320/s3">s3</a>
+                         
+                            <a href="/commands/tagged/1321/aws">aws</a>
+                         
+                            <a href="/commands/tagged/2906/awscli">awscli</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/28232/unzip-25-zip-files-files-at-once" title="Find out what others think of this command">Unzip 25 zip files files at once</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-28232">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-28232" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-28232" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-28232">3</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">find . -maxdepth 1 -name '*.zip' -print0 | xargs -0 -I {} -P 25 unzip {}</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/wuseman1">wuseman1</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-11-20 14:07:44                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/28232/unzip-25-zip-files-files-at-once#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						460</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-28232" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/28232" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-28232" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/28232" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/find">find</a>
+                         
+                            <a href="/commands/using/xargs">xargs</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/123/find">find</a>
+                         
+                            <a href="/commands/tagged/151/xargs">xargs</a>
+                         
+                            <a href="/commands/tagged/277/unzip">unzip</a>
+                         
+                            <a href="/commands/tagged/545/for">for</a>
+                         
+                            <a href="/commands/tagged/628/zip">zip</a>
+                         
+                            <a href="/commands/tagged/696/parallel">parallel</a>
+                         
+                            <a href="/commands/tagged/3476/find-exec">find -exec</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/28125/convert-an-image-sequence-into-a-video" title="Find out what others think of this command">Convert an image sequence into a video</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-28125">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-28125" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-28125" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-28125">9</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">ffmpeg -framerate 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p out.mp4</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/alikhalil">alikhalil</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-11-14 07:20:53                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/28125/convert-an-image-sequence-into-a-video#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						736</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-28125" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/28125" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-28125" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/28125" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27921/mysql-filter-out-specific-tables-from-an-existing-mysqldump-file-with-awk" title="Find out what others think of this command">MySQL: Filter out specific tables from an existing mysqldump file with awk</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    This command works only if the line "DROP TABLE IF EXISTS" exists for all tables in the mysqldump file. It acts like a state machine. 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27921">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27921" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27921" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27921">0</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">cat db_dump.sql | awk '/DROP TABLE IF EXISTS/ { skip = $5 ~ /table1|table2/ } !skip { print $0 }' &gt; db_dump_filtered.sql</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/stf42">stf42</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-10-30 16:58:57                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27921/mysql-filter-out-specific-tables-from-an-existing-mysqldump-file-with-awk#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						803</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27921" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27921" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27921" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27921" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/awk">awk</a>
+                         
+                            <a href="/commands/using/cat">cat</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/13/mysql">mysql</a>
+                         
+                            <a href="/commands/tagged/112/awk">awk</a>
+                         
+                            <a href="/commands/tagged/749/mysqldump">mysqldump</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27907/how-to-display-bash-history-without-line-numbers" title="Find out what others think of this command">How To Display Bash History Without Line Numbers</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    userful for direct copy & paste command for doumenation or next using 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-27907'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27907">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>systemctl restart docker
+docker system prune -a
+vim /etc/docker/daemon.json 
+hostname -f
+hostname cl-docker01
+vim /etc/hostname 
+hostname --help
+hostnamectl --help
+hostnamectl set-hostname cl-docker01
+hostnamectl status
+chown -R ghost:ghost /mnt/vda3
+chown -R ghost:ghost /mnt/vda3/
+groupadd docker
+usermod -aG docker ghost
+su -s ghost
+vim /etc/ssh/sshd_config 
+/etc/init.d/ssh restart
+ls /mnt/vda3/
+docker info
+docker ps
+apt install net-tools
+history
+mkdir /source
+id ghost
+</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27907" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27907" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27907">6</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">history -w /dev/stdout</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/aysadk">aysadk</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-10-29 15:17:37                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27907/how-to-display-bash-history-without-line-numbers#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						893</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27907" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27907" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27907" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27907" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/29/history">history</a>
+                         
+                            <a href="/commands/tagged/567/numbers">numbers</a>
+                         
+                            <a href="/commands/tagged/584/line">line</a>
+                         
+                            <a href="/commands/tagged/2237/history-search">history search</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27838/merge-multiple-jpgs-to-one-picture-vertikal" title="Find out what others think of this command">merge multiple jpgs to one picture vertikal</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    # convert tool is from deb imagemagick-6.q16
+apt install imagemagick-6.q16 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-27838'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27838">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>Output_merged_picture.jpg</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27838" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27838" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27838">3</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">convert picture-1.jpg  picture-2.jpg picture-3.jpg -append Output_merged_picture.jpg</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/aysadk">aysadk</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-10-25 15:34:48                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27838/merge-multiple-jpgs-to-one-picture-vertikal#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						541</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27838" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27838" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27838" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27838" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/2810/merged">merged</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27687/start-monitoring-your-server-with-a-single-curl-command." title="Find out what others think of this command">Start monitoring your server with a single curl command.</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    activate the first alert and the next ones are activated automatically. 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-27687'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27687">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>ATTENTION!!!: there is a new domain name!
+
+# start monitoring your server with a single curl command.
+curl ping.gl/me@example.org/104.28.13.51
+
+# activate the first alert and the next ones are activated automatically.
+curl ping.gl/me@example.org/example.org
+
+# you can skip the IP if you run it from the server, watch out for proxies, etc.
+curl ping.gl/me@example.org
+
+# create an HTTP or HTTPS status check specifying a full URL instead of a host.
+curl ping.gl/me@example.org/https://example.org
+
+</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27687" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27687" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27687">0</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">curl ping.gl</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/wuseman1">wuseman1</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-10-15 13:24:45                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27687/start-monitoring-your-server-with-a-single-curl-command.#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						871</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27687" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27687" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27687" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27687" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/141/ping">ping</a>
+                         
+                            <a href="/commands/tagged/235/curl">curl</a>
+                         
+                            <a href="/commands/tagged/265/http">http</a>
+                         
+                            <a href="/commands/tagged/284/monitoring">monitoring</a>
+                         
+                            <a href="/commands/tagged/1369/notify">notify</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27686/show-a-zoomable-world-map" title="Find out what others think of this command">Show a zoomable world map</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    show a zoomable world map 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27686">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27686" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27686" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27686">11</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">telnet mapscii.me</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/wuseman1">wuseman1</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-10-15 13:15:17                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27686/show-a-zoomable-world-map#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						544</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27686" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27686" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27686" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27686" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/telnet">telnet</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/166/map">map</a>
+                         
+                            <a href="/commands/tagged/285/telnet">telnet</a>
+                         
+                            <a href="/commands/tagged/1594/zombie">zombie</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27458/list-all-packages-in-ubuntudebian-that-no-package-depends-on" title="Find out what others think of this command">List all packages in Ubuntu/Debian that no package depends on</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27458">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27458" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27458" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27458">3</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">dpkg-query --show --showformat='${Package}\t${Status}\n' | tac | awk '/installed$/ {print $1}' | xargs apt-cache rdepends --installed | tac | awk '{ if (/^ /) ++deps; else if (!/:$/) { if (!deps) print; deps = 0 } }'</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/swarzynski">swarzynski</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-09-29 07:55:16                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27458/list-all-packages-in-ubuntudebian-that-no-package-depends-on#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						1010</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27458" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27458" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27458" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27458" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/awk">awk</a>
+                         
+                            <a href="/commands/using/tac">tac</a>
+                         
+                            <a href="/commands/using/xargs">xargs</a>
+                                            </div>
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27327/print-nic-name-of-current-connection" title="Find out what others think of this command">Print nic name of current connection</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27327">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27327" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27327" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27327">2</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">nmcli -g name,type connection  show  --active|awk -F: '/ethernet|wireless/ { print $1 }'</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/wuseman1">wuseman1</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-09-22 20:16:21                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27327/print-nic-name-of-current-connection#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						680</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27327" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27327" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27327" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27327" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/awk">awk</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/112/awk">awk</a>
+                         
+                            <a href="/commands/tagged/2031/wifi">wifi</a>
+                         
+                            <a href="/commands/tagged/3113/networkmanager">NetworkManager</a>
+                         
+                            <a href="/commands/tagged/3169/nmcli">nmcli</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27270/simple-tar" title="Find out what others think of this command">Simple tar</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    Simple commant to tar a path 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27270">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27270" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27270" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27270">-2</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">tar -cvzf file.tar.gz path</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/x3mboy">x3mboy</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-09-17 16:40:09                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27270/simple-tar#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						870</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27270" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27270" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27270" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27270" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/tar">tar</a>
+                                            </div>
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27199/rclone-dump-teamdrive-config-to-config-file" title="Find out what others think of this command">rclone - dump teamdrive config to config file</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27199">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27199" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27199" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27199">0</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">$ rclone backend -o your-config.conf drives mydrive:</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/dbiesecke">dbiesecke</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-09-09 15:58:16                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27199/rclone-dump-teamdrive-config-to-config-file#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						599</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27199" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27199" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27199" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27199" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27147/url-redirect-tracer-with-curl" title="Find out what others think of this command">url redirect tracer with curl</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    tracing redirects for a given url shortener 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-27147'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27147">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>Location: https://www.shorturl.at/dfIJQ
+location: https://youtu.be/dQw4w9WgXcQ
+location: https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;feature=youtu.be
+</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27147" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27147" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27147">6</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">curl --silent -I -L shorturl.at/dfIJQ | grep -i location</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/aysadk">aysadk</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-09-04 19:31:46                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27147/url-redirect-tracer-with-curl#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						772</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27147" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27147" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27147" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27147" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/grep">grep</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/235/curl">curl</a>
+                         
+                            <a href="/commands/tagged/341/redirect">redirect</a>
+                         
+                            <a href="/commands/tagged/1006/url">url</a>
+                         
+                            <a href="/commands/tagged/2209/url-shortner">url shortner</a>
+                         
+                            <a href="/commands/tagged/3765/trace">trace</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27130/qemu-from-fedora-livecd-device-cd-device-disk-uefi-800x600-forced" title="Find out what others think of this command">QEMU From Fedora Livecd + Device CD + Device Disk + UEFI + 800x600 forced</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    Entire command:
+sudo qemu-system-x86_64 -enable-kvm -cpu host -M q35 -m 2G -smp 4 --bios /usr/share/edk2/ovmf/OVMF_CODE.fd -drive id=cdrom,file=/dev/sr1,if=none,media=cdrom,format=raw,readonly=on -drive id=disk,file=/dev/md126,if=none,format=raw -device virtio-blk-pci,drive=cdrom -device virtio-blk-pci,drive=disk -device VGA,vgamem_mb=64,xres=800,yres=600 
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27130">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27130" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27130" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27130">-2</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">sudo qemu-system-x86_64 ...</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/pqatsi">pqatsi</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-09-02 20:07:02                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27130/qemu-from-fedora-livecd-device-cd-device-disk-uefi-800x600-forced#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						515</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27130" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27130" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27130" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27130" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/sudo">sudo</a>
+                                            </div>
+                                                        </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27055/extend-lvm-and-online-resize-filesystem" title="Find out what others think of this command">Extend LVM and online resize filesystem</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    Default volume group in Ubuntu is ubuntu-vg and the logical volume is ubuntu-lv, so the provided command will resize the disk to utilize 100% of the available space. 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-27055'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27055">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>  Size of logical volume ubuntu-vg/ubuntu-lv changed from &lt;14.25 GiB (3647 extents) to &lt;28.50 GiB (7295 extents).
+  Logical volume ubuntu-vg/ubuntu-lv successfully resized.
+resize2fs 1.45.5 (07-Jan-2020)
+Filesystem at /dev/ubuntu-vg/ubuntu-lv is mounted on /; on-line resizing required
+old_desc_blocks = 2, new_desc_blocks = 4
+The filesystem on /dev/ubuntu-vg/ubuntu-lv is now 7470080 (4k) blocks long.</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27055" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27055" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27055">0</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv &amp;&amp; resize2fs /dev/ubuntu-vg/ubuntu-lv</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/sxiii">sxiii</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-08-26 13:02:10                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27055/extend-lvm-and-online-resize-filesystem#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						885</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27055" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27055" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27055" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27055" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/resize2fs">resize2fs</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/5/filesystem">Filesystem</a>
+                         
+                            <a href="/commands/tagged/44/ubuntu">Ubuntu</a>
+                         
+                            <a href="/commands/tagged/1066/resize">resize</a>
+                         
+                            <a href="/commands/tagged/1106/lvm">lvm</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27039/clean-or-clean-pacman-and-pamac-cache" title="Find out what others think of this command">Clean or clean pacman and pamac cache</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                     
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27039">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre></pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27039" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27039" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27039">0</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">sudo pacman -Scc &amp;&amp; pamac clean -b</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/bugmenot">bugmenot</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-08-24 19:10:38                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27039/clean-or-clean-pacman-and-pamac-cache#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						565</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27039" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27039" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27039" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27039" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/sudo">sudo</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/1253/cache">cache</a>
+                         
+                            <a href="/commands/tagged/1687/arch-linux">arch linux</a>
+                         
+                            <a href="/commands/tagged/1689/pacman">pacman</a>
+                         
+                            <a href="/commands/tagged/3734/pamac">pamac</a>
+                         
+                            <a href="/commands/tagged/3735/manjaro">manjaro</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                <li class="list-group-item one-liner">
+			<div class="col-md-10">
+                <div class="summary" style="font-size:1.5em;font-weight:bold;overflow:hidden">
+                    <a href="/commands/view/27018/sort-disk-usage-from-directories" title="Find out what others think of this command">Sort disk usage from directories</a>
+                </div>
+                <div class="description" style="overflow:auto">
+					<p>
+                    Sort disk usage from directories in the current directory 
+                                    <a class="text-muted" href="javascript:void(0)" onclick="Terminal.toggleSampleOutput($(this),$('sample-output-27018'))">Show Sample Output</a>
+                					</p>
+                </div>
+
+				<div style="display:none" class="sample-output" id="sample-output-27018">
+					<div class="output-meta">
+						This is sample output - yours may be different.
+					</div>
+					<div class="output">
+						<pre>4.0K    ./jenkins_home
+8.0K    ./.docker
+8.0K    ./.gnupg
+8.0K    ./.oracle_jre_usage
+12K     ./.local
+28K     ./.config
+36K     ./.ssh
+40K     ./helm
+140K    ./.ansible
+2.7M    ./x3mboy
+15M     ./.cache
+15M     ./.kube
+43M     ./.krew
+3.7G    ./rancher</pre>
+					</div> 
+				</div>
+
+			</div>
+			<div class="col-md-2">
+                <div class="votes">
+                    <div class="pull-right voting-options" style="display:inline-block;margin-right:5px">
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-up-27018" class="glyphicon glyphicon-chevron-up"></i></a><br/>
+                        <a href="javascript:void(0)" class="vote-button"><i id="vote-down-27018" class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                    <div style="position:absolute;top:3px;right:1.3em;display:inline-block;" class="num-votes" id="num-votes-27018">2</div>
+					<div class="clearfix"></div>
+                </div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="line" title="Click to select this command" style="font-family:">
+					<span class="glyphicon glyphicon-usd" style="position:absolute;color:white;padding:.5em;font-size:85%;top:6px;"></span>
+					<span style="padding-left:2em;overflow:auto" class="command code bash">du --max-depth=1 -h . | sort -h</span>
+				</div>
+			</div>
+			<div class="col-md-12" style="padding-top:10px;">
+                    <span class="author">
+                        <a class="text-muted" href="/commands/by/x3mboy">x3mboy</a>
+                    </span>
+                    <span class="date text-muted">
+						&middot;
+                    	2022-08-23 14:58:57                    </span>
+					
+					<span class="pull-right" style="margin-right: 5em;">
+                		<a class="text-muted" href="/commands/view/27018/sort-disk-usage-from-directories#comment">
+						<span class="glyphicon glyphicon-comment"></span>
+						490</a>
+					</span>
+					<span class="pull-right" style="margin-right: 1em;">
+												<a class="pull-right favourite-link" href="javascript:void(0)"><i id="toggle-favourite-27018" class="glyphicon glyphicon-star-empty"></i></a>
+					</span>
+				
+			</div>
+					<div class="btn-group" style="position:absolute;right:10px;cursor:pointer">
+					  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a href="/commands/edit/0/27018" title="Submit a superior alternative">Submit alternative</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a class="report-link" id="report-27018" href="javascript:void(0)" title="Report this command as malicious">Report as malicious</a></li>
+						<li><a href="/commands/duplicate/27018" title="Report as duplicate">Report as a duplicate</a></li>
+					  </ul>
+					</div>
+			<div class="clearfix"></div>
+<!--
+            <div class="details">
+                <div class="meta">
+                                        <div class="functions">
+                        Functions:
+                         
+                            <a href="/commands/using/du">du</a>
+                         
+                            <a href="/commands/using/sort">sort</a>
+                                            </div>
+                                                            <div class="functions">
+                        Tags:
+                         
+                            <a href="/commands/tagged/96/disk-usage">disk usage</a>
+                         
+                            <a href="/commands/tagged/1382/disk">disk</a>
+                                            </div>
+                                    </div>
+                <div class="options">
+                </div>
+            </div>
+-->
+        </li>
+                        <li class="list-group-item">
+            &nbsp;<a href="/commands/browse/25/">&lt;</a>&nbsp;<a href="/commands/browse/25/">1</a>&nbsp;<b>2</b>&nbsp;<a href="/commands/browse/25/50">3</a>&nbsp;<a href="/commands/browse/25/75">4</a>&nbsp;<a href="/commands/browse/25/50">&gt;</a>&nbsp;&nbsp;<a href="/commands/browse/25/14175">Last &rsaquo;</a>        </li>
+    	    	</ul>
+</div>
+
+
+  </div>
+  <div class="col-md-3 col-lg-4">
+
+            
+
+<div class="box-copy">
+    <h3 class="righthead">What's this?</h3>
+    <div class="toggleable">
+        <p><strong>commandlinefu.com</strong> is the place to record those command-line gems that you return to again and again.
+        That way others can gain from your <abbr title="Command-line interface">CLI</abbr> wisdom and you from theirs too.  All commands can be commented on, discussed and 
+        voted up or down. </p>
+		<p class="text-center"><a class="btn btn-warning" href="/commands/edit"><strong><i class="glyphicon glyphicon-plus"></i> Share Your Commands</strong></a></p>
+        <!-- <p>If you have a new feature suggestion or find a bug, please 
+        get in touch via <a href="http://commandlinefu.uservoice.com/"><strong>http://commandlinefu.uservoice.com/</strong></a><p>-->
+    </div>
+</div>
+<hr />
+<div class="box-copy">
+    <h3 class="righthead">Check These Out</h3>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/25945/shows-picture-exif-gps-info-if-any-and-converts-coords-to-a-decimal-degree-number">Shows picture exif GPS info if any and converts coords to a decimal degree number</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">This oneliner uses Imagemagic's identify utility to show the exif GPS information of an image an also converts Grad/MIn/Sec representation to a decimal degree number</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/9112/force-the-script-to-be-started-as-root">Force the script to be started as root</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Will run the script as root and exit if the wrong or no password is given. Also will keep the parameters active if any where given.</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/7581/rtfm-function">RTFM function</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">RTFMFTW.</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/7871/calculate-sum-of-n-numbers-thanks-to-flatcap">Calculate sum of N numbers (Thanks to flatcap)</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">replaces "\n" with "+"</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/10909/toggle-between-directories">Toggle between directories</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">switch to previous directory or toggle</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/11687/send-apache-log-to-syslog-ng">Send apache log to syslog-ng</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Send apache  log to syslog-ng server without change configuration of syslog.
+Just add in httpd.conf or vhost conf.</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/840/recall-last-argument-of-previous-command">Recall last argument of previous command</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">!$ recalls the last argument of the previous command. This is very useful when you have to operate several operations on the same file for example.</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/164/like-top-but-for-files">Like top, but for files</a></div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/3493/remove-all-files-but-one-starting-with-a-letters">Remove all files but one starting with a letter(s)</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Remove everything in current directory except files starting with "ca".</div>
+				</p>
+			<p>
+		<div style="font-weight:bold;overflow:hidden;white-space:nowrap;text-overflow:ellipsis"><a href="/commands/view/9346/using-pipes-execute-a-command-convert-output-to-.png-file-upload-file-to-imgur.com-then-returning-the-address-of-the-.png.">Using PIPEs, Execute a command, convert output to .png file, upload file to imgur.com, then returning the address of the .png.</a></div>
+				<div style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">imgur < /etc/issue
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2360    0   635  100  1725   1027   2792 --:--:-- --:--:-- --:--:--  4058
+http://i.imgur.com/bvbUD.png</div>
+				</p>
+	</div>
+<hr>
+<div class="box-copy">
+    <h3 class="righthead">Stay in the loop&hellip;</h3>
+    <div class="toggleable">
+        <dl>
+            <dt>Follow the Tweets.</dt>  
+            <dd>
+                <a href="http://twitter.com/commandlinefu"><img class="link-img" src="/images/twitter.jpg" /></a>
+                <p>Every new command is wrapped in a tweet and posted
+                to <a href="http://twitter.com">Twitter</a>. Following the stream is a great way of staying abreast of the latest commands.  For the more discerning, 
+                there are Twitter accounts for commands that get a minimum of 3 and 10 votes - that way only the great commands get tweeted.</p>
+                <p>
+                &raquo; <a style="font-weight:bold;" href="http://twitter.com/commandlinefu">http://twitter.com/commandlinefu</a><br/>
+                &raquo; <a style="font-weight:bold;" href="http://twitter.com/commandlinefu3">http://twitter.com/commandlinefu3</a><br/>
+                &raquo; <a style="font-weight:bold;" href="http://twitter.com/commandlinefu10">http://twitter.com/commandlinefu10</a>
+                </p>
+            </dd>
+            <dt>Subscribe to the feeds.</dt>
+            <dd>
+                <a style="font-weight:bold;" href="http://feeds2.feedburner.com/Command-line-fu"><img class="link-img" src="/images/rss.gif" /></a>
+                <p>Use your favourite RSS aggregator to stay in touch with the latest commands.  There are feeds mirroring the 3 Twitter streams
+                as well as for virtually every other subset (users, tags, functions,&hellip;):</p>
+                <p>Subscribe to the feed for:</p>
+                <ul id="feed-links">
+                <li>&raquo; <a style="font-weight:bold;" href="http://feeds2.feedburner.com/Command-line-fu">all commands</a></li>
+                <li>&raquo; <a style="font-weight:bold;" href="/feed/threeup">commands with 3 up-votes</a> (commandlinefu3)</li>
+                <li>&raquo; <a style="font-weight:bold;" href="/feed/tenup">commands with 10 up-votes</a> (commandlinefu10)</li>
+                                </ul>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<!--
+<div class="box-copy">
+    <a class="visibility-toggle" id="box-copy-tags">Hide</a>
+    <h3>Top Tags</h3>
+    <div class="toggleable"><br>
+        <a href="/commands/tagged/112/awk">awk</a>, <a href="/commands/tagged/34/bash">bash</a></li>, 
+	<a href="/commands/tagged/235/curl">curl</a>, 
+	<a href="/commands/tagged/123/find">find</a>, 
+	<a href="/commands/tagged/163/grep">grep</a>, 
+	<a href="/commands/tagged/64/linux">Linux</a>, <a href="/commands/tagged/110/sed">sed</a></li>
+	</ul>
+    </div>
+</div>
+
+<div class="box-copy">
+    <a class="visibility-toggle" id="box-copy-functions">Hide</a>
+    <h3>Functions</h3>
+    <div class="toggleable">
+            </div>
+</div>
+-->
+
+  </div>
+ </div>
+</div>
+
+<footer class="bs-footer" role="contentinfo" style="background-color:#F5F5F5;">
+  <div class="container">
+    <p style="padding-top:20px;">commandlinefu.com &copy; 2018 <a href="https://www.danstools.com" target="_blank">Dan's Tools</a> | <a href="/site/faq">FAQs</a> | <a href="/site/api">API</a> | <a href="/site/widget">Widget</a>  | <a href="/site/privacy">Privacy</a></p>
+  </div>
+
+</footer>
+
+
+<!--    <div id="wrapper">
+        
+        <div id="right-block">
+        </div>
+        
+        <div id="header">
+            <h4><a href="/commands/browse" title="commandlinefu.com - the greatest commands on the web"><img src="/images/header-logo.jpg" alt="commandlinefu.com" /></a></h4>
+            <div id="nav">
+                <strong><a href="/commands/random" title="Lucky dip">Random</a></strong> |
+                <strong><a href="/commands/browse/last-week/sort-by-votes" title="Piping host commands from the last 7 days">Hot this week</a></strong> |
+                <strong><a href="/commands/browse/sort-by-votes" title="See the all-time greatest commands">All-time greats</a></strong> &bull;
+                <strong><a href="/site/faq"><abbr title="Frequently asked questions">FAQ</abbr></a></strong> |
+                <strong><a href="/site/api"><abbr title="API documentation">API</abbr></a></strong> |
+                <strong><a href="/site/widget"><abbr title="Javascript widget">Widget</abbr></a></strong>
+            </div>    
+            <div id="search">
+                <form id="search-form" action="/search/handler" method="post" >
+                    <div id="search-container">
+                        <img id="loading" src="/images/tag-loader.gif" style="display:none;float:right;margin: 5px 5px 0 0;" />
+                        <input type="text" id="search-query" class="inactive" name="q" autocomplete="off" value="" placeholder="type here to grep the archive..." />
+                    </div>
+                </form>
+                <div style="display:none" id="search-options"></div>
+            </div>
+        </div>
+        
+        
+        <div id="left-block">
+        </div>
+        
+        <div id="footer">
+        
+            <div class="advertising">
+                            </div>
+        </div>
+    </div>
+-->    
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+    $.noConflict();
+
+    if (typeof Prototype !== "undefined" && Prototype.BrowserFeatures.ElementExtensions)
+    {
+        var disablePrototypeJS = function (method, pluginsToDisable)
+        {
+            var handler = function (event)
+            {
+                event.target[method] = undefined;
+                setTimeout(function ()
+                {
+                    delete event.target[method];
+                }, 0);
+            };
+
+            pluginsToDisable.each(function (plugin)
+            {
+                jQuery(window).on(method + '.bs.' + plugin, handler);
+            });
+        },
+
+        pluginsToDisable = ['collapse', 'dropdown', 'modal', 'tooltip', 'popover', 'tab','collect'];
+        disablePrototypeJS('show', pluginsToDisable);
+        disablePrototypeJS('hide', pluginsToDisable);
+    }
+	</script>
+	<script>
+jQuery( document ).ready(function() {
+
+	hljs.initHighlightingOnLoad();
+	hljs.configure({useBR: true});
+
+	jQuery('span.code').each(function(i, block) {
+	  hljs.highlightBlock(block);
+	});
+
+    if (1==0 && window.canRunAds === true) {
+        jQuery('#blocker').hide();
+    } else { jQuery('#blocker').show(); }
+});
+
+	</script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="/js/ads.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+// Create a new div element
+const newDiv = document.createElement("div");
+
+// Set some attributes (optional)
+newDiv.id = "myNewDiv";
+newDiv.className = "customDiv";
+
+// Add some text content (optional)
+newDiv.textContent = "Hello, world!";
+
+// Append the new div to an existing element in the DOM
+document.body.appendChild(newDiv);
