@@ -1,0 +1,5 @@
+Merge https://github.com/wardmon/github-actions-cron
+
+Conflicts:
+	.gitignore
+	README.md

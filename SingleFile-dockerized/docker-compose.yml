@@ -1,0 +1,9 @@
+version: '3'
+services:
+  singlefile:
+    container_name: singlefile
+    image: screenbreak/singlefile-dockerized
+    entrypoint: python3
+    command: webserver.py
+    expose:
+      - 80
