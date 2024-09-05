@@ -1,0 +1,18 @@
+docker openvpn
+==============
+docker run -v /home/joylau/ovpn-data:/etc/openvpn --rm kylemanna/openvpn ovpn_genconfig -u tcp://45.32.200.249
+docker run -v /home/joylau/ovpn-data:/etc/openvpn --rm -it kylemanna/openvpn ovpn_initpki 
+docker run -v /home/joylau/ovpn-data:/etc/openvpn --rm -it kylemanna/openvpn easyrsa build-client-full liufa
+docker run -v /home/joylau/ovpn-data:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient liufa > /home/joylau/ovpn-data/liufa.ovpn
+docker run --name openvpnk -v /home/joylau/ovpn-data:/etc/openvpn -d -p 2080:2080 -p 1194:1194 --privileged kylemanna/openvpn
+
+docker run \
+-v /home/joylau/ovpn-data:/etc/openvpn \
+-v /home/joylau/ovpn-data/db:/opt/openvpn-ui/db \
+-v /home/joylau/ovpn-data/pki:/usr/share/easy-rsa/pki \
+-v /home/joylau/ovpn-data/log:/var/log/openvpn \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-e OPENVPN_ADMIN_USERNAME='admin' \
+-e OPENVPN_ADMIN_PASSWORD='111111' \
+-p 8080:8080/tcp \
+--privileged d3vilh/openvpn-ui:latest

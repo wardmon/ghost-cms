@@ -1,0 +1,1217 @@
+scoop-export
+============
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://scoop.201704.xyz/https://github.com/ScoopInstaller/Main",
+            "Updated": {
+                "value": "\/Date(1713846433000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024年4月23日 12:27:13"
+            },
+            "Manifests": 1317
+        },
+        {
+            "Name": "extras",
+            "Source": "https://scoop.201704.xyz/https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1713849520000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024年4月23日 13:18:40"
+            },
+            "Manifests": 2013
+        },
+        {
+            "Name": "versions",
+            "Source": "https://scoop.201704.xyz/https://github.com/ScoopInstaller/Versions",
+            "Updated": {
+                "value": "\/Date(1713846707000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024年4月23日 12:31:47"
+            },
+            "Manifests": 449
+        },
+        {
+            "Name": "java",
+            "Source": "https://scoop.201704.xyz/https://github.com/ScoopInstaller/Java",
+            "Updated": {
+                "value": "\/Date(1713802679000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024年4月23日 0:17:59"
+            },
+            "Manifests": 273
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "23.01",
+            "Updated": "\/Date(1703055898062)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "adb",
+            "Version": "35.0.0",
+            "Updated": "\/Date(1711168008551)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "alist",
+            "Version": "3.33.0",
+            "Updated": "\/Date(1712716935335)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "aqtinstall",
+            "Version": "3.1.12",
+            "Updated": "\/Date(1713780060178)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "autohotkey",
+            "Version": "2.0.12",
+            "Updated": "\/Date(1711169106369)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "bat2exe",
+            "Version": "2.0",
+            "Updated": "\/Date(1711503269876)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "bgpkiller",
+            "Version": "0.9.6.0",
+            "Updated": "\/Date(1710907194023)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "bleachbit",
+            "Version": "4.6.0",
+            "Updated": "\/Date(1711621766455)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "busybox",
+            "Version": "5301-gda71f7c57",
+            "Updated": "\/Date(1710907043738)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "cacert",
+            "Version": "2023-12-12",
+            "Updated": "\/Date(1709367929733)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "carotdav",
+            "Version": "1.16.3",
+            "Updated": "\/Date(1711612159873)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "chromium",
+            "Version": "123.0.6312.123-r1262506",
+            "Updated": "\/Date(1712975464308)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "claws-mail",
+            "Version": null,
+            "Updated": "\/Date(1713591679764)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "clink",
+            "Version": "1.6.5",
+            "Updated": "\/Date(1709111565348)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "clipboard",
+            "Version": "0.9.0.1",
+            "Updated": "\/Date(1711617288596)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "cmake",
+            "Version": "3.29.2",
+            "Updated": "\/Date(1713783195599)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ctags",
+            "Version": "5.8",
+            "Updated": "\/Date(1708937714581)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "curl",
+            "Version": "8.5.0_6",
+            "Updated": "\/Date(1706588059314)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "cwrsync",
+            "Version": "6.3.0",
+            "Updated": "\/Date(1713853201038)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "dangerzone",
+            "Version": null,
+            "Updated": "\/Date(1712046135046)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "dark",
+            "Version": "3.14",
+            "Updated": "\/Date(1711339766053)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "deskpins",
+            "Version": "1.32",
+            "Updated": "\/Date(1711676479082)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "diskgenius",
+            "Version": "5.5.1.1508",
+            "Updated": "\/Date(1711503010613)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "ditto",
+            "Version": "3.24.246.0",
+            "Updated": "\/Date(1711686122242)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "dnslookup",
+            "Version": "1.10.0",
+            "Updated": "\/Date(1705131470371)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "docker",
+            "Version": "25.0.3",
+            "Updated": "\/Date(1709193707187)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "docker-compose",
+            "Version": "2.23.3",
+            "Updated": "\/Date(1704780825957)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "driverstoreexplorer",
+            "Version": "0.11.92",
+            "Updated": "\/Date(1713163107011)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "duf",
+            "Version": "0.8.1",
+            "Updated": "\/Date(1711165938352)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "dufs",
+            "Version": "0.40.0",
+            "Updated": "\/Date(1711165985505)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "everything",
+            "Version": "1.4.1.1024",
+            "Updated": "\/Date(1711166747827)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "f.lux",
+            "Version": "4.134",
+            "Updated": "\/Date(1711168299104)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "fclones",
+            "Version": "0.34.0",
+            "Updated": "\/Date(1713175528215)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ffsend",
+            "Version": "0.2.76",
+            "Updated": "\/Date(1713508306836)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "fiddler",
+            "Version": "5.0.20242.10753",
+            "Updated": "\/Date(1711621979472)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "flyctl",
+            "Version": "0.1.141",
+            "Updated": "\/Date(1705126607681)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "freeclipboardviewer",
+            "Version": "4.0",
+            "Updated": "\/Date(1711617103404)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "freemove",
+            "Version": "2.1.0",
+            "Updated": "\/Date(1710907580057)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "frp",
+            "Version": "0.54.0",
+            "Updated": "\/Date(1709963896064)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "fsviewer",
+            "Version": "7.8",
+            "Updated": "\/Date(1711167938338)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.48.1",
+            "Updated": "\/Date(1711529060315)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "gcc",
+            "Version": null,
+            "Updated": "\/Date(1712377251037)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "geekuninstaller",
+            "Version": "1.5.2.165",
+            "Updated": "\/Date(1711167665482)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gh",
+            "Version": "2.45.0",
+            "Updated": "\/Date(1710581612210)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "gifcam",
+            "Version": "7.0",
+            "Updated": "\/Date(1711167745639)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gifsicle",
+            "Version": "1.95",
+            "Updated": "\/Date(1713863585610)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gifski",
+            "Version": "1.14.4",
+            "Updated": "\/Date(1713863802957)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.43.0",
+            "Updated": "\/Date(1703058231721)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gogs",
+            "Version": "0.13.0",
+            "Updated": "\/Date(1713145722697)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gradle",
+            "Version": "8.7",
+            "Updated": "\/Date(1713861679600)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "grep",
+            "Version": "3.11",
+            "Updated": "\/Date(1705735201520)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gzip",
+            "Version": "1.3.12",
+            "Updated": "\/Date(1705732898485)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "innotop",
+            "Version": null,
+            "Updated": "\/Date(1711177361688)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "innounp",
+            "Version": "0.50",
+            "Updated": "\/Date(1710907191664)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "insomnia",
+            "Version": null,
+            "Updated": "\/Date(1713597484211)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "keepass",
+            "Version": "2.56",
+            "Updated": "\/Date(1711335274218)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "kind",
+            "Version": "0.22.0",
+            "Updated": "\/Date(1709952107151)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "kubectl",
+            "Version": "1.29.2",
+            "Updated": "\/Date(1709953210122)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "lean-cli",
+            "Version": "1.2.4",
+            "Updated": "\/Date(1705377895932)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "less",
+            "Version": "643",
+            "Updated": "\/Date(1705053584662)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "listary",
+            "Version": "6.2.0.42",
+            "Updated": "\/Date(1711166800985)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "localsend",
+            "Version": "1.13.1",
+            "Updated": "\/Date(1708919145870)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "lrzsz",
+            "Version": "0.12.21rc",
+            "Updated": "\/Date(1711529264784)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mailhog",
+            "Version": "1.0.1",
+            "Updated": "\/Date(1713510505969)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mailpit",
+            "Version": "1.16.0",
+            "Updated": "\/Date(1713510975214)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mailsend-go",
+            "Version": "1.0.10",
+            "Updated": "\/Date(1713509238978)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "make",
+            "Version": "4.4.1",
+            "Updated": "\/Date(1711177355623)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "maven",
+            "Version": "3.9.6",
+            "Updated": "\/Date(1703754992269)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mdcat",
+            "Version": "2.1.0",
+            "Updated": "\/Date(1705053061908)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mingw",
+            "Version": "13.2.0-rt_v11-rev1",
+            "Updated": "\/Date(1712376207080)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "mobaxterm",
+            "Version": "24.0",
+            "Updated": "\/Date(1711440296608)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "monolith",
+            "Version": "2.8.1",
+            "Updated": "\/Date(1712974089772)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "mpc-qt",
+            "Version": "23.12",
+            "Updated": "\/Date(1713841352860)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "mqttx",
+            "Version": "1.9.10",
+            "Updated": "\/Date(1712660828409)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "msys2",
+            "Version": "2024-01-13",
+            "Updated": "\/Date(1711441861211)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mysql",
+            "Version": "8.3.0",
+            "Updated": "\/Date(1711180185119)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mysql-workbench",
+            "Version": "8.0.36",
+            "Updated": "\/Date(1710904284671)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "nano",
+            "Version": "7.2-22.1",
+            "Updated": "\/Date(1703056011097)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "neofetch",
+            "Version": "7.1.0",
+            "Updated": "\/Date(1703058563283)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "netcat",
+            "Version": "1.12",
+            "Updated": "\/Date(1711613042821)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "netch",
+            "Version": "1.9.7",
+            "Updated": "\/Date(1711613009804)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "nettraffic",
+            "Version": null,
+            "Updated": "\/Date(1711620801919)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "nmap",
+            "Version": "7.94",
+            "Updated": "\/Date(1704509673105)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "noi",
+            "Version": "0.4.0",
+            "Updated": "\/Date(1712632937903)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "nuget",
+            "Version": "6.9.1",
+            "Updated": "\/Date(1712048896890)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "obs-studio",
+            "Version": "30.1.2",
+            "Updated": "\/Date(1712918465349)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "obsidian",
+            "Version": "1.5.12",
+            "Updated": "\/Date(1712918667001)\/"
+        },
+        {
+            "Info": "",
+            "Source": "versions",
+            "Name": "oh-my-posh2",
+            "Version": "2.0.496",
+            "Updated": "\/Date(1712029330242)\/"
+        },
+        {
+            "Info": "",
+            "Source": "java",
+            "Name": "ojdkbuild8-jre",
+            "Version": "1.8.0.332-1.b09",
+            "Updated": "\/Date(1712374826578)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "onlyoffice-desktopeditors",
+            "Version": null,
+            "Updated": "\/Date(1712975431856)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "openark",
+            "Version": "1.3.4",
+            "Updated": "\/Date(1712549866372)\/"
+        },
+        {
+            "Info": "",
+            "Source": "java",
+            "Name": "openjdk10",
+            "Version": "10.0.2-13",
+            "Updated": "\/Date(1703748696256)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "openlens",
+            "Version": null,
+            "Updated": "\/Date(1713153411142)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "openssh",
+            "Version": "9.5.0.0p1",
+            "Updated": "\/Date(1709803458432)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "optimizer",
+            "Version": "16.4",
+            "Updated": "\/Date(1712647883469)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "oraclejre8",
+            "Version": null,
+            "Updated": "\/Date(1712374722230)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "php8",
+            "Version": "8.3.1",
+            "Updated": "\/Date(1703318247760)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "picgo",
+            "Version": "2.3.1",
+            "Updated": "\/Date(1711167193995)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "podman",
+            "Version": "5.0.0",
+            "Updated": "\/Date(1711678038768)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "podman-desktop",
+            "Version": "1.8.0",
+            "Updated": "\/Date(1711677371266)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "posh-git",
+            "Version": "1.1.0",
+            "Updated": "\/Date(1712029328190)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "powertoys",
+            "Version": "0.79.0",
+            "Updated": "\/Date(1712046124000)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "processhacker",
+            "Version": "2.39",
+            "Updated": "\/Date(1711616965310)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "psfzf",
+            "Version": "2.5.22",
+            "Updated": "\/Date(1711529024129)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "python",
+            "Version": "3.12.2",
+            "Updated": "\/Date(1711339829757)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "pywebsocket3",
+            "Version": null,
+            "Updated": "\/Date(1711339522836)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "qt-creator",
+            "Version": "13.0.0",
+            "Updated": "\/Date(1713781472867)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "quicklook",
+            "Version": "3.7.3",
+            "Updated": "\/Date(1709802568032)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "qutebrowser",
+            "Version": null,
+            "Updated": "\/Date(1713842196174)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "rclone",
+            "Version": "1.66.0",
+            "Updated": "\/Date(1713175376730)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rclone-browser",
+            "Version": "1.8.0",
+            "Updated": "\/Date(1713175473883)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "recuva",
+            "Version": "1.53.2096",
+            "Updated": "\/Date(1711621855952)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "renamer",
+            "Version": "7.5",
+            "Updated": "\/Date(1710918004112)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "restart-explorer",
+            "Version": "1.7",
+            "Updated": "\/Date(1711502887105)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "rktools2k3",
+            "Version": "1.0",
+            "Updated": "\/Date(1711619011949)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rnote",
+            "Version": "0.10.2",
+            "Updated": "\/Date(1713241754805)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rufus",
+            "Version": "4.4",
+            "Updated": "\/Date(1710206472725)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "scoop-search",
+            "Version": "1.4.1",
+            "Updated": "\/Date(1709792744660)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "screentogif",
+            "Version": "2.40.1",
+            "Updated": "\/Date(1711167824645)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sdcc",
+            "Version": "4.3.0",
+            "Updated": "\/Date(1712373846246)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sed",
+            "Version": "4.9",
+            "Updated": "\/Date(1706259075276)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "shadowsocks",
+            "Version": "4.4.1.0",
+            "Updated": "\/Date(1711359173732)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "shadowsocks-rust",
+            "Version": "1.18.2",
+            "Updated": "\/Date(1711360127123)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "sharex",
+            "Version": "16.0.1",
+            "Updated": "\/Date(1711167484504)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "smarttaskbar",
+            "Version": "1.4.5",
+            "Updated": "\/Date(1710907583471)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "smartty",
+            "Version": "3.3",
+            "Updated": "\/Date(1712629179410)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "snipaste",
+            "Version": "1.16.2",
+            "Updated": "\/Date(1711166589928)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "springboot",
+            "Version": "3.2.2",
+            "Updated": "\/Date(1706520861334)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sqlite",
+            "Version": "3.45.3",
+            "Updated": "\/Date(1713513572765)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "sqlitebrowser",
+            "Version": null,
+            "Updated": "\/Date(1713513575017)\/"
+        },
+        {
+            "Info": "",
+            "Source": "versions",
+            "Name": "sqlitebrowser-nightly",
+            "Version": "2024-04-19",
+            "Updated": "\/Date(1713513605917)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "srvman",
+            "Version": "1.0",
+            "Updated": "\/Date(1709793565040)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.17.1",
+            "Updated": "\/Date(1705462643503)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sudo",
+            "Version": "0.2020.01.26",
+            "Updated": "\/Date(1709803636423)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "switchhosts",
+            "Version": "4.1.2.6086",
+            "Updated": "\/Date(1711169692799)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "sysinternals",
+            "Version": "2024.2.13",
+            "Updated": "\/Date(1711620170859)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "taskbarx",
+            "Version": "1.7.8.0",
+            "Updated": "\/Date(1712627677705)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "tinytask",
+            "Version": "1.77",
+            "Updated": "\/Date(1712629806837)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "trafficmonitor",
+            "Version": "1.84.1",
+            "Updated": "\/Date(1711619441327)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "trzsz",
+            "Version": "1.1.7",
+            "Updated": "\/Date(1711529970754)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "tssh",
+            "Version": "0.1.19",
+            "Updated": "\/Date(1713498623969)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "twinkle-tray",
+            "Version": "1.15.4",
+            "Updated": "\/Date(1711168083189)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ugrep",
+            "Version": "4.5.2",
+            "Updated": "\/Date(1705128702970)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "unzip",
+            "Version": "6.00",
+            "Updated": "\/Date(1706605494517)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "uutils-coreutils",
+            "Version": "0.0.23",
+            "Updated": "\/Date(1704852880332)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vcredist2022",
+            "Version": "14.38.33135.0",
+            "Updated": "\/Date(1711619533799)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vcxsrv",
+            "Version": "1.20.14.0",
+            "Updated": "\/Date(1711439786286)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "ventoy",
+            "Version": "1.0.97",
+            "Updated": "\/Date(1712045608145)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "vfox",
+            "Version": null,
+            "Updated": "\/Date(1710759062710)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "vim",
+            "Version": "9.0",
+            "Updated": "\/Date(1708935753873)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vncviewer",
+            "Version": "7.10.0",
+            "Updated": "\/Date(1710835922644)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "watchexec",
+            "Version": "1.25.1",
+            "Updated": "\/Date(1712649314636)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "watchman",
+            "Version": "2024.03.04.00",
+            "Updated": "\/Date(1709798291917)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "webcopy",
+            "Version": "1.9.1.872",
+            "Updated": "\/Date(1713150049538)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wechat",
+            "Version": "3.9.9.43",
+            "Updated": "\/Date(1710919289087)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "wget",
+            "Version": "1.21.4",
+            "Updated": "\/Date(1709367934537)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "winget",
+            "Version": "1.7.10861",
+            "Updated": "\/Date(1712046897816)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "winnfsd",
+            "Version": "2.4.0",
+            "Updated": "\/Date(1713508184564)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wireshark",
+            "Version": "4.2.3",
+            "Updated": "\/Date(1711167082132)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wiztree",
+            "Version": "4.19",
+            "Updated": "\/Date(1711166126483)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "workrave",
+            "Version": "1.10.52",
+            "Updated": "\/Date(1713507724912)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wox",
+            "Version": "1.3.524",
+            "Updated": "\/Date(1711166612080)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wsl2-distro-manager",
+            "Version": "1.8.11",
+            "Updated": "\/Date(1711167340012)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wxhexeditor",
+            "Version": "0.24",
+            "Updated": "\/Date(1712649494730)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "xampp",
+            "Version": null,
+            "Updated": "\/Date(1710918915760)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "yt-dlp",
+            "Version": "2024.04.09",
+            "Updated": "\/Date(1713841665463)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "ytdlp-interface",
+            "Version": "2.11.0",
+            "Updated": "\/Date(1713841835483)\/"
+        }
+    ]
+}

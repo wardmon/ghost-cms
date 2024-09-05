@@ -1,0 +1,134 @@
+当下社会的特色是什么?
+====
+马尔克斯曾说过，你要关注具体的个体，眼里有个体和具体人的喜怒哀乐，才是一个人。
+
+
+cmake -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CC_COMPILER=gcc -DCMAKE_MAKE_PROGRAM=mingw32-make -G "MinGW Makefiles" 
+&& make
+
+
+# Usage
+# if you have a local webserver on localhost:8000:
+ssh -R dev:80:localhost:8000 tuns.sh
+# now anyone can access it at 
+https://dev.tuns.sh
+PS C:\Users\null3> cat .\.ssh\known_hosts
+45.32.200.249 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKxMH3K0thmfLuaPKWmvHf1nnNklvoF8boeKa4CWlYU/
+45.32.200.249 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHAFhl7HpVuXUxtFxyX2sezv59296uLfPbxEbW02XaRYkjL08VvRKJzyCcjfnJeAQP7WLBcoq5m+aMrOKZm6qcs=
+[45.32.200.249]:6000 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBjD0ra8qPNgBYXiT94VzwtEDDnSawxUGZbQqBE/+R6J
+[45.32.200.249]:6000 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLl3VoEY0dSrYNygjA9qsNBiv95ZGm0wZUtsM0P0x0T7BdLfobgMY1V1RMTFtCRL+xV9evXx2IJCD3gAfuSDE/U=
+cnepearls.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINPS1fBYpr1O72vI6L0aOVlilNAFmcWcgdr988JIadQD
+cnepearls.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBMTkSsKXrB6YmVZrE8a71oyiz5oXTko0ZgzE5e2AOMJPIgx7nAvO6WhhEi3vbOj/5VDxqe0ryM2BSjMpBlH6ts=
+[localhost]:58413 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL5btr68ezxX4w7vFuAqIGgl0NyWYfzEqi6BE6s39GBG
+[localhost]:58413 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1aNq4oxvPIpX74JPR2tMVKDXg2J/oVlIjXFojcN09wq6jMa1sZ056XI9xntfofakh2fkB39J/eo5DKGQG2jacaGrnHTOOlRVQXvpnScb1OjLiZvywmqvUjaaqMmjKWql2yrh6+w0SRv2wTIOWNaNnIcyk5A05FoZFoHiCkrSnr7bJZ4TQdHZ1v0K7TT8eFeCrNmMQPZXLLwnsWyKpgZuFbmDKZyNl0Ef/BvDwLuQkc9D0LR1qpU+Vcld0IuMUbKpIy5VFDa4nRmI38sLMhWsLJ55fqFnjUBCfEDEV1BQZpJUf6qMi9ajztDN68KZ8tne6PgCeqPgGKRceDAdDTZiU+qKs8ftuGKePeCQsGLLeCV9iTHFnrEaK5VNPy2TlmdvrTcRvYNWkdAdeIzPz9PfkbkzdmsdkkgjkYNsmc40/2jg29wL74LubD1koHwHK02CgiaT2MQRbTW0P52nlCvkMTSfK1CUr4jLHjrRyh2BSSo5Ro6ScLrYkBdzsPkFZLds=
+[localhost]:58413 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAbnJlOAFjcrtJwX7re+6QnYAs0JR5cnsersjntjznBs6O1p0BPptCzGMrw9Jxx+aC2bYfdQ118eFv+mO1+OLAY=
+pastes.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOK6d3Pqn3y2GI64BwBKXsxrvyk9xemgSZqJ8IWgXgUp
+pico.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4W9+nN9/y8tU7CHRmbEdMg1wq9oGh3cmm7TKz4WhKM
+pgs.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4W9+nN9/y8tU7CHRmbEdMg1wq9oGh3cmm7TKz4WhKM
+feeds.sh ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGWK4c/PC0mpls7ops0HAPuNifGs4P3dd//GXzMiLe5E
+------------------------------------------
+不要因为睡懒觉而感到自责，因为你起来也创造不了什么价值。能从浪费时间中获得乐趣，就不是浪费时间。—罗素
+
+Then add your email, the digest interval, and the rss feeds for which you want to receive email notifications.
+null.vnbv4@simplelogin.co 7gxsbm3x@anonaddy.me
+=: email 7gxsbm3x@anonaddy.me
+=: digest_interval 1day
+=> https://hey.prose.sh/rss
+=> https://erock.prose.sh/rss
+Then copy the file to our server
+
+rsync daily.txt feeds.sh:/
+------------------------
+Token created! Save this secret, you won't see it again: 5a7b3648-3bb2-4a5a-9d5b-b7438333a02f
+
+-----------------------------------
+To use the TUI just SSH into our site:
+
+ssh pico.sh
+# Web UI
+This is an experimental web-based UI leveraging web tunnels.
+
+To use the web UI, create an SSH local forward connection to our pgs site:
+
+ssh -L 1337:localhost:80 -N pico-ui@pgs.sh
+Then open your browser and navigate to localhost:1337.
+
+# SSH Config
+The SSH tunnel command can be quite a lot to remember if you aren't using it consistently everyday. Instead, you can setup an SSH config entry to do all the work for you, here is an example config entry inside ~/.ssh/config:
+
+Host ui
+    User pico-ui
+    Hostname pgs.sh
+    LocalForward 0.0.0.0:1337 localhost:80
+    SessionType none
+# imgs
+If you want to view your docker repositories on imgs.sh then you need to open an additional SSH tunnel:
+
+ssh -L 1338:localhost:80 -N imgs.sh
+
+PS C:\Users\null3> cat .\.ssh\id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/hv/14OAp2bwVtJyVCXCwWdqoqWCj6cH4/iBEjJquTF2vOrmBYWcp4trqNov7rASdd8Wqn1sGZyDAA4Z+M2AW5kUfuY+MnGjS+4fLowPMXPiwWYtllUVNwt5/qaHigL+viXVzbsRXn1+Q8Yd1Mmc0tWgmfxaLnVaz1dBR258lA2TMtrgqh669tORPYB155nqZQHWu+kpryCDI8bCqbkLxySJNwub1c+FE1EdFEyvRMLZTgWRtZbg/3MoYL/pCgOvkRDKF7l8SR+0ENhB1VT3p+83FpiC1ovIlJvAiODINTKxgK9ZX0ecdGDtIJxdRTdsvEdzKX69yDCfvvbQK9aJwa9eqMbgAXXXvDHkBvzim5DBpxOv7SB87TN9n5Pwd6XZq90gcTRn5AJ1bb2HxebSi+/FG1DdWaPXeKV7mtqJ7hoVgeIgTUoJST/xxGGINxquO0AU1CHeBJTbzXFZkeoD10dAI4k0Weib50JuaWovbEX79NvcH8ViwyNhQnjYt0nk= null3@maxt
+
+
+PS C:\Users\null3> cat .\.ssh\id_rsa
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+/LRWL+ttNuIeMAAAAKbnVsbDNAbWF4dAE=
+-----END OPENSSH PRIVATE KEY-----
+
+
+“勿以身贵而贱人，勿以独见而违众，勿持能力而失信”。这三个“勿”字，揭示了为人处世的三大原则。夫富贵者，不可骄纵。自恃，而失了谦逊有礼的品德；独见必有偏颇，不可固步自封，否定他人；一时的功能，也不能诺言和责任。这三句箴言，无不支持诸葛亮的智，惟有踯躅实干、谦虚坚、遵纪守信，方能成就一番事业。
+
+
+(独家|商务部副部长盛秋平答财联社:接下来大力发展低空经济、邮轮游艇、房车露营等新型消费)财联社4月13日电，商务部副部长盛秋平今日下午在第四届消博会调研低空经济等产业发展，在亿航智能展区，财联社记者向他提问商务部未来将如何支持低空经济等产业发展。他对财联社记者表示，现在国家明确支持新型消费，新型消费包括数字消费、健康消费、绿色消费。低空经济也属于数字消费，接下来将大力发展包括低空经济、邮轮游艇、房车露营、赛车赛事、文娱旅游、智能家居等。(财联社记者 郭松峤)
+
+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
+https://codeload.github.com/wardmon/ghost-cms/zip/refs/heads/picgo
+当下社会的特色是什么?
+47 人赞同了该回答
+当下社会的特色就是百姓戾气有些重，具体表现如下:
+1.有信仰的人极少，无信仰的人铺天盖地，即使有信仰的人也是信钱的多，真正有天地情怀、仰望星空、心有道德律的人寥落星辰。
+2.口号喊的震天响，语言的巨人，行动的矮子!语言是幸福的!生活还是痛苦的!收入下降，消费降级。
+3.有官员台上是人，台下是鬼!马克思主义学院院长发艳照，青海厅长在党校学二十大精神竟聚餐喝茅台酒死亡!成功学大师成功入狱，昨天还是公认的党的好干部，今日却成阶下囚!
+4.惠民政策不断推新，鼓励就业、再就业、创业口号创新令人目不暇接!找工作难于上青天，创业更是血本无归!市场漆黑一片，根本找不到一束指引我前进的光。
+5.社会一切围官转，官大一级压死人，官就是真理、就是救世主!但百姓看到的却是不少人当官就是捞钱根本不顾百姓疾苦!
+6.整个社会只有官场，根本没有市场!官员可以让你发财，也可以让你一夜之间倾家荡产，甚至遭受入狱之灾!
+7.仁义礼,智信中华文化的精髓，在现实中往往好人受伤，小人、恶人、坏人得志!骗子横行，无孔不入!百姓防不胜防!
+8.社会上消极信息满天飞!正能量信息太少了!人们上进心不足!
+9.上学、就医、从业、住房、养老都是抗在肩上背上的大山，只感觉越发沉重不见轻松，何时移出不见光亮。
+10.国家兴亡!匹夫有责!人心齐，泰山移!上下一心，黄土变金!人们有信仰，生活有信心有快乐，人民有真正幸福获得感，背上的大山被搬走，国家政策以富民为本，落地见实效，百姓获得感满满!百姓的戾气自然就会逐步消除!生活中扬眉吐气!我们国家才能真正实现中华民族的伟大复兴!才能为世界做出更大的贡献!
+发布于 2024-04-12 12:14·IP 属地辽宁
