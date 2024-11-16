@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[Your favourites]]></title>
+    <link>http://www.commandlinefu.com/commands/favourites/rss</link>
+    <description><![CDATA[A repository for the most elegant and useful UNIX commands.  Great commands can be shared, discussed and voted on to provide a comprehensive resource for working from the command-line]]></description>
+    <pubDate>Mon, 14 Oct 2024 11:01:28 +0000</pubDate>
+    <generator>Zend Framework Zend_Feed</generator>
+    <language>en-us</language>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[See how much space is used by a file or directory]]></title>
+      <author>dbbolton (http://github.com/dbbolton)</author>
+      <link>http://www.commandlinefu.com/commands/view/5831/see-how-much-space-is-used-by-a-file-or-directory</link>
+      <guid>http://www.commandlinefu.com/commands/view/5831/see-how-much-space-is-used-by-a-file-or-directory</guid>
+      <description><![CDATA[<code style="padding:5px; font-family:monospace; font-size:12pt">$ du -hs /path/to/target</code>
+<div style="">A really useful pair of du options.</div>
+<ul style="list-style:none; padding: 0; margin: 0">
+    <li><a href="http://www.commandlinefu.com/commands/view/5831/see-how-much-space-is-used-by-a-file-or-directory">View this command to comment, vote or add to favourites</a></li>
+    <li><a href="/commands/by/dbbolton">View all commands by <strong>dbbolton</strong></a></li>
+</ul>
+<p><a href="http://www.commandlinefu.com"><img src="http://www.commandlinefu.com/images/small-logo.jpg" alt="commandlinefu.com"/></a></p>
+<p>Diff your entire server config at <a href="http://www.scriptrock.com?utm_campaign=clfu&utm_medium=clfu%20api%20rss&utm_source=clfu">ScriptRock.com</a></p>
+]]></description>
+      <pubDate>Sat, 12 Jun 2010 00:37:59 +0000</pubDate>
+      <comments>http://www.commandlinefu.com/commands/view/5831/see-how-much-space-is-used-by-a-file-or-directory</comments>
+    </item>
+    <item>
+      <title><![CDATA[List complete size of directories (do not consider hidden directories)]]></title>
+      <author>manurevah (http://manurevah.com/)</author>
+      <link>http://www.commandlinefu.com/commands/view/5334/list-complete-size-of-directories-do-not-consider-hidden-directories</link>
+      <guid>http://www.commandlinefu.com/commands/view/5334/list-complete-size-of-directories-do-not-consider-hidden-directories</guid>
+      <description><![CDATA[<code style="padding:5px; font-family:monospace; font-size:12pt">$ du -hs */</code>
+<div style="">why make it complicated ?
+: ]
+--------------------
+I just noticed someone else has posted this on this site before me (sorry I am now a duplicate :/)
+<a href="http://www.commandlinefu.com/commands/view/4313" rel="nofollow">http://www.commandlinefu.com/commands/view/4313</a></div>
+<ul style="list-style:none; padding: 0; margin: 0">
+    <li><a href="http://www.commandlinefu.com/commands/view/5334/list-complete-size-of-directories-do-not-consider-hidden-directories">View this command to comment, vote or add to favourites</a></li>
+    <li><a href="/commands/by/manurevah">View all commands by <strong>manurevah</strong></a></li>
+</ul>
+<p><a href="http://www.commandlinefu.com"><img src="http://www.commandlinefu.com/images/small-logo.jpg" alt="commandlinefu.com"/></a></p>
+<p>Diff your entire server config at <a href="http://www.scriptrock.com?utm_campaign=clfu&utm_medium=clfu%20api%20rss&utm_source=clfu">ScriptRock.com</a></p>
+]]></description>
+      <pubDate>Sun, 11 Apr 2010 22:48:31 +0000</pubDate>
+      <comments>http://www.commandlinefu.com/commands/view/5334/list-complete-size-of-directories-do-not-consider-hidden-directories</comments>
+    </item>
+    <item>
+      <title><![CDATA[List complete size of directories (do not consider hidden directories)]]></title>
+      <author>marcopferreira (http://marcopauloferreira.wordpress.com)</author>
+      <link>http://www.commandlinefu.com/commands/view/5326/list-complete-size-of-directories-do-not-consider-hidden-directories</link>
+      <guid>http://www.commandlinefu.com/commands/view/5326/list-complete-size-of-directories-do-not-consider-hidden-directories</guid>
+      <description><![CDATA[<code style="padding:5px; font-family:monospace; font-size:12pt">$ du -sh * | grep -v '\.\/\.'</code>
+<div style=""></div>
+<ul style="list-style:none; padding: 0; margin: 0">
+    <li><a href="http://www.commandlinefu.com/commands/view/5326/list-complete-size-of-directories-do-not-consider-hidden-directories">View this command to comment, vote or add to favourites</a></li>
+    <li><a href="/commands/by/marcopferreira">View all commands by <strong>marcopferreira</strong></a></li>
+</ul>
+<p><a href="http://www.commandlinefu.com"><img src="http://www.commandlinefu.com/images/small-logo.jpg" alt="commandlinefu.com"/></a></p>
+<p>Diff your entire server config at <a href="http://www.scriptrock.com?utm_campaign=clfu&utm_medium=clfu%20api%20rss&utm_source=clfu">ScriptRock.com</a></p>
+]]></description>
+      <pubDate>Sat, 10 Apr 2010 23:19:46 +0000</pubDate>
+      <comments>http://www.commandlinefu.com/commands/view/5326/list-complete-size-of-directories-do-not-consider-hidden-directories</comments>
+    </item>
+  </channel>
+</rss>
