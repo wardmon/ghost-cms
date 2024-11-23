@@ -1,0 +1,8 @@
+29、
+rust-by-practice
+Star 1.2w
+Fork 987
+6 months ago
+
+Detail
+Practical Rust Language Exercises. This project provides a multitude of practical Rust exercises to help newcomers learn and get started with the Rust language. In addition to a vast collection of exercise problems and solutions, it also supports online editing and execution of Rust code.
