@@ -1,0 +1,8 @@
+18、
+tailwind-landing-page-template
+Star 3.8k
+Fork 1.5k
+7 个月前
+
+详情
+免费、开源的落地页模板。该项目是基于 TailwindCSS、React 和 Next.js 构建的落地页模板，它界面美观、代码简单、设计在线，适用于快速制作公司主页、活动落地页等。
