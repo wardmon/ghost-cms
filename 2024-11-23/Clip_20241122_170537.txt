@@ -1,0 +1,18 @@
+开源书籍
+41、
+introduction-to-bash-scripting
+Star 4.4k
+Fork 453
+5 个月前
+
+详情
+《Bash 脚本入门指南》。这是一本教你如何编写出色的 Bash 脚本的开源书籍。
+
+42、
+PyTorch-Tutorial-2nd
+Star 2.6k
+Fork 287
+5 个月前
+
+详情
+《Pytorch 实用教程》。这本书不仅全面介绍了 PyTorch 的基础知识，还包含丰富的 PyTorch 实战案例和大型语言模型部署实例，能帮你快速上手 PyTorch，并具备出色的开发能力。
