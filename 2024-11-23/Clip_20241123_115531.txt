@@ -1,0 +1,8 @@
+35、
+docs-linux-kernel-labs-zh-cn
+Star 745
+Fork 54
+6 months ago
+
+Detail
+Linux Kernel Experiments. This project is the Chinese translation of the 'Linux Kernel Teaching' course from the University of Bucharest, suitable for programmers interested in Linux kernels. The course content is divided into two parts: lectures and experiments. The experiments are conducted in a virtual machine based on QEMU, allowing participants to experience the development, compilation, deployment, and execution process of the Linux kernel firsthand.
