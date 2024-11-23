@@ -1,0 +1,8 @@
+32、
+ollama
+Star 9.8w
+Fork 7.8k
+7 个月前
+
+详情
+本地运行各种 LLM 的工具。这是一个用 Go 语言写的工具，用于在本地一条命令安装、启动和管理大型语言模型，支持 Llama 3、Gemma、Mistral 等大模型，适用于 Windows、macOS、Linux 操作系统。
