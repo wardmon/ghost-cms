@@ -1,0 +1,1 @@
+cat G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\*.txt > G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\pasteex.txt
