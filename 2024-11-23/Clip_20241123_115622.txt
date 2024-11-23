@@ -1,0 +1,8 @@
+39、
+LLMBook-zh.github.io
+Star 2.3k
+Fork 155
+6 months ago
+
+Detail
+The Large Language Models. This is an open-source book prepared for programmers and students who want to get started with large model technology. The content covers not only the basic principles and key technologies of large models but also provides a code tool library and large models to help readers quickly get started and practice.
