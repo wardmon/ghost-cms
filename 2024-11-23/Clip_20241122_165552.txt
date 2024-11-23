@@ -1,0 +1,34 @@
+示例：
+
+PasteEx.exe reg -n
+添加右键菜单
+
+PasteEx.exe reg -n -s
+添加右键菜单, 按住 shift 时才能显示
+
+PasteEx.exe reg -q
+添加快速粘贴右键菜单
+
+PasteEx.exe reg -q -s
+添加快速粘贴右键菜单, 按住 shift 才能显示
+
+PasteEx.exe unreg -n
+移除右键菜单
+
+PasteEx.exe unreg -q
+移除快速粘贴右键菜单
+
+PasteEx.exe monitor
+启动监听模式
+
+PasteEx.exe "c:\"
+在 c:\ 执行粘贴为文件, 弹出主界面进行操作
+
+PasteEx.exe -q "c:\"
+在 c:\ 执行快速粘贴为文件, 直接生成文件, 文件名由程序自动生成
+
+PasteEx.exe -q "c:\test.png"
+把剪切板内容直接保存为 c:\test.png，文件已存在时，会询问是否覆盖
+
+PasteEx.exe -q -f "c:\test.png"
+把剪切板内容直接保存为 c:\test.png，文件已经存在时会直接覆盖
