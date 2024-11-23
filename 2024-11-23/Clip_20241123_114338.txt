@@ -1,0 +1,8 @@
+25、
+umap
+Star 7.5k
+Fork 808
+6 months ago
+
+Detail
+Python library for high-dimensional data dimensionality reduction. This project is a Python library used to map high-dimensional data to low-dimensional spaces, aiding researchers in understanding complex datasets. Compared with t-SNE, it excels in preserving the global structure of the data, capable of efficiently performing high-dimensional to low-dimensional mapping, suitable for a variety of scenarios such as data visualization, feature extraction, and cluster analysis.
