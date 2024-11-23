@@ -1,0 +1,8 @@
+34、
+Scrapegraph-ai
+Star 1.6w
+Fork 1.3k
+5 个月前
+
+详情
+基于 AI 的 Python 爬虫。这是一个由 AI 驱动的 Python 爬虫库，它借助 LLM 的能力，可以根据提示词自动抓取目标网站的数据。
