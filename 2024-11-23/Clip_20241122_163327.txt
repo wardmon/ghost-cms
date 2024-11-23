@@ -1,0 +1,1 @@
+scoop install 'https://raw.githubusercontent.com/acdzh/zpt/master/bucket/pasteex.json'
