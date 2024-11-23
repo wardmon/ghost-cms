@@ -1,0 +1,8 @@
+22、
+buku
+Star 6.5k
+Fork 294
+6 months ago
+
+Detail
+Browser Bookmark Management Tool with Built-in API Service. This is an open-source bookmark command-line management tool, which is lightweight, privacy-safe, and easy to use, supporting the import of bookmarks from mainstream browsers, automatic acquisition of bookmark information, cross-platform synchronization, and a powerful search function.
