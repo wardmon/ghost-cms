@@ -1,0 +1,8 @@
+33、
+llama3-from-scratch
+Star 1.4w
+Fork 1.1k
+6 months ago
+
+Detail
+Tutorial on Implementing Llama 3 from Scratch. This project helps people deeply understand how Large Language Models (LLMs) work by building Llama 3 layer by layer. The author uses the PyTorch framework to implement loading model weights, text tokenization, model configuration, and step-by-step implementation of key components in the Transformer model.
