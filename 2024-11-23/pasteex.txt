@@ -1,0 +1,285 @@
+21、
+searxng
+Star 1.4w
+Fork 1.5k
+5 个月前
+
+详情
+尊重个人隐私的 Python 元搜索引擎。该项目是基于 Flask 构建的聚合搜索引擎，能够整合来自 70 多个搜索引擎的搜索结果。它安装简单、不追踪用户行为，支持选择搜索引擎、安全搜索和多语言等功能。26、
+100-exercises-to-learn-rust
+Star 6.2k
+Fork 1.1k
+5 个月前
+
+详情
+学习 Rust 的 100 个练习。该教程秉承着边学边做的原则，内含大约 100 道练习题和答案，带你从零开始学习 Rust 编程语言。34、
+Scrapegraph-ai
+Star 1.6w
+Fork 1.3k
+5 个月前
+
+详情
+基于 AI 的 Python 爬虫。这是一个由 AI 驱动的 Python 爬虫库，它借助 LLM 的能力，可以根据提示词自动抓取目标网站的数据。37、
+GmsCore
+Star 8.7k
+Fork 1.7k
+5 个月前
+
+详情
+谷歌服务框架的开源替代品。该项目是一个开源的替代 Google Play 服务的解决方案，它可以让无法安装或不想用 Google 服务的用户，运行依赖谷歌服务的 Android 应用。39、
+scribe
+Star 621
+Fork 24
+5 个月前
+
+详情
+用 HTML 的方式展示乐谱。该项目通过 CSS+SVG+HTML 代码，实现了在网页上显示音乐符号和乐谱。开源书籍
+41、
+introduction-to-bash-scripting
+Star 4.4k
+Fork 453
+5 个月前
+
+详情
+《Bash 脚本入门指南》。这是一本教你如何编写出色的 Bash 脚本的开源书籍。
+
+42、
+PyTorch-Tutorial-2nd
+Star 2.6k
+Fork 287
+5 个月前
+
+详情
+《Pytorch 实用教程》。这本书不仅全面介绍了 PyTorch 的基础知识，还包含丰富的 PyTorch 实战案例和大型语言模型部署实例，能帮你快速上手 PyTorch，并具备出色的开发能力。G:\obsidiandata\ghost-cms\hedgedown.batG:\obsidiandata\ghost-cms\hedgedown.batG:\obsidiandata\ghost-cms\hedgedown.batG:\obsidiandata\ghost-cms\hedgedown.batG:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\cat G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\*.txt > G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\pasteex.txtcat G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\*.txt > G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\pasteex.txtcat G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\*.txt > G:\obsidiandata\ghost-cms\SingleFile-dockerized\pdf\pasteex.txt git-bash -c "cat /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/Clip*.txt > /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/pasteex.txt" git-bash -c "cat /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/Clip*.txt > /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/pasteex.txt" git-bash -c "cat /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/Clip*.txt > /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/pasteex.txt" git-bash -c "cat /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/Clip*.txt > /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/pasteex.txt" git-bash -c "cat /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/Clip*.txt > /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/pasteex.txt"2024-11-14 092024-11-14 09常见问题
+
+1、为什么我的指标值是100%或0%，但是指标得分不是满分？该如何提升？
+
+主要是因为您的店铺订单量较少。指标分数在计算时会考虑统计周期内店铺订单量的因素，在指标值相同的情况下，总订单量越大，指标分数越高。如A店铺的订单量为10单，B店铺的订单为1000单，商品负反馈率均为0%，那么B店的指标分数会更高。指标值是100%或者0%但指标分数不是满分的情况下，平台建议提升其他指标项，保持销量的提升，关注整体分数的变化。
+
+2、综合体验分是怎么计算出来的？
+
+每个指标根据不同权重加权计算得出，通用公式：综合体验分=配送准时率得分*20%+有效配送信息回传率得分*20%+缺货退款率得分*20%+商品负反馈率得分*20%+3分钟IM人工回复率得分*10%+商责介入率*10%。其中，一级品类为鲜花绿植门店的个性化计算公式为：综合体验分=配送准时率得分*10%+提前点送达率*10%+商责订单取消率得分*20%+商品负反馈率得分*40%+1分钟IM人工回复率得分*10%+商责介入率*10%，鲜花绿植门店的计算公式预计于7月下旬开始灰度生效，请耐心等待。
+
+3、商家等级统计的是什么时间的数据？多久更新一次？
+
+每个月更新两次，分别为1日和16日，一般会在下午15点以后更新商家等级结果，每月1日统计周期为上月16日至最后1天，每月16日统计周期为本月1日至本月15日。
+
+4、为什么我的门店已经是王者和钻石了，但是没有订单明显提升？
+
+订单量受服务质量、履约质量、商品丰富度、商品价格等多种因素影响。优质服务商家的流量加权效果是持续的，商家保持高服务质量，订单量会稳步提升，可长期关注并保持服务质量。
+
+5、商家等级对门店会有什么影响？
+
+商家等级越高的店铺，将会获得流量曝光、活动提报等多方面的权益奖励；等级越低的店铺，基于店铺服务对用户体验的影响程度，将会进行部分权益调整，包括但不限于：降低搜索渠道的商户曝光、降低门店流量推荐、取消美团平台活动补贴、限制平台开展的营销活动报名资格等。可在后台查看具体权益调整。
+
+6、平台对于低等级商家的管控策略是什么时间生效？
+
+在商家等级结果更新的次日，低等级商家管控策略生效。
+
+7、门店开通了IM人工回复但是没有顾客咨询，指标分数怎么计算？
+
+若门店开通IM人工回复但是没有顾客咨询量，则该指标不进行考核，将该项指标权重均摊给其他指标。如果门店未开通IM人工回复，此项指标纳入计算且得分为0。
+
+8、为什么是王者/钻石商家，但是“金字招牌”权益显示不可购买？
+
+“金字招牌”权益为“优选”广告位购买资格，购买后在用户侧展示“优选”标签，但“优选”和“品牌”共用同一个广告位置，若店铺本身已经有“品牌”招牌，将不可叠加购买同位置的“优选”招牌。常见问题
+
+1、为什么我的指标值是100%或0%，但是指标得分不是满分？该如何提升？
+
+主要是因为您的店铺订单量较少。指标分数在计算时会考虑统计周期内店铺订单量的因素，在指标值相同的情况下，总订单量越大，指标分数越高。如A店铺的订单量为10单，B店铺的订单为1000单，商品负反馈率均为0%，那么B店的指标分数会更高。指标值是100%或者0%但指标分数不是满分的情况下，平台建议提升其他指标项，保持销量的提升，关注整体分数的变化。
+
+2、综合体验分是怎么计算出来的？
+
+每个指标根据不同权重加权计算得出，通用公式：综合体验分=配送准时率得分*20%+有效配送信息回传率得分*20%+缺货退款率得分*20%+商品负反馈率得分*20%+3分钟IM人工回复率得分*10%+商责介入率*10%。其中，一级品类为鲜花绿植门店的个性化计算公式为：综合体验分=配送准时率得分*10%+提前点送达率*10%+商责订单取消率得分*20%+商品负反馈率得分*40%+1分钟IM人工回复率得分*10%+商责介入率*10%，鲜花绿植门店的计算公式预计于7月下旬开始灰度生效，请耐心等待。
+
+3、商家等级统计的是什么时间的数据？多久更新一次？
+
+每个月更新两次，分别为1日和16日，一般会在下午15点以后更新商家等级结果，每月1日统计周期为上月16日至最后1天，每月16日统计周期为本月1日至本月15日。
+
+4、为什么我的门店已经是王者和钻石了，但是没有订单明显提升？
+
+订单量受服务质量、履约质量、商品丰富度、商品价格等多种因素影响。优质服务商家的流量加权效果是持续的，商家保持高服务质量，订单量会稳步提升，可长期关注并保持服务质量。
+
+5、商家等级对门店会有什么影响？
+
+商家等级越高的店铺，将会获得流量曝光、活动提报等多方面的权益奖励；等级越低的店铺，基于店铺服务对用户体验的影响程度，将会进行部分权益调整，包括但不限于：降低搜索渠道的商户曝光、降低门店流量推荐、取消美团平台活动补贴、限制平台开展的营销活动报名资格等。可在后台查看具体权益调整。
+
+6、平台对于低等级商家的管控策略是什么时间生效？
+
+在商家等级结果更新的次日，低等级商家管控策略生效。
+
+7、门店开通了IM人工回复但是没有顾客咨询，指标分数怎么计算？
+
+若门店开通IM人工回复但是没有顾客咨询量，则该指标不进行考核，将该项指标权重均摊给其他指标。如果门店未开通IM人工回复，此项指标纳入计算且得分为0。
+
+8、为什么是王者/钻石商家，但是“金字招牌”权益显示不可购买？
+
+“金字招牌”权益为“优选”广告位购买资格，购买后在用户侧展示“优选”标签，但“优选”和“品牌”共用同一个广告位置，若店铺本身已经有“品牌”招牌，将不可叠加购买同位置的“优选”招牌。3、
+RunCat_for_windows
+Star 6.7k
+Fork 598
+6 months ago
+
+Detail
+A 'Kitten' Running on the Windows Taskbar. This is a small utility written in C# that displays an animated kitten running on the Windows taskbar, which runs faster with the higher the CPU usage.7、
+fscan
+Star 1.1w
+Fork 1.6k
+6 months ago
+
+Detail
+Open Source Internal Network Security Scanning Tool. This project is an internal network scanning tool developed using the Go language, offering one-click automated comprehensive vulnerability scanning. It is user-friendly and comprehensive, supporting functions such as port scanning, common server brute force attacks, web application vulnerability scanning, and NetBIOS sniffing.12、
+Acode
+Star 2.9k
+Fork 394
+6 months ago
+
+Detail
+Code Editor for Android Devices. This is a code editing tool specifically designed for Android devices. It is a lightweight web-based IDE with features such as instant preview, console, and a rich set of plugins, supporting a variety of programming languages like HTML, Python, Java, JavaScript, and more.22、
+buku
+Star 6.5k
+Fork 294
+6 months ago
+
+Detail
+Browser Bookmark Management Tool with Built-in API Service. This is an open-source bookmark command-line management tool, which is lightweight, privacy-safe, and easy to use, supporting the import of bookmarks from mainstream browsers, automatic acquisition of bookmark information, cross-platform synchronization, and a powerful search function.25、
+umap
+Star 7.5k
+Fork 808
+6 months ago
+
+Detail
+Python library for high-dimensional data dimensionality reduction. This project is a Python library used to map high-dimensional data to low-dimensional spaces, aiding researchers in understanding complex datasets. Compared with t-SNE, it excels in preserving the global structure of the data, capable of efficiently performing high-dimensional to low-dimensional mapping, suitable for a variety of scenarios such as data visualization, feature extraction, and cluster analysis.28、
+bandwhich
+Star 1w
+Fork 298
+6 months ago
+
+Detail
+Command-line Tool for Viewing Bandwidth Usage. This is an open-source command-line network bandwidth monitoring tool that can display the status of network usage in real-time, including information such as processes, connections, and remote addresses.29、
+rust-by-practice
+Star 1.2w
+Fork 987
+6 months ago
+
+Detail
+Practical Rust Language Exercises. This project provides a multitude of practical Rust exercises to help newcomers learn and get started with the Rust language. In addition to a vast collection of exercise problems and solutions, it also supports online editing and execution of Rust code. leads leads33、
+llama3-from-scratch
+Star 1.4w
+Fork 1.1k
+6 months ago
+
+Detail
+Tutorial on Implementing Llama 3 from Scratch. This project helps people deeply understand how Large Language Models (LLMs) work by building Llama 3 layer by layer. The author uses the PyTorch framework to implement loading model weights, text tokenization, model configuration, and step-by-step implementation of key components in the Transformer model.35、
+docs-linux-kernel-labs-zh-cn
+Star 745
+Fork 54
+6 months ago
+
+Detail
+Linux Kernel Experiments. This project is the Chinese translation of the 'Linux Kernel Teaching' course from the University of Bucharest, suitable for programmers interested in Linux kernels. The course content is divided into two parts: lectures and experiments. The experiments are conducted in a virtual machine based on QEMU, allowing participants to experience the development, compilation, deployment, and execution process of the Linux kernel firsthand.39、
+LLMBook-zh.github.io
+Star 2.3k
+Fork 155
+6 months ago
+
+Detail
+The Large Language Models. This is an open-source book prepared for programmers and students who want to get started with large model technology. The content covers not only the basic principles and key technologies of large models but also provides a code tool library and large models to help readers quickly get started and practice.39、
+LLMBook-zh.github.io
+Star 2.3k
+Fork 155
+6 months ago
+
+Detail
+The Large Language Models. This is an open-source book prepared for programmers and students who want to get started with large model technology. The content covers not only the basic principles and key technologies of large models but also provides a code tool library and large models to help readers quickly get started and practice.11、
+opengist
+Star 1.8k
+Fork 100
+7 个月前
+
+详情
+GitHub Gist 的开源替代品。该项目将代码或文本片段存储于 Git 仓库中，用户可以通过 Git 命令或 Web 查看和修改内容，类似 GitHub 的 Gist 服务。它开源、可自托管，支持创建公开/私人片段、语法高亮、搜索代码、嵌入其它网站和修改历史等功能。12、
+CompreFace
+Star 5.7k
+Fork 773
+7 个月前
+
+详情
+免费、开源的人脸识别系统。该项目提供了用于人脸识别、检测、验证、头部姿势检测、性别和年龄识别的 REST API 服务，不用懂机器学习就能轻松集成到任何系统中。它后端采用 Java 编写，人脸识别是基于 FaceNet 和 InsightFace 实现，同时支持 Docker 部署。14、
+cmdk
+Star 9.9k
+Fork 285
+7 个月前
+
+详情
+快速、无样式的命令菜单 React 组件。该项目可以帮助开发者轻松实现一个直观且功能丰富的命令菜单，类似于 ⌘K 快捷键唤起的交互式菜单，从而提升用户的交互体验，适用于各种 Web 应用。18、
+tailwind-landing-page-template
+Star 3.8k
+Fork 1.5k
+7 个月前
+
+详情
+免费、开源的落地页模板。该项目是基于 TailwindCSS、React 和 Next.js 构建的落地页模板，它界面美观、代码简单、设计在线，适用于快速制作公司主页、活动落地页等。25、
+grex
+Star 7.3k
+Fork 174
+7 个月前
+
+详情
+自动生成正则表达式的命令行工具。当你不知道如何写正则的时候，或许它能派上用场。该项目是用 Rust 语言开发的命令行工具，它可以根据用户提供的示例内容返回对应的正则表达式，可以作为库或命令行工具使用。32、
+ollama
+Star 9.8w
+Fork 7.8k
+7 个月前
+
+详情
+本地运行各种 LLM 的工具。这是一个用 Go 语言写的工具，用于在本地一条命令安装、启动和管理大型语言模型，支持 Llama 3、Gemma、Mistral 等大模型，适用于 Windows、macOS、Linux 操作系统。38、
+web-activity-time-tracker
+Star 758
+Fork 115
+7 个月前
+
+详情
+追踪你的上网活动时间的浏览器插件。这是一款无广告、开源的浏览器插件，能记录你在不同网站上的浏览时间，并提供直观的统计数据。它支持按天和小时统计浏览时间、过滤干扰网站、导出数据等功能。1、
+cosmopolitan
+Star 1.8w
+Fork 636
+8 个月前
+
+详情
+让 C 成为构建一次，可随处运行的语言。这个工具可以将 C 语言编写的程序，编译成可无缝运行在多种操作系统上的可执行文件。它采用自包含式二进制文件的设计，能够将程序所有依赖打包进可执行文件中，实现真正的跨平台运行，支持 Windows、macOS 和 Linux 等主流操作系统。1、
+cosmopolitan
+Star 1.8w
+Fork 636
+8 个月前
+
+详情
+让 C 成为构建一次，可随处运行的语言。这个工具可以将 C 语言编写的程序，编译成可无缝运行在多种操作系统上的可执行文件。它采用自包含式二进制文件的设计，能够将程序所有依赖打包进可执行文件中，实现真正的跨平台运行，支持 Windows、macOS 和 Linux 等主流操作系统。17、
+source-code-hunter
+Star 2.2w
+Fork 4.1k
+8 个月前
+
+详情
+Spring 全家桶源码解读。该项目提供了一系列互联网主流框架和中间件的源码讲解，包括 Spring 全家桶、Mybatis、Netty、Dubbo 等框架。18、
+aspoem
+Star 2.6k
+Fork 258
+8 个月前
+
+详情
+现代化的古诗词学习网站。这是一个更加注重阅读体验和 UI 的诗词网站，采用 TypeScript、Next.js、Tailwind CSS 构建。它拥有简洁清爽的界面和好看的字体，提供了古诗词的拼音、注释、译文以及移动端适配、搜索和一键分享等功能。33、
+generative-ai-for-beginners
+Star 6.5w
+Fork 3.3w
+8 个月前
+
+详情
+面向初学者的生成式人工智能教程。这是由微软开源的面向初学者的生成式 AI 免费课程，课程共 18 节，涵盖了创建生成式 AI 应用所需要了解的一切，包括生成式 AI 和 LLMs 的简介、提示词、构建文本生成应用、聊天应用、图像生成应用、向量数据库等方面的内容。33、
+generative-ai-for-beginners
+Star 6.5w
+Fork 3.3w
+8 个月前
+
+详情
+面向初学者的生成式人工智能教程。这是由微软开源的面向初学者的生成式 AI 免费课程，课程共 18 节，涵盖了创建生成式 AI 应用所需要了解的一切，包括生成式 AI 和 LLMs 的简介、提示词、构建文本生成应用、聊天应用、图像生成应用、向量数据库等方面的内容。
