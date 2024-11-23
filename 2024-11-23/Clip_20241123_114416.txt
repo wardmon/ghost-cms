@@ -1,0 +1,8 @@
+28、
+bandwhich
+Star 1w
+Fork 298
+6 months ago
+
+Detail
+Command-line Tool for Viewing Bandwidth Usage. This is an open-source command-line network bandwidth monitoring tool that can display the status of network usage in real-time, including information such as processes, connections, and remote addresses.
