@@ -1,0 +1,1 @@
+ git-bash -c "cat /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/Clip*.txt > /g/obsidiandata/ghost-cms/SingleFile-dockerized/pdf/pasteex.txt"
