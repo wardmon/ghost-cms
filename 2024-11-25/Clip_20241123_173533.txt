@@ -1,0 +1,8 @@
+16、
+dockge
+Star 1.3w
+Fork 372
+10 个月前
+
+详情
+一个美观、易用的 Docker Compose 管理平台。该项目提供了一个 Web 界面，用于管理 docker-compose.yaml 文件。它开箱即用、界面设计精美，支持交互式编辑 compose.yaml 文件、更新 docker 镜像，以及启动、停止、重启、删除 docker 等操作。
