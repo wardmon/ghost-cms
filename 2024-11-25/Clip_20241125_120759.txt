@@ -1,0 +1,2 @@
+xqdoo00o-chatgpt-web
+纯 JS 实现的 ChatGPT 项目，基于 OpenAI API，其优势在于可以直接部署一个 HTML 文件即可，轻量实用：
