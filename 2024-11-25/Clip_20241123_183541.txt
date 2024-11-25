@@ -1,0 +1,8 @@
+34、
+github-chinese
+Star 5.8k
+Fork 346
+1 年前
+
+详情
+GitHub 网站汉化插件。该项目可以将 GitHub 网站的菜单栏、标题、按钮等公共组件，自动翻译成中文，适合刚接触 GitHub 的小白使用。
