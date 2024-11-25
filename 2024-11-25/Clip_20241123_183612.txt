@@ -1,0 +1,8 @@
+36、
+wondershaper
+Star 1.7k
+Fork 265
+1 年前
+
+详情
+Linux 限制网络带宽的工具。该项目通过使用 iproute 的 tc 命令，实现了对 Linux 网络带宽限速的功能，支持多网卡、限制最大上传/下载速率。
