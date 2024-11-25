@@ -1,0 +1,11 @@
+- Necklace Length:20inch
+- Clasp sterling silver spring ring claspxqdoo00o-chatgpt-web
+纯 JS 实现的 ChatGPT 项目，基于 OpenAI API，其优势在于可以直接部署一个 HTML 文件即可，轻量实用：GolangStudy
+《GolangStudy》：从简单到难最全总结，go基础，数据结构，算法，设计模式：GolangStudy
+《GolangStudy》：从简单到难最全总结，go基础，数据结构，算法，设计模式：ui.aceternity.com
+网站包含多种前端动态效果，可以一键复制代码使用，同类网站有：
+
+https://uiverse.io/
+https://www.handsome-css.com/nextjs-learn-cn
+一份 Next.js 中文教程：nextjs-learn-cn
+一份 Next.js 中文教程：
