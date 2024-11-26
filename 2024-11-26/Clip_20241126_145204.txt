@@ -1,0 +1,2 @@
+# Importing Numpy
+import numpy as np
