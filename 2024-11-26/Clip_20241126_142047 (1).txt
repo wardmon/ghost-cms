@@ -1,0 +1,5 @@
+# Initializing from Python List
+v = np.array([1,4,9,3,2])
+print ('1D array in numpy is %s\n'%v)
+print ('dtype of the numpy array is %s\n'%str(v.dtype))
+print ('shape of the numpy array is %s\n'%v.shape)
