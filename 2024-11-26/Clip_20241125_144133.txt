@@ -1,0 +1,4 @@
+image-to-latex
+可以将数学公式截图然后自动解析成LaTex输出，于我个人而言非常有用。
+
+类似的项目还有LaTeX-OCR，直接基于PyQT提供GUI。
