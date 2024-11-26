@@ -1,0 +1,32 @@
+image-to-latex
+可以将数学公式截图然后自动解析成LaTex输出，于我个人而言非常有用。
+
+类似的项目还有LaTeX-OCR，直接基于PyQT提供GUI。DF-Handling-With-Python
+最近刚开源的一款PDF编辑工具[基于Python]（这种类型的库比较少见），你可以对PDF：
+
+提取文本
+提取图片
+提取表格
+提取链接
+对PDF进行相关编辑操作Introduction-to-Golang
+golang资料补给包（满血战斗），包含文章，书籍，作者论文，理论分析，开源框架，云原生，大佬视频，大厂实战分享ppt。awesome-productivity-cn
+这是一份开放的由中文社区共建的绝妙系列精选资源清单，专注于提升个人生产力的知识方法和工具。此项目从书籍、网站、工具、笔记、任务管理等角度推荐怎么提升个人生产力。awesome-wechat-weapp
+最近在开发一款微信小程序，第一次上手，发现还是很有意思的。这个项目收集了小程序开发的方方面面，如：工具、插件、组件、Demo等。
+
+基本上只要找一个开源的小程序，找一个示例跟着写，哪怕你没基础，也能很快开发一款自己的小程序出来，推荐。awesome-wechat-weapp
+最近在开发一款微信小程序，第一次上手，发现还是很有意思的。这个项目收集了小程序开发的方方面面，如：工具、插件、组件、Demo等。
+
+基本上只要找一个开源的小程序，找一个示例跟着写，哪怕你没基础，也能很快开发一款自己的小程序出来，推荐。mv gotify /usr/bin/gotifyhttps://kkgithub.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Exampleimport numpy as np
+import pandas as pd
+
+# Pandas uses something called a dataframe. It is a 
+# 2D data structure that can hold multiple data types.
+# Columns have labels.
+
+# Series are built on top of NumPy arrays. 
+# Create a series by first creating a list
+list_1 = ['a', 'b', 'c', 'd']
+# I can define that I want the series indexes to be the
+# provided labels
+labels = [1, 2, 3, 4]
+ser_1 = pd.Series(data=list_1, index=labels)df_3=Potato10.3-11.3Debbie Campbellcne241126
