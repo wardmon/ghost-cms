@@ -1,0 +1,14 @@
+alter table orders auto_increment=44890;alter table orders auto_increment=44890;我家import numpy as np
+import pandas as pdarr = np.array([1， 2， 3， 4， 5， 6])
+
+# 变成2行3列
+
+reshaped = arr.reshape(2， 3)
+
+print(reshaped)
+
+# 转置
+
+transposed = reshaped.T
+
+print(transposed)https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NTY0MjM0Mg==&action=getalbum&album_id=3375928794900905988&scene=173&subscene=&sessionid=svr_73dc31ad607&enterid=1732679432&from_msgid=2247486470&from_itemidx=1&count=3&nolastread=1#wechat_redirecthttps://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NTY0MjM0Mg==&action=getalbum&album_id=3375928794900905988&scene=173&subscene=&sessionid=svr_73dc31ad607&enterid=1732679432&from_msgid=2247486470&from_itemidx=1&count=3&nolastread=1#wechat_redirecthttps://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NTY0MjM0Mg==&action=getalbum&album_id=3375928794900905988&scene=173&subscene=&sessionid=svr_73dc31ad607&enterid=1732679432&from_msgid=2247486470&from_itemidx=1&count=3&nolastread=1#wechat_redirect
