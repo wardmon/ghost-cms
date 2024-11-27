@@ -1,0 +1,325 @@
+l116754762
+alter table orders auto_increment=44520;
+
+Pendant0512 Sterling silver longitude/latitude  pendant
+ 
+-Chain: 16" sterling siver box chain(SC001)
+p.alexander@charter.net
+
+
+
+
+where it is to be sent. Here is my order: (Note: In the past, Jewelry that came with the pearl, I ordered without the pearl. If the pendant comes with the pearl, include it, BUT DO NOT MOUNT OR DRILL THE PEARL. As for the color, randomly choose from my 5 colors) 
+PENDANTS SPM. QUANITY (In peices)
+ 001. 5 
+007. 5 
+023-02. 5 
+042-01. 7 
+048-01. 5 
+
+SSP. QUANITY (In peices)
+ 098. 10 
+161-01 10 
+096. 10 
+152. 7 
+
+CAGE PENDANTS SWPM. DESCRIPTION. QUANTITY 
+001-01. SIMPLE. 60 
+001-03. STUDDED 10 
+005-01. CANCER. 8 
+006-02. TURTLE. 15 
+007-01. KEY. 7 
+009. CROWN. 8 
+013. LOTUS. 10 
+015. HORSE. 3 
+024. ELEPHANT. 7 
+025. FANCY HEART. 10 
+086. FLEUR DE LIS. 20 
+501-02. CAT. 8
+
+ BIRTHSTONE. MONTH/ STONE COLOR. QUANITY 
+SPM009. MARCH/AQUA MARINE (very light aqua blue). 10 
+SPM011. APRIL/ CLEAR CZ (clear white - no color). 10 
+SPM011. OCTOBER/TOURMALINE (light pink). 10 
+
+LOOSE WHITE PEARLS. QTY 
+6-7 mm 15 
+7-8 mm. 20 
+
+SILVER RINGS SRM. SIZE. QTY
+
+ 003-02. #5. 5 #6. 2 #7. 5 
+007-02. #7. 5 010-03. #6. 20 #7. 20 #8. 20 #9. 10 
+013-01. #6. 5 #7. 5 #8. 5 
+013-02. #6. 10 #7. 10 #8. 5 #9. 10 #11. 6 
+015 #5. 2 #6. 10 #7. 3 #8. 13 #9. 6 
+SMS017 (Ring Only) #6. 2 #7. 6 #8. 4 
+SMS024 (Ring Only) #7. 5 #8. 3 #9. 2 
+PNSET092 (Ring Only) #6. 2 #7. 3 #8. 4 #9. 4 #10. 5 
+
+Sent from my iPad
+
+
+find . -name \*.gcno -o -name \*.gcda | xargs rm -f
+find . -name \*.lo -o -name \*.o | xargs rm -f
+find . -name \*.la -o -name \*.a | xargs rm -f 
+find . -name \*.so | xargs rm -f
+find . -name .libs -a -type d|xargs rm -rf
+rm -f libphp.la   modules/* libs/*
+
+
+$txt='aaaaaaaaaaa'
+curl -G "http://wxpusher.zjiecode.com/demo/send/custom/UID_5QnYdwyoFEuEV9sXQ6MqVqYpCn8Z" --data-urlencode "content=$txt"
+wxpush=$(date +%F)
+
+&url=http%3a%2f%2fwxpusher.zjiecode.com
+
+
+C:\Users\null3\AppData\Local\Packages\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache
+
+ su -c chroot /usr/local/etc/tmoe-linux/containers/chroot/debian-bullseye_amd64 /usr/bin/env -i HOSTNAME=maxt TERM=xterm-256color SDL_IM_MODULE=fcitx XMODIFIERS=\@im=fcitx QT_IM_MODULE=fcitx GTK_IM_MODULE=fcitx TMOE_CHROOT=true TMOE_PROOT=false TMPDIR=/tmp DISPLAY=:2 PULSE_SERVER=tcp:127.0.0.1:4713 SHELL=/bin/bash LANG=zh_CN.UTF-8 HOME=/root USER=root PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/games:/usr/local/games /bin/bash -l
+qemu-system-x86_64 -m 1024 -kernel vmlinuz -initrd initrd -append="fetch=http://xxx.com/filesystem.squashfs boot=live persistence quiet"
+
+作者：知乎用户
+链接：https://www.zhihu.com/question/341365774/answer/1468725509
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+ rsync -avzP -e 'ssh -p 22' --exclude images --exclude catalogue root@cnepearls.com:/home/webupdate/cnepearls.com .
+
+bash -c "$(curl -L gitee.com/mo2/linux/raw/2/2)"
+
+[root@cnepearls includes]# cat ~/inotifywatch.sh
+  #!/bin/sh
+  # 监视的文件或目录
+  #inotifywait -mrq --timefmt '%d/%m/%y %H:%M' --format '%T %w %f %e' -e modify,delete,create,attrib  save2gitdemo
+  filename=$1
+
+  # 监视发现有增、删、改时执行的脚本
+  script=$2
+
+
+#   inotifywait -mrq --format '%e' --event create,delete,modify  $filename | while read event
+#   inotifywait -mrq --timefmt '%d/%m/%y %H:%M' --format '%T %w %f %Xe' --event create,delete,modify  $filename | while read event
+    inotifywait -mrq  --format '%e' --event create,delete,modify  $filename | while read event
+
+  do
+      case $event in MODIFY|CREATE|DELETE) bash $script ;;
+      esac
+      echo $T
+      echo $event
+      echo $w
+      echo $file
+  done
+
+
+
+cd somefolder # some folder, no need for much free space, enough for modified data only
+mkdir fm # for mounting original
+mkdir to # for upper unionfs layers
+mkdir temp # some overlayfs technical folder
+mkdir fin # resulting folders/files would be there
+
+mount --bind /dev dev
+mount --bind /proc proc
+mount --bind /sys sys
+
+sudo mount /full_path/filesystem.squashfs fm -t squashfs -o loop
+sudo mount -t overlay -o lowerdir=fm,upperdir=to,workdir=temp overlay fin
+
+
+一对价格$34.7，重量约14克左右，版费：$44
+
+ 3:38:46 PM
+[root@cnepearls wscan_app]# ./wscan -hrf /home/webupdate/cnepearl.com/
+/home/webupdate/cnepearl.com//chatsupport/admin/traffic/admin_puller.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/admin/traffic/console_timer.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/admin/traffic/ops.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/admin/admin_requests.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/admin/view_transcript.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/admin/view_transcriptm.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/admin/view_transcripts.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/setup/index.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/super/cleanup.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/super/customize.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/super/dbinfo.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/super/profile.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/index.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/message_box.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//chatsupport/request.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//includes/javascript/cart_links.js.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//includes/modules/payment/payflowpro.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//includes/modules/authorizenet_direct.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//includes/modules/plugnpay_api.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//includes/modules/quickcommerce_direct.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//ddmdind/padmin/pmd_relation_new.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//ddmdind/padmin/pmd_relation_upd.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//ddmdind/pmd_relation_new.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//ddmdind/pmd_relation_upd.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//phobe/iProber-big5.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//phobe/iProber.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//phobe/iProber1-big5.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//phobe/iProber1.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//phobe/iProber2-big5.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//phobe/iProber2.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//raymon/define_mainpage.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//raymon/backup.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//raymon/backup_mysql.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//raymon/categories.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//raymon/define_language.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearl.com//info.php Backdoor.PHP.Webshell.l
+l116754762
+
+
+/home/webupdate/cnepearls.com//demapd/define_mainpage.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//demapd/backup.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//demapd/backup_mysql.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//demapd/categories.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//demapd/define_language.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//includes/javascript/cart_links.js.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//includes/modules/payment/payflowpro.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//includes/modules/authorizenet_direct.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//includes/modules/plugnpay_api.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//includes/modules/quickcommerce_direct.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//lists/admin/phpmailer/class.phpmailer.php Backdoor.PHP.Webshell.l
+/home/webupdate/cnepearls.com//lists/admin/send_core.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//lists/admin/fckphplist.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//lists/admin/import1.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//phobe/iProber-big5.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//phobe/iProber.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//phobe/iProber1-big5.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//phobe/iProber1.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//phobe/iProber2-big5.php Backdoor.PHP.Suspect.f
+/home/webupdate/cnepearls.com//phobe/iProber2.php Backdoor.PHP.Suspect.f
+
+
+https://dl.google.com/android/repository/sources-34_r01.zip
+
+https://dl.google.com/android/repository/platform-34-ext7_r02.zip
+
+https://dl.google.com/android/repository/build-tools_r34-windows.zip
+
+https://dl.google.com/android/repository/platform-tools_r34.0.5-windows.zip
+
+https://dl.google.com/android/repository/emulator-windows_x64-10696886.zip
+
+https://dl.google.com/android/repository/sys-img/google_apis/x86-30_r10.zip
+
+mklink /d C:\Users\null3\.local\share\containers\podman\machine\wsl\wsldist\podman-machine-default G:\podman-machine-default
+
+mklink /j C:\Users\null3\.android\avd\Pixel_C_API_30.avd f:\Pixel_C_API_30.avd
+G:\podman-machine-default
+awk -F: '$3=0{print $1}' /etc/passwd
+ls -l /proc/20679/exe
+
+wget https://edradmin.sangfor.co/app/file/tool/WebShellKillerForLinux.tar.gz
+export LD_LIBRARY_PATH=/mnt/g/centos_64/wscan_app:$LD_LIBRARY_PATH
+./wscan -hrf  .
+
+fedora-podman-amd64-v38.0.36.tar.xz
+
+set MSYSTEM=MINGW64 & g:\msys64\usr\bin\bash --login
+
+journalctl -b -o short-monotonic -k | egrep -i "i915|dmr|dmc|guc|huc"
+
+ Failed to run lxc.hook.post-stop for
+container "101"
+
+PS C:\Windows\system32>
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0 
+
+export LD_LIBRARY_PATH=/mnt01filesystem/lib:$LIBRARY_PATH
+New-SmbShare -Name "diskz" -Path "z:\"  -FullAccess maxt\adminhuzx -ReadAccess everyone -Description "Test6 shared"
+New-SmbShare -Name "diske" -Path "e:\"  -FullAccess everyone -ReadAccess everyone -Description "diske shared"
+
+ Get-SmbShareAccess -name test  
+ Grant-SmbShareAccess -name test -AccountName "buffallos\adminhuzx" -AccessRight Full
+
+ $share=Get-WmiObject -ComputerName maxt -Class win32_share | ? {$_.name -eq 'ii'}
+sudo docker run --name redroid222 -itd   --memory-swappiness=0 \
+    --privileged --pull always \
+    -v /data:/data \
+    -p 5555:5555 \
+    redroid/redroid:11.0.0-latest \
+    redroid.width=1280 redroid.height=960 \
+    redroid.gpu.mode=guest \
+    androidboot.hardware=mt6891 ro.secure=0 ro.boot.hwc=GLOBAL ro.ril.oem.imei=861503068361145 ro.ril.oem.imei1=861503068361145 ro.ril.oem.imei2=861503068361148 ro.ril.miui.imei0=861503068361148 ro.product.manufacturer=Xiaomi ro.build.product=chopin 
+
+
+$share | get-acl | fl *
+
+wmic diskdrive list brief
+ "registry-mirrors": ["https://docker.mirrors.tuna.tsinghua.edu.cn"]
+{
+ "data-root" : "/media/wd/59687497-7f41-480e-9895-bfa5523b411a/var/lib/docker",
+  "registry-mirrors": ["https://docker.mirrors.tuna.tsinghua.edu.cn"]
+}
+
+
+$Parameters = @{
+    Name = 'diskii'
+    Path = 'i:\'
+    FullAccess = 'maxt\Administrators', 'maxt\wardmon','maxt\users'
+}
+New-SmbShare @Parameters
+
+New-SmbShare -Name diskiii -Path i:\ -FullAccess maxt\HVAdmin, maxt\HV1$, maxt\HV2$, maxt\HVC$
+
+pvesh get /cluster/resources
+pvesh get /nodes/pve/qemu/101/status/current
+pvesh create /nodes/pve/qemu/101/status/start
+pvesh create /nodes/pve/qemu/101/status/stop
+
+
+sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g'
+bqk76t
+docker run -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+
+add-appxpackage MicrosoftCorporationII.WindowsSubsystemForAndroid_2211.40000.11.0_neutral_~_8wekyb3d8bbwe.Msixbundle
+
+pct create 102 \
+	a11:vztmpl/openwrt-21.02.0-x86-64-rootfs.tar.gz \
+	--rootfs a11:2 \
+	--ostype unmanaged \
+	--hostname OpenWrtlxc \
+	--arch amd64 \
+	--cores 2 \
+	--memory 1024 \
+	--swap 0 \
+	-net0 bridge=vmbr0,name=eth0
+
+
+First, find the path of the disk with the command:
+pvesm path local-lvm:vm-<VMID>-disk-<NUM>
+
+Then use dd to copy its contents to a file, for example
+dd if=/dev/pve/vm-1140-disk-0 of=~/vm-1140-disk-0.raw
+
+
+lxc.net.1.type: phys
+lxc.net.1.link: enx00e04c883242
+lxc.net.1.flags: up
+
+
+
+vfio
+vfio_iommu_type1
+vfio_pci
+vfio_virqfd
+
+/etc/modprobe.d/blacklist.conf
+lspci -n -s 00:02
+00:02.0 0300: 8086:4e55 (rev 01)
+/etc/modprobe.d/vfio.conf
+options vfio-pci ids=8086:4e55
+
+update-initramfs -u
+
+update-initramfs: Generating /boot/initrd.img-6.2.16-3-pve
+Running hook script 'zz-proxmox-boot'..
+Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount namespace..
+No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
+
+/etc/pve/qemu-server/100.conf
+args: -device vfio-pci,host=00:02.0,addr=0x02
+vga: none
