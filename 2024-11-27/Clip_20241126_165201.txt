@@ -1,0 +1,8 @@
+# Align both series by the union of their indexes
+sl_1.align(sl_2)
+# Align by calling series
+sl_1.align(sl_2, join='left')
+# Use passed series indexes
+sl_1.align(sl_2, join='right')
+# Get where indexes intersect
+sl_1.align(sl_2, join='inner')
