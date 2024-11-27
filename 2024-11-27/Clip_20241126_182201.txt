@@ -1,0 +1,6 @@
+v1 = np.arange(5)
+print ('Creating a numpy array via arange (stop=5) : %s\n'%v1)
+v2 = np.arange(2,5)
+print ('Creating a numpy array via arange (start=2,stop=5) : %s\n'%v2)
+v3 = np.arange(0,-10,-2)
+print ('Creating a numpy array via arange (start=0,stop=-10,step=-2) : %s\n'%v3)
