@@ -1,0 +1,13 @@
+arr = np.array([1， 2， 3， 4， 5， 6])
+
+# 变成2行3列
+
+reshaped = arr.reshape(2， 3)
+
+print(reshaped)
+
+# 转置
+
+transposed = reshaped.T
+
+print(transposed)
