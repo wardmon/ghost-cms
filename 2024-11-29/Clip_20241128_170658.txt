@@ -1,0 +1,67 @@
+import requests
+import base64
+import json
+import uuid
+import datetime
+import os
+ext = ""
+fname = ""
+#  
+def read_dir():
+    global ext
+    global fname
+    path = "/home/pia/pdf"  
+# () todo
+    files = os.listdir(path)# 
+    for file in files:  # 
+        if not os.path.isdir(file):  # 
+            ext = os.path.splitext(file)[1]
+            fname =  os.path.splitext(file)[0] +os.path.splitext(file)[1]
+            with open(path + "/" + file, 'rb') as f: # rb  
+                fdata_tmp = file_base64(f.read())
+                f.close()
+                #return fdata_tmp #  
+        upload_file(fdata_tmp)
+
+# base64githubbase64
+def file_base64(data):
+    data_b64 = base64.b64encode(data).decode()
+    return data_b64
+# 
+def upload_file(file_data):
+    global ext
+    global fname
+    #file_name = str(uuid.uuid1()) + ext  #  
+    file_name = fname 
+    print(fname)
+
+    print(file_name)
+    # token = "[token]" todo
+    # url = "https://api.github.com/repos/wardmon/ghost-cms/contents/pic/"+file_name  # 
+    # headers = {"Authorization": "token " + token}
+    token ="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EWKOZTVGNHZi2GPkhb" 
+## githubtoken
+    curr_time = datetime.datetime.now()
+    path = curr_time.strftime("%Y-%m-%d")
+    url = "https://api.github.com/repos/wardmon/ghost-cms/contents/" + path + "/" + file_name  # 
+    headers = {"Authorization": "token " + token} # github token  2021-9-29 
+    content = file_data
+    data = {
+        "message": "api upload demo",
+        "content": content
+    }
+    data = json.dumps(data)
+    req = requests.put(url=url, data=data, headers=headers)
+    req.encoding = "utf-8"
+    re_data = json.loads(req.text)
+    print("https://cdn.jsdelivr.net/gh/wardmon/ghost-cms/"+ path + "/" + file_name)  # =======  # CDNjsdelivr cdn 
+    curr_time = datetime.datetime.now().strftime("%Y-%m-%d")
+    destination="/home/pia/upload/" + os.path.splitext(fname)[0] + "-" + curr_time + ext
+    #destination_no_spaces = destination.replace(" ", "-")
+    print(destination)
+    os.replace("/home/pia/pdf/"+ fname, destination)
+if __name__ == '__main__':
+    #  
+    fdata = read_dir()
+    
+    #upload_file(fdata)
