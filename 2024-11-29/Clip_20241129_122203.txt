@@ -1,0 +1,8 @@
+    pids = []
+    all_pids = psutil.pids()
+
+    for pid in all_pids:
+        p = psutil.Process(pid)
+        print(pid, p.name())
+        if p.name() == name:
+            pids.append(pid)
