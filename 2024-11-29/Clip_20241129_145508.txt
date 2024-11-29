@@ -1,0 +1,5 @@
+浏览器的数据存储方法比较（英文）
+
+
+
+本文介绍浏览器现在的几种数据存储方法： LocalStorage、IndexedDB、Cookies、OPFS、WASM-SQLite。
