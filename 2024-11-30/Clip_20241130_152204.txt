@@ -1,0 +1,2 @@
+MyArray5=rand.randint(0,100,[3,5])   #随机取数的上限下限都是在哪里
+MyArray5
