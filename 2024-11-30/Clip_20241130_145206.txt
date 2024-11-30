@@ -1,0 +1,2 @@
+MyArray6=np.zeros([4,5],dtype=np.int)
+MyArray6
