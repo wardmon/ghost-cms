@@ -1,0 +1,16 @@
+https://github.com/dsrscientist/dataset1/raw/refs/heads/master/hrdata.csv1. Pitfalls.ipynbhttps://bgithub.xyz/DataForScience/Excel/raw/refs/heads/master/1.%20Pitfalls.ipynbhttps://bgithub.xyz/ChanMenglin/PandasVersusExcel/blob/master/6-InputFunction/InputFunction.pyhttps://bgithub.xyz/xmaniu/Excel-Python/tree/master/Datahttps://bgithub.xyz/caiyunbin/pandas-data-analyse/tree/masterhttps://bgithub.xyz/xmaniu/Excel-Pythonhttps://bgithub.xyz/xmaniu/Excel-Pythonhttps://github.com/LemenChao/PythonFromDAToDS(NULL) 17:49:07
+https://bgithub.xyz/ChanMenglin/PandasVersusExcel/blob/master/6-InputFunction/InputFunction.py
+
+(NULL) 17:49:25
+https://bgithub.xyz/xmaniu/Excel-Python/tree/master/Data
+
+(NULL) 17:49:42
+https://bgithub.xyz/caiyunbin/pandas-data-analyse/tree/master
+
+(NULL) 17:51:12
+https://bgithub.xyz/xmaniu/Excel-Python
+
+(NULL) 17:52:41
+https://github.com/LemenChao/PythonFromDAToDS
+
+pandas-data-analysenp.full((3,5),2)
