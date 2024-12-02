@@ -1,0 +1,2 @@
+MyArray=np.array([1,2,3,np.nan])
+np.nansum(MyArray)   #连着nan也放在一起进行相加
