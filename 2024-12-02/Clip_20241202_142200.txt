@@ -1,0 +1,2 @@
+df3=df2.reindex(index=[2,3,1], columns=["diagnosis","id","area_mean","MyNewColumn"],fill_value=100)
+df3
