@@ -1,0 +1,8 @@
+echo -n "" > /path/to/java/appserver.logMyArray=np.array([1,2,3,np.nan])
+np.nansum(MyArray)   #连着nan也放在一起进行相加MyArray=np.array([1,2,3,np.nan])
+np.nansum(MyArray)   #连着nan也放在一起进行相加MyArray=np.array([1,2,3,np.nan])
+np.nansum(MyArray)   #连着nan也放在一起进行相加MyArray=np.array([1,2,3,np.nan])
+np.nansum(MyArray)   #连着nan也放在一起进行相加MyArray=np.array([1,2,3,np.nan])
+np.nansum(MyArray)   #连着nan也放在一起进行相加np.sort(MyArray,axis=0)"c" in mySeries4df2.id.head()df2.reindex(index=["1","2","3"],columns=["1","2","3"])
+df2.head()df3=df2.reindex(index=[2,3,1], columns=["diagnosis","id","area_mean","MyNewColumn"],fill_value=100)
+df3
