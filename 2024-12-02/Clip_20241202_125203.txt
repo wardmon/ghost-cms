@@ -1,0 +1,2 @@
+df2.reindex(index=["1","2","3"],columns=["1","2","3"])
+df2.head()
