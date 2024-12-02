@@ -1,0 +1,3 @@
+s1=pd.Series(np.arange(4))
+s1
+df6-s1          ##这个命令表示数据框取多少列的信息
