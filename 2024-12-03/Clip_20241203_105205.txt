@@ -1,0 +1,1 @@
+curtime=`date +%Y-%m-%d`
