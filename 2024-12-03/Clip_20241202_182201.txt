@@ -1,0 +1,51 @@
+import pandas as pd
+import sqlite3
+# Create a connection to a new SQLite database (or connect to an existing one)
+conn = sqlite3.connect('gotify.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Create a new table
+# cursor.execute('''
+# CREATE TABLE IF NOT EXISTS users (
+#    id INTEGER PRIMARY KEY,
+#    name TEXT,
+#    age INTEGER
+#)
+#''')
+
+# Commit the changes and close the connection
+# conn.commit()
+
+# Create a DataFrame
+data = {
+    'name': ['Alice', 'Bob', 'Charlie'],
+    'age': [25, 30, 35]
+}
+df = pd.DataFrame(data)
+
+# Insert the DataFrame into the SQLite table
+# df.to_sql('users', conn, if_exists='append', index=False)
+
+# Read data from the SQLite table into a DataFrame
+df_from_sql = pd.read_sql_query('SELECT * FROM messages', conn)
+
+# Display the DataFrame
+#print(df_from_sql)
+
+# Update a user's age
+#cursor.execute('UPDATE users SET age = ? WHERE name = ?', (26, 'Alice'))
+
+# Commit the changes
+#conn.commit()
+
+# Delete a user
+#cursor.execute('DELETE FROM users WHERE name = ?', ('Bob',))
+
+# Commit the changes
+#conn.commit()
+
+# Close the connection
+conn.close()
+df_from_sql.head()
