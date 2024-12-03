@@ -1,0 +1,1 @@
+docker cp 652b:/app/data/gotify.db /home/pia/SingleFile-dockerized/.
