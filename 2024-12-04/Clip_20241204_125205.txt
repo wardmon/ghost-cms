@@ -1,0 +1,1 @@
+A.join(B, lsuffix="_l", rsuffix="_r", how="inner")
