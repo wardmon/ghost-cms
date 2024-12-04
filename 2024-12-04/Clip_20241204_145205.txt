@@ -1,0 +1,14 @@
+import pandas as pd
+
+# 创建示例数据框
+data = {'value': [1, 2, 3, 4, 5]}
+df = pd.DataFrame(data)
+
+# 创建rolling对象并计算移动平均
+rolling_mean = df['value'].rolling(window=3).mean()
+print(rolling_mean)
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/wuShiJingZuo/article/details/134328416
