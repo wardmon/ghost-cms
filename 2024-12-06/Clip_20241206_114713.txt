@@ -1,0 +1,12 @@
+【产品自荐】AI聚合搜索引擎OnionAI #5616
+Open
+ovelv opened this issue last week · 0 comments
+Comments
+@ovelv
+ovelv commented last week
+OnionAI-AI聚合搜索引擎
+网址：https://onionai.so
+1.支持快捷切换不同的AI搜索引擎进行搜索；
+2.支持保存提示词到本地，一键填充提示词到搜索框；
+3.支持保存常用网址；
+4.配套1个持续更新的提示词网站；
