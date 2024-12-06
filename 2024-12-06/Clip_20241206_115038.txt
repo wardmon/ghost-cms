@@ -1,0 +1,7 @@
+【产品自荐】沉浸式英语跟读 Hi Speaking #5625
+Open
+jiweiyuan opened this issue 5 days ago · 6 comments
+Comments
+@jiweiyuan
+jiweiyuan commented 5 days ago
+hispeaking.com 是一个沉浸式英语跟读应用平台，它通过 AI 声音检测技术为用户提供了一种全新的跟读体验。应用允许用户在跟读完一句后，自动播放下一句跟读内容。 消除了手动点击对学习体验的干扰，实现了一气呵成的沉浸式学习体验。
