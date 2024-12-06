@@ -1,0 +1,5 @@
+4、Easy Resizer
+
+
+
+一个在线工具，批量调整图片的大小。（@mywebtools 投稿）
