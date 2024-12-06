@@ -1,0 +1,1 @@
+np.in1d(arr1,arr2)
