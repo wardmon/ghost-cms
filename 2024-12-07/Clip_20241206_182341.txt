@@ -1,0 +1,5 @@
+10、Running page
+
+
+
+国产的跑步数据管理软件，可以备份 Nike、Runtastic（Adidas Run）、佳明的 gpx 跑步数据，生成个人的跑步主页。（@yihong0618 投稿）
