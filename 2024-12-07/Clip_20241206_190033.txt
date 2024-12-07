@@ -1,0 +1,243 @@
+ 
+ 
+function eval_javascript(code) {
+ 
+  var result_ok    = '';
+  var result_error = '';
+ 
+  if (code.length==0) {
+    result_error = 'ERROR: empty code';
+  }
+ 
+  try {
+    result_ok = eval(code);
+  } catch (e) {
+    result_error = 'ERROR: '+e;
+  }
+ 
+  if (result_error=='') {
+    var str = '';
+    if (result_ok != undefined) {
+      str = '\n\nRETURN CODE: '+result_ok;
+    }
+    alert('Test ok.\nCompiles (eval) with no errors. '+str);
+  } else {
+    alert(result_error)
+  }
+ 
+}
+ 
+function convert_to_bookmarklet() {
+ 
+  var f = document.form_bookmarklet;
+ 
+  var textArea = f.js_code_original;
+ 
+  var TO = textArea.value;
+ 
+  TO = TO.replace(/^javascript:\s*/, '');
+ 
+  TO = TO.replace(/\r/g, '\n');
+ 
+  // Remove '//' comments in the beginning of lines or after ';' and '{' and '}'
+ 
+  var regex_remove_comments = /^\s*\/\/.*?\n|([;\{\}])\s*\/\/.*?\n/gm;
+  TO = TO.replace(regex_remove_comments,"$1\n");
+ 
+  TO = TO.replace(/\s*\n\s*/g, ' ');
+  TO = 'javascript:' + TO;
+ 
+  f.js_code_bookmarklet.value                      = TO; // <input> field with bookmarklet code
+  document.getElementById('bookmarklet_link').href = TO; // Bookmarklet link
+  document.getElementById('bookmarklet_link').innerHTML = f.bookmarklet_name.value;
+ 
+  document.getElementById('bookmarklet_link_div').style.display='';
+  document.getElementById('bookmarklet_link_instructions').style.display='none';
+ 
+  document.getElementById('bookmarklet_warning_div').style.border='1px solid black';
+  document.getElementById('bookmarklet_warning_div').style.padding='5px';
+ 
+  $("#bookmarklet_bytes").html( $("#js_code_bookmarklet").val().length +' bytes' );
+ 
+  $("#bookmarklet_warning_div").fadeTo("fast", 0);
+  $("#bookmarklet_warning_div").fadeTo("fast", 1);
+
+// TODO: 
+//  $('textArea').TextAreaExpander(100,550);
+ 
+  return true;
+}
+ 
+ 
+f = document.form_bookmarklet;
+ 
+google_bookmark = '(function(){\n\
+var a=window,\n\
+b=document,\n\
+c=encodeURIComponent,\n\
+d=a.open("http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk="+c(b.location)+"&title="+c(b.title),"bkmk_popup","left="+((a.screenX||a.screenLeft)+10)+",top="+((a.screenY||a.screenTop)+10)+",height=420px,width=550px,resizable=1,alwaysRaised=1");\n\
+a.setTimeout(function(){d.focus()},300);\n\
+})();';
+ 
+ 
+// var str='VIEW SOURCE OF: '+window.location+' [<a href=\"javascript:getElementByTagName(\'b\').style.display=\'none\'\">view line numbers<\/a>]<hr noshade size=1><pre>'+c2;\n\
+ 
+view_source = "(function(){\n\
+ var c=unescape(document.documentElement.innerHTML);\n\
+ c=c.replace(/</g,'&lt;');\n\
+ c=c.replace(/\%/g,'&#25;');\n\
+ var cl = c.split('\\n');\n\
+ var c2='';\n\
+ for(var i=0;i<cl.length;i++) {\n\
+   c2 += \"<b style=\\'display:\\'>\" + (i+1) + \". </b>\" + cl[i] + \"\\n\";\n\
+ }\n\
+ var str='VIEW SOURCE OF: '+window.location+' ('+(cl.length)+' lines; '+(c.length)+' bytes) <b>[<a href=\"javascript:var a = document.getElementsByTagName(\\'b\\');for (var i = 0; i<a.length; i++) {a[i].style.display=\\'none\\';}\">hide line numbers</a>]</b><hr noshade size=1><pre>'+c2;\n\
+ var o=window.open('','_blank');\n\
+ if(o) {\n\
+   o.document.write(str);\n\
+   o.document.close();\n\
+ } else { // window.open('') not working on ipad?\n\
+   document.body.innerHTML=str;\n\
+ }\n\
+})();";
+ 
+page_info = "(function(){\n\
+//var obj = this;\n\
+var obj = document;\n\
+  var str = '';  var array = new Array();  var i = 0;\n\
+  for (key in obj) { array[i] = key; i++; }  array = array.sort();\n\
+  for (i=0; i<array.length; i++) {\n\
+    var key = array[i];\n\
+    var value;\n\
+    try { value = obj[key]; } catch (e) { value = 'DUMP ERROR: key='+key+'; e='+e; }\n\
+    var value_str = value+'';\n\
+    if (value_str != 'null' && value_str.match(/[\\[]native code/) == null && value_str.match(/object HTMLCollection/) == null) {\n\
+      value_str = value_str.replace(/</g, '&lt;');\n\
+      str += key + '=' + value_str + ';\\n';\n\
+    }\n\
+};\n\
+var o=window.open('','_blank');\n\
+var newdoc=o.document;\n\
+newdoc.write('<plaintext>'+str);\n\
+newdoc.close();\n\
+//o.focus();\n\
+})();\n\
+";
+ 
+view_images = "(function(){\n\
+ var str='<font size=2 face=arial><h2>Images from page: '+window.location.href +'</h2>';\n\
+ var already_got_img = {};\n\
+ if (document.images.length==0) {\n\
+  alert('no images in this page');\n\
+ } else {\n\
+  str += '<h3>'+document.images.length+' images found</h3><hr>\\n';\n\
+  for(i=0;i<document.images.length;i++) {\n\
+   var img_src = document.images[i].src;\n\
+   if (!already_got_img[img_src]) {\n\
+     str += \n\
+     '<img src=\\''+document.images[i].src+'\\'><br>\\n'+\n\
+     '<a href=\"'+document.images[i].src + '\">'+document.images[i].src+'</a><br>' +\n\
+     document.images[i].width + 'x' + document.images[i].height + '<br><br>' +\n\
+     '<hr noshade size=1>\\n' ;\n\
+     already_got_img[img_src] = 1;\n\
+   }\n\
+  }\n\
+  var o=window.open('','_blank');\n\
+  var newdoc=o.document;\n\
+  newdoc.write(str);\n\
+  newdoc.close();\n\
+ }\n\
+})();\n\
+";
+
+ 
+view_linked_images = "(function(){\n\
+ var i,a,img_found=0;\n\
+ for(i=0;a=document.getElementsByTagName('a')[i];++i) { \n\
+  var href= a.href;\n\
+  if (href.match(/jpe?g$|png$|gif$/i)) {\n\
+    img_found=1;\n\
+    var img = '<img src=' + href + '>';\n\
+    var span = document.createElement('span');\n\
+        span.innerHTML = img;\n\
+    a.appendChild(span);\n\
+  }\n\
+ }\n\
+ if (img_found==0) { alert('No linked images found.') }\n\
+})();\n\
+";
+ 
+open_all_links = "(function(){\n\
+var n_to_open,dl,dll,i;\n\
+var got = {};\n\
+function linkIsSafe(u) {\n\
+  if (u.substr(0,7)=='mailto:') return false;\n\
+  if (u.substr(0,11)=='javascript:') return false;\n\
+  if (got[u]==1) return false;\n\
+  got[u] = 1;\n\
+  return true;\n\
+}\n\
+n_to_open = 0;\n\
+dl = document.links;\n\
+dll = dl.length;\n\
+for(i = 0; i < dll; ++i) {\n\
+  if (linkIsSafe(dl[i].href)) ++n_to_open;\n\
+}\n\
+if (!n_to_open) {\n\
+  alert ('no links found');\n\
+} else {\n\
+  if (confirm('Open ' + n_to_open + ' links in new windows?')) {\n\
+    for (var url in got) {\n\
+      window.open(url);\n\
+    }\n\
+  }\n\
+}\n\
+})();\n\
+";
+ 
+post_form_debug = "(function(){\n\
+ var d = document;\n\
+ var forms = (d.all)?d.all.tags('form'):d.getElementsByTagName('form');\n\
+ var hid = (d.all)?d.all.tags('input'):d.getElementsByTagName('input');\n\
+ for (var i=0; i<hid.length;i++) {\n\
+  if (hid[i].getAttribute('type')=='hidden') {\n\
+   var el = document.createElement('span');\n\
+       el.innerHTML='<b>'+hid[i].name+'=</b>';\n\
+   hid[i].parentNode.insertBefore(el, hid[i]);\n\
+   hid[i].setAttribute('type', 'text');\n\
+  }\n\
+ }\n\
+ var s = document.createElement('input');\n\
+     s.type = 'submit';\n\
+     s.value = 'POST FORM TO DEBUG PAGE';\n\
+     s.style.borderColor='#ff0000';\n\
+     s.style.backgroundColor='#ffc070';\n\
+ with(forms) {\n\
+  for(var i=0;i<length;i++) {\n\
+    item(i).setAttribute('action','http://www.js.do/cgi-bin/form-parameters.pl');\n\
+    item(i).onsubmit = '';\n\
+    item(i).method = 'POST';\n\
+    item(i).appendChild(s);\n\
+  }\n\
+  alert(\"Click 'POST FORM TO DEBUG PAGE' to submit and view form contents.\");\n\
+ }\n\
+})();\n\
+";
+
+// javascript:void(window.location='http://validator.w3.org/check?uri='+escape(window.location))
+ 
+w3c_validate = "(function(){\n\
+  window.location='http://validator.w3.org/check?uri='+escape(window.location);\n\
+})();\n\
+"; 
+ 
+take_note = "(function(){\n\
+if ((navigator.my_note=='')||(!navigator.my_note)){\n\
+ void(navigator.my_note=prompt('Enter your note (run again to retrieve)',''))\n\
+} else {\n\
+ void(my_note_new=prompt('Your note:',navigator.my_note));\n\
+ if (my_note_new!=null) void(navigator.my_note=my_note_new)\n\
+}\n\
+})();\n\
+";
+ 
