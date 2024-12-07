@@ -1,0 +1,10 @@
+    if (attribute in test) {
+        try {
+            myfunc();
+        } catch (e) {
+            report(e);
+        }
+        return true;
+    } else {
+        return false;
+    }
