@@ -1,0 +1,1 @@
+@start .\"Google Chrome.lnk" --host-rules="MAP e-hentai.org Megumin, MAP exhentai.org Eris" --host-resolver-rules="MAP Megumin 104.20.134.21, MAP Eris 178.175.129.252" --test-type --ignore-certificate-errors
