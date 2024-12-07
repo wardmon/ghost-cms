@@ -1,0 +1,1 @@
+the request was made in a sandboxed frame whose 'allow-popups' permission is not set.
