@@ -1,0 +1,728 @@
+context.item .item1.item .item1    if (attribute in test) {
+        try {
+            myfunc();
+        } catch (e) {
+            report(e);
+        }
+        return true;
+    } else {
+        return false;
+    }6、生产环境使用 ES 模块的感受（英文）
+
+作者在网页上直接使用 ES 模块，不经过任何打包工具，谈了自己的使用感受。最大的好处就是，用户运行的代码跟原始代码是一致的，省去了编译步骤，使得调试非常容易。6、生产环境使用 ES 模块的感受（英文）
+
+作者在网页上直接使用 ES 模块，不经过任何打包工具，谈了自己的使用感受。最大的好处就是，用户运行的代码跟原始代码是一致的，省去了编译步骤，使得调试非常容易。7、如何用 JavaScript 抓取并解析网页（英文）
+
+本文演示了使用 JavaScript 抓取网页、并提取数据的整个过程。2、SVG Favicon Maker
+
+
+
+一个在线工具，制作 SVG 格式的 Favicon。5、Masonry
+
+
+
+网页瀑布流的布局库。6、Glow
+
+
+
+一个命令行的 Markdown 阅读工具。7、vdx
+
+一个命令行的视频处理工具，属于 FFmpeg 的包装库，提供简单易用的语法格式。8、Diode
+
+Diode 可以将本机（localhost）的网站公开到互联网上，提供一个二级域名，使得外部用户可以访问。8、Diode
+
+Diode 可以将本机（localhost）的网站公开到互联网上，提供一个二级域名，使得外部用户可以访问。9、HIPA（黑帕云）
+
+
+
+国产的在线表格数据库，类似国外的 Airtable，提供了强大电子表格功能，比如多表关联、一对多的自动聚合运算、看板视图、多人实时协作、行级数据权限等等。（@mechiland 投稿）10、Running page
+
+
+
+国产的跑步数据管理软件，可以备份 Nike、Runtastic（Adidas Run）、佳明的 gpx 跑步数据，生成个人的跑步主页。（@yihong0618 投稿）10、Running page
+
+
+
+国产的跑步数据管理软件，可以备份 Nike、Runtastic（Adidas Run）、佳明的 gpx 跑步数据，生成个人的跑步主页。（@yihong0618 投稿）3、Sharkle
+
+
+
+点击网页上的按钮，它会随机打开一个有趣的网站。3、Sharkle
+
+
+
+点击网页上的按钮，它会随机打开一个有趣的网站。5、HelloDjango
+
+
+
+Django REST framework 中文教程。（@521xueweihan 投稿）6、数据保护指南
+
+
+
+这个英文网站提供了一个计算机数据保护的指南，有各种工具的详细用法介绍，比如如何在 Windows 删除数据，如何使用密码管理器等等。var randomlinks=new Array()
+
+randomlinks[0]="https://landscapes.littleworkshop.fr/"
+randomlinks[1]="https://plink.in/"
+randomlinks[2]="https://ambicular.com/"
+randomlinks[3]="https://hostrider.com/"
+randomlinks[4]="http://rainyscope.com/"
+randomlinks[5]="https://codepen.io/strangerintheq/full/poMwpvy"
+randomlinks[6]="http://threejs.org/examples/webgl_shaders_ocean.html"
+randomlinks[7]="http://mrdoob.neocities.org/022/"
+randomlinks[8]="https://inception.activetheory.dev/"
+randomlinks[9]="https://larsberg.github.io/_lsr/2017/20160506_bubblesTwo/index.html"
+randomlinks[10]="https://www.anumberfromtheghost.com/one-stop"
+randomlinks[11]="https://tabletopy.com/"
+randomlinks[12]="https://www.anumberfromtheghost.com"
+randomlinks[13]="https://larsberg.github.io/_lsr/2018/1014_laserBagPipe/index.html"
+randomlinks[14]="https://larsberg.github.io/_lsr/2018/1016_longOne/index.html"
+randomlinks[15]="http://robotics.ovh/"
+randomlinks[16]="https://larsberg.github.io/_lsr/2018/1015_slugLuv/index.html"
+randomlinks[17]="http://soulwire.github.io/Muscular-Hydrostats/"
+randomlinks[18]="https://bongo.cat/"
+randomlinks[19]="http://soulwire.github.io/Unwrapageddon/"
+randomlinks[20]="http://asmrion.com/"
+randomlinks[21]="http://ikeryou.jp/demoworks/tower/"
+randomlinks[22]="https://larsberg.github.io/2018_nov_sketches/1010_ribWorm/index.html"
+randomlinks[23]="https://codepen.io/ste-vg/full/BazEQbY"
+randomlinks[24]="http://arodic.github.io/p/jellyfish/"
+randomlinks[25]="https://larsberg.github.io/2018_nov_sketches/1004_gltf/index.html"
+randomlinks[26]="http://virtocean.com"
+randomlinks[27]="https://www.adultswim.com/etcetera/choir/"
+randomlinks[28]="http://pluvior.com/"
+randomlinks[29]="https://larsberg.github.io/_lsr/2017/2017/1007_thumptember/index.html"
+randomlinks[30]="https://larsberg.github.io/2018_nov_sketches/1002_gltf/index.html"
+randomlinks[31]="http://labs.fluuu.id/stars/"
+randomlinks[32]="https://larsberg.github.io/_lsr/2017/2017/XmasXperiment/index.html"
+randomlinks[33]="https://codepen.io/atzedent/full/eYKPGQr"
+randomlinks[34]="http://rainbowhunt.com/"
+randomlinks[35]="https://hirox-europe.com/PEARL/"
+randomlinks[36]="https://larsberg.github.io/_lsr/2017/20161129_puff/index.html"
+randomlinks[37]="https://blocks.ovh/"
+randomlinks[38]="https://larsberg.github.io/_lsr/2017/20161128_triboids/index.html"
+randomlinks[39]="https://larsberg.github.io/_lsr/2017/20161127_skinDeep/index.html"
+randomlinks[40]="https://larsberg.github.io/_lsr/2017/20161115_huckleberry/index.html"
+randomlinks[41]="http://mrdoob.neocities.org/025/"
+randomlinks[42]="https://larsberg.github.io/_lsr/2017/20161121_withSticks/index.html"
+randomlinks[43]="https://stephaneginier.com/sculptgl/"
+randomlinks[44]="https://larsberg.github.io/_lsr/2017/20161114_rollers/index.html"
+randomlinks[45]="https://larsberg.github.io/_lsr/2017/20161112_emanation/index.html"
+randomlinks[46]="https://larsberg.github.io/_lsr/2017/20161111_winding/index.html"
+randomlinks[47]="https://ykob.github.io/sketch-threejs/sketch/instancing.html"
+randomlinks[48]="https://www.zzzuckerberg.com/"
+randomlinks[49]="http://2016.makemepulse.com/"
+randomlinks[50]="https://larsberg.github.io/_lsr/2017/20161108_bronco/index.html"
+randomlinks[51]="https://codepen.io/alexlesubmarine/full/aBzzRZ/"
+randomlinks[52]="https://soulwire.co.uk/kinetic-canvas/"
+randomlinks[53]="https://larsberg.github.io/_lsr/2017/20160315_jointz/index.html"
+randomlinks[54]="https://larsberg.github.io/_lsr/2017/PaperLayers_rainbow/index.html"
+randomlinks[55]="https://alexanderperrin.com.au/paper/shorttrip/"
+randomlinks[56]="https://lab.colinpeyrat.com/dissolve/"
+randomlinks[57]="https://larsberg.github.io/_lsr/2017/ldProjectionSketch/index.html"
+randomlinks[58]="https://larsberg.github.io/_lsr/2017/20161107_dongles/index.html"
+randomlinks[59]="https://ykob.github.io/sketch-threejs/sketch/aura.html"
+randomlinks[60]="https://scaleofuniverse.com"
+randomlinks[61]="https://larsberg.github.io/_lsr/2017/ProjectionCubes/index.html"
+randomlinks[62]="https://ykob.github.io/sketch-threejs/sketch/crystal.html"
+randomlinks[63]="https://ykob.github.io/sketch-threejs/sketch/sun.html"
+randomlinks[64]="http://slices.ovh/"
+randomlinks[65]="https://ykob.github.io/sketch-threejs/sketch/newyear2019.html"
+randomlinks[66]="https://defonic.com/"
+randomlinks[67]="https://skuawk.com/"
+randomlinks[68]="https://hipstersound.com/ambient.html"
+randomlinks[69]="http://projects.defmech.com/codevember_2016/03/"
+randomlinks[70]="https://www.anumberfromtheghost.com/always-here"
+randomlinks[71]="http://www.staggeringbeauty.com/"
+randomlinks[72]="https://codepen.io/ivorjetski/full/jOgEyPO"
+randomlinks[73]="http://www.georgeandjonathan.com/#3"
+randomlinks[74]="https://noise.jake.fun"
+randomlinks[75]="http://www.georgeandjonathan.com/#4"
+randomlinks[76]="http://www.georgeandjonathan.com/#2"
+randomlinks[77]="https://lukasziegler.github.io/airhorn/"
+randomlinks[78]="https://ykob.github.io/sketch-threejs/sketch/planet.html"
+randomlinks[79]="https://www.anumberfromtheghost.com/atomize"
+randomlinks[80]="https://grantkot.com/ll/"
+randomlinks[81]="https://ykob.github.io/sketch-threejs/sketch/webcam.html"
+randomlinks[82]="https://ykob.github.io/sketch-threejs/sketch/flame.html"
+randomlinks[83]="https://codepen.io/BenjiStander/full/Pzaggx/"
+randomlinks[84]="https://demo.marpi.pl/eyes/"
+randomlinks[85]="https://www.uberviz.io/viz/word-problems/"
+randomlinks[86]="https://www.anumberfromtheghost.com/asleep-in-trees"
+randomlinks[87]="https://www.anumberfromtheghost.com/blackassette"
+randomlinks[88]="https://www.adultswim.com/etcetera/elastic-man/"
+randomlinks[89]="https://scfex02.xl.digital/"
+randomlinks[90]="https://ykob.github.io/sketch-threejs/sketch/transform.html"
+randomlinks[91]="https://tabletopy.com/"
+randomlinks[92]="https://hipstersound.com/rainy-screensaver.html"
+randomlinks[93]="https://codepen.io/maneeshc/full/dXqdGz/"
+randomlinks[94]="https://ykob.github.io/sketch-threejs/sketch/distort.html"
+randomlinks[95]="https://tympanus.net/Tutorials/MouseInstancing/index.html"
+randomlinks[96]="https://ykob.github.io/sketch-threejs/sketch/image_data.html"
+randomlinks[97]="https://ykob.github.io/sketch-threejs/sketch/comet.html"
+randomlinks[98]="https://codepen.io/giana/full/LVvaNQ/"
+randomlinks[99]="https://codepen.io/Yakudoo/full/PogJvGv"
+randomlinks[100]="https://ykob.github.io/sketch-threejs/sketch/fire_ball.html"
+randomlinks[101]="https://rijkscollection.net/"
+randomlinks[102]="https://dev.scottdarby.com/chaos-ink/"
+randomlinks[103]="http://pluvior.com"
+randomlinks[104]="https://sketch.metademolab.com/"
+randomlinks[105]="https://neal.fun/universe-forecast/"
+randomlinks[106]="https://haxiomic.github.io/GPU-Fluid-Experiments/html5/"
+randomlinks[107]="https://codepen.io/ScavengerFrontend/full/xxGwjox"
+randomlinks[108]="https://www.adultswim.com/etcetera/soup/"
+randomlinks[109]="https://paveldogreat.github.io/WebGL-Fluid-Simulation/"
+randomlinks[110]="https://codepen.io/edball/full/GoYeQZ/"
+randomlinks[111]="http://rugs.grindselect.com/"
+randomlinks[112]="https://codepen.io/ykob/full/ojMwrv/"
+randomlinks[113]="https://rainyscope.com/"
+randomlinks[114]="http://mrdoob.com/files/temp/xplsv_obsidian/"
+randomlinks[115]="https://sketches.vlucendo.com/cube/"
+randomlinks[116]="https://quickdraw.withgoogle.com/"
+randomlinks[117]="https://codepen.io/stivaliserna/full/ExKMLjP"
+randomlinks[118]="https://neal.fun/sell-sell-sell/"
+randomlinks[119]="http://asmrion.com/"
+randomlinks[120]="https://larsberg.github.io/2019sketchBook/sketches/13_pullmearound/build/"
+randomlinks[121]="https://neal.fun/asteroid-launcher/"
+randomlinks[122]="http://touchpianist.com/"
+randomlinks[123]="https://domenicobrz.github.io/webgl/projects/Volumetric%20art/"
+randomlinks[124]="https://domenicobrz.github.io/webgl/projects/Sidescroller%20anim/"
+randomlinks[125]="https://sombras.app"
+randomlinks[126]="https://mrdoob.neocities.org/036/"
+randomlinks[127]="https://domenicobrz.github.io/webgl/projects/wolf-header/"
+randomlinks[128]="http://mrdoob.neocities.org/023/"
+randomlinks[129]="https://codepen.io/tksiiii/full/VOEKLQ"
+randomlinks[130]="http://magickeyboard.io/"
+randomlinks[131]="http://calm.ovh/"
+randomlinks[132]="http://mrdoob.neocities.org/020/"
+randomlinks[133]="https://codepen.io/Yakudoo/full/YGxYej"
+randomlinks[134]="http://mrdoob.neocities.org/019/"
+randomlinks[135]="https://codepen.io/al-ro/full/xxxxgxK"
+randomlinks[136]="http://mrdoob.neocities.org/018/"
+randomlinks[137]="https://domenicobrz.github.io/webgl/projects/gpu-fluid-sim/"
+randomlinks[138]="http://mrdoob.neocities.org/016/"
+randomlinks[139]="http://mrdoob.neocities.org/024/"
+randomlinks[140]="https://domenicobrz.github.io/webgl/projects/marching%20cubes/"
+randomlinks[141]="http://mrdoob.neocities.org/006/"
+randomlinks[142]="http://mrdoob.neocities.org/015/"
+randomlinks[143]="https://domenicobrz.github.io/webgl/projects/testportfolio/"
+randomlinks[144]="https://domenicobrz.github.io/webgl/projects/Thomas%20de%20vos/"
+randomlinks[145]="http://mrdoob.neocities.org/013/"
+randomlinks[146]="https://codepen.io/iamjoshellis/full/KVdQqm/"
+randomlinks[147]="http://mrdoob.neocities.org/012/"
+randomlinks[148]="https://amsxyz.github.io/three-multifaceted-refraction/"
+randomlinks[149]="http://mrdoob.neocities.org/007/"
+randomlinks[150]="https://paveldogreat.github.io/WebGL-Fluid-Simulation/"
+randomlinks[151]="https://ykob.github.io/sketch-threejs/sketch/instancing.html"
+randomlinks[152]="http://mrdoob.neocities.org/004/"
+randomlinks[153]="https://codepen.io/wakana-k/full/jORGbmx"
+randomlinks[154]="https://oimo.io/works/clock/"
+randomlinks[155]="https://muda.co/collection/melt/"
+randomlinks[156]="http://mrdoob.neocities.org/003/"
+randomlinks[157]="https://robpayot.github.io/glowing-tree/build/"
+randomlinks[158]="https://neal.fun/perfect-circle/"
+randomlinks[159]="http://mrdoob.neocities.org/017/"
+randomlinks[160]="https://walzr.com/bop-spotter"
+randomlinks[161]="https://webglsamples.org/aquarium/aquarium.html"
+randomlinks[162]="https://codepen.io/raurir/full/pjaEbj/"
+randomlinks[163]="http://rainbowhunt.com"
+randomlinks[164]="https://www.clicktorelease.com/code/io15/"
+randomlinks[165]="https://tympanus.net/Tutorials/codrops-kinetic-typo/"
+randomlinks[166]="https://kaizen.makemepulse.com/"
+randomlinks[167]="https://codepen.io/ycw/full/ExKyJdR"
+randomlinks[168]="http://mrdoob.neocities.org/005/"
+randomlinks[169]="https://oskarstalberg.com/game/planet/planet.html"
+randomlinks[170]="https://domenicobrz.github.io/webgl/projects/SSRefractionDepthPeeling/"
+randomlinks[171]="https://javier.xyz/pintr/"
+randomlinks[172]="https://codepen.io/rocbear/full/rWdmWm/"
+randomlinks[173]="http://wxs.ca/studies/001/"
+randomlinks[174]="https://demo.marpi.pl/archan/eutow/"
+randomlinks[175]="https://2019.makemepulse.com/"
+randomlinks[176]="http://pluvior.com/"
+randomlinks[177]="https://codepen.io/aderaaij/full/BapYONL"
+randomlinks[178]="https://demo.marpi.pl/archan/aroha/"
+randomlinks[179]="https://2018.makemepulse.com/"
+randomlinks[180]="https://codepen.io/ycw/full/xxVPMwB"
+randomlinks[181]="https://whenistheweekend.com/motion.html"
+randomlinks[182]="https://mgz.me/scenes/TheCity/"
+randomlinks[183]="https://neal.fun/space-elevator/"
+randomlinks[184]="http://ikeryou.jp/works/gobo/"
+randomlinks[185]="https://codepen.io/Godje/full/RobJyX/"
+randomlinks[186]="https://hipstersound.com/ambient.html"
+randomlinks[187]="https://stickers-dullcratos-projects.vercel.app/"
+randomlinks[188]="http://mrdoob.neocities.org/021/"
+randomlinks[189]="https://classes.marpi.pl/camp/"
+randomlinks[190]="https://codepen.io/seanfree/full/ZpYGJd/"
+randomlinks[191]="https://ulucode.com/random/webgputests/linked/"
+randomlinks[192]="http://guillaumegouessan.com/sketches/dancing-instances/"
+randomlinks[193]="http://guillaumegouessan.com/sketches/ecailles/"
+randomlinks[194]="http://guillaumegouessan.com/sketches/subsurface-scattering/"
+randomlinks[195]="http://calm.ovh/"
+randomlinks[196]="https://neal.fun/deep-sea"
+randomlinks[197]="http://species-in-pieces.com/"
+randomlinks[198]="https://christmasexperiments.com/2018/01/plume-and-the-forgotten-letter/"
+randomlinks[199]="https://christmasexperiments.com/2018/02/louvre-2043/"
+randomlinks[200]="https://threejs.org/examples/webgl_shaders_ocean.html"
+randomlinks[201]="https://morphing.encharm.studio/"
+randomlinks[202]="http://hostrider.com/"
+randomlinks[203]="https://dracarys.robertborghesi.is/"
+randomlinks[204]="https://www.vortex.dakumisu.fr/"
+randomlinks[205]="http://stampede.it/"
+randomlinks[206]="https://neal.fun/rocks/"
+randomlinks[207]="https://mrdoob.neocities.org/037/"
+randomlinks[208]="https://sciecode.github.io/soothe/"
+randomlinks[209]="https://aidn.jp/twintail/"
+randomlinks[210]="https://codepen.io/shubniggurath/full/GVQqjz"
+randomlinks[211]="https://procedural-terrain-mu.vercel.app/"
+randomlinks[212]="https://codepen.io/prisoner849/full/vYMvpXX"
+randomlinks[213]="https://threejslab.vercel.app/lab/halftone-shading"
+randomlinks[214]="https://codepen.io/Yakudoo/full/YXxmYR"
+randomlinks[215]="https://stickers.premieroctet.com/"
+randomlinks[216]="https://codepen.io/aaroniker/full/YoqNRB"
+randomlinks[217]="https://codepen.io/jkantner/full/wLMoWx"
+randomlinks[218]="https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw"
+randomlinks[219]="https://codepen.io/alexzaworski/full/xMvEVr"
+randomlinks[220]="https://zoomquilt2.com/"
+randomlinks[221]="https://codepen.io/atzedent/full/PorPpZQ"
+randomlinks[222]="http://robotics.ovh/"
+randomlinks[223]="https://neal.fun/printing-money/"
+randomlinks[224]="https://mrdoob.neocities.org/017/"
+randomlinks[225]="https://neal.fun/life-stats/"
+randomlinks[226]="https://arkadia.xyz/"
+randomlinks[227]="https://rainbowhunt.com/relaxing-raindrop-sounds.html"
+randomlinks[228]="https://www.thx.com/deepnote/"
+randomlinks[229]="https://www.earthcam.net/projects/empirestatebuilding/gigapixelpanorama/2021/"
+randomlinks[230]="https://physicsofbeauty.art"
+randomlinks[231]="https://colorace-reloaded.com/"
+randomlinks[232]="http://eelslap.com/"
+randomlinks[233]="https://smashthewalls.com/"
+randomlinks[234]="http://www.koalastothemax.com/"
+randomlinks[235]="https://defonic.com/"
+randomlinks[236]="https://codepen.io/yuanchuan/full/yrobOe"
+randomlinks[237]="http://codrops-svg.surge.sh/"
+randomlinks[238]="https://mrdoob.neocities.org/035/"
+randomlinks[239]="https://www.clicktorelease.com/code/codevember-2017/supershape/"
+randomlinks[240]="https://www.rijksmuseum.nl/nl/stories/operatie-nachtwacht/story/ultra-hoge-resolutie-foto"
+randomlinks[241]="https://oskarstalberg.com/Townscaper/"
+randomlinks[242]="https://musiclab.chromeexperiments.com/Spectrogram/"
+randomlinks[243]="https://musiclab.chromeexperiments.com/Rhythm/"
+randomlinks[244]="https://musiclab.chromeexperiments.com/Shared-Piano/"
+randomlinks[245]="https://musiclab.chromeexperiments.com/Arpeggios/"
+randomlinks[246]="https://musiclab.chromeexperiments.com/Kandinsky/"
+randomlinks[247]="https://codepen.io/yuanchuan/full/wZJqNK"
+randomlinks[248]="https://tympanus.net/Development/ExplodingObjects/index-egg.html"
+randomlinks[249]="https://tympanus.net/Development/ExplodingObjects/index-icosahedron.html"
+randomlinks[250]="https://lumina.goodboydigital.com/"
+randomlinks[251]="https://sketches.vlucendo.com/morphed-sphere/"
+randomlinks[252]="https://sketches.vlucendo.com/portal/"
+randomlinks[253]="https://codepen.io/shubniggurath/full/LaVmGP"
+randomlinks[254]="https://codepen.io/soju22/full/ywLZPV"
+randomlinks[255]="https://codepen.io/mwmwmw/full/wNWoMV"
+randomlinks[256]="https://mgz.me/scenes/ISeeSound/"
+randomlinks[257]="https://codepen.io/Tibixx/full/mvLrqe"
+randomlinks[258]="https://clickclickclick.click/"
+randomlinks[259]="https://mgz.me/scenes/GlassCircuit/"
+randomlinks[260]="https://mgz.me/scenes/CosmicClouds/"
+randomlinks[261]="https://mgz.me/scenes/Patterns/"
+randomlinks[262]="https://neal.fun/size-of-space/"
+randomlinks[263]="http://madebyevan.com/webgl-water/"
+randomlinks[264]="https://tympanus.net/Tutorials/InteractiveParticles/"
+randomlinks[265]="https://neal.fun/who-was-alive/"
+randomlinks[266]="https://codepen.io/DonKarlssonSan/full/ALyQBk/"
+randomlinks[267]="https://2017.makemepulse.com/"
+randomlinks[268]="https://neal.fun/paper/"
+randomlinks[269]="https://tympanus.net/Tutorials/apple-fifth-avenue/?debug=true"
+randomlinks[270]="https://tympanus.net/Development/MusicalInteractions/"
+randomlinks[271]="http://ikeryou.jp/works/b/"
+randomlinks[272]="https://massmigrations.com/agle"
+randomlinks[273]="https://demo.marpi.pl/spider/index.html"
+randomlinks[274]="https://odra.city/klessoi"
+randomlinks[275]="https://demo.marpi.pl/explosion/"
+randomlinks[276]="https://demo.marpi.pl/flower/"
+randomlinks[277]="https://demo.marpi.pl/shattered_cube/"
+randomlinks[278]="https://demo.marpi.pl/nefertiti/"
+randomlinks[279]="https://classes.marpi.pl/camp/"
+randomlinks[280]="https://drawing.garden/"
+randomlinks[281]="http://mrdoob.neocities.org/008/"
+randomlinks[282]="https://neal.fun/spend/"
+randomlinks[283]="https://origamisimulator.org/"
+randomlinks[284]="https://demos.littleworkshop.fr/infinitown"
+randomlinks[285]="https://threejs.org/examples/webgl_animation_keyframes"
+randomlinks[286]="https://surface-floater.lusion.co/"
+randomlinks[287]="https://threejs.org/examples/webgl_decals.html"
+randomlinks[288]="https://threejs.org/examples/webgl_effects_anaglyph.html"
+randomlinks[289]="https://threejs.org/examples/webgl_loader_gltf.html"
+randomlinks[290]="https://demo.marpi.pl/ocean_desert/"
+randomlinks[291]="https://tetris.zweibel-cocaine.com/"
+randomlinks[292]="https://aaron-bird.github.io/demo/rubiks-cube/"
+randomlinks[293]="https://www.uberviz.io/viz/splice/"
+randomlinks[294]="https://threejs.org/examples/webgl_materials_bumpmap.html"
+randomlinks[295]="https://threejs.org/examples/webgl_materials_cubemap_dynamic.html"
+randomlinks[296]="https://ykob.github.io/sketch-threejs/sketch/cyberspace.html"
+randomlinks[297]="https://www.spielzeugz.de/html5/sticky-thing/"
+randomlinks[298]="https://demos.littleworkshop.fr/track"
+randomlinks[299]="http://www.dennis.video/"
+randomlinks[300]="https://oguzeroglu.github.io/ROYGBIV/demo/villneuvedascq/application.html"
+randomlinks[301]="https://david.li/paint/"
+randomlinks[302]="https://hughsk.io/popcorn/"
+randomlinks[303]="https://adventuremachine.4thfloorcreative.co.uk/"
+randomlinks[304]="https://david.li/fluid/"
+randomlinks[305]="https://david.li/flow/"
+randomlinks[306]="https://www.hiteshsahu.com/HouseOfCards"
+randomlinks[307]="https://ulucode.com/random/hod/"
+randomlinks[308]="https://stylecampaign.com/moonclock/"
+randomlinks[309]="https://ykob.github.io/sketch-threejs/sketch/hole.html"
+randomlinks[310]="https://ulucode.com/random/phychars/"
+randomlinks[311]="https://codepen.io/Godje/full/mOzpEY/"
+randomlinks[312]="https://yiwenl.github.io/Sketches/exps/28"
+randomlinks[313]="https://hextunel.netlify.app/"
+randomlinks[314]="https://codepen.io/supah/full/XWdyLjb"
+randomlinks[315]="https://ulucode.com/random/test/"
+randomlinks[316]="https://www.fallingfalling.com/"
+randomlinks[317]="https://adinunz.io/supershape/"
+randomlinks[318]="http://codepen.io/bali_balo/full/yJOmgv/"
+randomlinks[319]="https://alexanderperrin.com.au/triangles/ballooning/"
+randomlinks[320]="https://prototypes.sennep.com/experiments/squeeshy/"
+randomlinks[321]="https://boytchev.github.io/mannequin.js/examples/example-dynamic.html"
+randomlinks[322]="https://raymarchingmatcaps.netlify.app/"
+randomlinks[323]="https://boytchev.github.io/mannequin.js/examples/example-point.html"
+randomlinks[324]="http://typedrummer.com/"
+randomlinks[325]="https://christmasexperiments.com/2018/04/hatsumode/"
+randomlinks[326]="https://christmasexperiments.com/2018/05/the-forest-spirits/"
+randomlinks[327]="https://christmasexperiments.com/2018/06/xmas-tree/"
+randomlinks[328]="https://christmasexperiments.com/2018/07/lithos/"
+randomlinks[329]="https://christmasexperiments.com/2018/08/reflect/"
+randomlinks[330]="https://rockpaperscissors.ai/"
+randomlinks[331]="https://meowmart.mailchimp.com/"
+randomlinks[332]="https://adinunz.io/translucentPearls/"
+randomlinks[333]="https://ykob.github.io/sketch-threejs/sketch/fire_ball_2.html"
+randomlinks[334]="https://busysimulator.com/"
+randomlinks[335]="http://cabbibo.com/"
+randomlinks[336]="https://musiclab.chromeexperiments.com/Song-Maker"
+randomlinks[337]="https://elysium.thebenezer.com/"
+randomlinks[338]="https://morse.withgoogle.com/learn/"
+randomlinks[339]="https://www.patatap.com/"
+randomlinks[340]="https://knots.netlify.app/"
+randomlinks[341]="https://pudding.cool/2017/03/music-history/"
+randomlinks[342]="https://www.micro-pano.com/pearl/index.html"
+randomlinks[343]="https://synesthesia.rikard.io/"
+randomlinks[344]="https://codepen.io/Hornebom/full/RjdyJr"
+randomlinks[345]="https://ulucode.com/random/webgputests/furball/"
+randomlinks[346]="https://codepen.io/cvaneenige/full/wNbRxW"
+randomlinks[347]="http://2018.makemepulse.com/"
+randomlinks[348]="https://www.8bitdash.com"
+randomlinks[349]="https://www.yanlinma.com/flat-ui-and-a-half/"
+randomlinks[350]="https://sokyokuban.com/"
+randomlinks[351]="https://hostrider.com/"
+randomlinks[352]="https://demo.marpi.pl/dark_haze/"
+randomlinks[353]="https://codepen.io/elsemeow/full/gOwYMNR"
+randomlinks[354]="https://codepen.io/tr13ze/full/PNWwVB"
+randomlinks[355]="https://phoboslab.org/wipegame/"
+randomlinks[356]="https://ulucode.com/random/wurst/"
+randomlinks[357]="https://codepen.io/miocene/full/rNOVWor"
+randomlinks[358]="https://2020game.io/"
+randomlinks[359]="https://experiments.corentinbernadou.com/geisha/"
+randomlinks[360]="https://hipstersound.com/rainy-screensaver.html"
+randomlinks[361]="https://portfolio2023.michalzalobny.com/projects/particle-emitter"
+randomlinks[362]="https://www.clicktorelease.com/code/polygon-shredder/"
+randomlinks[363]="https://www.clicktorelease.com/code/codevember-2017/chromeography/"
+randomlinks[364]="https://www.clicktorelease.com/code/codevember-2017/glow-worms/"
+randomlinks[365]="https://sequencer.henryfellerhoff.com/"
+randomlinks[366]="https://rainbowhunt.com/relaxing-raindrop-sounds.html"
+randomlinks[367]="https://virtocean.com"
+randomlinks[368]="https://wetclap.com"
+randomlinks[369]="https://slideventura.com/"
+randomlinks[370]="https://recollection.ukon.dev/"
+randomlinks[371]="https://codepen.io/amit_sheen/full/XWMXwvJ"
+randomlinks[372]="https://www.sequencer64.com/"
+randomlinks[373]="https://codepen.io/ste-vg/full/MWpxKYR"
+randomlinks[374]="https://deardiary.ai/"
+randomlinks[375]="https://threejs-audio-reactive-visual.netlify.app/"
+randomlinks[376]="http://zoomquilt.org/"
+randomlinks[377]="https://demo.marpi.pl/archan/black_rain/"
+randomlinks[378]="https://portfolio2023.michalzalobny.com/projects/particle-system"
+randomlinks[379]="https://ykob.github.io/sketch-threejs/sketch/metal_cube.html"
+randomlinks[380]="https://defonic.com/moodlight.html"
+randomlinks[381]="https://portfolio2023.michalzalobny.com/projects/dynamic-particles"
+randomlinks[382]="https://portfolio2023.michalzalobny.com/projects/fbo-particles-instanced"
+randomlinks[383]="https://f5wkx2.csb.app/"
+randomlinks[384]="https://samsy.ninja/tiltbrush/index.html"
+randomlinks[385]="https://samsy.ninja/odd/index.html"
+randomlinks[386]="http://arkade.samsy.ninja/"
+randomlinks[387]="https://samsy.ninja/lunar/index.html"
+randomlinks[388]="https://samsy.ninja/lineengine/index.html"
+randomlinks[389]="https://samsy.ninja/particleXX/index.html"
+randomlinks[390]="https://samsy.ninja/morphin/index.html"
+randomlinks[391]="https://samsy.ninja/milkynoshare/index.html"
+randomlinks[392]="https://samsy.ninja/instancedray/index.html"
+randomlinks[393]="https://samsy.ninja/nebula/index.html"
+randomlinks[394]="https://www.themagicalpantry.com/"
+randomlinks[395]="https://codepen.io/ricardoolivaalonso/full/mdPzrpe"
+randomlinks[396]="https://codepen.io/ricardoolivaalonso/full/jOXeOmY"
+randomlinks[397]="https://muted.io/sequencer/"
+randomlinks[398]="https://clipdrop.co/stable-doodle"
+randomlinks[399]="https://javier.xyz/astroboi"
+randomlinks[400]="https://yiwenl.github.io/Sketches/exps/12"
+randomlinks[401]="https://yiwenl.github.io/Sketches/exps/2"
+randomlinks[402]="https://yiwenl.github.io/Sketches/exps/59"
+randomlinks[403]="https://yiwenl.github.io/Sketches/exps/13"
+randomlinks[404]="https://longdogechallenge.com/"
+randomlinks[405]="https://findtheinvisiblecow.com/"
+randomlinks[406]="https://www.omfgdogs.com/"
+randomlinks[407]="https://openpuppies.com"
+randomlinks[408]="https://trashloop.com/"
+randomlinks[409]="https://www.krea.ai/apps/image/realtime"
+randomlinks[410]="https://muda.co/collection/gentlebrain/"
+randomlinks[411]="https://wvnl.xyz/work/poiison/"
+randomlinks[412]="https://gkjohnson.github.io/batched-material-properties-demo/"
+randomlinks[413]="https://matiasgf.dev/experiments/ray-marching-reflections/play"
+randomlinks[414]="https://osolmaz.github.io/microtonal-piano/"
+randomlinks[415]="http://weavesilk.com/"
+randomlinks[416]="https://cat-bounce.com/"
+randomlinks[417]="https://codepen.io/wakana-k/full/qByaQxZ"
+randomlinks[418]="https://codepen.io/Yakudoo/full/poqazQo"
+randomlinks[419]="https://grantkot.com/draw/"
+
+function randomlink(){
+window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)], '_blank');https://sharkle.com/https://sharkle.com/ 
+ 
+function eval_javascript(code) {
+ 
+  var result_ok    = '';
+  var result_error = '';
+ 
+  if (code.length==0) {
+    result_error = 'ERROR: empty code';
+  }
+ 
+  try {
+    result_ok = eval(code);
+  } catch (e) {
+    result_error = 'ERROR: '+e;
+  }
+ 
+  if (result_error=='') {
+    var str = '';
+    if (result_ok != undefined) {
+      str = '\n\nRETURN CODE: '+result_ok;
+    }
+    alert('Test ok.\nCompiles (eval) with no errors. '+str);
+  } else {
+    alert(result_error)
+  }
+ 
+}
+ 
+function convert_to_bookmarklet() {
+ 
+  var f = document.form_bookmarklet;
+ 
+  var textArea = f.js_code_original;
+ 
+  var TO = textArea.value;
+ 
+  TO = TO.replace(/^javascript:\s*/, '');
+ 
+  TO = TO.replace(/\r/g, '\n');
+ 
+  // Remove '//' comments in the beginning of lines or after ';' and '{' and '}'
+ 
+  var regex_remove_comments = /^\s*\/\/.*?\n|([;\{\}])\s*\/\/.*?\n/gm;
+  TO = TO.replace(regex_remove_comments,"$1\n");
+ 
+  TO = TO.replace(/\s*\n\s*/g, ' ');
+  TO = 'javascript:' + TO;
+ 
+  f.js_code_bookmarklet.value                      = TO; // <input> field with bookmarklet code
+  document.getElementById('bookmarklet_link').href = TO; // Bookmarklet link
+  document.getElementById('bookmarklet_link').innerHTML = f.bookmarklet_name.value;
+ 
+  document.getElementById('bookmarklet_link_div').style.display='';
+  document.getElementById('bookmarklet_link_instructions').style.display='none';
+ 
+  document.getElementById('bookmarklet_warning_div').style.border='1px solid black';
+  document.getElementById('bookmarklet_warning_div').style.padding='5px';
+ 
+  $("#bookmarklet_bytes").html( $("#js_code_bookmarklet").val().length +' bytes' );
+ 
+  $("#bookmarklet_warning_div").fadeTo("fast", 0);
+  $("#bookmarklet_warning_div").fadeTo("fast", 1);
+
+// TODO: 
+//  $('textArea').TextAreaExpander(100,550);
+ 
+  return true;
+}
+ 
+ 
+f = document.form_bookmarklet;
+ 
+google_bookmark = '(function(){\n\
+var a=window,\n\
+b=document,\n\
+c=encodeURIComponent,\n\
+d=a.open("http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk="+c(b.location)+"&title="+c(b.title),"bkmk_popup","left="+((a.screenX||a.screenLeft)+10)+",top="+((a.screenY||a.screenTop)+10)+",height=420px,width=550px,resizable=1,alwaysRaised=1");\n\
+a.setTimeout(function(){d.focus()},300);\n\
+})();';
+ 
+ 
+// var str='VIEW SOURCE OF: '+window.location+' [<a href=\"javascript:getElementByTagName(\'b\').style.display=\'none\'\">view line numbers<\/a>]<hr noshade size=1><pre>'+c2;\n\
+ 
+view_source = "(function(){\n\
+ var c=unescape(document.documentElement.innerHTML);\n\
+ c=c.replace(/</g,'&lt;');\n\
+ c=c.replace(/\%/g,'&#25;');\n\
+ var cl = c.split('\\n');\n\
+ var c2='';\n\
+ for(var i=0;i<cl.length;i++) {\n\
+   c2 += \"<b style=\\'display:\\'>\" + (i+1) + \". </b>\" + cl[i] + \"\\n\";\n\
+ }\n\
+ var str='VIEW SOURCE OF: '+window.location+' ('+(cl.length)+' lines; '+(c.length)+' bytes) <b>[<a href=\"javascript:var a = document.getElementsByTagName(\\'b\\');for (var i = 0; i<a.length; i++) {a[i].style.display=\\'none\\';}\">hide line numbers</a>]</b><hr noshade size=1><pre>'+c2;\n\
+ var o=window.open('','_blank');\n\
+ if(o) {\n\
+   o.document.write(str);\n\
+   o.document.close();\n\
+ } else { // window.open('') not working on ipad?\n\
+   document.body.innerHTML=str;\n\
+ }\n\
+})();";
+ 
+page_info = "(function(){\n\
+//var obj = this;\n\
+var obj = document;\n\
+  var str = '';  var array = new Array();  var i = 0;\n\
+  for (key in obj) { array[i] = key; i++; }  array = array.sort();\n\
+  for (i=0; i<array.length; i++) {\n\
+    var key = array[i];\n\
+    var value;\n\
+    try { value = obj[key]; } catch (e) { value = 'DUMP ERROR: key='+key+'; e='+e; }\n\
+    var value_str = value+'';\n\
+    if (value_str != 'null' && value_str.match(/[\\[]native code/) == null && value_str.match(/object HTMLCollection/) == null) {\n\
+      value_str = value_str.replace(/</g, '&lt;');\n\
+      str += key + '=' + value_str + ';\\n';\n\
+    }\n\
+};\n\
+var o=window.open('','_blank');\n\
+var newdoc=o.document;\n\
+newdoc.write('<plaintext>'+str);\n\
+newdoc.close();\n\
+//o.focus();\n\
+})();\n\
+";
+ 
+view_images = "(function(){\n\
+ var str='<font size=2 face=arial><h2>Images from page: '+window.location.href +'</h2>';\n\
+ var already_got_img = {};\n\
+ if (document.images.length==0) {\n\
+  alert('no images in this page');\n\
+ } else {\n\
+  str += '<h3>'+document.images.length+' images found</h3><hr>\\n';\n\
+  for(i=0;i<document.images.length;i++) {\n\
+   var img_src = document.images[i].src;\n\
+   if (!already_got_img[img_src]) {\n\
+     str += \n\
+     '<img src=\\''+document.images[i].src+'\\'><br>\\n'+\n\
+     '<a href=\"'+document.images[i].src + '\">'+document.images[i].src+'</a><br>' +\n\
+     document.images[i].width + 'x' + document.images[i].height + '<br><br>' +\n\
+     '<hr noshade size=1>\\n' ;\n\
+     already_got_img[img_src] = 1;\n\
+   }\n\
+  }\n\
+  var o=window.open('','_blank');\n\
+  var newdoc=o.document;\n\
+  newdoc.write(str);\n\
+  newdoc.close();\n\
+ }\n\
+})();\n\
+";
+
+ 
+view_linked_images = "(function(){\n\
+ var i,a,img_found=0;\n\
+ for(i=0;a=document.getElementsByTagName('a')[i];++i) { \n\
+  var href= a.href;\n\
+  if (href.match(/jpe?g$|png$|gif$/i)) {\n\
+    img_found=1;\n\
+    var img = '<img src=' + href + '>';\n\
+    var span = document.createElement('span');\n\
+        span.innerHTML = img;\n\
+    a.appendChild(span);\n\
+  }\n\
+ }\n\
+ if (img_found==0) { alert('No linked images found.') }\n\
+})();\n\
+";
+ 
+open_all_links = "(function(){\n\
+var n_to_open,dl,dll,i;\n\
+var got = {};\n\
+function linkIsSafe(u) {\n\
+  if (u.substr(0,7)=='mailto:') return false;\n\
+  if (u.substr(0,11)=='javascript:') return false;\n\
+  if (got[u]==1) return false;\n\
+  got[u] = 1;\n\
+  return true;\n\
+}\n\
+n_to_open = 0;\n\
+dl = document.links;\n\
+dll = dl.length;\n\
+for(i = 0; i < dll; ++i) {\n\
+  if (linkIsSafe(dl[i].href)) ++n_to_open;\n\
+}\n\
+if (!n_to_open) {\n\
+  alert ('no links found');\n\
+} else {\n\
+  if (confirm('Open ' + n_to_open + ' links in new windows?')) {\n\
+    for (var url in got) {\n\
+      window.open(url);\n\
+    }\n\
+  }\n\
+}\n\
+})();\n\
+";
+ 
+post_form_debug = "(function(){\n\
+ var d = document;\n\
+ var forms = (d.all)?d.all.tags('form'):d.getElementsByTagName('form');\n\
+ var hid = (d.all)?d.all.tags('input'):d.getElementsByTagName('input');\n\
+ for (var i=0; i<hid.length;i++) {\n\
+  if (hid[i].getAttribute('type')=='hidden') {\n\
+   var el = document.createElement('span');\n\
+       el.innerHTML='<b>'+hid[i].name+'=</b>';\n\
+   hid[i].parentNode.insertBefore(el, hid[i]);\n\
+   hid[i].setAttribute('type', 'text');\n\
+  }\n\
+ }\n\
+ var s = document.createElement('input');\n\
+     s.type = 'submit';\n\
+     s.value = 'POST FORM TO DEBUG PAGE';\n\
+     s.style.borderColor='#ff0000';\n\
+     s.style.backgroundColor='#ffc070';\n\
+ with(forms) {\n\
+  for(var i=0;i<length;i++) {\n\
+    item(i).setAttribute('action','http://www.js.do/cgi-bin/form-parameters.pl');\n\
+    item(i).onsubmit = '';\n\
+    item(i).method = 'POST';\n\
+    item(i).appendChild(s);\n\
+  }\n\
+  alert(\"Click 'POST FORM TO DEBUG PAGE' to submit and view form contents.\");\n\
+ }\n\
+})();\n\
+";
+
+// javascript:void(window.location='http://validator.w3.org/check?uri='+escape(window.location))
+ 
+w3c_validate = "(function(){\n\
+  window.location='http://validator.w3.org/check?uri='+escape(window.location);\n\
+})();\n\
+"; 
+ 
+take_note = "(function(){\n\
+if ((navigator.my_note=='')||(!navigator.my_note)){\n\
+ void(navigator.my_note=prompt('Enter your note (run again to retrieve)',''))\n\
+} else {\n\
+ void(my_note_new=prompt('Your note:',navigator.my_note));\n\
+ if (my_note_new!=null) void(navigator.my_note=my_note_new)\n\
+}\n\
+})();\n\
+";
+ https://rapidapi.com/davethebeast/api/twitter241/playground/apiendpoint_dbbb0bec-8b8a-4e75-80a7-374417957bf5https://rapidapi.com/davethebeast/api/twitter241/playground/apiendpoint_dbbb0bec-8b8a-4e75-80a7-374417957bf5the request was made in a sandboxed frame whose 'allow-popups' permission is not set.the request was made in a sandboxed frame whose 'allow-popups' permission is not set.
