@@ -1,0 +1,10 @@
+无插件启动谷歌浏览器
+2017-02-13
+
+有时候想暂时不需要插件，又不想去设置面板一个一个关闭，怎么办？毕竟插件会嵌入一些js什么的。
+
+……
+
+ 
+
+start "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-plugins
