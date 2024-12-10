@@ -1,0 +1,7 @@
+x = "hello world"
+
+for x in 1..10 {
+    echo(x) # 1, 2, 3...
+}
+
+echo(x) # "hello world"
