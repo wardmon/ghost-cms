@@ -1,0 +1,192 @@
+Skip to content
+Navigation Menu
+w3c-webmob
+ServiceWorkersDemos
+
+Type / to search
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Owner avatar
+ServiceWorkersDemos
+Public
+w3c-webmob/ServiceWorkersDemos
+Go to file
+t
+Add file
+Folders and files
+Name		
+Latest commit
+author
+Marcos Cáceres
+Update README.md
+98ad524
+ · 
+8 years ago
+History
+game
+Update README.md
+10 years ago
+magazines-app
+Update README.md
+10 years ago
+maps
+Update README.md
+10 years ago
+podcast-app
+Update README.md
+10 years ago
+todo-app
+Update README.md
+10 years ago
+twitter-client
+Added note that this is moved.
+10 years ago
+wiki
+Update README.md
+10 years ago
+CNAME
+Create CNAME
+10 years ago
+README.md
+Update README.md
+8 years ago
+Repository files navigation
+README
+THIS REPO IS NO LONGER MAINTAINED
+Thanks for stopping by! When we started this work, Service Workers were just becoming "a thing" - so this repo was intended to bootstrap the ecosystem. Since then countless amazing resources and videos on using Service Workers became available. As such, we are no longer able to keep up. Below links are still relevant, but we are not longer adding new ones.
+
+Historical...
+We hope to build a set of reference applications that make full use of service workers. However, currently there are no working demos in this repo.
+
+For ServiceWorker demos try out:
+Service Worker recipes
+Basic registration - a bare-bones sample that simply performs service worker registration, with placeholders for various event handlers.
+Detailed registration - a sample that provides detailed information about the service worker registration and the state changes that a service worker undergoes.
+Prefetching resources during installation - a sample demonstrating how to prefetch and cache a list of URLs during the service worker's installation, ensuring that they're available offline.
+Selective caching - a sample of how a service worker can cache resources "on the fly", assuming the resources meet certain criteria (MIME type, domain, etc.).
+Read-through caching - a sample of caching all resources that are requested "on the fly", unconditionally.
+Offline Google Analytics - extends the read-through caching example to add in support for "replaying" failed Google Analytics pings, allowing pages to submit Google Analytics data associated with offline/cached page views.
+Fallback responses - a sample illustrating how you can return alternative "fallback" content if an initial fetch request fails.
+Mock responses - a sample illustrating how you can return content created on the fly in response to a page's requests.
+Using postMessage - a sample illustrating the use of postMessage() to send commands from a controlled page to its service worker, giving the page control over the cache.
+Basic Demos
+Wiki engine demo
+isserviceworkerready spec tests
+Cache All - The bare minimum Service Worker to cache all requests from the app.
+Substantial demos
+Offline News
+Trained to Thrill
+Tweetdeck offline
+This repo is just getting started
+All the code in this repo is in the earliest stage of development. We are looking for people to help us create these apps!
+
+Our goal is to show how you can perform tasks that are common in native applications using this new set of APIs. We want to keep the apps simple, so they can be easily bisected and copied by anyone.
+
+Please note that the spec and implementations are in a very early stage! You may find issues with implementations in that they may often change or produce strange results at first. :
+
+To see what actually works in browsers today, see Jake Archibald's IsServiceWorkerReady page.
+
+How can you help?
+The process below is a guideline to how to get started.
+
+Fork this repo!
+Choose one of the apps from the directories above.
+Use the app's behavior draft to implement the application.
+Keep it really simple! See our list of resources below to learn about service workers.
+How to run these things?
+We will be hosting them on a website soon, so you can see them as we build them.
+
+Right now, you will need:
+
+Chrome.
+Opera.
+Firefox Nightly.
+Wanna build something different?
+If you have a more interesting app you want to build, please add them to this repo. Just add a directory to the root directory with a README.md file explaining what the app does and send us a pull request!
+
+##Resources
+
+The specification.
+Articles/Vidoes
+ServiceWorkers and Firefox - Introduction to ServiceWorkers on Firefox!
+Service Worker - first draft published - Introduction and tutorial including code snippets!
+Video: The ServiceWorker: The network layer is yours to own - video introducing ServiceWorker including HTTP caching, request, and showing SW in forms, the basis for push messaging, alarms, geofencing and background sync.
+Debugging
+ServiceWorkerInternals (chrome canary only - chrome://serviceworker-internals/) - page for debugging ServiceWorkers in chrome, including stopping, unregistering and starting workers.
+Examples
+Jake Archibald's Trained to Thrill - Jake made a great demo app which pulls in images from Flickr, uses fetch, uses cache (not implemented yet) and worker registrations.
+Simple ServiceWorker - A simple Service Worker example by Matt Andrews.
+Related APIs
+Promises HTML5Rocks - Understanding Promises (used frequently in ServiceWorkers especially in fetch, cache).
+The Basics of Web Workers - Understanding concurrency in JavaScript and how web workers work.
+About
+Demo apps utilizing Service Workers.
+
+Resources
+ Readme
+ Activity
+ Custom properties
+Stars
+ 466 stars
+Watchers
+ 51 watching
+Forks
+ 64 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+8
+@marcoscaceres
+@tobie
+@paulirish
+@karolklp
+@cvan
+@torgo
+@boopathi
+@cirocosta
+Deployments
+1
+ github-pages 8 years ago
+Languages
+JavaScript
+78.5%
+ 
+CSS
+11.8%
+ 
+HTML
+9.7%
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+识别到网页内正在下载...
+
+来自当前网页的文件
+https://codeload.github.com/w3c-webmob/ServiceWorkersDemos/zip/refs/heads/gh-pages
+
+该文件可转存至百度网盘
+转存地址：我的网盘/来自：浏览器扩展
+
+不占用电脑空间
+
+一键转存，秒速下载
+暂不转存转存至网盘
+
+30天内不再提醒
