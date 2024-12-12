@@ -1,0 +1,10 @@
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s %(filename)s %(levelname)s %(message)s',
+                    datefmt='%a %d %b %Y %H:%M:%S',
+                    filename='my.log',
+                    filemode='w')
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/colinlee19860724/article/details/90965100
