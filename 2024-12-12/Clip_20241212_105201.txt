@@ -1,0 +1,4 @@
+H1: Dear Console, give me a list of all headings and their level
+H2: What?
+H2: How?
+H2: Who?
