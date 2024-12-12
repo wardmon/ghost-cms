@@ -1,0 +1,9 @@
+    async with Browser(headless=False, remote_port=0) as browser:
+
+        async def run(url: str):
+            async with browser.new_tab() as tab:
+                await tab.execute(commands.Page.enable())
+                await tab.execute(commands.Page.setLifecycleEventsEnabled(enabled=True))
+                await navigate(tab, url=url, wait_until="load")
+
+        await run("https://www.google.com")
