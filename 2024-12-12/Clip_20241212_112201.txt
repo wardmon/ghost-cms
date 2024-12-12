@@ -1,0 +1,1 @@
+https://github.com/inspectdev/inspect-release/releases/download/v0.8.2/Inspect-0.8.2-win-x64.exe
