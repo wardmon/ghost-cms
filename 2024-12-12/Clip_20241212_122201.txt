@@ -1,0 +1,1 @@
+MicrosoftEdge.exe --devtools-server-port 9222 about:blank
