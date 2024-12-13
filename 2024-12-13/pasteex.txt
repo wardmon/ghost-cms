@@ -1,0 +1,31 @@
+chrome-devtools-frontenddevtoolsasync with Browser(headless=False, remote_port=0,remote_uri="http://127.0.0.1:9222") as browser:
+
+        async def run(url: str):
+            async with browser.new_tab() as tab:
+                await tab.execute(commands.Page.enable())
+                await tab.execute(commands.DOM.enable())
+                await tab.execute(commands.Page.navigate(url=url))
+                await asyncio.sleep(3)
+                result = await tab.execute(
+                    commands.Runtime.evaluate(
+                        #expression="document.documentElement.outerHTML"
+                        expression="var aa=6+3;alert('aaaaaa');aa"
+                    )
+                )
+                print(result)
+
+        await run("http://127.0.0.1:9222/json/list")>>> import chrome_remote_shell, json
+>>> shell = chrome_remote_shell.Shell(host='localhost', port=9222)
+>>> shell.connect(0)
+>>> url = 'http://www.clift.org/fred' # shameless
+>>> navcom = json.dumps({"id":0, "method":"Page.navigate", "params":{"url":url}})
+>>> shell.soc.send(navcom)
+>>> response = json.loads(shell.recv())host='localhost'From： Josy （contact@netperles.com ）
+Sent： 2024-12-12 20:17:36
+To： info
+CC： 
+Subject： 44892
+
+Live Support Message Delivery:
+-------------------------------------------
+Hello Gordon, can you ship my order please ? I need for a customer, thank you, JosyModuleNotFoundError: No module named 'BaseHTTPServer'https://github.com/barneygale/JSRPC/tree/masterhttps://github.com/barneygale/JSRPC/tree/master$.jsrpc_message
