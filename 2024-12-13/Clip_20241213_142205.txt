@@ -1,0 +1,5 @@
+    #Async
+    def location(value):
+        print "    -> window.location.href: %s" % value
+    def prompt(value):
+        print "    -> window.prompt(): %s" % value
