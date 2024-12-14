@@ -1,0 +1,17 @@
+    #Async
+    def location(value):
+        print "    -> window.location.href: %s" % value
+    def prompt(value):
+        print "    -> window.prompt(): %s" % value    -> window.location.href: http://45.32.200.249:8080/#home
+000000000000# Function call
+    -> window.prompt(): 00000000    -> window.location.href: http://45.32.200.249:8080/#home
+000000000000# Function call
+    -> window.prompt(): 00000000async_operate_tab()/usr/local/lib/python3.8/dist-packages/ichrome/daemon.pychrome = AsyncChrome(host='127.0.0.1', port=9222)
+if not await chrome.connect():
+    raise RuntimeError
+tab = (await chrome.tabs)[0]chrome = AsyncChrome(host='127.0.0.1', port=9222)
+if not await chrome.connect():
+    raise RuntimeError
+tab = (await chrome.tabs)[0]await tab.js("document.title = 'New Title'")callback_functionhttp://127.0.0.1:8009/chrome/request_get    import asyncio
+    from ichrome import AsyncChrome, AsyncTab, AsyncChromeDaemon
+    import json105.39http://www.cnepearls.com/demapd/invoice.php?selected_box=customers&page=1&action=edit&oID=44893&osCAdminID=uokbtnp00802itb3hq396uk812
