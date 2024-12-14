@@ -1,0 +1,1 @@
+tab.alert('Here is the screenshot image by css selector "#contact"')
