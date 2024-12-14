@@ -1,0 +1,4 @@
+chrome = AsyncChrome(host='127.0.0.1', port=9222)
+if not await chrome.connect():
+    raise RuntimeError
+tab = (await chrome.tabs)[0]
