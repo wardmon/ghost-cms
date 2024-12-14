@@ -1,0 +1,1 @@
+javascript:{let s=document.createElement('script');s.type='text/javascript';s.textContent=prompt('injectandrun:js,function:');document.body.appendChild(s);}void(0);
