@@ -1,0 +1,19 @@
+async def tab_callback(task, tab, data, timeout):
+    await tab.wait_loading(3)
+    return await tab.html
+
+
+# 3. incognito_args demo
+print(
+    requests.post(
+        "http://127.0.0.1:8009/chrome/do",
+        json={
+            "tab_callback": getsource(tab_callback),
+            "timeout": 10,
+            "incognito_args": {
+                "url": "http://httpbin.org/ip",
+                "proxyServer": "http://127.0.0.1:1080",
+            },
+        },
+    ).text
+)
