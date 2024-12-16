@@ -1,0 +1,2 @@
+curl -sg http://127.0.0.1:9222/json/new | grep webSocketDebuggerUrl | cut -d'"' -f4 | head -1
+ws://127.0.0.1:9222/devtools/page/A331E56CCB8615EB4FCB720425A82259
