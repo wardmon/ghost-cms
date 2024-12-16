@@ -1,0 +1,2 @@
+echo 'Page.navigate {"url":"https://bing.com"}' | wsocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B
+{"id":1,"result":{"frameId":"14CF8442AB6B3DA1168356C1C2A6371B","loaderId":"50835DEF01DB409B0595F8D4F97A8A6B"}}
