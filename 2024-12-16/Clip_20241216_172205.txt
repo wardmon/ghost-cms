@@ -1,0 +1,1 @@
+!echo ' {"method":"Runtime.evaluate","expression:alert()"}' | websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B
