@@ -1,0 +1,5 @@
+$ websocat -t --ws-c-uri=wss://echo.websocket.org/ - ws-c:cmd:'socat - ssl:echo.websocket.org:443,verify=0'
+sadf
+sadf
+dsafdsaf
+dsafdsaf
