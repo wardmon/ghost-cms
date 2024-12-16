@@ -1,0 +1,1 @@
+javascript:{var head = document.querySelector('head');var script = document.createElement('script');script.textContent = prompt('injectandrun:js,textContent');head.appendChild(script);}void(0);
