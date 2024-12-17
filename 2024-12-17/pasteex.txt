@@ -1,0 +1,17 @@
+!echo ' {"method":"Runtime.evaluate","expression:alert()"}' | websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371Bimport websocket
+ws = websocket.WebSocket()
+ws.connect("ws://echo.websocket.events")
+ws.send("Hello, Server")Runtime.evaluate {"expression":"alert('1+2')"}aa='Runtime.evaluate {"expression":"alert()"}'
+aa='Runtime.evaluate {"expression":"alert('1+2')"}'
+read aaa
+# echo $aa |websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B
+echo 'Runtime.evaluate {"expression":"'$aaa'"}' |websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B
+aa='Runtime.evaluate {"expression":"alert()"}'
+aa='Runtime.evaluate {"expression":"alert('1+2')"}'
+read aaa
+# echo $aa |websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B
+echo 'Runtime.evaluate {"expression":"'$aaa'"}' |websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B
+aa='Runtime.evaluate {"expression":"alert()"}'
+aa='Runtime.evaluate {"expression":"alert('1+2')"}'
+read aaa
+echo 'Runtime.evaluate {"expression":"'$aaa'"}' |websocat -n1 --jsonrpc --jsonrpc-omit-jsonrpc ws://127.0.0.1:9222/devtools/page/14CF8442AB6B3DA1168356C1C2A6371B/home/pia/miniconda3/envs/test313/lib/python3.13/site-packages/wssh/__init__.py
