@@ -1,0 +1,2 @@
+ -w %{certs}chrome://net-internals/#hsts360up.dev www.360up.dev;about:permissionsmsedge.exe --remote-debugging-port=9222
+pip install flask --target myappssh -L 0.0.0.0:5001:127.0.0.1:5000 pia@45.32.200.249 http://127.0.0.1:8888/lab?token=933b684efff69833e1221b9303671c75e943a04e911d834e http://127.0.0.1:8888/lab?token=933b684efff69833e1221b9303671c75e943a04e911d834ehttp://127.0.0.1:8888/lab?token=933b684efff69833e1221b9303671c75e943a04e911d834e
