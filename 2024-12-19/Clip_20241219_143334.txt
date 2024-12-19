@@ -1,0 +1,5 @@
+3、并发运行（Concurrency）和并行运行（Parallelism）：以 JavaScript 为例（英文）
+
+
+
+本文解释并发和并行的区别，然后给出 JavaScript 的示例。
