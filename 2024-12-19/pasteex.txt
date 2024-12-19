@@ -1,0 +1,134 @@
+http://www.cnepearls.com/freshwater-pearl-strands-bead-loose-freshwater-pearls-c-1_71.html?page=2http://example.comrjsons shell.connect(3)import json
+import requests
+import websocket
+
+
+class Shell(object):
+    def __init__(self, host='127.0.0.1', port=9222):
+        """ init """
+        self.host = host
+        self.port = port
+        self.soc = None
+        self.connected = None
+        self.tablist = None
+        self.find_tabs()
+
+    def connect(self, tab=None, update_tabs=True):
+        if update_tabs or not self.tablist:
+            self.find_tabs()
+        if not tab:
+            tab = 0
+        wsurl = self.tablist[tab]['webSocketDebuggerUrl']
+        #if self.soc.connected:
+        #    self.soc.close()
+        self.soc = websocket.create_connection(wsurl)
+        return self.soc
+
+    def close(self):
+        """ Close websocket connection to remote browser."""
+        if self.soc:
+            self.soc.close()
+            self.soc = None
+
+    def find_tabs(self):
+        """Connect to host:port and request list of tabs
+             return list of dicts of data about open tabs."""
+        # find websocket endpoint
+        response = requests.get("http://%s:%s/json" % (self.host, self.port))
+        self.tablist = json.loads(response.text)
+        return self.tablist
+
+    def open_url(self, url):
+        """Open a URL in the oldest tab."""
+        if not self.soc or not self.soc.connected:
+            self.connect(tab=0)
+        # force the 'oldest' tab to load url
+        navcom = json.dumps({"id": 0,
+                             "method": "Page.navigate",
+                             "params": {"url": url}})
+        # This code would open a new window, but browsers really dont
+        # like doing so.  And, the results are irritating at best.
+        # navcom=json.dumps({"id":0,"method":"Runtime.evaluate",
+        #  "params":{"expression": "window.open('%s', #'_blank',
+        # 'toolbar=1,scrollbars=1,location=1,statusbar=0,menubar=1,resizable=1'
+        # )" % (url) }})Runtime.evaluate
+        self.soc.send(navcom)
+        return self.soc.recv()
+shell = Shell(host='127.0.0.1', port=9222)  
+#shell.connect(0)
+#url = 'http://www.clift.org/fred' # shameless
+url = 'http://example.com' # shameless
+#navcom = json.dumps({"id":0, "method":"Target.createTarget", "params":{"url":url}})
+#shell.soc.send(navcom)
+shell.connect(3)
+navcom = json.dumps({"id":0, "method":"Network.getCookies", "params":{"url":url}})
+shell.soc.send(navcom)
+response = json.loads(shell.soc.recv())
+print(response)
+print(len(shell.find_tabs()))
+print(shell.find_tabs()[1]["url"])
+print(shell.find_tabs()[2])
+chrome_remote_shellhttps://github.com/wardmon/chrome_remote_shellhttps://github.com/wardmon/chrome_remote_shellsplash:html()import asyncio
+import logging
+
+from chromewhip import Chrome
+from chromewhip.protocol import browser, page, dom
+
+# see logging from chromewhip
+logging.basicConfig(level=logging.DEBUG)
+
+HOST = '127.0.0.1'
+PORT = 9222
+
+loop = asyncio.get_event_loop()
+c = Chrome(host=HOST, port=PORT)
+
+loop.run_until_complete(c.connect())
+
+    
+# use the startup tab or create a new one
+tab = c.tabs[0]
+tab = loop.run_until_complete(c.create_tab())
+
+loop.run_until_complete(tab.enable_page_events())
+
+def sync_cmd(*args, **kwargs):
+    return loop.run_until_complete(tab.send_command(*args, **kwargs))
+    
+# send_command will return once the frameStoppedLoading event is received THAT matches
+# the frameId that it is in the returned command payload.
+result = sync_cmd(page.Page.navigate(url='http://nzherald.co.nz'), 
+                  await_on_event_type=page.FrameStoppedLoadingEvent)
+
+# send_command always returns a dict with keys `ack` and `event`
+# `ack` contains the payload on response of a command
+# `event` contains the payload of the awaited event if `await_on_event_type` is provided
+ack = result['ack']['result']
+event = result['event']
+assert ack['frameId'] == event.frameId
+
+sync_cmd(page.Page.setDeviceMetricsOverride(width=800,
+                                            height=600,
+                                            deviceScaleFactor=0.0,
+                                            mobile=False))
+
+
+result = sync_cmd(dom.DOM.getDocument())
+
+dom_obj = result['ack']['result']['root']
+
+# Python types are determined by the `types` fields in the JSON reference for the
+# devtools protocol, and `send_command` will convert if possible.
+assert isinstance(dom_obj, dom.Node)
+
+print(dom_obj.nodeId)
+print(dom_obj.nodeName)
+
+# close the tab
+loop.run_until_complete(c.close_tab(tab))
+
+# or close the browser via Devtools API
+tab = c.tabs[0]
+sync_cmd(browser.Browser.close())chromewhipcurl 'http://localhost:8050/render.html?url=http://domain.com/page-with-javascript.html&timeout=10&wait=0.5'
+msedge.exe --remote-debugging-port=9222
+sc060
