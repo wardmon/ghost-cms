@@ -1,0 +1,3 @@
+4、TensorFlow.js 自动化 Chrome 恐龙游戏（英文）
+
+本文介绍如何使用 TensorFlow.js 进行深度学习，自动玩 Chrome 浏览器的恐龙跳跃游戏。
