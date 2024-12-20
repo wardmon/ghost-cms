@@ -1,0 +1,1000 @@
+mv bbs_https##codepen.io#wardmon#pen#JjqOabO\?editors\=1000.html bbs_https##codepen.io#wardmon#pen#JjqOabO-editors-1000.html 
+top
+ls -l sf
+ls -l 11.php 
+top
+ls
+ls .git
+mv .git .gitbak
+git submodules --help
+git submodule --help
+git submodule 
+ls shiori-data/* -l
+ls shiori-data/archive/ -l
+ls
+ls archive/
+ls shioridat/
+ls shioridat/shiori/
+ls shioridat/shiori/archive/
+rm shioridat/
+rm shioridat/ -rf
+mv archive/ SingleFile-dockerized/shiori-data/archive/33
+ls
+ls storage/
+ls
+top
+ls SingleFile-dockerized/shiori-data/archive/ -rlR
+ls SingleFile-dockerized/shiori-data/archive/ -rl
+ls SingleFile-dockerized/shiori-data/archive/ -Rl
+ls SingleFile-dockerized/shiori-data/archive/ -R
+ls SingleFile-dockerized/shiori-data/archive/ -R | sort -n
+top
+exit
+ls
+whoami
+who
+exit
+who
+exit
+ls
+who
+exit
+ls
+exit
+pwd
+ls
+exit
+pwd
+ls
+ls
+who
+pwd
+ls
+exit
+wget https://kkgithub.com/gliderlabs/sshfront/releases/download/v0.2.1/sshfront_0.2.1_Linux_x86_64.tgz
+wget https://github.com/gliderlabs/sshfront/releases/download/v0.2.1/sshfront_0.2.1_Linux_x86_64.tgz
+tar zxvf sshfront_0.2.1_Linux_x86_64.tgz 
+ls
+./sshfront 
+ sshfront $(which bash)
+./sshfront $(which bash)
+./sshfront $(which bash) -p 9022
+sudo ./sshfront $(which bash) -p 9022
+sudo ./sshfront -p 90222 $(which bash) 
+sudo ./sshfront -p 9022 $(which bash) 
+ls .ssh/
+ssh-keygen -t rsa
+ls .ssh
+sudo ./sshfront -p 9022 $(which bash) 
+sudo ./sshfront -k="~/.ssh/id_rsa" -p 9022 $(which bash) 
+ssh-keygen -t rsa -b 2048
+sudo ./sshfront -k="~/.ssh/id_rsa" -p 9022 $(which bash) 
+ssh-keygen -t rsa -b 2048
+sudo ./sshfront -k="~/.ssh/id_rsa" -p 9022 $(which bash) 
+ssh-keygen -t rsa -b 1024
+sudo ./sshfront -k="~/.ssh/id_rsa" -p 9022 $(which bash) 
+ssh-keygen -t rsa -b 2048
+sudo ./sshfront -k="/home/pia/.ssh/id_rsa" -p 9022 $(which bash) 
+sudo ./sshfront -a -k="/home/pia/.ssh/id_rsa" -p 9022 $(which bash) 
+sudo ./sshfront -k="/home/pia/.ssh/id_rsa" -p 9022 $(which bash) 
+history
+ssh pia@localhost -p 9222
+ssh aaa@localhost -p 9222
+sudo ./sshfront -a -k="/home/pia/.ssh/id_rsa" -p 9022 $(which bash) 
+exit
+sudo ./sshfront -a "" -k="/home/pia/.ssh/id_rsa" -p 9022 $(which bash)
+sudo ./sshfront -a "user=aa,key=aa" -k="/home/pia/.ssh/id_rsa" -p 9022 $(which bash)
+nano function.bash
+bash function.bash 
+cp sshfront /usr/bin/.
+sudo cp sshfront /usr/bin/.
+bash function.bash 
+nano function.bash 
+bash function.bash 
+expect
+yum install expect
+sudo yum install expect
+bash function.bash 
+ls /tmp/auth 
+cat /tmp/auth 
+ps -ef
+jobs
+ssh foobar@localhost
+cat /tmp/handler 
+ssh test@localhost
+ssh pia@localhost
+ssh test@localhost -p 9022
+ssh foobar@localhost -p 9022
+ssh foobar@localhost -p 9022 -v
+sshfront -a /tmp/auth $(which bash)
+sshfront -a /tmp/auth -p 9222 $(which bash) 
+sshfront -a /tmp/auth -p 9222 -k="/home/pia/.ssh/id_rsa" $(which bash) 
+sshfront -a /tmp/auth -p 9222 -k="/home/pia/.ssh/id_rsa" $(which echo) 
+sshfront -a /tmp/auth -p 9222 -k="/home/pia/.ssh/id_rsa" $(which bash) 
+pwd
+cd single-file-
+cd SingleFile-dockerized/
+sshfront -a /tmp/auth -p 9222 -k="/home/pia/.ssh/id_rsa" $(which bash) 
+nohupsshfront -a /tmp/auth -p 9222 -k="/home/pia/.ssh/id_rsa" $(which bash) &
+nohup sshfront -a /tmp/auth -p 9222 -k="/home/pia/.ssh/id_rsa" $(which bash) &
+exit
+ls /
+mkdir /aa
+sudo mkdir /aa
+ls /
+exit
+curl 8034ck.cc
+curl -l 8304ck.cc
+history
+curl -l 8304ck.cc/vodtype/10.html > SingleFile-dockerized/vodtype-10.html
+cat SingleFile-dockerized/vodtype-10.html 
+/vodplay/42667-1-1.html
+curl 8304ck.cc/vodplay/42667-1-1.html
+cd SingleFile-dockerized/
+youtube-dl https:\/\/t23a.cdn2020.com\/video\/m3u8\/2024\/01\/31\/dde71a6c\/index.m3u8
+df -lh
+ncdu 
+youtube-dl https:\/\/t23a.cdn2020.com\/video\/m3u8\/2024\/01\/31\/dde71a6c\/index.m3u8
+ccencrypt index-index.mp4 
+cat vodtype-10.html | grep vodplay
+cat vodtype-10.html | grep -o vodplay*.html 
+cat vodtype-10.html | grep  vodplay*.html 
+cat vodtype-10.html | grep  'vodplay*.html '
+cat vodtype-10.html | grep  'vodplay*html'
+cat vodtype-10.html | grep  'vodplay*'
+cat vodtype-10.html | grep  'vodplay.*html'
+cat vodtype-10.html | grep  -o 'vodplay.*html'
+cat vodtype-10.html | grep  -o 'vodplay'
+cat vodtype-10.html | grep  -o -A 2 'vodplay'
+cat vodtype-10.html | grep   -A 2 'vodplay'
+exot
+exit
+cd SingleFile-dockerized/
+curl 8304ck.cc//vodplay/21161-1-1.html | grep m3u8
+history | grep html
+curl 8340ck.cc/vodplay/3960-1-1.html | grep m3u8
+curl 8304ck.cc/vodplay/3960-1-1.html | grep m3u8
+history | grep html
+curl 8304ck.cc/vodplay/3959-1-1.html | grep m3u8
+df -lh
+ncdu /var
+ncdu 
+ncdu /
+df -lh
+ls *.mp4 -l
+ls *.mp4* -l
+ls *.mp4* -lh
+df -lh
+history | grep html
+curl 8304ck.cc/vodplay/3871-1-1.html | grep m3u8
+curl 8304ck.cc/vodplay/3090-1-1.html | grep m3u8
+exit
+mv SingleFile-dockerized/index-index.mp4.cpt .
+top
+curl -v https://pearlstrandwholesale.com
+wget https://pan.baidu.com/api/streaming?app_id=250528&clienttype=0&channel=chunlei&web=1&isplayer=1&check_blue=1&bdstoken=b91e3c0cf1d1ef34fec8506471348a73&dp-logid=15288100473509380002&logId=M0REOTQyQUFGNDc5Nzk5NkJDQTdENkZCQjg0MDY5Qjk6Rkc9MQ%3D%3D&path=%2F2023%E9%AB%98%E8%80%83%2F%E3%80%9003%E3%80%912023%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%2F01%E3%80%902023%E9%99%B6%E7%84%B6%E8%8B%B1%E8%AF%AD%E3%80%91%2F2023%E9%AB%98%E4%B8%89%E8%8B%B1%E8%AF%AD%E9%99%B6%E7%84%B6%E4%B8%80%E8%BD%AE%2F%E7%AC%AC1%E8%AE%B2%20%E8%B0%93%E8%AF%AD%E5%8A%A8%E8%AF%8D%E7%9A%84%E6%97%B6%E6%80%81%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF1~1%E3%80%90%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%9A97%E5%AD%A6%E7%A4%BE-%E5%85%8D%E8%B4%B9%E5%88%86%E4%BA%AB%E3%80%91%E5%85%B3%E6%B3%A8%E8%8E%B7%E5%8F%96%E6%9B%B4%E5%A4%9A%E5%85%8D%E8%B4%B9%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90.mp4&vip=0&jsToken=9B76EDDAB0B604401B746BBFEA4054897F805BD964AFBD33D77A1BDD119CE90DE47D47FD55153CE07AE4E41C84158D43&type=M3U8_AUTO_480&trans=&adToken=rjtplc7Vgt6%2FRhOPyw6ncaJXxozRJAn3eiLABcAXiIXlcwPiKrugtfbsYp7U9WE1pVmkHlo6Tu7lkqFaqvyj%2Fau5f%2BGsngOLEuHR165kEs8RWmLu%2FZ%2F51dPZAqTHE7Es72rxAxKNwIdP7WA%2BgKT9pqJe9K91js0g9VWxg5fu6Q8%3D
+ls
+mv streaming\?app_id\=250528  1.m3u8
+cat 1.m3u8 
+
+youtube-dl 1.m3u8 
+curt 45.32.200.249:8000
+curl 45.32.200.249:8000
+curl 45.32.200.249:8000/1.m3u8
+cp 1.m3u8 SingleFile-dockerized/
+curl 45.32.200.249:8000/1.m3u8
+youtube-dl 45.32.200.249:8000/1.m3u8
+youtube-dl http://45.32.200.249:8000/1.m3u8
+exit
+aria2c  magnet:?xt=urn:btih:773a1ccaf5d3b8fae1c479950357684ce148ac33&dn=2024%E5%B9%B48%E6%9C%88%EF%BC%8C%E6%9C%80%E6%96%B0SVIP%E7%BE%A4%E7%A6%8F%E5%88%A9%EF%BC%8C%E6%8E%A8%E7%89%B9%E8%B0%83%E6%95%99%E5%A4%A7%E7%A5%9E%EF%BC%8C%E3%80%90%E4%B8%83%E7%88%B7%E3%80%91%EF%BC%8C%E9%87%8D%E9%87%91%E5%8C%85%E5%85%BB%EF%BC%8C%E6%B9%96%E5%8D%9719%E5%B2%81%E5%A4%A7%E5%AD%A6%E6%A0%A1%E8%8A%B1%EF%BC%8C%E5%B0%8F%E5%B1%81%E8%82%A1%E6%89%93%E7%BA%A2%EF%BC%81&xl=297704748&tr=http://sukebei.tracker.wf:8888/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.bt4g.com:2095/announce&tr=http://1337.abcvg.info/announce&tr=http://tracker.opentrackr.org:1337/announce&tr=wss://tracker.openwebtorrent.com:443/announce&tr=https://t.btcland.xyz/announce&tr=http://93.158.213.92:1337/announce&tr=http://95.107.48.115/announce&tr=https://tr.abiir.top/announce&tr=http://fxtt.ru/announce&tr=udp://open.stealth.si:80/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.torrent.eu.org:451/announce
+pjobs
+ps -ef
+kill 25644
+ps -ef
+sudo kill 25644
+ps -ef
+aria2c magnet:?xt=urn:btih:cb119e307f3fca46f04c8686dfcdd7a5b5072a41&dn=2024%E5%B9%B4%EF%BC%8C%E5%8F%B0%E6%B9%BE%E7%82%AE%E7%8E%8B%E3%80%90xinyimark%E3%80%91%E7%BA%A6%E4%BC%9A%E5%A4%9C%E5%B8%82%E5%A4%A7%E5%9B%9B%E5%A5%B3%E5%AD%A6%E7%94%9F%EF%BC%8C%E4%B8%80%E5%A4%9C%E6%83%85%E5%AE%8C%E6%95%B4%E7%89%88%EF%BC%8C%E5%A4%9A%E7%A7%8D%E8%A7%92%E5%BA%A6%EF%BC%8C%E8%9C%9C%E6%A1%83%E8%87%80%E5%90%8E%E5%85%A5%E9%AA%9A%E7%A9%B4&xl=1093812337&tr=http://sukebei.tracker.wf:8888/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.bt4g.com:2095/announce&tr=http://1337.abcvg.info/announce&tr=http://tracker.opentrackr.org:1337/announce&tr=wss://tracker.openwebtorrent.com:443/announce&tr=https://t.btcland.xyz/announce&tr=http://93.158.213.92:1337/announce&tr=http://95.107.48.115/announce&tr=https://tr.abiir.top/announce&tr=http://fxtt.ru/announce&tr=udp://open.stealth.si:80/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.torrent.eu.org:451/announce
+mv 1.mp4 SingleFile-dockerized/
+ls SingleFile-dockerized/1.mp4  -lh
+ls
+pwd
+exit
+cd 
+SingleFile-dockerized
+cd SingleFile-dockerized/
+wget http://demo.casaos.io/v3/file?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhc2FvcyIsImlkIjoxLCJpc3MiOiJjYXNhb3MiLCJleHAiOjE3MjcxODAxMTIsIm5iZiI6MTcyNzE2OTMxMiwiaWF0IjoxNzI3MTY5MzEyfQ.pnGYyCAxLw_ocYpZGwGFzAR4oYmvLJFnsyqvnKHCalQ5uPWYqVs0f-7Eo8_F08Vs5SGpFiceJXum0ZopF0H2yg&path=%2FDATA%2FAppData%2Fqbittorrent%2Fconfig%2Fdownloads%2F1%20%E9%A3%9E%E6%9C%BA%E5%A5%B6%E7%9A%84%E5%B0%91%E5%A6%87%EF%BC%8C%E8%BA%AB%E6%9D%90%E5%BE%88%E6%A3%92%E5%B0%B1%E6%98%AF%E5%A5%B6%E5%AD%90%E5%B0%8F%E4%BA%86%E7%82%B9%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%A7%BF%E5%8A%BF%E6%8F%92%E5%BE%97%E5%BE%88%E6%B7%B1%EF%BC%8C%E5%B0%91%E5%A6%87%E5%8F%AB%E5%A3%B0%E8%AF%B1%E6%83%91%E4%BA%BA%E5%93%A6%EF%BC%81%2F1%20%E9%A3%9E%E6%9C%BA%E5%A5%B6%E7%9A%84%E5%B0%91%E5%A6%87%EF%BC%8C%E8%BA%AB%E6%9D%90%E5%BE%88%E6%A3%92%E5%B0%B1%E6%98%AF%E5%A5%B6%E5%AD%90%E5%B0%8F%E4%BA%86%E7%82%B9%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%A7%BF%E5%8A%BF%E6%8F%92%E5%BE%97%E5%BE%88%E6%B7%B1%EF%BC%8C%E5%B0%91%E5%A6%87%E5%8F%AB%E5%A3%B0%E8%AF%B1%E6%83%91%E4%BA%BA%E5%93%A6%EF%BC%81.mp4
+wget http://demo.casaos.io/v3/file?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhc2FvcyIsImlkIjoxLCJpc3MiOiJjYXNhb3MiLCJleHAiOjE3MjcxODAxMTIsIm5iZiI6MTcyNzE2OTMxMiwiaWF0IjoxNzI3MTY5MzEyfQ.pnGYyCAxLw_ocYpZGwGFzAR4oYmvLJFnsyqvnKHCalQ5uPWYqVs0f-7Eo8_F08Vs5SGpFiceJXum0ZopF0H2yg&path=%2FDATA%2FAppData%2Fqbittorrent%2Fconfig%2Fdownloads%2F1%20%E9%A3%9E%E6%9C%BA%E5%A5%B6%E7%9A%84%E5%B0%91%E5%A6%87%EF%BC%8C%E8%BA%AB%E6%9D%90%E5%BE%88%E6%A3%92%E5%B0%B1%E6%98%AF%E5%A5%B6%E5%AD%90%E5%B0%8F%E4%BA%86%E7%82%B9%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%A7%BF%E5%8A%BF%E6%8F%92%E5%BE%97%E5%BE%88%E6%B7%B1%EF%BC%8C%E5%B0%91%E5%A6%87%E5%8F%AB%E5%A3%B0%E8%AF%B1%E6%83%91%E4%BA%BA%E5%93%A6%EF%BC%81%2F1%20%E9%A3%9E%E6%9C%BA%E5%A5%B6%E7%9A%84%E5%B0%91%E5%A6%87%EF%BC%8C%E8%BA%AB%E6%9D%90%E5%BE%88%E6%A3%92%E5%B0%B1%E6%98%AF%E5%A5%B6%E5%AD%90%E5%B0%8F%E4%BA%86%E7%82%B9%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%A7%BF%E5%8A%BF%E6%8F%92%E5%BE%97%E5%BE%88%E6%B7%B1%EF%BC%8C%E5%B0%91%E5%A6%87%E5%8F%AB%E5%A3%B0%E8%AF%B1%E6%83%91%E4%BA%BA%E5%93%A6%EF%BC%81.mp4 -O a.mp4
+wget http://demo.casaos.io/v3/file?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhc2FvcyIsImlkIjoxLCJpc3MiOiJjYXNhb3MiLCJleHAiOjE3MjcxODAxMTIsImps -ef
+ls *.sh
+cat pyrun.sh 
+./pyrun.sh 
+wget https://github.com/beefsack/webify/releases/download/v1.5.0/webify-v1.5.0-linux-amd64.tar.gz
+ls
+tar zxvf webify-v1.5.0-linux-amd64.tar.gz 
+./webify 
+cp webify /usr/bin/.
+sudo cp webify /usr/bin/.
+webify -addr=:8888 bash 
+top
+curl http://blog.iceddev.com/2012/11/05/node-js-in-chrome/
+curl baidu.com
+curl bing.com
+curl -v bing.com
+curl -v qq,cin
+curl -v qq.com
+ping qq.com
+curl commandlinefu.com
+curl https://www.commandlinefu.com/commands/view/1031/benchmark-a-hard-drive
+curl http://blog.iceddev.com/2012/11/05/node-js-in-chrome/
+top
+ls
+top
+ls
+ sshwifty
+cat ddd.log.txt
+ls
+pwd
+ps -ef
+ls
+history | grep sync
+sudo nohup rsync --daemon &
+ls
+sudo ls
+ps -ef | grep rsyn
+ls
+top
+sudo yum install -y qbittorrent-nox
+sudo yum install -y qbittorrent
+    wget --no-check-certificate https://sourceforge.net/projects/inexistence/files/qbittorrent/qbittorrent-nox.${qbver}/download -O $AppExec >> $OutputLOG 2>&1
+top
+ls
+top
+wget https://kkgithub.com/fedarovich/qbittorrent-cli/releases/download/v1.8.24199.1/qbt-linux-arm64-1.8.24199.1.tar.gz
+wget https://github.com/fedarovich/qbittorrent-cli/releases/download/v1.8.24199.1/qbt-linux-arm64-1.8.24199.1.tar.gz
+tar xzvf qbt-linux-arm64-1.8.24199.1.tar.gz 
+ls
+/qbt
+./qbt
+rm System.*.dll
+ls
+rm System.*
+ls
+rm qbt-linux-arm64-1.8.24199.1.tar.gz 
+wget https://kkgithub.com/fedarovich/qbittorrent-cli/releases/download/v1.8.24199.1/qbt-linux-x64-1.8.24199.1.tar.gz
+wget https://github.com/fedarovich/qbittorrent-cli/releases/download/v1.8.24199.1/qbt-linux-x64-1.8.24199.1.tar.gz
+mkdir qbt
+rm qbt
+mkdir qbt
+mv qbt-linux-x64-1.8.24199.1.tar.gz 
+mv qbt-linux-x64-1.8.24199.1.tar.gz  qbt
+cd qbt
+ls
+tar zxvf qbt-linux-x64-1.8.24199.1.tar.gz 
+ls
+./qbt
+./qbt server
+./qbt server --username demo --password demo
+./qbt server --help
+./qbt --help
+./qbt
+ps -ef
+./qbt &&
+./qbt &
+p
+ps 
+./qbt server setting
+./qbt server --hel
+./qbt server settings
+sudo install epel-release
+sudo yum install epel-release
+sudo yum install qbittorrent-nox
+cat /etc/os-release 
+uname
+uname =a
+uname  -a
+cd qbt
+ls
+cd ..
+wget  wget http://www.island42.net/rpms/cen76/qbittorrent-run-4.1.8-2.el7.x86_64.rpm
+sudo yum install qbittorrent-run-4.1.8-2.el7.x86_64.rpm 
+sudo rpm -Va --nofiles --nodigest  qbittorrent-run-4.1.8-2.el7.x86_64.rpm 
+ls
+cloud-torrent 
+sudo cloud-torrent 
+which cloud-torrent
+sudo /usr/local/bin/cloud-torrent 
+node
+ls
+exit
+top
+exit
+top
+exit
+top
+ls
+exit
+top
+docker pull gcr.io/k8s-minikube/kubernetes-bootcamp
+sudo docker pull gcr.io/k8s-minikube/kubernetes-bootcamp
+sudo docker pull gcr.io/k8s-minikube/kubernetes-bootcamp:v1
+exit
+top
+exit
+top
+exit
+top
+exi
+exit
+wget https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
+df -lh
+ncdu 
+wget https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
+rm copyparty-sfx.py*
+wget https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
+python copyparty-sfx.py 
+python copyparty-sfx.py -a wd:ubuntu -v .::r,wd:rw
+python copyparty-sfx.py -a wd:ubuntu -v .::r:rw,wd
+cd SingleFile-dockerized/
+ls
+ls http*
+cat https###wardmon.github.io#jupyterlite#notebooks#index.html\?path\=javascript.ipynb.html 
+single-file https://wardmon.github.io/jupyterlite/edit/?path=1.txt
+single-file https://wardmon.github.io/jupyterlite/edit/?path=1.txt --dump-content
+single-file https://wardmon.github.io/jupyterlite/edit/?path=1.txt --dump-content | grep 1111111
+single-file https://wardmon.github.io/jupyterlite/lab/index.html?path=1.txt --dump-content | grep 111111
+single-file https://wardmon.github.io/jupyterlite/lab/index.html?path=1.txt tmp.txt
+cat tmp.txt
+cat tmp.txt | grep 11111
+single-file  https://wardmon.github.io/jupyterlite/lab/index.html?path=README.md > tmp.txt
+single-file  https://wardmon.github.io/jupyterlite/lab/index.html?path=README.md  tmp.txt
+cat tmp.txt | grep 11111
+cat tmp.txt 
+ls
+cp tmp\ \(2\).txt tmp.txt 
+cat tmp.txt 
+cat tmp.txt | grep 11111
+cat tmp.txt | grep --color 11111
+cat tmp.txt | grep --color aaa
+cat tmp.txt | grep --color aaaaaaaaaaaaaaaaaa
+cat tmp.txt | grep --color aaaaaaaa
+cat tmp.txt | grep --color 1111111111111111111111
+cat tmp.txt | grep --color 1111111111
+\
+exit
+ls
+top
+echo -n "password"|md5sum|awk '{print $1}'
+echo -n "password"|md5sum
+find / -nouser -o -nogroup -print
+ping 74.125.130.19
+grep -r . /sys/class/net/eth0/statistics
+ls
+grep --help
+grep -r . /sys/class/net/eth0/statistics
+cat /sys/class/net/eth0/statistics/rx_length_errors
+ls *.txt
+grep . *.txt
+ls *.txt
+grep . h*.txt
+ls
+grep . h*.txt
+ls
+grep . h*.txt
+ls
+pwd
+top
+curl -s http://www.commandlinefu.com/commands/browse|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'|ruby -rubygems -pe 'require "cgi"; $_=sprintf("\n\n%-100s\n\t#%-20s",CGI.unescapeHTML($_).chomp.strip, gets.lstrip) if $.%2'
+curl -s http://www.commandlinefu.com/commands/browse|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'
+curl -s http://www.commandlinefu.com/commands/|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'
+curl -s http://www.commandlinefu.com/|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'
+strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo
+< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c6
+cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 32
+grep -i "$*" /usr/lib/perl5/Unicode/CharName.pm
+sed -r "s/\x1B\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g
+"
+node
+ss -p | cat
+ss -p
+ss -p | grep STA | cut -f2 -d\"
+ss -p | grep STA | cut -f2 -d  
+ss -p | grep STA | cut -f2 -d " "
+ss -p | grep STA | cut -f2 -d ""
+lsof -P -i -n
+sudo yunm install lsof
+sudo yum install lsof
+lsof -P -i -n
+lsof -P -i 
+lsof -P  -n
+lsof -P -i -n
+lsof -P -f -n
+lsof -P -i -n | cut -f 1 -d " "| uniq | tail -n +2
+ cf() { curl 'https://www.commandlinefu.com/commands/togglefavourite'  -H 'Cookie: _ga=GA1.2.898916099.1726720470; PHPSESSID=0i4no8f77ldidjdccgnmr7mo13; _gid=GA1.2.1241127667.1728880884; remember=AeW8%2FNadWsMtSnSY%2FXQUaWGb3JanhIVVUlCi2eJkCD5x62Z%2BM4glrl3WoEecR%2BFCBZ7zY%2FJmuUCWjQjFUVgB%2Bw%3D%3D; __gads=ID=f193cd5eb4c7d2c0:T=1726720467:RT=1728902545:S=ALNI_MZONJf-4rKyIRuOh95NT0hlm_JX_A; __gpi=UID=00000ef2503b6142:T=1726720467:RT=1728902545:S=ALNI_Mbs6CsGlGmTcVLy1Uec08y9oYZNxg; __eoi=ID=6101c73cb9125e4e:T=1726720467:RT=1728902545:S=AA-AfjbVJDsU2KSNjBUqcn_CrqKN; ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b94e2cbb35e3057e23f6f2d7f8ebfa73%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.71%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221728902757%22%3Bs%3A9%3A%22signed-in%22%3Bs%3A1%3A%221%22%3Bs%3A7%3A%22user-id%22%3Bs%3A6%3A%22103501%22%3B%7D0db71a23d15bdaad1d7035c8476fe1b5' -v  --data-raw 'id='$1'&_=' ; }
+cf
+cf() { curl 'https://www.commandlinefu.com/commands/togglefavourite'  -H 'Cookie: _ga=GA1.2.898916099.1726720470; PHPSESSID=0i4no8f77ldidjdccgnmr7mo13; _gid=GA1.2.1241127667.1728880884; remember=AeW8%2FNadWsMtSnSY%2FXQUaWGb3JanhIVVUlCi2eJkCD5x62Z%2BM4glrl3WoEecR%2BFCBZ7zY%2FJmuUCWjQjFUVgB%2Bw%3D%3D; __gads=ID=f193cd5eb4c7d2c0:T=1726720467:RT=1728902545:S=ALNI_MZONJf-4rKyIRuOh95NT0hlm_JX_A; __gpi=UID=00000ef2503b6142:T=1726720467:RT=1728902545:S=ALNI_Mbs6CsGlGmTcVLy1Uec08y9oYZNxg; __eoi=ID=6101c73cb9125e4e:T=1726720467:RT=1728902545:S=AA-AfjbVJDsU2KSNjBUqcn_CrqKN; ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b94e2cbb35e3057e23f6f2d7f8ebfa73%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.71%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221728902757%22%3Bs%3A9%3A%22signed-in%22%3Bs%3A1%3A%221%22%3Bs%3A7%3A%22user-id%22%3Bs%3A6%3A%22103501%22%3B%7D0db71a23d15bdaad1d7035c8476fe1b5' -v  --data-raw 'id='$1'&_=' ; }
+history
+cf 3543
+curll --help
+curl --help
+cf() { curl 'https://www.commandlinefu.com/commands/togglefavourite'  -H 'Cookie: _ga=GA1.2.898916099.1726720470; PHPSESSID=0i4no8f77ldidjdccgnmr7mo13; _gid=GA1.2.1241127667.1728880884; remember=AeW8%2FNadWsMtSnSY%2FXQUaWGb3JanhIVVUlCi2eJkCD5x62Z%2BM4glrl3WoEecR%2BFCBZ7zY%2FJmuUCWjQjFUVgB%2Bw%3D%3D; __gads=ID=f193cd5eb4c7d2c0:T=1726720467:RT=1728902545:S=ALNI_MZONJf-4rKyIRuOh95NT0hlm_JX_A; __gpi=UID=00000ef2503b6142:T=1726720467:RT=1728902545:S=ALNI_Mbs6CsGlGmTcVLy1Uec08y9oYZNxg; __eoi=ID=6101c73cb9125e4e:T=1726720467:RT=1728902545:S=AA-AfjbVJDsU2KSNjBUqcn_CrqKN; ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b94e2cbb35e3057e23f6f2d7f8ebfa73%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.71%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221728902757%22%3Bs%3A9%3A%22signed-in%22%3Bs%3A1%3A%221%22%3Bs%3A7%3A%22user-id%22%3Bs%3A6%3A%22103501%22%3B%7D0db71a23d15bdaad1d7035c8476fe1b5' -v  --data 'id='$1'&_=' ; }
+cf 3543
+netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq
+sudo netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq
+netstat -lantp | grep -i establ | awk -F/ '{print $2}' | sort | uniq
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2 | uniq -c | sort -nr
+sudo lsof -P -i -n | awk '{print $1,$5,$8}'
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | cat
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2
+watch -n 1 'echo "obase=2;`date +%s`" | bc'
+watch -n 1 'echo "obase=2;`date +%s`" 
+watch -n 1 '`date +%s`'
+watch -n 1 'date +%s'
+watch -n 1 'obasse=2;date +%s'
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2
+lshw -short
+ps -ef
+curl localhost:8888 ls
+curl localhost:8888 
+curl localhost:8888 ls
+curl localhost:8888 'ls'
+curl localhost:8888 "ls"
+curl 127.0.0.1:8888 "ls"
+webify --help
+curl 127.0.0.1:8888-d  "ls"
+curl 127.0.0.1:8888 -d  "ls"
+nano rsspreview.js
+node rsspreview.js 
+nano rsspreview.js
+ReferenceError: fetch is not definedc
+npm install node-fetch
+ls
+ls node_modules/
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node --experimental-modules --require esm rsspreview.js 
+npm install esm
+node --experimental-modules --require esm rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+npm install -g node-fetch
+sudo npm install -g node-fetch
+node rsspreview.js 
+ls package.json 
+mkdir rssdemo
+cp rsspreview.js rssdemo/
+cd rssdemo/
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+npm info node-fetch version
+node -v
+node rsspreview.js 
+node ./rsspreview.js 
+npm install node-fetch
+ls
+node ./rsspreview.js 
+npm install node-fetch@2.6,2
+npm install node-fetch@2.6.2
+ls
+node ./rsspreview.js 
+nano rsspreview.js 
+node ./rsspreview.js 
+nano rsspreview.js 
+nano parser.sh
+cat parser.sh 
+wget --quiet -O aa.xml http://faxian.smzdm.com/feed 
+cat aa.xml
+chmod +x ./parser.sh 
+./parser.sh aa.xml aanew.html
+more aa.xml 
+ls
+./parser.sh aa.xml aanew.html
+./parser.sh aa.xml >> aanew.html
+ls
+cat aanew.html 
+feed() { if [ ! -d $FEED_BOOKMARKS ]; then mkdir $FEED_BOOKMARKS; fi;  if [ ! -n "$1" ]; then echo -e "\\n \\e[04mUsage\\e[00m\\n\\n   \\e[01;37m\$ feed \\e[01;31m<url>\\e[00m \\e[01;31m<new bookmark?>\\e[00m\\n\\n \\e[04mSee also\\e[00m\\n\\n   \\e[01;37m\$ deef\\e[00m\\n"; return 1; fi;  local rss_source="$(curl --silent $1 | sed -e ':a;N;$!ba;s/\n/ /g')"; if [ ! -n "$rss_source" ]; then echo "The feed is empty"; return 1; fi;  echo -e "$(echo $rss_source | \
+sed -e 's/&gt;/>/g' \
+-e 's/&lt;/</g' \
+-e 's/<\/a>/£/g' \
+-e 's/href\=\"/§/g' \
+-e 's/<title>/\\n\\n\\n   :: \\e[01;31m/g' -e 's/<\/title>/\\e[00m ::\\n/g' \
+-e 's/<link>/ [ \\e[01;36m/g' -e 's/<\/link>/\\e[00m ]/g' \
+-e 's/<description>/\\n\\n\\e[00;37m/g' -e 's/<\/description>/\\e[00m\\n\\n/g' \
+-e 's/<p>\|<br\s*\/\?>/\n/g' \
+-e 's/<b>\|<strong>/\\e[01;30m/g' -e 's/<\/b>\|<\/strong>/\\e[00;37m/g' \
+-e 's/<u>/\\e[4;37m/g' -e 's/<\/u>/\\e[00;37m/g' \
+-e 's/<b>\|<code>/\\e[00m/g' -e 's/<\/b>\|<\/code>/\\e[00;37m/g' \
+-e 's/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g' \
+-e 's/<li>/\n \\e[01;34m*\\e[00;37m /g' \
+-e 's/<!\[CDATA\[\|\]\]>\|>\s*<//g' \
+-e 's/<[^>]*>/ /g' \
+-e 's/[<>£§]//g')\n\n"; if [ -n "$2" ]; then echo "$1" > $FEED_BOOKMARKS/$2; echo -e "\\n\\t\\e[01;37m==> \\e[01;31mBookmark saved as \\e[01;36m\\e[04m$2\\e[00m\\e[01;37m <==\\e[00m\\n"; fi; }
+deef() { if test -n "$1"; then if [ ! -r "$FEED_BOOKMARKS/$1" ]; then echo -e "\\n \\e[01;31mBookmark \\e[01;36m\\e[04m$1\\e[00m\\e[01;31m not found.\\e[00m\\n\\n \\e[04mType:\\e[00m\\n\\n   \\e[01;37m\$ deef\\e[00m (without arguments)\\n\\n to get the complete list of all currently saved bookmarks.\\n"; return 1; fi; local url="$(cat $FEED_BOOKMARKS/$1)"; if [ ! -n "$url" ]; then echo "The bookmark is empty"; return 1; fi; echo -e "\\n\\t\\e[01;37m==> \\e[01;31m$url\\e[01;37m <==\\e[00m"; feed "$url"; else echo -e "\\n \\e[04mUsage\\e[00m\\n\\n   \\e[01;37m\$ deef \\e[01;31m<bookmark>\\e[00m\\n\\n \\e[04mCurrently saved bookmarks\\e[00m\\n"; for i in $(find $FEED_BOOKMARKS -maxdepth 1 -type f); do echo -e "   \\e[01;36m\\e[04m$(basename $i)\\e[00m"; done; echo -e "\\n \\e[04mSee also\\e[00m\\n\\n   \\e[01;37m\$ feed\\e[00m\\n"; fi; }
+feed http://www.archlinux.org/feeds/news/
+feed http://faxian.smzdm.com/feed 
+nano feeddemo.sh
+ echo -e "$(echo $rss_source | \
+                sed 's/&amp;/\&/g
+                s/&lt;\|&#60;/</g
+                s/&gt;\|&#62;/>/g
+                s/<\/a>/£/g
+                s/href\=\"/§/g
+                s/<title>/\\n\\n\\n   :: \\e[01;31m/g
+                s/<\/title>/\\e[00m ::\\n/g
+                s/<link>/ [ \\e[01;36m/g
+                s/<\/link>/\\e[00m ]/g
+                s/<description>/\\n\\n\\e[00;37m/g
+                s/<\/description>/\\e[00m\\n\\n/g
+                s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+                s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/\\e[01;30m/g
+                s/<\/b>\|<\/strong>/\\e[00;37m/g
+                s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/\\e[41;37m/g
+                s/<\/i>\|<\/em>/\\e[00;37m/g
+                s/<u\( [^>]*\)\?>/\\e[4;37m/g
+                s/<\/u>/\\e[00;37m/g
+                s/<code\( [^>]*\)\?>/\\e[00m/g
+                s/<\/code>/\\e[00;37m/g
+                s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g
+                s/<li\( [^>]*\)\?>/\n \\e[01;34m*\\e[00;37m /g
+                s/<!\[CDATA\[\|\]\]>//g
+                s/\|>\s*<//g
+                s/ *<[^>]\+> */ /g
+echo -e "$(echo aa.xml | \
+                sed 's/&amp;/\&/g
+                s/&lt;\|&#60;/</g
+                s/&gt;\|&#62;/>/g
+                s/<\/a>/£/g
+                s/href\=\"/§/g
+                s/<title>/\\n\\n\\n   :: \\e[01;31m/g
+                s/<\/title>/\\e[00m ::\\n/g
+                s/<link>/ [ \\e[01;36m/g
+                s/<\/link>/\\e[00m ]/g
+                s/<description>/\\n\\n\\e[00;37m/g
+                s/<\/description>/\\e[00m\\n\\n/g
+                s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+                s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/\\e[01;30m/g
+                s/<\/b>\|<\/strong>/\\e[00;37m/g
+                s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/\\e[41;37m/g
+                s/<\/i>\|<\/em>/\\e[00;37m/g
+                s/<u\( [^>]*\)\?>/\\e[4;37m/g
+                s/<\/u>/\\e[00;37m/g
+                s/<code\( [^>]*\)\?>/\\e[00m/g
+                s/<\/code>/\\e[00;37m/g
+                s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g
+                s/<li\( [^>]*\)\?>/\n \\e[01;34m*\\e[00;37m /g
+                s/<!\[CDATA\[\|\]\]>//g
+                s/\|>\s*<//g
+                s/ *<[^>]\+> */ /g
+                s/[<>£§]//g')\n\n";
+ echo -e "$(cat aa.xml | \
+                sed 's/&amp;/\&/g
+                s/&lt;\|&#60;/</g
+                s/&gt;\|&#62;/>/g
+                s/<\/a>/£/g
+                s/href\=\"/§/g
+                s/<title>/\\n\\n\\n   :: \\e[01;31m/g
+                s/<\/title>/\\e[00m ::\\n/g
+                s/<link>/ [ \\e[01;36m/g
+                s/<\/link>/\\e[00m ]/g
+                s/<description>/\\n\\n\\e[00;37m/g
+                s/<\/description>/\\e[00m\\n\\n/g
+                s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+                s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/\\e[01;30m/g
+                s/<\/b>\|<\/strong>/\\e[00;37m/g
+                s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/\\e[41;37m/g
+                s/<\/i>\|<\/em>/\\e[00;37m/g
+                s/<u\( [^>]*\)\?>/\\e[4;37m/g
+                s/<\/u>/\\e[00;37m/g
+                s/<code\( [^>]*\)\?>/\\e[00m/g
+                s/<\/code>/\\e[00;37m/g
+                s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g
+                s/<li\( [^>]*\)\?>/\n \\e[01;34m*\\e[00;37m /g
+                s/<!\[CDATA\[\|\]\]>//g
+                s/\|>\s*<//g
+                s/ *<[^>]\+> */ /g
+                s/[<>£§]//g')\n\n";
+exit
+nano rssdemo.sh
+chmod +x rssdemo.sh
+./rssdemo.sh https://faxian.smzdm.com/feed
+history 
+history  | grep webtify
+history  | grep webi
+curl 127.0.0.1:8888 -d "ls"
+curl 127.0.0.1:8888 -d "/home/pia/rssdemo.sh https://faxian.smzdm.com/feed" 
+top
+webify --helop
+history  | grep webi
+ps -ef 
+ps -ef  | grep webi
+history  | grep webi
+webify -addr=:8888 bash 
+nohup webify -addr=:8888 bash &
+ls
+top
+webify --help
+top
+ps -ef
+ps -ef | grep webify
+ls
+exit
+netstat -anlp
+netstat -anlp | grep 888
+exit
+netstat -anlp | grep 888
+netstat -anlp | grep 9999
+exit
+netstat -anlp | grep 9999
+telnet localhost 9999
+telnet 45.32.200.249 9999
+exit
+netstat -anlp | grep 9999
+sudo netstat -anlp | grep 9999
+exit
+netstat -anlp | grep 9999
+ps | grep ssh
+exit
+ps | grep ssh
+netstat -anlp | grep 9999
+exit
+netstat -anlp | grep 9999
+netstat -anlp | grep 10022
+cat /etc/ssh/sshd_config 
+sudo cat /etc/ssh/sshd_config 
+sudo nano /etc/ssh/sshd_config 
+systemctl restart sshd
+sudo systemctl restart sshd
+exit
+netstat -anlp | grep 10022
+sudo systemctl restart sshd
+sudo systemctl status sshd
+telnet 45.32.200.249 10022
+telnet localhsot 10022
+telnet 127.0.0.1 10022
+exit
+netstat -anlp | grep 10022
+exit
+netstat -anlp | grep 10022
+telnet 127.0.0.1 10022
+telnet 45.32.200.249 10022
+curl localhost:10022
+netstat -anlp | grep 10022
+sudo cat /etc/host
+sudo cat /etc/hosts
+exit
+netstat -anlp | grep 10022
+netstat -anlp | grep 10222
+curl 45.32.200.249:10222
+exit
+netstat -anlp | grep 10222
+curl 45.32.200.249:10222
+exit
+curl 45.32.200.249:10222
+exit
+netstat -anlp | grep 10022
+curl localhost:10022
+curl 45.32.200.249:10022
+ssh -L 10022:45.32.200.249:10022 pia@45.32.200.249
+ssh -L 10022:45.32.200.249:10222 pia@45.32.200.249
+ssh -L 10222:45.32.200.249:10022 pia@45.32.200.249
+netstat -anlp | grep 10022
+ssh -L 0.0.0.0:10222:45.32.200.249:10022 pia@45.32.200.249
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249
+exit
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 &
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+nohup ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+ps -ef
+exit
+ps -ef
+exit
+ps -ef
+exit
+ps -ef
+exit
+nohup ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+ps -ef
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+ssh -L 10222:127.0.0.1:10022 pia@45.32.200.249 
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+top
+exit
+exit
+top
+exit
+ssh runner@2.tcp.ngrok.io -p 19593
+ssh runner@2.tcp.ngrok.io -p 19593 -v
+gh
+wget https://github.com/cli/cli/releases/download/v2.60.1/gh_2.60.1_linux_amd64.tar.g
+wget https://github.com/cli/cli/releases/download/v2.60.1/gh_2.60.1_linux_amd64.tar.gz
+tar xzvf gh_2.60.1_linux_amd64.tar.gz 
+cd gh_2.60.1_linux_amd64
+ls
+cd bin
+ls
+gh
+./gh
+sudo ln -s /home/pia/gh_2.60.1_linux_amd64/bin/gh /usr/bin/gh
+gh
+gh auth
+gh login
+gh login auth
+gh auth
+gh auth login
+gh ls
+gh gist ls
+gh codespace list
+gh auth refresh -h github.com -s codespace
+gh codespace list
+gh codespace ssh
+gh codespace jupyter
+gh codespace ssh
+ gh codespace ssh --config > ~/.ssh/codespaces
+cat ~/.ssh/codespaces 
+printf 'Match all\nInclude ~/.ssh/codespaces\n'
+ printf 'Match all\nInclude ~/.ssh/codespaces\n' >> ~/.ssh/config
+cat ~/.ssh/config 
+top
+gh codespace ssh
+rm ~/.ssh/*
+gh codespace ssh
+gh codespace rebuild
+gh codespace ssh
+gh codespace rebuild
+gh codespace ssh
+exit
+ls
+top
+exit
+top
+exit
+top
+exit
+top
+]
+top
+exit
+top
+exit
+top
+exit
+top
+exit
+top
+top
+exit
+top
+wget https://github.com/gotify/server/releases/download/v2.5.0/gotify-linux-amd64.zip
+unzip gotify-linux-amd64.zip 
+ls
+./gotify-linux-amd64 --help
+./gotify-linux-amd64 
+netstat
+ps -ef
+netstat -anpl
+netstat -anplt
+exit
+ss
+ss | grep 10022
+netstat -anplt | grep 10022
+sudo netstat -anplt | grep 10022
+netstat -anplt | grep 10022
+exit
+netstat -anlp
+netstat -anlpt
+exit
+exit
+wget https://garagehq.deuxfleurs.fr/_releases/v1.0.1/x86_64-unknown-linux-musl/garage
+chmod +x ./garage 
+./garage 
+cat > garage.toml <<EOF
+metadata_dir = "/tmp/meta"
+data_dir = "/tmp/data"
+db_engine = "sqlite"
+
+replication_factor = 1
+
+rpc_bind_addr = "[::]:3901"
+rpc_public_addr = "127.0.0.1:3901"
+rpc_secret = "$(openssl rand -hex 32)"
+
+[s3_api]
+s3_region = "garage"
+api_bind_addr = "[::]:3900"
+root_domain = ".s3.garage.localhost"
+
+[s3_web]
+bind_addr = "[::]:3902"
+root_domain = ".web.garage.localhost"
+index = "index.html"
+
+[k2v_api]
+api_bind_addr = "[::]:3904"
+
+[admin]
+api_bind_addr = "[::]:3903"
+admin_token = "$(openssl rand -base64 32)"
+metrics_token = "$(openssl rand -base64 32)"
+EOF
+
+cat garage.toml 
+./garage server
+./garage server -c ./garage.toml 
+./garage  -c ./garage.toml server
+./garage  -c ./garage.toml server &
+sudo ln -s /home/pia/garage /usr/bin/garage
+garage status
+garage -c ./garage.toml status
+exit
+history
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249
+ssh -L 0.0.0.0:10081:127.0.0.1:10080 pia@45.32.200.249
+exit
+top
+exit
+top
+exit
+ls
+wget https://github.com/NilsIrl/dockerc/releases/download/v0.3.2/dockerc_x86-64
+chmod ./dockerc_x86-64 
+chmod ./dockerc_x86-64  +x
+cp dockerc_x86-64 /usr/bin/dockerc
+sudo cp dockerc_x86-64 /usr/bin/dockerc
+dockerc
+sudo dockerc
+ls
+ls dockerc_x86-64 
+./dockerc_x86-64 
+chmod +x dockerc_x86-64 
+sudo cp dockerc_x86-64 /usr/bin/dockerc
+dockerc
+./dockerc_x86-64 
+sudo cp ./dockerc_x86-64 /usr/bin/dockerc
+dockerc
+sudo dockerc
+rm /usr/bin/dockerc
+sudo ln -s /home/pia/dockerc_x86-64 /usr/local/bin/dockerc
+dockerc 
+./dockerc_x86-64 
+ls
+ls gotify
+./gotify
+./dockerc_x86-64 --image docker://ghcr.io/gotify/server -o gotify-server
+ls gotify-server 
+./gotify-server 
+ls
+./gotify-linux-amd64 
+df -lh
+ncdu
+exit
+ls
+rm gotify
+rm gotify-server 
+df -lh
+ncdu /
+mkdir data
+docker run -p 80:80 -v /var/gotify/data:/home/pia/data gotify/server
+sudo docker run -p 80:80 -v /var/gotify/data:/home/pia/data gotify/server
+sudo docker ps
+top
+docker s
+docker ps
+sudo docker ps -a
+sudo docker start priceless_burnell
+sudo docker ps 
+top
+netstat 
+exit
+history | grep ssh -L
+history
+history | grep ssh
+ssh -L 0.0.0.0:10082:127.0.0.1:80 pia@45.32.200.249
+exit
+top
+exit
+ssh -L 0.0.0.0:10082:127.0.0.1:28000 pia@45.32.200.249
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
+jq
+yum install jq
+sudo yum install jq
+wget https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64
+ls
+ls jq*
+df -lh
+ncdu /
+cd fswatch-1.17.1
+ls
+rm -rf gcc-4.9.4/
+sudo rm -rf gcc-4.9.4/
+df -lh
+cd ..
+wget https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64
+chmod +u jq-linux-amd64
+cp jq-linux-amd64 /usr/bin/
+sudo cp jq-linux-amd64 /usr/bin/
+jq
+sudo cp jq-linux-amd64 /usr/bin/jq
+jq
+sudo chmod +x /usr/bin/jq
+jq
+jq --help
+jq --version
+jq
+jq help
+sudo chmod +x jq-linux-amd64
+./jq-linux-amd64 
+./jq-linux-amd64 --help
+curl 'https://api.github.com/repos/jqlang/jq/commits?per_page=5' | jq '.'
+df -lh
+jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+rm jq-linux-amd64
+mv jq-linux-amd64.1 jq-linux-amd64
+sudo chmod +x jq-linux-amd64
+cp jq-linux-amd64 /usr/bin/jq
+sudo cp jq-linux-amd64 /usr/bin/jq
+jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+jq
+ echo '{"foo": 0}' | jq .
+chagpt
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
+chatgpt 
+ export OPENAI_KEY=c25haWx5cC9ibGFja2JveDJhcGk6bGF0ZXN0
+chatgpt 
+curl -X POST https://api.afreeapi.me/v1/chat/completions    -H "Content-Type: application/json"   -H "Authorization: Bearer c25haWx5cC9ibGFja2JveDJhcGk6bGF0ZXN0"   -d '{
+      "model": "gpt-4o",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello!"
+        }
+      ],
+      "stream": false
+    }'
+top
+exit
+top
+ps -ef
+crontab -l
+cat pyrun.sh 
+python3 -m http.server
+cat pyrun.sh 
+cd SingleFile-dockerized/
+python3 -m http.server
+ls bad.elf 
+cat bad.elf 
+python3 -m http.server
+cat bad.elf | base64 -d
+cat bad.elf | xargs base64 -d
+ls
+ls sf
+mkdir 20241121
+python3 -m http.server 20241121/
+python3 -m http.server --help
+cd ..
+crontab -l
+nano pyrun.sh 
+ls
+pwd
+ls
+sudo mv  SingleFile-dockerized/bad.elf  /root/
+./pyrun.sh 
+ls
+ls SingleFile-dockerized/20241121/
+mv SingleFile-dockerized/20241121/ SingleFile-dockerized/202411
+./pyrun.sh 
+nano pyrun.sh 
+./pyrun.sh 
+conda
+df -lh
+nano pyrun.sh 
+./pyrun.sh 
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh 
+exit
