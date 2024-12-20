@@ -1,0 +1,164 @@
+top
+docker ps -a
+sudo docker ps -a
+sudo systemctl start docker
+sudo systemctl start dockerd
+sudo systemctl status docker
+sudo systemctl start dockerd
+sudo systemctl start docker
+journalctl -xe
+sudo journalctl -xe
+df -lh
+sudo ncdu /
+ls /var/log/messages
+sudo echo "" > /var/log/messages
+sudo echo " " > /var/log/messages
+lsof | grep messages
+lsof | grep message
+lsof | grep messa
+sudo lsof | grep messa
+kill -i 1145
+sudo kill -9 1145
+sudo lsof | grep messa
+sudo cat /dev/null > /var/log/messages
+sudo kill -9 1801 && sudo cat /dev/null > /var/log/messages
+sudo lsof | grep messa
+sudo systemctl stop rsyslog
+sudo lsof | grep messa
+sudo cat /dev/null > /var/log/messages
+sudo lsof | grep messa
+sudo cat /dev/null > /var/log/messages
+ls -l /var/log/messages
+lsattr /var/log/messages
+sudo lsattr /var/log/messages
+chattr  -a /var/log/messages
+sudo chattr  -a /var/log/messages
+sudo cat /dev/null > /var/log/messages
+
+sudo lsattr /var/log/messages
+sudo chattr  -e /var/log/messages
+sudo cat /dev/null > /var/log/messages
+su
+df -lh
+sudo chattr  +a /var/log/messages
+ls -lh /var/log/messages
+sudo systemctl start rsyslog
+ls -lh /var/log/messages
+df -lh
+sudo systemctl start docker
+sudo docker ps
+sudo docker ps -a
+sudo docker start priceless_burnell
+curl -Lo gotify https://kkgithub.com/gotify/cli/releases/download/v2.2.0/gotify-cli-linux-amd64
+chmod +x ./gotify
+./gotify
+./gotify --help
+ls
+ls go*
+./gotify-linux-amd64 
+./gotify
+./gotify --version
+./gotify version
+rm gotify
+ wget -O gotify https://kkgithub.com/gotify/cli/releases/download/v2.2.0/gotify-cli-linux-amd64
+chmod +x ./gotify
+./gotify version
+./gotify 
+ wget -O gotify https://github.com/gotify/cli/releases/download/v2.2.0/gotify-cli-linux-amd64
+./gotify version
+ls gotify
+./gotify
+mv gotify /usr/bin/gotify
+sudo mv gotify /usr/bin/gotify
+gotify init
+gotify "aaaaaaaaaaaaaaaaa"
+gotify push "aaaaaaaaaaaaaaaaa"
+top
+sudo docker pa
+sudo docker ps
+sudo docker stop dev-ghost-1
+sudo docker stop 1panel
+sudo docker ps -a
+sudo docker start priceless_burnell
+top
+df -lhu
+df -lh
+sudo ncdu /
+conda activate test313
+ls
+python --version
+pip install jupyter-lab
+pip install jupyterlab
+jupyter lab
+nohup jupyter lab &
+cat nohup.out 
+ps -ef 
+ps -ef | grep jupy
+kill 3706
+ps -ef | grep jupy
+jupyter lab --help
+jupyter lab --show-config
+jupyter lab --generate-config
+jupyter lab --show-config
+jupyter lab --help
+jupyter lab --help-all
+jupyter lab --help-all | grep config
+jupyter lab --show-config
+jupyter lab --generate-config
+cp .jupyter/jupyter_lab_config.py .
+nano jupyter_lab_config.py 
+jupyter lab --help | grep config
+jupyter lab --config /home/pia/jupyter_lab_config.py 
+cat jupyter_lab_config.py  | grep ".ip"
+nano jupyter_lab_config.py 
+jupyter lab --config /home/pia/jupyter_lab_config.py 
+cp jupyter_lab_config.py  .jupyter/.
+jupyter lab 
+cat jupyter_lab_config.py  | grep ".ip"
+nano jupyter_lab_config.py 
+jupyter lab --config /home/pia/jupyter_lab_config.py 
+ls .jupyter/
+cp  .jupyter/jupyter_server_config.json  .
+cat jupyter_server_config.json 
+cat jupyter_server_config.json | base64 --d
+cat jupyter_server_config.json | base64 -d
+cat jupyter_server_config.json |xargs  base64 -d
+echo '8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak' | base64 -d
+base64 -d '8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak' 
+base64 --help
+base64 -d '8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak'
+base64 -d "8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak"
+echo '8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak' | base64 -d
+echo "8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak" | base64 -d
+cat jupyter_server_config.json 
+echo "8$NE4pjQ87fiXclS2movsbNA$XyRSABc+XVKiYro3r9enLHzyWpHj0Pjo5unk0p6zpak" | base64 -d
+jupyter lab password
+nohup jupyter lab --config /home/pia/jupyter_lab_config.py  &
+gotify push "33333333333333"
+cd SingleFile-dockerized/
+./dufs 20241128dufs/
+chmod 777 20241128dufs/
+./dufs 20241128dufs/
+./dufs -A 20241128dufs/
+df -lh
+cd 20241128dufs/
+ls
+rm 20241128/ -rf
+rm Downloadaa/ -rf
+df -lh
+sudo ncdu /var/log/
+du -sh
+du -Sh
+../dufs -A
+cd ..
+ls
+cd .. 
+ls upload/
+SingleFile-dockerized/dufs 
+SingleFile-dockerized/dufs -A
+cd upload/
+ls
+ls 2*
+rm 2*
+ls
+exit
