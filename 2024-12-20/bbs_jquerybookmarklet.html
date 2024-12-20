@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Bookmarklet</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+</head>
+<body>
+<div class="container">
+    <h1>Bookmarklet Tests</h1>
+
+    <p>
+        Each of the buttons below should trigger an alert when clicked.
+        The buttons should turn green once their HREF attributes have been set.
+    </p>
+
+    <h3>Loading with raw option:</h3>
+
+    <p>
+        <a class="btn btn-default" id="test-raw">Raw Option</a>
+        <a class="btn btn-default" id="test-raw-data-attr" data-bookmarklet-raw="bookmarklet-test.js">Raw Data Attr</a>
+    </p>
+
+    <h3>Loading from Gist:</h3>
+
+    <p>
+        <a class="btn btn-default" id="test-gist">Gist ID Option</a>
+        <a class="btn btn-default" id="test-gist-filename">Gist Filename Option</a>
+        <a class="btn btn-default" id="test-gist-data-attr" data-bookmarklet-gist-id="e4842e074a7f52699b72">Gist ID Data
+            Attr</a>
+        <a class="btn btn-default" id="test-gist-filename-data-attr"
+           data-bookmarklet-gist-id="e4842e074a7f52699b72"
+           data-bookmarklet-filename="bookmarklet-test.js">Gist Filename Data Attr</a>
+    </p>
+
+    <h3>Using on_ready callback</h3>
+
+    <p>
+        This button should appear when it is finished:
+        <a class="btn btn-default fade" id="test-raw-callback">on_ready callback</a>
+    </p>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./bootstrap.min.js"></script>
+
+<script src="./jquery.bookmarklet.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        var gist_id = 'e4842e074a7f52699b72';
+        var gist_filename = 'bookmarklet-test.js';
+        var raw = 'bookmarklet-test.js';
+
+        $("#test-raw").bookmarklet({
+            raw: raw
+        });
+
+        $('#test-raw-data-attr').bookmarklet();
+
+        $('#test-gist').bookmarklet({
+            gist_id: gist_id
+        });
+
+        $('#test-gist-filename').bookmarklet({
+            gist_id: gist_id,
+            gist_filename: gist_filename
+        });
+
+        $('#test-gist-data-attr').bookmarklet();
+
+        $('#test-gist-filename-data-attr').bookmarklet();
+
+        $('#test-raw-callback').bookmarklet({
+            raw: raw,
+            on_ready: function ($el) {
+                $el.addClass('in');
+            }
+        });
+
+        setInterval(function () {
+            $('a.btn-default').each(function () {
+                var button = $(this),
+                        success = false;
+
+                if (button.is('.fade')) {
+                    success = button.attr('href') && button.is('.in');
+                }
+                else {
+                    success = button.attr('href');
+                }
+
+                if (success) {
+                    button.removeClass('btn-default')
+                            .addClass('btn-success')
+                }
+            });
+        }, 500);
+    });
+</script>
+</body>
+</html>
