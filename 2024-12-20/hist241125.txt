@@ -1,0 +1,75 @@
+top
+docker ps -a
+sudo docker ps -a
+sudo systemctl start docker
+sudo systemctl start dockerd
+sudo systemctl status docker
+sudo systemctl start dockerd
+sudo systemctl start docker
+journalctl -xe
+sudo journalctl -xe
+df -lh
+sudo ncdu /
+ls /var/log/messages
+sudo echo "" > /var/log/messages
+sudo echo " " > /var/log/messages
+lsof | grep messages
+lsof | grep message
+lsof | grep messa
+sudo lsof | grep messa
+kill -i 1145
+sudo kill -9 1145
+sudo lsof | grep messa
+sudo cat /dev/null > /var/log/messages
+sudo kill -9 1801 && sudo cat /dev/null > /var/log/messages
+sudo lsof | grep messa
+sudo systemctl stop rsyslog
+sudo lsof | grep messa
+sudo cat /dev/null > /var/log/messages
+sudo lsof | grep messa
+sudo cat /dev/null > /var/log/messages
+ls -l /var/log/messages
+lsattr /var/log/messages
+sudo lsattr /var/log/messages
+chattr  -a /var/log/messages
+sudo chattr  -a /var/log/messages
+sudo cat /dev/null > /var/log/messages
+
+sudo lsattr /var/log/messages
+sudo chattr  -e /var/log/messages
+sudo cat /dev/null > /var/log/messages
+su
+df -lh
+sudo chattr  +a /var/log/messages
+ls -lh /var/log/messages
+sudo systemctl start rsyslog
+ls -lh /var/log/messages
+df -lh
+sudo systemctl start docker
+sudo docker ps
+sudo docker ps -a
+sudo docker start priceless_burnell
+curl -Lo gotify https://kkgithub.com/gotify/cli/releases/download/v2.2.0/gotify-cli-linux-amd64
+chmod +x ./gotify
+./gotify
+./gotify --help
+ls
+ls go*
+./gotify-linux-amd64 
+./gotify
+./gotify --version
+./gotify version
+rm gotify
+ wget -O gotify https://kkgithub.com/gotify/cli/releases/download/v2.2.0/gotify-cli-linux-amd64
+chmod +x ./gotify
+./gotify version
+./gotify 
+ wget -O gotify https://github.com/gotify/cli/releases/download/v2.2.0/gotify-cli-linux-amd64
+./gotify version
+ls gotify
+./gotify
+mv gotify /usr/bin/gotify
+sudo mv gotify /usr/bin/gotify
+gotify init
+gotify "aaaaaaaaaaaaaaaaa"
+gotify push "aaaaaaaaaaaaaaaaa"
