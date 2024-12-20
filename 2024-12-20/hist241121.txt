@@ -1,0 +1,1000 @@
+mv qbt-linux-x64-1.8.24199.1.tar.gz  qbt
+cd qbt
+ls
+tar zxvf qbt-linux-x64-1.8.24199.1.tar.gz 
+ls
+./qbt
+./qbt server
+./qbt server --username demo --password demo
+./qbt server --help
+./qbt --help
+./qbt
+ps -ef
+./qbt &&
+./qbt &
+p
+ps 
+./qbt server setting
+./qbt server --hel
+./qbt server settings
+sudo install epel-release
+sudo yum install epel-release
+sudo yum install qbittorrent-nox
+cat /etc/os-release 
+uname
+uname =a
+uname  -a
+cd qbt
+ls
+cd ..
+wget  wget http://www.island42.net/rpms/cen76/qbittorrent-run-4.1.8-2.el7.x86_64.rpm
+sudo yum install qbittorrent-run-4.1.8-2.el7.x86_64.rpm 
+sudo rpm -Va --nofiles --nodigest  qbittorrent-run-4.1.8-2.el7.x86_64.rpm 
+ls
+cloud-torrent 
+sudo cloud-torrent 
+which cloud-torrent
+sudo /usr/local/bin/cloud-torrent 
+node
+ls
+exit
+top
+exit
+top
+exit
+top
+ls
+exit
+top
+docker pull gcr.io/k8s-minikube/kubernetes-bootcamp
+sudo docker pull gcr.io/k8s-minikube/kubernetes-bootcamp
+sudo docker pull gcr.io/k8s-minikube/kubernetes-bootcamp:v1
+exit
+top
+exit
+top
+exit
+top
+exi
+exit
+wget https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
+df -lh
+ncdu 
+wget https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
+rm copyparty-sfx.py*
+wget https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
+python copyparty-sfx.py 
+python copyparty-sfx.py -a wd:ubuntu -v .::r,wd:rw
+python copyparty-sfx.py -a wd:ubuntu -v .::r:rw,wd
+cd SingleFile-dockerized/
+ls
+ls http*
+cat https###wardmon.github.io#jupyterlite#notebooks#index.html\?path\=javascript.ipynb.html 
+single-file https://wardmon.github.io/jupyterlite/edit/?path=1.txt
+single-file https://wardmon.github.io/jupyterlite/edit/?path=1.txt --dump-content
+single-file https://wardmon.github.io/jupyterlite/edit/?path=1.txt --dump-content | grep 1111111
+single-file https://wardmon.github.io/jupyterlite/lab/index.html?path=1.txt --dump-content | grep 111111
+single-file https://wardmon.github.io/jupyterlite/lab/index.html?path=1.txt tmp.txt
+cat tmp.txt
+cat tmp.txt | grep 11111
+single-file  https://wardmon.github.io/jupyterlite/lab/index.html?path=README.md > tmp.txt
+single-file  https://wardmon.github.io/jupyterlite/lab/index.html?path=README.md  tmp.txt
+cat tmp.txt | grep 11111
+cat tmp.txt 
+ls
+cp tmp\ \(2\).txt tmp.txt 
+cat tmp.txt 
+cat tmp.txt | grep 11111
+cat tmp.txt | grep --color 11111
+cat tmp.txt | grep --color aaa
+cat tmp.txt | grep --color aaaaaaaaaaaaaaaaaa
+cat tmp.txt | grep --color aaaaaaaa
+cat tmp.txt | grep --color 1111111111111111111111
+cat tmp.txt | grep --color 1111111111
+\
+exit
+ls
+top
+echo -n "password"|md5sum|awk '{print $1}'
+echo -n "password"|md5sum
+find / -nouser -o -nogroup -print
+ping 74.125.130.19
+grep -r . /sys/class/net/eth0/statistics
+ls
+grep --help
+grep -r . /sys/class/net/eth0/statistics
+cat /sys/class/net/eth0/statistics/rx_length_errors
+ls *.txt
+grep . *.txt
+ls *.txt
+grep . h*.txt
+ls
+grep . h*.txt
+ls
+grep . h*.txt
+ls
+pwd
+top
+curl -s http://www.commandlinefu.com/commands/browse|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'|ruby -rubygems -pe 'require "cgi"; $_=sprintf("\n\n%-100s\n\t#%-20s",CGI.unescapeHTML($_).chomp.strip, gets.lstrip) if $.%2'
+curl -s http://www.commandlinefu.com/commands/browse|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'
+curl -s http://www.commandlinefu.com/commands/|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'
+curl -s http://www.commandlinefu.com/|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'
+strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo
+< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c6
+cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 32
+grep -i "$*" /usr/lib/perl5/Unicode/CharName.pm
+sed -r "s/\x1B\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g
+"
+node
+ss -p | cat
+ss -p
+ss -p | grep STA | cut -f2 -d\"
+ss -p | grep STA | cut -f2 -d  
+ss -p | grep STA | cut -f2 -d " "
+ss -p | grep STA | cut -f2 -d ""
+lsof -P -i -n
+sudo yunm install lsof
+sudo yum install lsof
+lsof -P -i -n
+lsof -P -i 
+lsof -P  -n
+lsof -P -i -n
+lsof -P -f -n
+lsof -P -i -n | cut -f 1 -d " "| uniq | tail -n +2
+ cf() { curl 'https://www.commandlinefu.com/commands/togglefavourite'  -H 'Cookie: _ga=GA1.2.898916099.1726720470; PHPSESSID=0i4no8f77ldidjdccgnmr7mo13; _gid=GA1.2.1241127667.1728880884; remember=AeW8%2FNadWsMtSnSY%2FXQUaWGb3JanhIVVUlCi2eJkCD5x62Z%2BM4glrl3WoEecR%2BFCBZ7zY%2FJmuUCWjQjFUVgB%2Bw%3D%3D; __gads=ID=f193cd5eb4c7d2c0:T=1726720467:RT=1728902545:S=ALNI_MZONJf-4rKyIRuOh95NT0hlm_JX_A; __gpi=UID=00000ef2503b6142:T=1726720467:RT=1728902545:S=ALNI_Mbs6CsGlGmTcVLy1Uec08y9oYZNxg; __eoi=ID=6101c73cb9125e4e:T=1726720467:RT=1728902545:S=AA-AfjbVJDsU2KSNjBUqcn_CrqKN; ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b94e2cbb35e3057e23f6f2d7f8ebfa73%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.71%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221728902757%22%3Bs%3A9%3A%22signed-in%22%3Bs%3A1%3A%221%22%3Bs%3A7%3A%22user-id%22%3Bs%3A6%3A%22103501%22%3B%7D0db71a23d15bdaad1d7035c8476fe1b5' -v  --data-raw 'id='$1'&_=' ; }
+cf
+cf() { curl 'https://www.commandlinefu.com/commands/togglefavourite'  -H 'Cookie: _ga=GA1.2.898916099.1726720470; PHPSESSID=0i4no8f77ldidjdccgnmr7mo13; _gid=GA1.2.1241127667.1728880884; remember=AeW8%2FNadWsMtSnSY%2FXQUaWGb3JanhIVVUlCi2eJkCD5x62Z%2BM4glrl3WoEecR%2BFCBZ7zY%2FJmuUCWjQjFUVgB%2Bw%3D%3D; __gads=ID=f193cd5eb4c7d2c0:T=1726720467:RT=1728902545:S=ALNI_MZONJf-4rKyIRuOh95NT0hlm_JX_A; __gpi=UID=00000ef2503b6142:T=1726720467:RT=1728902545:S=ALNI_Mbs6CsGlGmTcVLy1Uec08y9oYZNxg; __eoi=ID=6101c73cb9125e4e:T=1726720467:RT=1728902545:S=AA-AfjbVJDsU2KSNjBUqcn_CrqKN; ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b94e2cbb35e3057e23f6f2d7f8ebfa73%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.71%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221728902757%22%3Bs%3A9%3A%22signed-in%22%3Bs%3A1%3A%221%22%3Bs%3A7%3A%22user-id%22%3Bs%3A6%3A%22103501%22%3B%7D0db71a23d15bdaad1d7035c8476fe1b5' -v  --data-raw 'id='$1'&_=' ; }
+history
+cf 3543
+curll --help
+curl --help
+cf() { curl 'https://www.commandlinefu.com/commands/togglefavourite'  -H 'Cookie: _ga=GA1.2.898916099.1726720470; PHPSESSID=0i4no8f77ldidjdccgnmr7mo13; _gid=GA1.2.1241127667.1728880884; remember=AeW8%2FNadWsMtSnSY%2FXQUaWGb3JanhIVVUlCi2eJkCD5x62Z%2BM4glrl3WoEecR%2BFCBZ7zY%2FJmuUCWjQjFUVgB%2Bw%3D%3D; __gads=ID=f193cd5eb4c7d2c0:T=1726720467:RT=1728902545:S=ALNI_MZONJf-4rKyIRuOh95NT0hlm_JX_A; __gpi=UID=00000ef2503b6142:T=1726720467:RT=1728902545:S=ALNI_Mbs6CsGlGmTcVLy1Uec08y9oYZNxg; __eoi=ID=6101c73cb9125e4e:T=1726720467:RT=1728902545:S=AA-AfjbVJDsU2KSNjBUqcn_CrqKN; ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b94e2cbb35e3057e23f6f2d7f8ebfa73%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.71%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221728902757%22%3Bs%3A9%3A%22signed-in%22%3Bs%3A1%3A%221%22%3Bs%3A7%3A%22user-id%22%3Bs%3A6%3A%22103501%22%3B%7D0db71a23d15bdaad1d7035c8476fe1b5' -v  --data 'id='$1'&_=' ; }
+cf 3543
+netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq
+sudo netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq
+netstat -lantp | grep -i establ | awk -F/ '{print $2}' | sort | uniq
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2 | uniq -c | sort -nr
+sudo lsof -P -i -n | awk '{print $1,$5,$8}'
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | cat
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2
+watch -n 1 'echo "obase=2;`date +%s`" | bc'
+watch -n 1 'echo "obase=2;`date +%s`" 
+watch -n 1 '`date +%s`'
+watch -n 1 'date +%s'
+watch -n 1 'obasse=2;date +%s'
+sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2
+lshw -short
+ps -ef
+curl localhost:8888 ls
+curl localhost:8888 
+curl localhost:8888 ls
+curl localhost:8888 'ls'
+curl localhost:8888 "ls"
+curl 127.0.0.1:8888 "ls"
+webify --help
+curl 127.0.0.1:8888-d  "ls"
+curl 127.0.0.1:8888 -d  "ls"
+nano rsspreview.js
+node rsspreview.js 
+nano rsspreview.js
+ReferenceError: fetch is not definedc
+npm install node-fetch
+ls
+ls node_modules/
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node --experimental-modules --require esm rsspreview.js 
+npm install esm
+node --experimental-modules --require esm rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+npm install -g node-fetch
+sudo npm install -g node-fetch
+node rsspreview.js 
+ls package.json 
+mkdir rssdemo
+cp rsspreview.js rssdemo/
+cd rssdemo/
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+nano rsspreview.js 
+node rsspreview.js 
+npm info node-fetch version
+node -v
+node rsspreview.js 
+node ./rsspreview.js 
+npm install node-fetch
+ls
+node ./rsspreview.js 
+npm install node-fetch@2.6,2
+npm install node-fetch@2.6.2
+ls
+node ./rsspreview.js 
+nano rsspreview.js 
+node ./rsspreview.js 
+nano rsspreview.js 
+nano parser.sh
+cat parser.sh 
+wget --quiet -O aa.xml http://faxian.smzdm.com/feed 
+cat aa.xml
+chmod +x ./parser.sh 
+./parser.sh aa.xml aanew.html
+more aa.xml 
+ls
+./parser.sh aa.xml aanew.html
+./parser.sh aa.xml >> aanew.html
+ls
+cat aanew.html 
+feed() { if [ ! -d $FEED_BOOKMARKS ]; then mkdir $FEED_BOOKMARKS; fi;  if [ ! -n "$1" ]; then echo -e "\\n \\e[04mUsage\\e[00m\\n\\n   \\e[01;37m\$ feed \\e[01;31m<url>\\e[00m \\e[01;31m<new bookmark?>\\e[00m\\n\\n \\e[04mSee also\\e[00m\\n\\n   \\e[01;37m\$ deef\\e[00m\\n"; return 1; fi;  local rss_source="$(curl --silent $1 | sed -e ':a;N;$!ba;s/\n/ /g')"; if [ ! -n "$rss_source" ]; then echo "The feed is empty"; return 1; fi;  echo -e "$(echo $rss_source | \
+sed -e 's/&gt;/>/g' \
+-e 's/&lt;/</g' \
+-e 's/<\/a>/£/g' \
+-e 's/href\=\"/§/g' \
+-e 's/<title>/\\n\\n\\n   :: \\e[01;31m/g' -e 's/<\/title>/\\e[00m ::\\n/g' \
+-e 's/<link>/ [ \\e[01;36m/g' -e 's/<\/link>/\\e[00m ]/g' \
+-e 's/<description>/\\n\\n\\e[00;37m/g' -e 's/<\/description>/\\e[00m\\n\\n/g' \
+-e 's/<p>\|<br\s*\/\?>/\n/g' \
+-e 's/<b>\|<strong>/\\e[01;30m/g' -e 's/<\/b>\|<\/strong>/\\e[00;37m/g' \
+-e 's/<u>/\\e[4;37m/g' -e 's/<\/u>/\\e[00;37m/g' \
+-e 's/<b>\|<code>/\\e[00m/g' -e 's/<\/b>\|<\/code>/\\e[00;37m/g' \
+-e 's/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g' \
+-e 's/<li>/\n \\e[01;34m*\\e[00;37m /g' \
+-e 's/<!\[CDATA\[\|\]\]>\|>\s*<//g' \
+-e 's/<[^>]*>/ /g' \
+-e 's/[<>£§]//g')\n\n"; if [ -n "$2" ]; then echo "$1" > $FEED_BOOKMARKS/$2; echo -e "\\n\\t\\e[01;37m==> \\e[01;31mBookmark saved as \\e[01;36m\\e[04m$2\\e[00m\\e[01;37m <==\\e[00m\\n"; fi; }
+deef() { if test -n "$1"; then if [ ! -r "$FEED_BOOKMARKS/$1" ]; then echo -e "\\n \\e[01;31mBookmark \\e[01;36m\\e[04m$1\\e[00m\\e[01;31m not found.\\e[00m\\n\\n \\e[04mType:\\e[00m\\n\\n   \\e[01;37m\$ deef\\e[00m (without arguments)\\n\\n to get the complete list of all currently saved bookmarks.\\n"; return 1; fi; local url="$(cat $FEED_BOOKMARKS/$1)"; if [ ! -n "$url" ]; then echo "The bookmark is empty"; return 1; fi; echo -e "\\n\\t\\e[01;37m==> \\e[01;31m$url\\e[01;37m <==\\e[00m"; feed "$url"; else echo -e "\\n \\e[04mUsage\\e[00m\\n\\n   \\e[01;37m\$ deef \\e[01;31m<bookmark>\\e[00m\\n\\n \\e[04mCurrently saved bookmarks\\e[00m\\n"; for i in $(find $FEED_BOOKMARKS -maxdepth 1 -type f); do echo -e "   \\e[01;36m\\e[04m$(basename $i)\\e[00m"; done; echo -e "\\n \\e[04mSee also\\e[00m\\n\\n   \\e[01;37m\$ feed\\e[00m\\n"; fi; }
+feed http://www.archlinux.org/feeds/news/
+feed http://faxian.smzdm.com/feed 
+nano feeddemo.sh
+ echo -e "$(echo $rss_source | \
+                sed 's/&amp;/\&/g
+                s/&lt;\|&#60;/</g
+                s/&gt;\|&#62;/>/g
+                s/<\/a>/£/g
+                s/href\=\"/§/g
+                s/<title>/\\n\\n\\n   :: \\e[01;31m/g
+                s/<\/title>/\\e[00m ::\\n/g
+                s/<link>/ [ \\e[01;36m/g
+                s/<\/link>/\\e[00m ]/g
+                s/<description>/\\n\\n\\e[00;37m/g
+                s/<\/description>/\\e[00m\\n\\n/g
+                s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+                s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/\\e[01;30m/g
+                s/<\/b>\|<\/strong>/\\e[00;37m/g
+                s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/\\e[41;37m/g
+                s/<\/i>\|<\/em>/\\e[00;37m/g
+                s/<u\( [^>]*\)\?>/\\e[4;37m/g
+                s/<\/u>/\\e[00;37m/g
+                s/<code\( [^>]*\)\?>/\\e[00m/g
+                s/<\/code>/\\e[00;37m/g
+                s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g
+                s/<li\( [^>]*\)\?>/\n \\e[01;34m*\\e[00;37m /g
+                s/<!\[CDATA\[\|\]\]>//g
+                s/\|>\s*<//g
+                s/ *<[^>]\+> */ /g
+echo -e "$(echo aa.xml | \
+                sed 's/&amp;/\&/g
+                s/&lt;\|&#60;/</g
+                s/&gt;\|&#62;/>/g
+                s/<\/a>/£/g
+                s/href\=\"/§/g
+                s/<title>/\\n\\n\\n   :: \\e[01;31m/g
+                s/<\/title>/\\e[00m ::\\n/g
+                s/<link>/ [ \\e[01;36m/g
+                s/<\/link>/\\e[00m ]/g
+                s/<description>/\\n\\n\\e[00;37m/g
+                s/<\/description>/\\e[00m\\n\\n/g
+                s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+                s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/\\e[01;30m/g
+                s/<\/b>\|<\/strong>/\\e[00;37m/g
+                s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/\\e[41;37m/g
+                s/<\/i>\|<\/em>/\\e[00;37m/g
+                s/<u\( [^>]*\)\?>/\\e[4;37m/g
+                s/<\/u>/\\e[00;37m/g
+                s/<code\( [^>]*\)\?>/\\e[00m/g
+                s/<\/code>/\\e[00;37m/g
+                s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g
+                s/<li\( [^>]*\)\?>/\n \\e[01;34m*\\e[00;37m /g
+                s/<!\[CDATA\[\|\]\]>//g
+                s/\|>\s*<//g
+                s/ *<[^>]\+> */ /g
+                s/[<>£§]//g')\n\n";
+ echo -e "$(cat aa.xml | \
+                sed 's/&amp;/\&/g
+                s/&lt;\|&#60;/</g
+                s/&gt;\|&#62;/>/g
+                s/<\/a>/£/g
+                s/href\=\"/§/g
+                s/<title>/\\n\\n\\n   :: \\e[01;31m/g
+                s/<\/title>/\\e[00m ::\\n/g
+                s/<link>/ [ \\e[01;36m/g
+                s/<\/link>/\\e[00m ]/g
+                s/<description>/\\n\\n\\e[00;37m/g
+                s/<\/description>/\\e[00m\\n\\n/g
+                s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+                s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/\\e[01;30m/g
+                s/<\/b>\|<\/strong>/\\e[00;37m/g
+                s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/\\e[41;37m/g
+                s/<\/i>\|<\/em>/\\e[00;37m/g
+                s/<u\( [^>]*\)\?>/\\e[4;37m/g
+                s/<\/u>/\\e[00;37m/g
+                s/<code\( [^>]*\)\?>/\\e[00m/g
+                s/<\/code>/\\e[00;37m/g
+                s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/\\e[01;31m\2\\e[00;37m \\e[01;34m[\\e[00;37m \\e[04m\1\\e[00;37m\\e[01;34m ]\\e[00;37m/g
+                s/<li\( [^>]*\)\?>/\n \\e[01;34m*\\e[00;37m /g
+                s/<!\[CDATA\[\|\]\]>//g
+                s/\|>\s*<//g
+                s/ *<[^>]\+> */ /g
+                s/[<>£§]//g')\n\n";
+exit
+nano rssdemo.sh
+chmod +x rssdemo.sh
+./rssdemo.sh https://faxian.smzdm.com/feed
+history 
+history  | grep webtify
+history  | grep webi
+curl 127.0.0.1:8888 -d "ls"
+curl 127.0.0.1:8888 -d "/home/pia/rssdemo.sh https://faxian.smzdm.com/feed" 
+top
+webify --helop
+history  | grep webi
+ps -ef 
+ps -ef  | grep webi
+history  | grep webi
+webify -addr=:8888 bash 
+nohup webify -addr=:8888 bash &
+ls
+top
+webify --help
+top
+ps -ef
+ps -ef | grep webify
+ls
+exit
+netstat -anlp
+netstat -anlp | grep 888
+exit
+netstat -anlp | grep 888
+netstat -anlp | grep 9999
+exit
+netstat -anlp | grep 9999
+telnet localhost 9999
+telnet 45.32.200.249 9999
+exit
+netstat -anlp | grep 9999
+sudo netstat -anlp | grep 9999
+exit
+netstat -anlp | grep 9999
+ps | grep ssh
+exit
+ps | grep ssh
+netstat -anlp | grep 9999
+exit
+netstat -anlp | grep 9999
+netstat -anlp | grep 10022
+cat /etc/ssh/sshd_config 
+sudo cat /etc/ssh/sshd_config 
+sudo nano /etc/ssh/sshd_config 
+systemctl restart sshd
+sudo systemctl restart sshd
+exit
+netstat -anlp | grep 10022
+sudo systemctl restart sshd
+sudo systemctl status sshd
+telnet 45.32.200.249 10022
+telnet localhsot 10022
+telnet 127.0.0.1 10022
+exit
+netstat -anlp | grep 10022
+exit
+netstat -anlp | grep 10022
+telnet 127.0.0.1 10022
+telnet 45.32.200.249 10022
+curl localhost:10022
+netstat -anlp | grep 10022
+sudo cat /etc/host
+sudo cat /etc/hosts
+exit
+netstat -anlp | grep 10022
+netstat -anlp | grep 10222
+curl 45.32.200.249:10222
+exit
+netstat -anlp | grep 10222
+curl 45.32.200.249:10222
+exit
+curl 45.32.200.249:10222
+exit
+netstat -anlp | grep 10022
+curl localhost:10022
+curl 45.32.200.249:10022
+ssh -L 10022:45.32.200.249:10022 pia@45.32.200.249
+ssh -L 10022:45.32.200.249:10222 pia@45.32.200.249
+ssh -L 10222:45.32.200.249:10022 pia@45.32.200.249
+netstat -anlp | grep 10022
+ssh -L 0.0.0.0:10222:45.32.200.249:10022 pia@45.32.200.249
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249
+exit
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 &
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+nohup ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+ps -ef
+exit
+ps -ef
+exit
+ps -ef
+exit
+ps -ef
+exit
+nohup ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+ps -ef
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+ssh -L 10222:127.0.0.1:10022 pia@45.32.200.249 
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249 
+top
+exit
+exit
+top
+exit
+ssh runner@2.tcp.ngrok.io -p 19593
+ssh runner@2.tcp.ngrok.io -p 19593 -v
+gh
+wget https://github.com/cli/cli/releases/download/v2.60.1/gh_2.60.1_linux_amd64.tar.g
+wget https://github.com/cli/cli/releases/download/v2.60.1/gh_2.60.1_linux_amd64.tar.gz
+tar xzvf gh_2.60.1_linux_amd64.tar.gz 
+cd gh_2.60.1_linux_amd64
+ls
+cd bin
+ls
+gh
+./gh
+sudo ln -s /home/pia/gh_2.60.1_linux_amd64/bin/gh /usr/bin/gh
+gh
+gh auth
+gh login
+gh login auth
+gh auth
+gh auth login
+gh ls
+gh gist ls
+gh codespace list
+gh auth refresh -h github.com -s codespace
+gh codespace list
+gh codespace ssh
+gh codespace jupyter
+gh codespace ssh
+ gh codespace ssh --config > ~/.ssh/codespaces
+cat ~/.ssh/codespaces 
+printf 'Match all\nInclude ~/.ssh/codespaces\n'
+ printf 'Match all\nInclude ~/.ssh/codespaces\n' >> ~/.ssh/config
+cat ~/.ssh/config 
+top
+gh codespace ssh
+rm ~/.ssh/*
+gh codespace ssh
+gh codespace rebuild
+gh codespace ssh
+gh codespace rebuild
+gh codespace ssh
+exit
+ls
+top
+exit
+top
+exit
+top
+exit
+top
+]
+top
+exit
+top
+exit
+top
+exit
+top
+exit
+top
+top
+exit
+top
+wget https://github.com/gotify/server/releases/download/v2.5.0/gotify-linux-amd64.zip
+unzip gotify-linux-amd64.zip 
+ls
+./gotify-linux-amd64 --help
+./gotify-linux-amd64 
+netstat
+ps -ef
+netstat -anpl
+netstat -anplt
+exit
+ss
+ss | grep 10022
+netstat -anplt | grep 10022
+sudo netstat -anplt | grep 10022
+netstat -anplt | grep 10022
+exit
+netstat -anlp
+netstat -anlpt
+exit
+exit
+wget https://garagehq.deuxfleurs.fr/_releases/v1.0.1/x86_64-unknown-linux-musl/garage
+chmod +x ./garage 
+./garage 
+cat > garage.toml <<EOF
+metadata_dir = "/tmp/meta"
+data_dir = "/tmp/data"
+db_engine = "sqlite"
+
+replication_factor = 1
+
+rpc_bind_addr = "[::]:3901"
+rpc_public_addr = "127.0.0.1:3901"
+rpc_secret = "$(openssl rand -hex 32)"
+
+[s3_api]
+s3_region = "garage"
+api_bind_addr = "[::]:3900"
+root_domain = ".s3.garage.localhost"
+
+[s3_web]
+bind_addr = "[::]:3902"
+root_domain = ".web.garage.localhost"
+index = "index.html"
+
+[k2v_api]
+api_bind_addr = "[::]:3904"
+
+[admin]
+api_bind_addr = "[::]:3903"
+admin_token = "$(openssl rand -base64 32)"
+metrics_token = "$(openssl rand -base64 32)"
+EOF
+
+cat garage.toml 
+./garage server
+./garage server -c ./garage.toml 
+./garage  -c ./garage.toml server
+./garage  -c ./garage.toml server &
+sudo ln -s /home/pia/garage /usr/bin/garage
+garage status
+garage -c ./garage.toml status
+exit
+history
+ssh -L 0.0.0.0:10222:127.0.0.1:10022 pia@45.32.200.249
+ssh -L 0.0.0.0:10081:127.0.0.1:10080 pia@45.32.200.249
+exit
+top
+exit
+top
+exit
+ls
+wget https://github.com/NilsIrl/dockerc/releases/download/v0.3.2/dockerc_x86-64
+chmod ./dockerc_x86-64 
+chmod ./dockerc_x86-64  +x
+cp dockerc_x86-64 /usr/bin/dockerc
+sudo cp dockerc_x86-64 /usr/bin/dockerc
+dockerc
+sudo dockerc
+ls
+ls dockerc_x86-64 
+./dockerc_x86-64 
+chmod +x dockerc_x86-64 
+sudo cp dockerc_x86-64 /usr/bin/dockerc
+dockerc
+./dockerc_x86-64 
+sudo cp ./dockerc_x86-64 /usr/bin/dockerc
+dockerc
+sudo dockerc
+rm /usr/bin/dockerc
+sudo ln -s /home/pia/dockerc_x86-64 /usr/local/bin/dockerc
+dockerc 
+./dockerc_x86-64 
+ls
+ls gotify
+./gotify
+./dockerc_x86-64 --image docker://ghcr.io/gotify/server -o gotify-server
+ls gotify-server 
+./gotify-server 
+ls
+./gotify-linux-amd64 
+df -lh
+ncdu
+exit
+ls
+rm gotify
+rm gotify-server 
+df -lh
+ncdu /
+mkdir data
+docker run -p 80:80 -v /var/gotify/data:/home/pia/data gotify/server
+sudo docker run -p 80:80 -v /var/gotify/data:/home/pia/data gotify/server
+sudo docker ps
+top
+docker s
+docker ps
+sudo docker ps -a
+sudo docker start priceless_burnell
+sudo docker ps 
+top
+netstat 
+exit
+history | grep ssh -L
+history
+history | grep ssh
+ssh -L 0.0.0.0:10082:127.0.0.1:80 pia@45.32.200.249
+exit
+top
+exit
+ssh -L 0.0.0.0:10082:127.0.0.1:28000 pia@45.32.200.249
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
+jq
+yum install jq
+sudo yum install jq
+wget https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64
+ls
+ls jq*
+df -lh
+ncdu /
+cd fswatch-1.17.1
+ls
+rm -rf gcc-4.9.4/
+sudo rm -rf gcc-4.9.4/
+df -lh
+cd ..
+wget https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64
+chmod +u jq-linux-amd64
+cp jq-linux-amd64 /usr/bin/
+sudo cp jq-linux-amd64 /usr/bin/
+jq
+sudo cp jq-linux-amd64 /usr/bin/jq
+jq
+sudo chmod +x /usr/bin/jq
+jq
+jq --help
+jq --version
+jq
+jq help
+sudo chmod +x jq-linux-amd64
+./jq-linux-amd64 
+./jq-linux-amd64 --help
+curl 'https://api.github.com/repos/jqlang/jq/commits?per_page=5' | jq '.'
+df -lh
+jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+rm jq-linux-amd64
+mv jq-linux-amd64.1 jq-linux-amd64
+sudo chmod +x jq-linux-amd64
+cp jq-linux-amd64 /usr/bin/jq
+sudo cp jq-linux-amd64 /usr/bin/jq
+jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+jq
+ echo '{"foo": 0}' | jq .
+chagpt
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
+chatgpt 
+ export OPENAI_KEY=c25haWx5cC9ibGFja2JveDJhcGk6bGF0ZXN0
+chatgpt 
+curl -X POST https://api.afreeapi.me/v1/chat/completions    -H "Content-Type: application/json"   -H "Authorization: Bearer c25haWx5cC9ibGFja2JveDJhcGk6bGF0ZXN0"   -d '{
+      "model": "gpt-4o",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello!"
+        }
+      ],
+      "stream": false
+    }'
+top
+exit
+top
+ps -ef
+crontab -l
+cat pyrun.sh 
+python3 -m http.server
+cat pyrun.sh 
+cd SingleFile-dockerized/
+python3 -m http.server
+ls bad.elf 
+cat bad.elf 
+python3 -m http.server
+cat bad.elf | base64 -d
+cat bad.elf | xargs base64 -d
+ls
+ls sf
+mkdir 20241121
+python3 -m http.server 20241121/
+python3 -m http.server --help
+cd ..
+crontab -l
+nano pyrun.sh 
+ls
+pwd
+ls
+sudo mv  SingleFile-dockerized/bad.elf  /root/
+./pyrun.sh 
+ls
+ls SingleFile-dockerized/20241121/
+mv SingleFile-dockerized/20241121/ SingleFile-dockerized/202411
+./pyrun.sh 
+nano pyrun.sh 
+./pyrun.sh 
+conda
+df -lh
+nano pyrun.sh 
+./pyrun.sh 
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh 
+exit
+conda env list
+python --version
+df -lh
+ls
+ls -lhRs
+ls
+ls -lhs
+ls -lhsr
+ls -lhS
+ls -lhSr
+rm Miniconda3-latest-Linux-x86_64.sh 
+rm dockerc_x86-64 
+df -lh
+tar --help
+tar --tvfz folder.tar.gz 
+gzip --help
+gzip -d folder.tar.gz 
+ls
+ls -lh folder.tar.gz 
+df -lh
+ncdu /
+sudo ncdu /
+gzip -d folder.tar.gz 
+ls -lh
+pwd
+ls folder.tar.gz 
+pwd
+history | grep goti
+sudo docker ps -a
+sudo docker start priceless_burnell
+top
+sudo docker ps -a
+docker rm dev-db-a
+sudo docker rm dev-db-1
+sudo docker stop dev-db-1
+sudo docker rm dev-db-1
+df -lh
+gzip -d folder.tar.gz 
+df -lh
+sudo docker ps
+sudo docker stop dev-ghost-1
+sudo docker ps
+top
+curl -fsSL https://get.jetify.com/devbox | bash
+sudo curl -fsSL https://get.jetify.com/devbox | bash
+ls .bash-history
+ls .bash_history 
+nano pyrun.sh 
+./pyrun.sh 
+nano pyrun.sh 
+./pyrun.sh 
+ps -ef
+cat pyrun.sh 
+python3 webserver.py
+pip install flask
+python3 webserver.py
+./pyrun.sh 
+date 
+date --help
+date %D
+date %d
+date -%d
+date -- %d
+date %%
+date '%%'
+date+ %%
+date +%%
+date +%D
+date +%d
+date +%y%m%d
+nano pyrun.sh 
+./pyrun.sh 
+nano pyrun.sh 
+./pyrun.sh 
+ls SingleFile-dockerized/hist*
+ls SingleFile-dockerized/hist241121.txt 
+cat SingleFile-dockerized/hist241121.txt 
+./pyrun.sh 
+top
+ls
+cat SingleFile-dockerized/hist241121.txt 
+cat pyrun.sh 
+./pyrun.sh 
+cat SingleFile-dockerized/hist241121.txt 
+cat pyrun.sh 
+dt=$(date +%y%m%d)
+cp -f /home/pia/.bash_history /home/pia/SingleFile-dockerized/hist$dt.txt
+cat pyrun.sh 
+cat SingleFile-dockerized/hist241121.txt 
+history --help
+history help
+history --help
+history  -a
+top
+qqexit
+exexit
+exit
+./pyrun.sh 
+cat SingleFile-dockerized/hist241121.txt 
+nano pyrun.sh 
+./pyrun.sh 
+cat SingleFile-dockerized/hist241121.txt 
+ls
+./pyrun.sh 
+cat SingleFile-dockerized/hist241121.txt 
+rm SingleFile-dockerized/hist241121.txt 
+./pyrun.sh 
+ls
+mkdir demodevbox
+cd demodevbox/
+devbox init
+ls
+cat devbox.json 
+devbox add ripgrep
+ls /home/pia/.nix-profile/etc/profile.d/nix.sh
+cat /home/pia/.nix-profile/etc/profile.d/nix.sh
+sudo ls /
+sudo ls /nix
+sudo ls /nix -R
+df -lh
+devbox 
+devbox  shell
+python --version
+which rg
+devbox  shell
+devbox global list
+devbox global add ripgrep
+eval "$(devbox global shellenv)"
+tree
+yum install tree
+sudo yum install tree
+tree
+sudo yum install tree
+tree
+ls
+ls -a
+tree .devbox/
+devbox add nginx
+devbox info nginx
+devbox info ripgrep
+tree .devbox
+devbox list
+devbox services ls
+which nginx
+devbox shell
+devbox run rg --version
+devbox run python --version
+devbox run pip --version
+ngnix --version
+devbox run nginx --version
+devbox run nginx version
+devbox run nginx -V
+devbox init
+devbox run -- nix store
+devbox run -- nix store gc --extra-experimental-features nix-command
+devbox run nginx -V
+df -lh
+ls
+java
+node
+conda create -n test313 python=3.13
+conda activate test313
+python --version
+cd ..
+git clone https://github.com/godkingjay/selenium-twitter-scraper.git
+cd selenium-twitter-scraper/
+ls
+pip install -r requirements.txt 
+cp .env.example .env
+python scraper
+cat .env
+rm .env
+python scraper
+conda env ls
+conda env list
+conda activate test313
+cd selenium-twitter-scraper/
+ls
+python scraper
+ls tweets/2024-11-21_06-32-28_tweets_1-0.csv 
+cat tweets/2024-11-21_06-32-28_tweets_1-0.csv 
+python scraper -t 20 -q "China" --latest
+ping nitter.net
+curl nitter.net
+curl https://nitter.net
+curl bing.com
+curl github.com
+curl -v github.com
+curl -v kkgithub.com
+curl -v simonw.con
+curl -v zetconde.com
+curl -v zetcode.com
+curl  zetcode.com
+cd ..
+git clone https://github.com/bisguzar/twitter-scraper.git
+cd twitter-scraper/
+sudo python3 setup.py install
+python3 setup.py install
+pip3 install twitter_scraper
+python
+pip3 install lxml
+pip3 install lxml_html_clean
+python
+pip install nitter-scraper
+df -lh
+pip install nitter-scraper
+pip install distutil
+pip install distutils
+pip3 install distutils
+sudo pip install nitter-scraper
+sudo pip3 install nitter-scraper
+pip3 install nitter-scraper
+pip install ntscraper
+python
+df -lh
+python
+ls
+cd ..
+ls
+cd selenium-twitter-scraper/
+ls
+python scraper
+cat README.md 
+ python scraper -t 100 -q "International News" --top
+ls
+cd selenium-twitter-scraper/
+ls
+cd ..
+ls
+conda activate test313
+python
+curl https://nitter.poast.org/search?f=term&q=china
+curl https://nitter.poast.org/search?f=term&q=china | base64 -d
+curl https://nitter.poast.org/search?f=term&q=china -O poast.html
+ls *.html
+curl https://nitter.poast.org/search?f=term&q=china -o poast.html
+ls *.html
+curl https://nitter.poast.org/search?f=term&q=china -O poast.html
+curl --help
+curl https://nitter.poast.org/search?f=term&q=china -o poast.html
+curl -o poast.html https://nitter.poast.org/search?f=term&q=china 
+ls *.html
+cat poast.html 
+python -m http.server
+top
+git clone https://kkgithub.com/fathur-rs/nitter-harvest.git
+git clone https://github.com/fathur-rs/nitter-harvest.git
+cd nitter-harvest/
+cd nitterharvest/
+ls
+cd .
+cd ..
+python
+exit
+git clone https://github.com/SoumilB7/Twitter-Web-Scraper-using-Selenium/
+cd Twitter-Web-Scraper-using-Selenium/
+conda activate test313
+ls
+python main.py 
+nano main.py
+python main.py 
+nano main.py
+python main.py 
+nano main.py
+python main.py 
+nano main.py
+python main.py 
+exit
