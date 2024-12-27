@@ -1,0 +1,24 @@
+import asyncio
+import websockets
+import paramiko
+
+async def ssh_handler(websocket, path):
+    ssh_client = paramiko.SSHClient()
+    ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    ssh_client.connect('your_server_ip', username='your_username', password='your_password')
+
+    while True:
+        try:
+            command = await websocket.recv()
+            stdin, stdout, stderr = ssh_client.exec_command(command)
+            output = stdout.read().decode() + stderr.read().decode()
+            await websocket.send(output)
+        except websockets.exceptions.ConnectionClosed:
+            break
+
+    ssh_client.close()
+
+start_server = websockets.serve(ssh_handler, "localhost", 8765)
+
+asyncio.get_event_loop().run_until_complete(start_server)
+asyncio.get_event_loop().run_forever()
