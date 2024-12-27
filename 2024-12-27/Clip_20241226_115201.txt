@@ -1,0 +1,1 @@
+https://github.com/wijnen/python-websocketd/tree/master/example/html
