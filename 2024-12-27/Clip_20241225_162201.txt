@@ -1,0 +1,29 @@
+from ipywidgets import interact, interactive, fixed, interact_manual,Layout
+import ipywidgets as widgets
+import subprocess
+
+a=widgets.Textarea(
+    value="echo '' | gotify push -p 1",
+    placeholder='Type something',
+    description='String:',
+    layout=Layout(width='550px', height='200px'),
+    disabled=False
+)
+def slow_function(x):
+    cmd(x)
+    return x
+    #ddd='cat r.sh'
+def cmd(arg):
+    p = subprocess.Popen(args=arg, shell=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    single_html =p.stdout.read().decode(encoding="utf-8", errors="strict")
+    print(single_html)
+
+def f1(y):
+    cmd(y)
+    return y
+interact_manual(f1, y=r'echo "select * from messages order by id desc limit 3" | sqlite3 /home/pia/pdf/gotify.db;ls /home/pia/upload/gotify* -lh;docker cp 652b:/app/data/gotify.db /home/pia/pdf/gotify.db;');
+interact_manual(f1, y=r'docker cp 652b:/app/data/gotify.db /home/pia/pdf/gotify.db')
+#y.close()!docker cp 652b:/app/data/gotify.db /home/pia/pdf/gotify.db -`date +%Y-%m-%d`.db
+#interact_manual(slow_function,x='echo "" | gotify push -p 1  ');
+interact_manual(slow_function,x=a);
+#interact_manual(slow_function,a);
