@@ -1,0 +1,1 @@
+Synchronize clients of a Flask application with websockets
