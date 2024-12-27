@@ -1,0 +1,15 @@
+<script src="https://res.zvo.cn/websocket.js/websocket.js"></script>
+
+/*
+websocket.connect({
+	url:'ws://localhost:8081/', //服务端的WebSocket地址
+	onopen:function(){ //如果不需要，此不传即可。
+		websocket.send({"type":"CONNECT","token":"123456"}); //当WebSocket通道连接成功后，自动给服务器发送一条json格式的消息
+	},
+	onmessage:function(message){ //如果不需要，此不传即可
+		//console.log(message); //服务端发送来的消息会在这里接收到
+		document.getElementById('showMessage').innerHTML = JSON.stringify(message) + '<br/>' + document.getElementById('showMessage').innerHTML;
+	}
+});
+*/
+</script>
