@@ -1,0 +1,71 @@
+import json
+import requests
+import websocket
+
+
+class Shell(object):
+    def __init__(self, host='127.0.0.1', port=9222):
+        """ init """
+        self.host = host
+        self.port = port
+        self.soc = None
+        self.connected = None
+        self.tablist = None
+        self.find_tabs()
+
+    def connect(self, tab=None, update_tabs=True):
+        if update_tabs or not self.tablist:
+            self.find_tabs()
+        if not tab:
+            tab = 0
+        wsurl = self.tablist[tab]['webSocketDebuggerUrl']
+        #if self.soc.connected:
+        #    self.soc.close()
+        self.soc = websocket.create_connection(wsurl)
+        return self.soc
+
+    def close(self):
+        """ Close websocket connection to remote browser."""
+        if self.soc:
+            self.soc.close()
+            self.soc = None
+
+    def find_tabs(self):
+        """Connect to host:port and request list of tabs
+             return list of dicts of data about open tabs."""
+        # find websocket endpoint
+        response = requests.get("http://%s:%s/json" % (self.host, self.port))
+        self.tablist = json.loads(response.text)
+        return self.tablist
+
+    def open_url(self, url):
+        """Open a URL in the oldest tab."""
+        if not self.soc or not self.soc.connected:
+            self.connect(tab=0)
+        # force the 'oldest' tab to load url
+        navcom = json.dumps({"id": 0,
+                             "method": "Page.navigate",
+                             "params": {"url": url}})
+        # This code would open a new window, but browsers really dont
+        # like doing so.  And, the results are irritating at best.
+        # navcom=json.dumps({"id":0,"method":"Runtime.evaluate",
+        #  "params":{"expression": "window.open('%s', #'_blank',
+        # 'toolbar=1,scrollbars=1,location=1,statusbar=0,menubar=1,resizable=1'
+        # )" % (url) }})Runtime.evaluate
+        self.soc.send(navcom)
+        return self.soc.recv()
+shell = Shell(host='127.0.0.1', port=9222)  
+#shell.connect(0)
+#url = 'http://www.clift.org/fred' # shameless
+url = 'http://example.com' # shameless
+#navcom = json.dumps({"id":0, "method":"Target.createTarget", "params":{"url":url}})
+#shell.soc.send(navcom)
+shell.connect(0)
+navcom = json.dumps({"id":0, "method":"Network.getCookies", "params":{"url":url}})
+shell.soc.send(navcom)
+response = json.loads(shell.soc.recv())
+
+print(len(shell.find_tabs()))
+print(shell.find_tabs()[1]["url"])
+#print(shell.find_tabs()[1])
+print(response)
