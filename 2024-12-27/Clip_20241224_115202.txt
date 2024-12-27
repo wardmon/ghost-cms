@@ -1,0 +1,32 @@
+const WebSocket = require('ws');
+
+// 替换为你的 WebSocket 服务器地址
+const socket = new WebSocket("ws://10.10.49.172:8765");
+
+// 监听连接打开事件
+socket.addEventListener("open", (event) => {
+    console.log("WebSocket connection opened.");
+
+    // 构造二进制数据，这里使用一个简单的示例
+    const binaryData = new Uint8Array([49, 50, 51, 52]);
+
+    // 发送二进制数据
+    socket.send(binaryData);
+
+    console.log("Binary data sent successfully.");
+});
+
+// 监听接收消息事件
+socket.addEventListener("message", (event) => {
+    console.log("Received message:", event.data);
+});
+
+// 监听连接关闭事件
+socket.addEventListener("close", (event) => {
+    console.log("WebSocket connection closed.");
+});
+
+// 监听错误事件
+socket.addEventListener("error", (event) => {
+    console.error("WebSocket error:", event);
+});
