@@ -1,0 +1,1 @@
+conda create -n binderhub-in-a-box -f environment.yml
