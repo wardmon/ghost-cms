@@ -1,0 +1,1 @@
+https://github.com/hkust-dh/jupyter-slides-demo.git
