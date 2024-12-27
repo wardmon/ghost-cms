@@ -1,0 +1,2 @@
+window.__rpc.register(getHostName)
+window.__rpc.register(getCookie)
