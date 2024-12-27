@@ -1,0 +1,1 @@
+npm install chromium-remote-debugging-proxy
