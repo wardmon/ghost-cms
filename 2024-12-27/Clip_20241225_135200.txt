@@ -1,0 +1,3 @@
+var aaa=" gotify push  -t " + "title:" + "'" + encodeURI(document.title)+"'" +" -p 1 " + document.URL
+//alert(aaa)
+window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+aaa)
