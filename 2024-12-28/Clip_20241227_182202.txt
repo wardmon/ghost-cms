@@ -1,0 +1,2 @@
+    t = time.time()
+    resultId = str(int(t * 10000))
