@@ -1,0 +1,1 @@
+socket.emit('value changed',{"who":"slider2","data":"90"})
