@@ -1,0 +1,32 @@
+import random
+
+'''
+# 随机生成一个16位密码
+# 必须包含大写字母,小写字母,数字和符号,如:vC3D-kf26c+70(Z4
+'''
+def pwd_generator(length=16):
+    if length < 4:
+        raise ValueError("Password length must be at least 4 to include all types of characters.")
+
+    # 字符类别：大写字母、小写字母、数字、特殊字符
+    char_types = [
+        list(range(97, 123)),  # a-z
+        list(range(65, 91)),   # A-Z
+        list(range(48, 58)),   # 0-9
+        list(range(33, 48)) + list(range(58, 65)) + list(range(91, 97)) + list(range(123, 127))  # 特殊字符
+    ]
+
+    # 确保密码中至少包含每种类型的字符各一个
+    pwd = [chr(random.choice(char_types[i])) for i in range(4)]
+
+    # 填充剩余长度
+    for _ in range(length - 4):
+        random_type = random.choice(char_types)
+        pwd.append(chr(random.choice(random_type)))
+
+    # 打乱密码字符顺序
+    random.shuffle(pwd)
+
+    return ''.join(pwd)
+
+print(pwd_generator())
