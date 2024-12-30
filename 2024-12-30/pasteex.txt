@@ -1,0 +1,36 @@
+socket.emit(socket.emit('value changed',{"who":"slider2","data":"90"})sid = request.args.get('sid')cors_allowed_origins客户端Invalid HTTP method: '\x16\x03\x01\x06\xa0\x01\x00\x06\x9c\x03\x032\x7f_|\x9c¾Ò?d¬ù\x13¨\x8a\x10Ï¼¡Ì¾\x16\x84©\x9a\x169c2w¨\x8f\x86 \x0f Ün¶r\x9f\x9a²}v\x05\x0c\x15«\x8bó¹/ýP\x88©þ\x018±¸ð\x11\n'Invalid HTTP method: '\x16\x03\x01\x06\xa0\x01\x00\x06\x9c\x03\x032\x7f_|\x9c¾Ò?d¬ù\x13¨\x8a\x10Ï¼¡Ì¾\x16\x84©\x9a\x169c2w¨\x8f\x86 \x0f Ün¶r\x9f\x9a²}v\x05\x0c\x15«\x8bó¹/ýP\x88©þ\x018±¸ð\x11\n'Invalid HTTP method: '\x16\x03\x01\x06\xa0\x01\x00\x06\x9c\x03\x032\x7f_|\x9c¾Ò?d¬ù\x13¨\x8a\x10Ï¼¡Ì¾\x16\x84©\x9a\x169c2w¨\x8f\x86 \x0f Ün¶r\x9f\x9a²}v\x05\x0c\x15«\x8bó¹/ýP\x88©þ\x018±¸ð\x11\n'Invalid HTTP method: '\x16\x03\x01\x06\xa0\x01\x00\x06\x9c\x03\x032\x7f_|\x9c¾Ò?d¬ù\x13¨\x8a\x10Ï¼¡Ì¾\x16\x84©\x9a\x169c2w¨\x8f\x86 \x0f Ün¶r\x9f\x9a²}v\x05\x0c\x15«\x8bó¹/ýP\x88©þ\x018±¸ð\x11\n'ImportError: cannot import name 'setupmethod' from 'flask.app' uwsgi --http :8080 --http-raw-body --wsgi-file your_app.wsgi --loop gevent --async 1000 --master --enable-threadsInvalid HTTP method: '\x16\x03\x01\x06\xa0\x01\x00\x06\x9c\x03\x032\x7f_|\x9c¾Ò?d¬ù\x13¨\x8a\x10Ï¼¡Ì¾\x16\x84©\x9a\x169c2w¨\x8f\x86 \x0f Ün¶r\x9f\x9a²}v\x05\x0c\x15«\x8bó¹/ýP\x88©þ\x018±¸ð\x11\n'ImportError: cannot import name 'setupmethod' from 'flask.app' uwsgi --http :8080 --http-raw-body --wsgi-file your_app.wsgi --loop gevent --async 1000 --master --enable-threads@echo off
+for /f "tokens=2 delims=: " %%i in ('netsh wlan show interfaces ^| findstr "SSID" ^| findstr /v "BSSID"') do (
+    set "SSID=%%i"
+)
+echo %SSID%import random
+
+'''
+# 随机生成一个16位密码
+# 必须包含大写字母,小写字母,数字和符号,如:vC3D-kf26c+70(Z4
+'''
+def pwd_generator(length=16):
+    if length < 4:
+        raise ValueError("Password length must be at least 4 to include all types of characters.")
+
+    # 字符类别：大写字母、小写字母、数字、特殊字符
+    char_types = [
+        list(range(97, 123)),  # a-z
+        list(range(65, 91)),   # A-Z
+        list(range(48, 58)),   # 0-9
+        list(range(33, 48)) + list(range(58, 65)) + list(range(91, 97)) + list(range(123, 127))  # 特殊字符
+    ]
+
+    # 确保密码中至少包含每种类型的字符各一个
+    pwd = [chr(random.choice(char_types[i])) for i in range(4)]
+
+    # 填充剩余长度
+    for _ in range(length - 4):
+        random_type = random.choice(char_types)
+        pwd.append(chr(random.choice(random_type)))
+
+    # 打乱密码字符顺序
+    random.shuffle(pwd)
+
+    return ''.join(pwd)
+
+print(pwd_generator())utools.ubrowser.goto("http://u.tools").run()docker run -d -p 57575:57575 garland/butterfly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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
