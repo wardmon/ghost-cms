@@ -1,0 +1,11 @@
+$ http POST http://127.0.0.1:3000/messages event='greeting' data='Hi, Server!'
+{
+    "messageId": 1,
+    "reply": {
+        "data": {
+            "message": "Hi, Iola!"
+        },
+        "event": "greeting",
+        "format": "json"
+    }
+}
