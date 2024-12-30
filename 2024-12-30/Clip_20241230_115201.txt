@@ -1,0 +1,1 @@
+utools.ubrowser.goto("http://u.tools").run()
