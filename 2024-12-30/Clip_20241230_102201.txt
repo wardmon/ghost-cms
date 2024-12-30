@@ -1,0 +1,1 @@
+uwsgi --http :8080 --http-raw-body --wsgi-file your_app.wsgi --loop gevent --async 1000 --master --enable-threads
