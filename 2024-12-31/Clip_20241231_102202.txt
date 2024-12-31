@@ -1,0 +1,2 @@
+with httpimport.github_repo('operatorequals', 'httpimport', ref='master'):
+  import httpimport as httpimport_upstream
