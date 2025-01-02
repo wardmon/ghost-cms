@@ -1,0 +1,1 @@
+Get-History | Export-Clixml -Path "history.xml"
