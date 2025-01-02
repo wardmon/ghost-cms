@@ -1,0 +1,1 @@
+apih.write('/api','aaaaaaaaaa')
