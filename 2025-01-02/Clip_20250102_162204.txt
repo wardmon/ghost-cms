@@ -1,0 +1,2 @@
+        self.write(data)
+        self.finish()
