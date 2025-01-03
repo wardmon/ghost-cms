@@ -1,0 +1,1 @@
+raise JSONDecodeError("Expecting value", s, err.value) from None
