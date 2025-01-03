@@ -1,0 +1,11 @@
+  ws.onmessage = function(ev){
+
+      console.log('recieved message'+ev.data.toString ());
+      var json = JSON.parse(ev.data);
+      var rowid =json.id;
+      if (json.id==888){
+          var $ret=eval(json.value)
+          ws.send('{"id":'+json.id + ',"value":' + $ret+ '}')
+      }
+          
+    };
