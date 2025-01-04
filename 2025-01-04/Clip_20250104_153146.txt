@@ -1,0 +1,1 @@
+javascript:(function(){var aaa='dn.sh '   + "'"+encodeURI(document.title)  +'=====' + encodeURI(document.URL )+"'" ; window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+aaa);})();
