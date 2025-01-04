@@ -1,0 +1,6 @@
+js_code = """
+(function(){
+    console.log("test")
+    return "执行成功"
+})()
+"""
