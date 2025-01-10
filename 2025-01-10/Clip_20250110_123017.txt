@@ -1,0 +1,4 @@
+    Get-ComputerInfo | Select-Object -Property `
+        OsRegisteredUser, CsDomain, CsDNSHostName, OsName,
+    OsInstallDate, OsLastBootUpTime, OsUptime, OsArchitecture `
+    | Out-Host
