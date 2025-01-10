@@ -1,0 +1,1 @@
+Get-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed 
