@@ -1,0 +1,1 @@
+https://kkgithub.com/denoland/denokv/releases/download/0.1.0/denokv-x86_64-unknown-linux-gnu.zip
