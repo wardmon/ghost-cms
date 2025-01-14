@@ -1,0 +1,1 @@
+https://altlinux.pkgs.org/p11/classic-x86_64/glibc-core-2.38.0.76.e9f05fa1c6-alt1.x86_64.rpm.html
