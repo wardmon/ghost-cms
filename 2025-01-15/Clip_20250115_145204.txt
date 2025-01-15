@@ -1,0 +1,1 @@
+curl.exe -X  POST https://360up.deno.dev/users  -H "Content-Type: application/json" -d '{ "id": "1", "email": "andy@deno.com", "name": "andy", "password": "12345" }'
