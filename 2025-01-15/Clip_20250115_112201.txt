@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esm.sh 快速启动</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module">
+        import React from 'https://esm.sh/react';
+        import ReactDOM from 'https://esm.sh/react-dom';
+ 
+        ReactDOM.render(
+            React.createElement('h1', null, 'Hello, esm.sh!'),
+            document.getElementById('root')
+        );
+    </script>
+
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/gitblog_00441/article/details/142010037
