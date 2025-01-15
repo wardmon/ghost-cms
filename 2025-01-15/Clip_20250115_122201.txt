@@ -1,0 +1,86 @@
+// Getting all posts
+fetch("http://localhost:3000/posts")
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Getting all posts with the user embedded
+fetch("http://localhost:3000/posts?_expand=user")
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Creating a post
+fetch("http://localhost:3000/posts", {
+  method: "POST",
+  body: JSON.stringify({
+    title: "My new post",
+    body: "My post body",
+    userId: "0",
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Deleting a post (id = Bmogfbz)
+fetch("http://localhost:3000/posts/Bmogfbz", {
+  method: "DELETE",
+}).then((response) => {
+  console.log(response.status);
+});
+
+// Partially updating Post 0
+fetch("http://localhost:3000/posts/0", {
+  method: "PATCH",
+  body: JSON.stringify({
+    title: "Post 0 (updated by David)",
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Fully updating Post 0
+// All attributes are required with PUT
+fetch("http://localhost:3000/posts/0", {
+  method: "PUT",
+  body: JSON.stringify({
+    title: "Post 0 (updated by David)",
+    body: "Updated body",
+    userId: "0",
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Fetching a collection of post resources with related data
+// http://localhost:3000/posts?_embed=comments&_expand=category&_expand=user
+
+// Fetching a collection of post resources sorted by the post title in descending order
+// http://localhost:3000/posts?_sort=title&_order=desc
