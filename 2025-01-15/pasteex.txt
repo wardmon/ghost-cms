@@ -1,0 +1,265 @@
+https://briangrinstead.com/blog/feed/index.xmlhttps://emojis.click/enhttps://emojis.click/en8、GitHub Pages URL Shortener
+
+使用 GitHub Pages 托管你自己的短网址服务，不需要后端和数据库，非常有创意的小工具。mkdir ~/dnmkdir ~/dn$DN_PATH/$(date "+%Y-%m-%d")var aaa="dn.sh "  + "'" + encodeURI(document.title) + "##############"+document.URL+"'"; window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd=%27+aaadn.sh%20%27Analysing%20nefarious%20ssh%20access%20attempts##https://bastian.rieck.me/blog/2019/ssh_incidents/%27javascript:(function(){var aaa='dn.sh '   + "'"+encodeURI(document.title)  +'=====' + encodeURI(document.URL )+"'" ; window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+aaa);})();javascript:(function(){var aaa='dn.sh '   + "'"+encodeURI(document.title)  +'=====' + encodeURI(document.URL )+"'" ; window.open('http://45.32.200.249:8060/ddd?url=ddd&ddd='+aaa);})();curl -X 'POST' \
+  'http://127.0.0.1:3000/messages' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "data": {"id":"888","value":"document.title"},
+  "event": "*"
+}'http://45.32.200.249:8000/api?id=888&value=aa(connect-srcdef generate_nums():
+    num = 0
+    while True:
+        yield num
+        num = num + 1
+ 
+ 
+nums = generate_nums()
+ 
+for x in nums:
+    print(x)
+ 
+    if x > 9:
+        breakimport asyncio
+import datetime
+import random
+
+
+async def display_date(num, loop, ):
+    end_time = loop.time() + 50.0
+    while True:
+        print("Loop: {} Time: {}".format(num, datetime.datetime.now()))
+        if (loop.time() + 1.0) >= end_time:
+            break
+        await asyncio.sleep(random.randint(0, 5))
+
+
+loop = asyncio.get_event_loop()
+
+asyncio.ensure_future(display_date(1, loop))
+asyncio.ensure_future(display_date(2, loop))
+
+loop.run_forever()https://zt.hiboos.com/index.html#/open/goodsManage/oprationLog?from=online&page=open操作 感觉有用  进来试试   https://github.com/ICU-Coders/nginx-config-reader/blob/master/example.jpghttps://github.com/ICU-Coders/nginx-config-reader/blob/master/example.jpghttps://github.com/ICU-Coders/nginx-config-reader/blob/master/example.jpgBaseline DCT, Huffman codingBaseline DCT, Huffman codingBaseline DCT, Huffman codingBaseline DCT, Huffman codingBaseline DCT, Huffman codingBaseline DCT, Huffman codingBaseline DCT, Huffman codingBaseline DCT, Huffman coding.\ControlMyMonitor.exe /SetValue Primary 60 1sixteen years六爻基础练习六爻基础练习六爻基础练习六爻基础练习六爻基础练习六爻基础练习https://www.zaobao.com/news/china/story20250108-5706753https://www.zaobao.com/news/china/story20250108-5706753https://weibo.com/ajax/statuses/hot_band // 监听键盘事件
+    document.addEventListener('keydown', function(event) {
+        if (event.ctrlKey) {
+            if (event.keyCode === 38) { // 上箭头键
+                scrollToTop();
+            } else if (event.keyCode === 40) { // 下箭头键
+                scrollToBottom();
+            }
+        }
+    });
+ 
+    // 滚动到页面顶部
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+ 
+    // 滚动到页面底部
+    function scrollToBottom() {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight,
+            behavior: 'smooth'
+        });
+    }永久禁止访问    Get-ComputerInfo | Select-Object -Property `
+        OsRegisteredUser, CsDomain, CsDNSHostName, OsName,
+    OsInstallDate, OsLastBootUpTime, OsUptime, OsArchitecture `
+    | Out-HostGet-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed Get-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed Get-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed Get-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed Get-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed Get-CimInstance -Class Win32_Processor | Select-Object Caption, MaxClockSpeed 深圳仙湖深圳仙湖弘法寺深圳仙湖弘法寺深圳仙湖弘法寺深圳仙湖弘法寺cleanmgr /sagerun:16、AYA
+
+
+
+开源的跨平台桌面应用，用来简化对安卓设备的操作控制，可以看作 ADB 的图形用户界面。（@surunzi 投稿）3、AI 生成涂色书
+
+
+
+输入关键词，生成免费的涂色书。（@meetqy 投稿）2、FreePngZone
+
+
+
+免费的 PNG 图片搜索，好像只支持英文。（@wangdachui332 投稿）4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。4、Data Commons
+
+
+
+谷歌发布的一个数据网站，提供许多公开的数据集，以及配套的工具，让你可以检索和处理这些数据。tinycloudsdeployctl projects listdeployctl projects listdenoDeployBlogSqlitehttps://kkgithub.com/denoland/denokv/releases/download/0.1.0/denokv-x86_64-unknown-linux-gnu.ziphttps://altlinux.pkgs.org/p11/classic-x86_64/glibc-core-2.38.0.76.e9f05fa1c6-alt1.x86_64.rpm.htmlwget -c https://github.com/facebook/zstd/releases/download/v1.5.4/zstd-1.5.4.tar.gz2.35-0ubuntu3.8_amd64DENO_KV_ACCESS_TOKENddp_kW1wKufTkc9GVotl3ojMV5HNQgnSx43eHtP2PASSWORDhttps://github.com/maekoos/deno-kv-viewer.githttps://github.com/maekoos/deno-kv-viewer.githttps://github.com/maekoos/deno-kv-viewer.gitdeno-kv-insights382e1e909d94792c655d35c72854d3a06167442bd2e81190e3a682194163d8c8await start(manifest, { plugins: [kvInsightsPlugin({ kv })] });https://github.com/cbinzer/deno-kv-insightshttps://cbinzer-deno-kv-insights.deno.dev/kv-insightshttps://cbinzer-deno-kv-insights.deno.dev/kv-insights/api/entries/export?keys=W1sxXSxbMl1dhttps://cbinzer-deno-kv-insights.deno.dev/kv-insights/api/entries/export?keys=W1sxXSxbMl1dhttps://github.com/Kirlovon/AloeDB/tree/master/examples/todostoreosaurus@2.0.1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esm.sh 快速启动</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module">
+        import React from 'https://esm.sh/react';
+        import ReactDOM from 'https://esm.sh/react-dom';
+ 
+        ReactDOM.render(
+            React.createElement('h1', null, 'Hello, esm.sh!'),
+            document.getElementById('root')
+        );
+    </script>
+
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/gitblog_00441/article/details/142010037    <script type="module">
+        import React from 'https://esm.sh/react';
+        import ReactDOM from 'https://esm.sh/react-dom';
+ 
+        ReactDOM.render(
+            React.createElement('h1', null, 'Hello, esm.sh!'),
+            document.getElementById('root')
+        );
+    </script>    <script type="module">
+        import React from 'https://esm.sh/react';
+        import ReactDOM from 'https://esm.sh/react-dom';
+ 
+        ReactDOM.render(
+            React.createElement('h1', null, 'Hello, esm.sh!'),
+            document.getElementById('root')
+        );
+    </script>import express from "https://esm.sh/express";
+
+const app = express();
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+app.listen(3000);// Getting all posts
+fetch("http://localhost:3000/posts")
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Getting all posts with the user embedded
+fetch("http://localhost:3000/posts?_expand=user")
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Creating a post
+fetch("http://localhost:3000/posts", {
+  method: "POST",
+  body: JSON.stringify({
+    title: "My new post",
+    body: "My post body",
+    userId: "0",
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Deleting a post (id = Bmogfbz)
+fetch("http://localhost:3000/posts/Bmogfbz", {
+  method: "DELETE",
+}).then((response) => {
+  console.log(response.status);
+});
+
+// Partially updating Post 0
+fetch("http://localhost:3000/posts/0", {
+  method: "PATCH",
+  body: JSON.stringify({
+    title: "Post 0 (updated by David)",
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Fully updating Post 0
+// All attributes are required with PUT
+fetch("http://localhost:3000/posts/0", {
+  method: "PUT",
+  body: JSON.stringify({
+    title: "Post 0 (updated by David)",
+    body: "Updated body",
+    userId: "0",
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
+
+// Fetching a collection of post resources with related data
+// http://localhost:3000/posts?_embed=comments&_expand=category&_expand=user
+
+// Fetching a collection of post resources sorted by the post title in descending order
+// http://localhost:3000/posts?_sort=title&_order=deschttps://app.netlify.com/start/deploy?repository=https://github.com/sandipmavani/netlify-express-json-serverhttps://app.netlify.com/start/deploy?repository=https://github.com/sandipmavani/netlify-express-json-serveroyster011curl.exe -X  POST https://360up.deno.dev/users  -H "Content-Type: application/json" -d '{ "id": "1", "email": "andy@deno.com", "name": "andy", "password": "12345" }'with-oak-deno-kvhttp://45.32.200.249:8060/ddd?url=ddd&ddd=dn.sh%20%27Hello%20World%20%F0%9F%93%9A%20Qwik%20Documentation=====https://qwik.dev/examples/introduction/hello-world/#f=G000o4mG5EQDAA'
