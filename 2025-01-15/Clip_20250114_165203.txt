@@ -1,0 +1,1 @@
+await Deno.openKv("https://api.deno.com/databases/68ca7345-02cd-4fb9-b346-b2483cdbd1d3/connect");
