@@ -1,0 +1,2 @@
+await prepareLocalFile("./data.json");
+prepareVirtualFile("./db.json");
