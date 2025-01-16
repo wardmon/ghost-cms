@@ -1,0 +1,1 @@
+curl 'https://deno-json-server.deno.dev/posts'   -H 'content-type: application/json; charset=UTF-8'   --data-raw '{"title":"33333333","views":"33333333333333333"}'
