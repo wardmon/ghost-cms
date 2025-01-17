@@ -1,0 +1,21 @@
+import requests
+from requests.structures import CaseInsensitiveDict
+
+url = "https://deno-json-server.deno.dev/posts"
+url = "http://45.32.200.249:5000/posts"
+
+headers = CaseInsensitiveDict()
+headers["Accept"] = "application/json"
+headers["Content-Type"] = "application/json"
+
+data = """
+{
+      "userId": 1,
+      "title": "11111111111111111111111",
+      "body": "111111111111111111"
+}
+"""
+
+
+resp = requests.post(url, headers=headers, data=data)
+print(resp.text)
