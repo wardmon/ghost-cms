@@ -1,0 +1,58 @@
+#!/bin/bash
+# 通过这个脚本执行备份有两个缺点，一是使用了 `keys *` ，二是那就是会将 source_host 中所有的 key
+# 同步到 target_host 时，会自动改成永不过期
+# 详见 `restore` 命令
+# 后期有时间了，再考虑优化的事情吧
+# document link: https://www.redis.com.cn/commands/restore.html
+ 
+source_host=127.0.0.1
+source_port=6379
+source_password=''
+source_db=1
+target_host=127.0.0.1
+target_port=6379
+target_password=''
+target_db=2
+ 
+ 
+if [[ -z $source_password ]] && [[ -z $target_password ]]
+then
+  redis-cli -h ${source_host} -p ${source_port} -n ${source_db} keys '*' | while read key
+  do
+      redis-cli -h ${source_host} -p ${source_port} -n ${source_db} --raw dump $key | perl -pe 'chomp if eof' | redis-cli -h ${target_host} -p ${target_port} -n ${target_db} -x restore $key 0
+      echo "migrate key $key"
+  done
+elif [[ -z $source_password ]] && [[ -n $target_password ]]
+then
+  redis-cli -h ${source_host} -p ${source_port} -n ${source_db} keys '*' | while read key
+  do
+      redis-cli -h ${source_host} -p ${source_port} -n ${source_db} --raw dump $key | perl -pe 'chomp if eof' | redis-cli -h ${target_host} -p ${target_port} -a ${target_password} -n ${target_db} -x restore $key 0
+      echo "migrate key $key"
+  done
+elif [[ -n $source_password ]] && [[ -z $target_password ]]
+then
+  redis-cli -h ${source_host} -p ${source_port} -a ${source_password} -n ${source_db} keys '*' | while read key
+  do
+      redis-cli -h ${source_host} -p ${source_port} -a ${source_password} -n ${source_db} --raw dump $key | perl -pe 'chomp if eof' | redis-cli -h ${target_host} -p ${target_port} -n ${target_db} -x restore $key 0
+      echo "migrate key $key"
+  done
+else
+  redis-cli -h ${source_host} -p ${source_port} -a ${source_password} -n ${source_db} keys '*' | while read key
+  do
+      redis-cli -h ${source_host} -p ${source_port} -a ${source_password} -n ${source_db} --raw dump $key | perl -pe 'chomp if eof' | redis-cli -h ${target_host} -p ${target_port} -a ${target_password} -n ${target_db} -x restore $key 0
+      echo "migrate key $key"
+  done
+fi
+ 
+# 其实就是利用了 redis 的 dump 和 restore 命令
+# eg：
+# 127.0.0.1:6379[1]> set hello "hello, dumping world!"
+# OK
+# 127.0.0.1:6379[1]> dump hello
+# "\x00\x15hello, dumping world!\t\x00\x03\xbfc\xcey\xa1\x9e\xfc"
+# 127.0.0.1:6379[1]> restore hello1 0 "\x00\x15hello, dumping world!\t\x00\x03\xbfc\xcey\xa1\x9e\xfc"
+# OK
+# 127.0.0.1:6379[1]> get hello1
+# "hello, dumping world!"
+# 127.0.0.1:6379[1]>
+deno-boilerplate-simple-websiteform: formPage,form: formPage,aboutPageform: createBasicRouteHandler('form', '/form'),zBchjdXkuwkMFAeY34.120.54.55with-oak-deno-kvhttps://rebang.today/tech
