@@ -1,0 +1,1 @@
+//let db = new DB("./db.sqlite", { mode: "read" });// read db
