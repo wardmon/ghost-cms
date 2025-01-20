@@ -1,0 +1,51 @@
+import { DB } from "<https://deno.land/x/sqlite/mod.ts>";
+
+type Book = {
+  title?: string;
+  author?: string;
+}
+
+const db = new DB("books.db");
+db.execute(`
+  CREATE TABLE IF NOT EXISTS books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT, 
+    author TEXT, 
+    UNIQUE(title, author)
+  )
+`);
+
+const insertBookQuery = db.prepareQuery(
+  "INSERT INTO books (title, author) VALUES (:title, :author)",
+);
+
+Deno.serve(async (req) => {
+  const url = new URL(req.url);
+
+  if(url.pathname === "books") {
+    if(req.method === "POST") {
+      const body: Book = await req.json()
+      try {
+        insertBookQuery.execute({
+          title: body.title,
+          author: body.author,
+        });
+        return new Response("Success", {
+          status: 200
+        })
+      } catch (error) {
+        console.log(error);
+        return new Response("Server error", {
+          status: 500
+        })
+      }
+    }
+  }
+
+  return new Response("Hello, world", {
+    status: 200,
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+    },
+  });
+});
