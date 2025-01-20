@@ -1,0 +1,2 @@
+const rows = db.query("SELECT * FROM people");
+console.log(rows);
