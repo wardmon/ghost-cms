@@ -1,0 +1,6 @@
+const rows = db.query("SELECT * FROM people");
+console.log(rows);console.log(rows);CREATE TABLE  posts (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, body TEXT)//let db = new DB("./db.sqlite", { mode: "read" });// read dbfdatasyncSync import {
+  prepareLocalFile,
+  prepareVirtualFile,
+  fdatasyncSync
+} from "https://deno.land/x/mock_file@v1.1.2/mod.ts";
