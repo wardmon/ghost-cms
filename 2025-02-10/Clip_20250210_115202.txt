@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "pId": null,
+        "name": "特物联",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": true,
+        "token": null
+    },
+    {
+        "id": 2,
+        "pId": 1,
+        "name": "管理部",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 157,
+        "pId": 2,
+        "name": "我问问",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 158,
+        "pId": 157,
+        "name": "呜呜呜",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 160,
+        "pId": 158,
+        "name": "热热",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 159,
+        "pId": 2,
+        "name": "热热",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 134,
+        "pId": 1,
+        "name": "研发部",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 140,
+        "pId": 1,
+        "name": "安环部",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 143,
+        "pId": 1,
+        "name": "会议部",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    },
+    {
+        "id": 152,
+        "pId": 1,
+        "name": "生产部",
+        "iconSkin": null,
+        "checked": null,
+        "isParent": false,
+        "token": null
+    }
+]
