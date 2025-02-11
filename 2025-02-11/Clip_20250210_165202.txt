@@ -1,0 +1,121 @@
+
+document.getElementById('entryValueForUpdate').height="680px";
+document.getElementById('entryValueForUpdate').style="height:680px";
+location.reload(force)
+ document.getElementById('entryValueForUpdate').innerHTML = 'New Content';
+
+
+
+
+
+
+
+
+
+
+9、Scifi Terminals
+
+这是 VHS 工具的脚本仓库，用它创建 GIF 动画图片，可以模拟科幻电影的命令行操作效果，参见教程。
+2、Diode
+
+
+
+这个网站可以模拟面包板的电路实验，用户可以可视化放置各种电子元件，查看模拟效果。
+我从来不想辩论，但如果必须辩论，我希望自己会输。
+
+我宁愿对方的观点是正确的，他来说服我，因为这样会比我的观点是正确的，我来说服他，对我更有趣。
+
+-- 《我想输掉每一场辩论》
+3、CSS 网格互动指南（An Interactive Guide to CSS Grid）
+
+
+
+一份 CSS 网格（grid）的教程，包含大量的互动示例。
+
+14、Imgae matting
+
+
+
+基于开源模型的在线抠图，支持人像和物体抠图，可以 docker 运行 ，无需 GPU。（@ihmily 投稿）
+Penrose
+
+
+
+一个开源工具，可以根据文本指令，生成可视化图形，类似于 Mermaid 和 PlantUML，但是图形能力更强大。
+、BestBlogs.dev
+
+
+
+精选中文科技文章的阅读平台。（@ginobefun 投稿）
+
+4、Staying
+
+
+
+代码可视化网站，可以将 Python 和 JS 代码的运行步骤，以动画形式展示，内置了许多常见算法的演示。（@lezhu1234 投稿）
+3、Audio Transcription
+
+
+
+将播客或音频转录成文本，并给出摘要，基于 Next.js 和 OpenAI Whisper，代码开源。（@winterfx 投稿）
+【工具自荐】BlogKeeper-文捕 博客内容解析下载工具 支持多个平台多种格式 #5933
+8、Docker 镜像拉取工具
+
+该工具用于下载 Docker 镜像，无需 Docker 环境，支持自定义仓库地址，配置国内镜像源。（@topcss 投稿）
+7、Peek Focus
+
+
+
+一个 Chrome 插件，点击时，不在新的标签页、而在页面浮层里打开链接。（@zerosoul 投稿）
+
+2、httpdbg
+
+
+
+一个 Python 程序的桌面调试器，在类似浏览器控制台的环境里调试 HTTP 请求。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[本周软件] Midscene.js：浏览器自动化利器
+本周介绍一个很特别的浏览器自动化工具：Midscene.js。
+
+无限滚动轮播的 CSS 实现（英文）
+
+
+
+本文教你只用 CSS 实现类似弹幕的无限滚动轮播效果，还能用鼠标悬停。
+
+1、barba.js
+
+
+
+一个 JS 库，让网站页面的切换产生平滑的动画效果。
+二、巴菲特的选人标准
+巴菲特说，他考察候选人，就看三个"i"。
+
+
+
+integrity（正直）
+intelligence（智慧）
+initiative（主动）
+这三个"i"当中，"主动"最重要。"正直"和"智慧"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。
+
+
