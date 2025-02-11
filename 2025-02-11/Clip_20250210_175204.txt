@@ -1,0 +1,5 @@
+7、Statically
+
+
+
+该服务可以免费将GitHub 和 GitLab 的源码文件放上 CDN，供外部调用。
