@@ -1,0 +1,165 @@
+ * 数据恢复软件 Hasleo Backup Suite v4.8.0.2 最新便携版 - 吾爱破解 - 52pojie.cn=====https://www.52pojie.cn/thread-1934611-1-1.html
+ * Ztree使用教程 - leagueandlegends - 博客园=====https://www.cnblogs.com/longlyseul/p/12111143.html
+ * zTree/zTree_v3: jQuery Tree Plugin=====https://github.com/zTree/zTree_v3/tree/master
+ * ztree ajax json请求，实现加载一棵ztree树-阿里云开发者社区=====https://developer.aliyun.com/article/1379647
+ * deskflow: 一款开源的键盘和鼠标共享工具，用户可以通过一套键盘和鼠标轻松控制多台电脑。它最初是商业化软件 Synergy 的开源社区版（原名 synergy-core），如今已作为 Synergy 的上游项目，全面开源并移除了商业版功能，更名后在易用性上有所减弱，但对开发者更加友好，支持剪贴板共享、多设备控制和跨平台等功能。=====https://gitee.com/anydev/deskflow
+ * yourselfhosted/slash: An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management.=====https://github.com/yourselfhosted/slash
+ * usememos/memos: An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.=====https://github.com/usememos/memos?tab=readme-ov-file
+ * BOS项目02_01_zTree-最简单的树-标准json数据和简单json数据讲解、以及它们俩的区别、数形控件的使用_ztree加载json数据-CSDN博客=====https://blog.csdn.net/qq_41753340/article/details/114868372
+ * 【工具自荐】PeekFocus: 不开新标签页即可浏览链接=====https://github.com/ruanyf/weekly/issues/5926
+ * PeekFocus - explore your links without opening new tab=====https://peekfoc.us/
+ * PeekFocus - Microsoft Edge Addons=====https://microsoftedge.microsoft.com/addons/detail/peekfocus/okinlpnodbmolljfboinimlkffbfpgoj
+ * 【工具自荐】Docker 镜像拉取工具 - 无需 Docker 环境，直接下载镜像并打包为 tar 文件 · Issue · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/5931
+ * topcss/docker-pull-tar=====https://github.com/topcss/docker-pull-tar
+ * 【工具自荐】BlogKeeper-文捕 博客内容解析下载工具 支持多个平台多种格式 · Issue · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/5933
+ * 【工具自荐】英文音频/podcast 转录和智能总结，支持小宇宙/本地文件/File URL link · Issue · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/5934
+ * bestblogs.dev - Collecting Premier Programming, AI, Product, Tech Articles, Enhanced Reading with Large Language Model Summary Scores, Exploring the Future of Coding and Technology=====https://www.bestblogs.dev/en
+ * 精通 Firecrawl 提取端点：高效网页数据抓取指南 | BestBlogs.dev=====https://www.bestblogs.dev/article/e563fa
+ * 【开源自荐】基于 nodejs 的轻量级 dns 解析命令行工具 · Issue · ruanyf/weekly=====https://kkgithub.com/ruanyf/weekly/issues/2852
+ * GitHub - sun0day/dns-detector A nodejs cli tool to resolve hosts IPs=====https://kkgithub.com/sun0day/dns-detector
+ * charmbracelet/vhs: Your CLI home video recorder 📼=====https://github.com/charmbracelet/vhs
+ * Recreating sci-fi terminals using VHS – Lost Boy=====https://blog.ldodds.com/2022/11/08/recreating-sci-fi-terminals-using-vhs/
+9、Scifi Terminals
+
+这是 VHS 工具的脚本仓库，用它创建 GIF 动画图片，可以模拟科幻电影的命令行操作效果，参见教程。 * 科技爱好者周刊（第 240 期）：教育年限可以缩短吗？ - 阮一峰的网络日志=====https://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html
+ * 科技爱好者周刊（第 240 期）：教育年限可以缩短吗？ - 阮一峰的网络日志=====https://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html
+ 
+document.getElementById('entryValueForUpdate').height="680px";
+document.getElementById('entryValueForUpdate').style="height:680px";
+location.reload(force)
+ document.getElementById('entryValueForUpdate').innerHTML = 'New Content';
+
+
+
+
+
+
+
+
+
+
+9、Scifi Terminals
+
+这是 VHS 工具的脚本仓库，用它创建 GIF 动画图片，可以模拟科幻电影的命令行操作效果，参见教程。
+2、Diode
+
+
+
+这个网站可以模拟面包板的电路实验，用户可以可视化放置各种电子元件，查看模拟效果。
+我从来不想辩论，但如果必须辩论，我希望自己会输。
+
+我宁愿对方的观点是正确的，他来说服我，因为这样会比我的观点是正确的，我来说服他，对我更有趣。
+
+-- 《我想输掉每一场辩论》
+3、CSS 网格互动指南（An Interactive Guide to CSS Grid）
+
+
+
+一份 CSS 网格（grid）的教程，包含大量的互动示例。
+
+14、Imgae matting
+
+
+
+基于开源模型的在线抠图，支持人像和物体抠图，可以 docker 运行 ，无需 GPU。（@ihmily 投稿）
+Penrose
+
+
+
+一个开源工具，可以根据文本指令，生成可视化图形，类似于 Mermaid 和 PlantUML，但是图形能力更强大。
+、BestBlogs.dev
+
+
+
+精选中文科技文章的阅读平台。（@ginobefun 投稿）
+
+4、Staying
+
+
+
+代码可视化网站，可以将 Python 和 JS 代码的运行步骤，以动画形式展示，内置了许多常见算法的演示。（@lezhu1234 投稿）
+3、Audio Transcription
+
+
+
+将播客或音频转录成文本，并给出摘要，基于 Next.js 和 OpenAI Whisper，代码开源。（@winterfx 投稿）
+【工具自荐】BlogKeeper-文捕 博客内容解析下载工具 支持多个平台多种格式 #5933
+8、Docker 镜像拉取工具
+
+该工具用于下载 Docker 镜像，无需 Docker 环境，支持自定义仓库地址，配置国内镜像源。（@topcss 投稿）
+7、Peek Focus
+
+
+
+一个 Chrome 插件，点击时，不在新的标签页、而在页面浮层里打开链接。（@zerosoul 投稿）
+
+2、httpdbg
+
+
+
+一个 Python 程序的桌面调试器，在类似浏览器控制台的环境里调试 HTTP 请求。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[本周软件] Midscene.js：浏览器自动化利器
+本周介绍一个很特别的浏览器自动化工具：Midscene.js。
+
+无限滚动轮播的 CSS 实现（英文）
+
+
+
+本文教你只用 CSS 实现类似弹幕的无限滚动轮播效果，还能用鼠标悬停。
+
+1、barba.js
+
+
+
+一个 JS 库，让网站页面的切换产生平滑的动画效果。
+二、巴菲特的选人标准
+巴菲特说，他考察候选人，就看三个"i"。
+
+
+
+integrity（正直）
+intelligence（智慧）
+initiative（主动）
+这三个"i"当中，"主动"最重要。"正直"和"智慧"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。
+
+
+
+ * 科技爱好者周刊（第 240 期）：教育年限可以缩短吗？ - 阮一峰的网络日志=====https://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html
+ * 科技爱好者周刊（第 240 期）：教育年限可以缩短吗？ - 阮一峰的网络日志=====https://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html
+ * GitHub - ldodds/scifi-terminals: Recreating terminal windows from scifi movies=====https://kkgithub.com/ldodds/scifi-terminals
+ * vhs/examples at main · charmbracelet/vhs · GitHub=====https://kkgithub.com/charmbracelet/vhs/tree/main/examples
+ * vhs/examples at main · charmbracelet/vhs · GitHub=====https://kkgithub.com/charmbracelet/vhs/tree/main/examples
+ * einaregilsson/Redirector: Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side mod_rewrite.=====https://github.com/einaregilsson/Redirector
+ * moul/quicssh: SSH over QUIC=====https://github.com/moul/quicssh
+ * The CDN for Static Files on GitHub, GitLab, and Bitbucket - Statically=====https://statically.io/
+ * Using Staticzap - Statically=====https://statically.io/docs/using-staticzap/
+ * Free Thumbnail Maker  Ai thumbnail creator=====https://thumbnail.ai/google_vignette
+ * [工具]将C语言的声明转化为英语表达 · Issue  · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/1587
+ * nitter.net=====chrome-error://chromewebdata/
+ * Replit — GitHub x Replit Workflows: Enhancing Developer Productivity=====https://blog.replit.com/github
+ * Gitpod: Always ready-to-code.=====https://www.gitpod.io/
+ * www.getthefont.com=====chrome-error://chromewebdata/
+ * Math is Fun=====https://www.mathsisfun.com/
+ * jerverless/jerverless: Turn anything into an on-prem serverless function=====https://github.com/jerverless/jerverless?tab=readme-ov-file
+ * portabletext/portabletext: Portable Text is a JSON based rich text specification for modern content editing platforms.=====https://github.com/portabletext/portabletext
