@@ -1,0 +1,1 @@
+shell2http -cgi /index 'echo "<html><pre>"; ls -l | awk \'$9 ~ /.md$/ {sub("^.+$", "<a href=/page/" $9 ">" $9 "</a>", $9); print}\'' /page/ 'echo "<html>"; blackfriday-tool ${PATH_INFO/\/page\//}'
