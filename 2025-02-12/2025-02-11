@@ -1,0 +1,110 @@
+ * Convert GitHub links to Statically CDN links - Statically=====https://statically.io/convert/
+ * Statically——一个免费的CDN|荣6的博客=====https://rong6.cn/archives/statically-yi-ge-mian-fei-de-cdn
+ * Statically.io：一款免费、强大、迅速的CDN加速服务 - 勿埋我心=====https://www.skyqian.com/archives/statically.html
+
+document.getElementById('entryValueForUpdate').height="680px";
+document.getElementById('entryValueForUpdate').style="height:680px";
+location.reload(force)
+ document.getElementById('entryValueForUpdate').innerHTML = 'New Content';
+
+1、
+
+一个敢于浪费一小时生命的人并没有发现生命的价值。
+
+-- 查尔斯·达尔文
+8、portabletext
+
+一种将 HTML 转成 JSON 格式的规范标准。
+7、fx
+
+命令行 JSON 数据的浏览工具。
+5、jerverless
+
+
+
+jerverless 是一个 Web 服务器，可以将任何语言的程序转为 Serverless 函数，从网络调用。它会把源程序放在 Docker 容器里面运行，然后提供 Web 接口与用户通信。
+4、Maths is fun
+
+该网站是数学知识科普，覆盖了代数，几何，统计，微积分等领域。有一个爱好者翻译的中文镜像。（@rolitter 投稿）
+3、GetTheFont.com
+
+字体搜索引擎。
+4、JSON 操作命令行工具 fx（英文）
+
+fx 可以方便地在命令行操作 JSON 数据，本文是 fx 用法的教程。
+5、Gitpod
+
+
+
+浏览器里面的 IDE 编辑环境，一键加载 GitHub 仓库，内部使用的是 VSCode Web 版，支持主要的编程语言。
+4、repl.it
+
+
+
+该网站提供了一个新功能，可以在浏览器里面自动加载并运行各种 GitHub 仓库。这里有一个 C++ 写的命令行扫雷游戏，直接在浏览器运行。
+3、Nitter
+
+该网站是一个开源的推特 Web 客户端，参见代码仓库。同时提供推特用户的 RSS，可以通过下面网址获取指定用户的 RSS：https://nitter.net/[username]/rss。
+
+
+9、cdecl
+
+
+
+这个在线工具可以将 C 语言难懂的类型声明（比如int (*(*foo)(void ))[3]），转成浅显的英语。（@fish-404 投稿）
+8、Thumbnail.AI
+
+
+
+这个在线服务可以为任意 URL，自动生成标题图片，便于在社交媒体引用文章时，提供缩略图。
+7、Statically
+
+
+
+该服务可以免费将GitHub 和 GitLab 的源码文件放上 CDN，供外部调用。
+quicssh
+
+这个工具将 SSH 的通信协议改成了 QUIC，重新包装了 SSH 的服务器和客户端。
+
+5、CheerpX's REPL
+
+一个网页的命令行 REPL 环境，目前支持 Python、Ruby、NodeJS、Lua、C++ 五种语言。
+3、Imagor
+
+一个 Go 语言写的图像处理服务器，可以快速返回各种大小的图像缩略图。
+2、Redirector
+
+
+
+一个非常有用的浏览器插件，可以指定 URL 规则，一旦匹配，就会自动跳转到指定的网址。
+
+美国社会追求个人的物质成功，通俗地说，就是鼓励尽可能快地获得尽可能多的东西，不惜一切代价赢得胜利。
+
+这种文化使得美国变成，一个大量生产精神病患者和孤独者的国家。
+
+-- 《关于美国的孤独者》 * Random Sites On The Web - Discover Fun Random Websites=====https://randomsitesontheweb.com/
+ * 【开源自荐】在网站输入网易云音乐链接，自动生成音乐海报 · Issue 5979 · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/5979
+ * corbindavenport/photostack: Progressive Web App for editing multiple photos at once.=====https://github.com/corbindavenport/photostack
+ * 【网站推荐】一千行代码的操作系统 · Issue 5980 · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/5980
+ * 【开源自荐】InstantID-AI图像生成 高保真 丰富个性化 可编辑 · Issue 3959 · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/3959
+ * 云原生应用市场=====https://hub.grapps.cn/marketplace
+ * 【产品自荐】国内云原生应用市场 500  开源应用，支持RAM、docker、helm多种类型发布和安装 · Issue 3956 · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/3956
+ * 【资源推荐】iHateRegex - 正则表达式资源库 · Issue 3938 · ruanyf/weekly=====https://kkgithub.com/ruanyf/weekly/issues/3938
+ * Abookmark - advanced bookmark and tab manager | Abookmark=====https://www.abookmark.org/
+ * Abookmark : everything is a bookmark - Microsoft Edge Addons=====https://microsoftedge.microsoft.com/addons/detail/abookmark-everything-is/njffnfkceagiolcjfjdnofoobckaeanb
+ * 【开源自荐】免冠照片，证件照换装、换背景、尺寸更改 · Issue 2872 · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/2872
+ * 帮小忙，腾讯QQ浏览器在线工具箱平台=====https://tool.browser.qq.com/
+ * 【文章自荐】程序员如何通过在Medium.com上写技术博客赚钱？ · Issue 2184 · ruanyf/weekly=====https://github.com/ruanyf/weekly/issues/2184
+ * nginx playground=====https://nginx-playground.wizardzines.com/
+ * GitHub - 1History/1History: All your history in one file.=====https://kkgithub.com/1History/1History
+ * Denoflow Playground  An online playground for exploring Denoflow=====https://playground.owenyoung.com/code=M4ewrgTgxgpsBcBYAUAAlQWlQMwiAtvKgBYAupADggPTUAmMAdiAHQA2Aho3dQB71MQ2NiADuAAQAMLaQCYAHNVCRYwahGDAWpYCnToOEAOYI9 9FjKUa1DlFIBLEI2DCxLIw9LEwAIxZO1KRwpBgUHEYw1MSMGBpavPhsZuhsDvheRACMKTgg0DBEpBBgMCjAwVRIaJioJYxEUM6gbDDsIEYAFADkXjD43QA09rwBwfgAlGZYYMCFODCkUMS5AMSoAPIUTEQAPFZVtBAwAI6lFb4OjCxN OrUTACeAG6 AJxZAFYArABen883tRZABmGAAOQAChx8AARAAssIA0vCAJpIrIQbAAUQAQlkAGIAQQAihskQBJT4APlQg1QAGUYDBUGlnizRDBfMQQCAANZ1U7nUgsQUUTiwVCPcAQVCc7m8gXEGDHXJMZ7VczoWEUhkAYQ2ACVYQB9ADqeIAEhtyUQDjYnq8Pj9-oCWKMKA5tnRjjCWIxFtRcoYTJqtVgACQAbyjIxY6pYOv1RtNFtx1vJAF9M7kLKh8IseXQiJCNgyACq5-TKjgMDRhrX6PXOYKMULlx7bIgcCjihxQDiOZzUT6gRhV9C EB0R5EaNR1AAKQZG3BLAqECunmwj06sZbTFI8DjfXw2i8rRYzw4bFKmYmqGzKCAA
+ * GitHub - denoflow/denoflow: Configuration as Code, use YAML to write automated workflows that run on Deno, with any Deno modules, Typescript/Javascript codes=====https://kkgithub.com/denoflow/denoflow
+ * denoflow/README-ZH.md at main · denoflow/denoflow · GitHub=====https://kkgithub.com/denoflow/denoflow/blob/main/README-ZH.md
+ * =====https://actionsflow.github.io/
+ * GitHub - rjsf-team/react-jsonschema-form: A React component for building Web forms from JSON Schema.=====https://kkgithub.com/rjsf-team/react-jsonschema-form
+ * denoflow/playground: Denoflow online playground=====https://github.com/denoflow/playground
+ * pedroCabrera/PyFlow: Visual scripting framework for python=====https://github.com/pedroCabrera/PyFlow
+ * yamlscript/yamlscript: Use YAML syntax to define a set of tasks declaratively, YAMLScript will compile it into Javascript code that runs on Deno. Think about Lisp, but in YAML=====https://github.com/yamlscript/yamlscript
+ * pathak22/pyflow: Fast, accurate and easy to run dense optical flow with python wrapper=====https://github.com/pathak22/pyflow
+ * GitHub - danielgerlag/liteflow: Python workflow engine=====https://kkgithub.com/danielgerlag/liteflow
+ * awesome-workflow-engines | A curated list of awesome open source workflow engines=====https://meirwah.github.io/awesome-workflow-engines/
