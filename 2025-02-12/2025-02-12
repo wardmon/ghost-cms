@@ -1,0 +1,6 @@
+ * task-runner for automation pipelines defined in yaml=====https://pypyr.io/
+ * pypyr/pypyr: pypyr task-runner cli  api for automation pipelines. Automate anything by combining commands different scripts in different languages  applications into one pipeline process=====https://github.com/pypyr/pypyr
+ * yamlscript/yamlscript: Use YAML syntax to define a set of tasks declaratively, YAMLScript will compile it into Javascript code that runs on Deno. Think about Lisp, but in YAML=====https://github.com/yamlscript/yamlscript
+ * denoflow/playground: Denoflow online playground=====https://github.com/denoflow/playground
+ * pypyr：99%的人都不知道的Python工作流利器-CSDN博客=====https://blog.csdn.net/weixin_32759777/article/details/145017979
+ * GitHub - bashojs/basho: Lazy shell pipelines in plain JavaScript=====https://kkgithub.com/bashojs/basho
