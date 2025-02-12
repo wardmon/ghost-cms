@@ -1,0 +1,9 @@
+- name: pypyr.steps.cmd
+    comment: Actually invokes any executable program on your system.
+             The program must be available in current path.
+             Run any program you fancy.
+             Here we're running the powershell executable.
+             We're just using powershell's echo for an easy demo,
+             but you can invoke any powershell command you like instead.
+    in:
+      cmd: powershell.exe -NoProfile -Command "echo 'this is step 2'"
