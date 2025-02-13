@@ -1,0 +1,188 @@
+xpshell2http /cal_html 'echo "<html><body><h1>Calendar</h1>Date: <b>$(date)</b><br><pre>$(cal $(date +%Y))</pre></body></html>"'
+shell2http -cgi /index 'echo "<html><pre>"; ls -l | awk \'$9 ~ /.md$/ {sub("^.+$", "<a href=/page/" $9 ">" $9 "</a>", $9); print}\'' /page/ 'echo "<html>"; blackfriday-tool ${PATH_INFO/\/page\//}'WebURL=.venvscript1.pyversion: '3'
+
+tasks:
+  hello:
+    cmds:
+      - echo 'Hello World from Task!'
+    silent: truejavascript:window.location.href=window.location.href.substring(0,window.location.href.substring(0,window.location.href.length-1).lastIndexOf('/')+1);
+
+
+
+
+
+7、Code2Flow
+
+
+
+这个工具自动分析代码，生成函数调用的流程图，即可视化显示所有函数的调用路径，支持 Python、Javascript、Ruby 和 PHP 等语言。
+Perspec
+
+
+
+
+
+这个软件可以将照片里面透视变形的物体自动拉正。
+
+3、Denoflow
+
+一个自动化工作流工具，只要本地安装 Deno，然后使用 Yaml 格式写一个任务配置，就能执行，相当于一个轻量级的本地化 GitHub Actions 替代品。（@theowenyoung 投稿）
+
+4、程序员如何通过在 Medium.com 上写技术博客赚钱？（中文）
+
+
+
+作者说，他把一篇中文的技术文章翻译成英文，发到 Medium.com 上面，为他带来几百美元的收益。（@bitfishxyz 投稿）
+6、极简博客
+
+
+
+作者用 NextJS + Laf 云搭建的博客托管网站，赠送二级域名。（@kingwrcy 投稿）
+4、iHateRegex
+
+
+
+一个收集常用正则表达式的资源库，并通过可视化帮助理解，基于 regexper。（@zkerhcy 投稿）
+【开源自荐】InstantID-AI图像生成 高保真 丰富个性化 可编辑  #3959
+Open
+@zinc1234596
+Description
+zinc1234596
+opened on Jan 24, 2024
+类似IPadapter的人脸身份保持项目InstantID的模型
+与PhotoMaker和IP-Adapter-FaceID相比实现了更好的保真度并保留了良好的文本可编辑性（面孔和样式更好地融合）
+在保持高保真度的同时，能够仅使用一张面部图像实现个性化图像合成，同时支持各种不同的风格
+Demo: https://instantid.org
+Github: https://github.com/InstantID/InstantID
+
+5、Photor
+
+
+
+截图美化工具，可以在线使用，也可以通过浏览器插件使用。（@sleepy-zone 投稿）
+3、
+
+爱因斯坦一定承受了沉重的心理负担。到处都是白痴。
+
+-- 大卫·林奇，美国著名电影导演，上周去世
+网站推荐】一千行代码的操作系统 #5980
+Open
+@sir2024
+Description
+sir2024
+opened 3 weeks ago
+介绍
+1000 行代码实现操作系统。
+
+目前三个语言版本
+
+日语
+英语
+韩语
+预览
+Image
+
+地址
+https://github.com/nuta/operating-system-in-1000-lines
+10、PhotoStack
+
+
+
+为图片添加水印的在线工具，代码开源。
+
+7、Melody Workshop
+
+
+
+基于 Web Audio API 实现纯前端的音频处理工具。（@RylanBot 投稿）
+==========================javascript:window.location.href=window.location.href.substring(0,window.location.href.substring(0,window.location.href.length-1).lastIndexOf('/')+1);
+
+
+
+
+
+7、Code2Flow
+
+
+
+这个工具自动分析代码，生成函数调用的流程图，即可视化显示所有函数的调用路径，支持 Python、Javascript、Ruby 和 PHP 等语言。
+Perspec
+
+
+
+
+
+这个软件可以将照片里面透视变形的物体自动拉正。
+
+3、Denoflow
+
+一个自动化工作流工具，只要本地安装 Deno，然后使用 Yaml 格式写一个任务配置，就能执行，相当于一个轻量级的本地化 GitHub Actions 替代品。（@theowenyoung 投稿）
+
+4、程序员如何通过在 Medium.com 上写技术博客赚钱？（中文）
+
+
+
+作者说，他把一篇中文的技术文章翻译成英文，发到 Medium.com 上面，为他带来几百美元的收益。（@bitfishxyz 投稿）
+6、极简博客
+
+
+
+作者用 NextJS + Laf 云搭建的博客托管网站，赠送二级域名。（@kingwrcy 投稿）
+4、iHateRegex
+
+
+
+一个收集常用正则表达式的资源库，并通过可视化帮助理解，基于 regexper。（@zkerhcy 投稿）
+【开源自荐】InstantID-AI图像生成 高保真 丰富个性化 可编辑  #3959
+Open
+@zinc1234596
+Description
+zinc1234596
+opened on Jan 24, 2024
+类似IPadapter的人脸身份保持项目InstantID的模型
+与PhotoMaker和IP-Adapter-FaceID相比实现了更好的保真度并保留了良好的文本可编辑性（面孔和样式更好地融合）
+在保持高保真度的同时，能够仅使用一张面部图像实现个性化图像合成，同时支持各种不同的风格
+Demo: https://instantid.org
+Github: https://github.com/InstantID/InstantID
+
+5、Photor
+
+
+
+截图美化工具，可以在线使用，也可以通过浏览器插件使用。（@sleepy-zone 投稿）
+3、
+
+爱因斯坦一定承受了沉重的心理负担。到处都是白痴。
+
+-- 大卫·林奇，美国著名电影导演，上周去世
+网站推荐】一千行代码的操作系统 #5980
+Open
+@sir2024
+Description
+sir2024
+opened 3 weeks ago
+介绍
+1000 行代码实现操作系统。
+
+目前三个语言版本
+
+日语
+英语
+韩语
+预览
+Image
+
+地址
+https://github.com/nuta/operating-system-in-1000-lines
+10、PhotoStack
+
+
+
+为图片添加水印的在线工具，代码开源。
+
+7、Melody Workshop
+
+
+
+基于 Web Audio API 实现纯前端的音频处理工具。（@RylanBot 投稿）
+==========================response[{"id":1,"pId":null,"name":"特物联","token":null,"checked":null,"iconSkin":null,"isParent":true},{"id":2,"pId":1,"name":"管理部","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":157,"pId":2,"name":"我问问","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":158,"pId":157,"name":"呜呜呜","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":160,"pId":158,"name":"热热","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":159,"pId":2,"name":"热热","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":134,"pId":1,"name":"研发部","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":140,"pId":1,"name":"安环部","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":143,"pId":1,"name":"会议部","token":null,"checked":null,"iconSkin":null,"isParent":false},{"id":152,"pId":1,"name":"生产部","token":null,"checked":null,"iconSkin":null,"isParent":false}]
