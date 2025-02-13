@@ -1,0 +1,6 @@
+<form action="https://smartforms.dev/submit/67ad58c45b45507342a0d178" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="email">
+  <input type="text" name="tel">
+  <button type="submit">Send</button>
+  </form>
