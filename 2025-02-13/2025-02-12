@@ -1,0 +1,132 @@
+ * task-runner for automation pipelines defined in yaml=====https://pypyr.io/
+ * pypyr/pypyr: pypyr task-runner cli  api for automation pipelines. Automate anything by combining commands different scripts in different languages  applications into one pipeline process=====https://github.com/pypyr/pypyr
+ * yamlscript/yamlscript: Use YAML syntax to define a set of tasks declaratively, YAMLScript will compile it into Javascript code that runs on Deno. Think about Lisp, but in YAML=====https://github.com/yamlscript/yamlscript
+ * denoflow/playground: Denoflow online playground=====https://github.com/denoflow/playground
+ * pypyr：99%的人都不知道的Python工作流利器-CSDN博客=====https://blog.csdn.net/weixin_32759777/article/details/145017979
+ * GitHub - bashojs/basho: Lazy shell pipelines in plain JavaScript=====https://kkgithub.com/bashojs/basho
+ * awesome-workflow-engines | A curated list of awesome open source workflow engines=====https://meirwah.github.io/awesome-workflow-engines/
+ * pipelight/pipelight: Tiny automation pipelines. Bring CI/CD to the smallest projects. Self-hosted, Lightweight, CLI only.=====https://github.com/pipelight/pipelight
+ * jdx/mise: dev tools, env vars, task runner=====https://github.com/jdx/mise
+ * Running Tasks | mise-en-place=====https://mise.jdx.dev/tasks/running-tasks.html
+ * Write a pipeline | Pipelight=====https://pipelight.dev/introduction/write_pipeline.html
+ * druths/xp: A framework (comand line tool   libraries) for creating flexible compute pipelines=====https://github.com/druths/xp/tree/main
+ * XPipe：一站式远程管理神器-CSDN博客=====https://blog.csdn.net/gitblog_00616/article/details/141664929
+ * rcaloras/bashhub-client: :cloud: Bash history in the cloud. Indexed and searchable.=====https://github.com/rcaloras/bashhub-client
+ * h4l/json.bash: Command-line tool and bash library that creates JSON=====https://github.com/h4l/json.bash
+ * Borisvl/bigbash: A converter that generates a bash one-liner from an SQL Select query (no DB necessary)=====https://github.com/Borisvl/bigbash
+ * Put | Dasel=====https://daseldocs.tomwright.me/commands/put
+ * TomWright/dasel: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.=====https://github.com/tomwright/dasel
+ * trinib/Linux-Bash-Commands: :godmode: Ultimate list of Linux bash commands, cheatsheets and resources=====https://github.com/trinib/Linux-Bash-Commands
+ * A Simple Command Line Notebook | Dnote=====https://www.getdnote.com/
+ * dnote/dnote: A simple command line notebook for programmers=====https://github.com/dnote/dnote
+ * GitHub - cloudbase/powershell-yaml: PowerShell CmdLets for YAML format manipulation=====https://kkgithub.com/cloudbase/powershell-yaml
+ * msoap/shell2http: Executing shell commands via HTTP server=====https://github.com/msoap/shell2http?tab=readme-ov-file
+ * Taskwarrior=====https://taskwarrior.org/
+ * dnote/SELF_HOSTING.md at master · dnote/dnote=====https://github.com/dnote/dnote/blob/master/SELF_HOSTING.md
+ * naggie/dstask: Git powered terminal-based todo/note manager -- markdown note page per task. Single binary!=====https://github.com/naggie/dstask
+ * just/README.中文.md at master · casey/just=====https://github.com/casey/just/blob/master/README.%E4%B8%AD%E6%96%87.md
+ * 快速开始 - Just 用户指南=====https://just.systems/man/zh/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html
+ * 替代方案 - Just 用户指南=====https://just.systems/man/zh/%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88.html
+ * Home | Task=====https://taskfile.dev/
+ * go-task/task: A task runner / simpler Make alternative written in Go=====https://github.com/go-task/task
+ * jacobdeichert/mask: 🎭 A CLI task runner defined by a simple markdown file=====https://github.com/jacobdeichert/mask
+ * lingtalfi/task-manager: A task manager for your daily tasks=====https://github.com/lingtalfi/task-manager
+ * ad-si/Perspec: Scriptable desktop app to correct the perspective of images=====https://github.com/ad-si/Perspec
+ * Microsoft Math Solver - Math Problem Solver  Calculator=====https://mathsolver.microsoft.com/en
+ * scottrogowski/code2flow: Pretty good call graphs for dynamic languages=====https://github.com/scottrogowski/code2flow
+javascript:window.location.href=window.location.href.substring(0,window.location.href.substring(0,window.location.href.length-1).lastIndexOf('/')+1);
+
+
+
+
+
+7、Code2Flow
+
+
+
+这个工具自动分析代码，生成函数调用的流程图，即可视化显示所有函数的调用路径，支持 Python、Javascript、Ruby 和 PHP 等语言。
+Perspec
+
+
+
+
+
+这个软件可以将照片里面透视变形的物体自动拉正。
+
+3、Denoflow
+
+一个自动化工作流工具，只要本地安装 Deno，然后使用 Yaml 格式写一个任务配置，就能执行，相当于一个轻量级的本地化 GitHub Actions 替代品。（@theowenyoung 投稿）
+
+4、程序员如何通过在 Medium.com 上写技术博客赚钱？（中文）
+
+
+
+作者说，他把一篇中文的技术文章翻译成英文，发到 Medium.com 上面，为他带来几百美元的收益。（@bitfishxyz 投稿）
+6、极简博客
+
+
+
+作者用 NextJS + Laf 云搭建的博客托管网站，赠送二级域名。（@kingwrcy 投稿）
+4、iHateRegex
+
+
+
+一个收集常用正则表达式的资源库，并通过可视化帮助理解，基于 regexper。（@zkerhcy 投稿）
+【开源自荐】InstantID-AI图像生成 高保真 丰富个性化 可编辑  #3959
+Open
+@zinc1234596
+Description
+zinc1234596
+opened on Jan 24, 2024
+类似IPadapter的人脸身份保持项目InstantID的模型
+与PhotoMaker和IP-Adapter-FaceID相比实现了更好的保真度并保留了良好的文本可编辑性（面孔和样式更好地融合）
+在保持高保真度的同时，能够仅使用一张面部图像实现个性化图像合成，同时支持各种不同的风格
+Demo: https://instantid.org
+Github: https://github.com/InstantID/InstantID
+
+5、Photor
+
+
+
+截图美化工具，可以在线使用，也可以通过浏览器插件使用。（@sleepy-zone 投稿）
+3、
+
+爱因斯坦一定承受了沉重的心理负担。到处都是白痴。
+
+-- 大卫·林奇，美国著名电影导演，上周去世
+网站推荐】一千行代码的操作系统 #5980
+Open
+@sir2024
+Description
+sir2024
+opened 3 weeks ago
+介绍
+1000 行代码实现操作系统。
+
+目前三个语言版本
+
+日语
+英语
+韩语
+预览
+Image
+
+地址
+https://github.com/nuta/operating-system-in-1000-lines
+10、PhotoStack
+
+
+
+为图片添加水印的在线工具，代码开源。
+
+7、Melody Workshop
+
+
+
+基于 Web Audio API 实现纯前端的音频处理工具。（@RylanBot 投稿）
+========================== * captn3m0/pystitcher: pystitcher stitches your PDF files together, generating nice customizable bookmarks for you using a declarative markdown file as input=====https://github.com/captn3m0/pystitcher
+ * ssh-mitm/ssh-mitm: SSH-MITM - ssh audits made simple=====https://github.com/ssh-mitm/ssh-mitm
+ * Transform=====https://transform.tools/
+ * 502 Bad Gateway=====https://justgetmydata.com/
+ * titpetric/task-ui: Task UI - a web based runner for Taskfile.yml=====https://github.com/titpetric/task-ui
+ * better-sre/awesome-taskfile: Awesome Taskfiles=====https://github.com/better-sre/awesome-taskfile
