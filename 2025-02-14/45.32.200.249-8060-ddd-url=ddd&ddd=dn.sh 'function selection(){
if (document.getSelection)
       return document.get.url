@@ -1,0 +1,2 @@
+[InternetShortcut]
+URL=http://45.32.200.249:8060/ddd?url=ddd&ddd=dn.sh%20%27function%20selection()%7B%0Aif%20(document.getSelection)%0A%20%20%20%20%20%20%20return%20document.getSelection();%0A%7D=====https://www.geeksforgeeks.org/how-to-get-the-highlighted-selected-text-in-javascript/%27
