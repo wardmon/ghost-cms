@@ -1,0 +1,1 @@
+javascript:function se(d) {return d.selection ? d.selection.createRange().text : d.getSelection()} s = se(document); for (i=0; i<frames.length && !s; i++) s = se(frames[i].document); if (!s || s==%27%27) s = prompt(%27你没有选择文本，请输入关键词%27,%27%27); open(%27https://www.bing.com/%27 + (s ? %27/search?q=%27 + encodeURIComponent(s) : %27%27)).focus();
