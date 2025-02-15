@@ -1,0 +1,29 @@
+
+# Daily Notes Aliases
+export DN_PATH=~/dn
+
+
+  echo " * $1" >> $DN_PATH/$(date "+%Y-%m-%d")
+  cp -f $DN_PATH/$(date "+%Y-%m-%d") /home/pia/pdf/.
+  cat $DN_PATH/$(date "+%Y-%m-%d")
+  ls /home/pia/pdf -lh
+dno() {
+  echo " * $2" >> $DN_PATH/$1
+}
+
+dnoe() {
+  vim $DN_PATH/$1
+}
+
+dnt() {
+  echo $(date "+%Y-%m-%d")
+  cat $DN_PATH/$(date "+%Y-%m-%d")
+}
+
+dnte() {
+  vim $DN_PATH/$(date "+%Y-%m-%d")
+}
+  
+dnv() {
+  find $DN_PATH/$1* -type f -exec basename {} \; -exec cat {} \;
+}
