@@ -1,0 +1,1 @@
+default-src 'self'; script-src 'self'; connect-src 'self' ws:; frame-src 'self' allowed-site.example.com
