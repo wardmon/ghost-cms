@@ -1,0 +1,2 @@
+curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \
+chmod a+x ./lightpanda
