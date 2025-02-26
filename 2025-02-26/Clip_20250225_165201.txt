@@ -1,0 +1,28 @@
+あ	い	う	え	お
+◯	◯	◯	◯	◯
+↪ Study again
+か	き	く	け	こ
+◯	◯	◯	X: 1	◯
+↪ Study again
+さ	し	す	せ	そ
+◯	X: 1	◯	◯	◯
+↪ Study again
+た	ち	つ	て	と
+◯	◯	◯	◯	◯
+↪ Study again
+な	に	ぬ	ね	の
+X: 1	◯	◯	◯	◯
+↪ Study again
+は	ひ	ふ	へ	ほ
+X: 1	◯	◯	◯	◯
+↪ Study again
+ま	み	む	め	も
+◯	◯	◯	◯	◯
+↪ Study again
+や	ゆ	よ
+◯	◯	◯
+↪ Study again
+ら	り	る	れ	ろ
+◯	X: 1	◯	◯	◯
+↪ Study again
+わ	を	ん
