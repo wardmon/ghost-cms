@@ -1,0 +1,2 @@
+[InternetShortcut]
+URL=https://cn.bing.com//search?q=shell2http%20-host%2045.32.200.249%20-form%20%2Fform%20%27url_decoded%3D%24(echo%20%22%24v_from%22%20%7C%20sed%20%22s%2F%25%2F%5C%5Cx%2Fg%22%20%7C%20xargs%20-0%20printf)%3Beval%20%20%24url_decoded%20%24v_to%27%0A
