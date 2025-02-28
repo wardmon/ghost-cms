@@ -1,0 +1,4 @@
+excel_output_path = DATA_DIR / 'output.xlsx'
+df2.to_excel(excel_output_path,
+            sheet_name= 'Output',
+            index=False)
