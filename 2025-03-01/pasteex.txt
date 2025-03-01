@@ -1,0 +1,8 @@
+https://github.com/GameGodS3/DropPoint/releases/download/v1.2.1/DropPoint-1.2.1-win.ziphttps://github.com/GameGodS3/DropPoint/releases/download/v1.2.1/DropPoint-1.2.1-win.zipnull.vnbv4@simplelogin.coif0_38406313zizn8Q5e9yT0WZzizn8Q5e9yT0WZif0_38406313zizn8Q5e9yT0WZzizn8Q5e9yT0WZzizn8Q5e9yT0WZzizn8Q5e9yT0WZif0_38406313zizn8Q5e9yT0WZzizn8Q5e9yT0WZzizn8Q5e9yT0WZzizn8Q5e9yT0WZhttps://github.com/sqlpage/SQLPage/archive/refs/heads/main.ziphttps://github.com/sqlpage/SQLPage/archive/refs/heads/main.ziphttps://github.com/sqlpage/SQLPage/archive/refs/heads/main.zippy-thon.comhttps://dash.infinityfree.com/accounts/if0_38406313/statistics500007540150000754015000075401500007540150000849815000073953orders = pd.read_excel(excel_file_path,
+                       sheet_name = 'Orders')
+
+returns = pd.read_excel(excel_file_path,
+                        sheet_name = 'Returns')商品名称商品名称excel_output_path = DATA_DIR / 'output.xlsx'
+df2.to_excel(excel_output_path,
+            sheet_name= 'Output',
+            index=False)qnh['SKU'] = qnh['SKU'].astype(str)
