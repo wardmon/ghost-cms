@@ -1,0 +1,45 @@
+G:\choco\chocoC:\Users\null3\AppData\Local\Temp\WinGet\defaultState\WinGet-Chocolatey.Chocolatey.2.4.3.0-2025-03-08-16-44-51.744.loghttps://hacker-news.agi.li/post/2025-03-07https://hacker-news.agi.li/post/2025-03-07445-963-3108客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品客户通过网站浏览产品，在线订购产品     <!DOCTYPE html>
+    <html>
+        <body>
+            <p>My favorite foods/drinks list</p>
+        <ul>
+            <li>Foods		
+                <ol>
+                    <li>Egg</li>
+                    <li>Sushi</li>
+                </ol>			
+            </li>
+			
+            <li>Drinks
+			
+		<ol>
+			<li>Apple juice</li>
+			<li>Coffee</li>
+		</ol>
+		
+	  </li>
+        </ul>
+        </body>
+    </html>     <!DOCTYPE html>
+    <html>
+        <body>
+            <p>My favorite foods/drinks list</p>
+        <ul>
+            <li>Foods		
+                <ol>
+                    <li>Egg</li>
+                    <li>Sushi</li>
+                </ol>			
+            </li>
+			
+            <li>Drinks
+			
+		<ol>
+			<li>Apple juice</li>
+			<li>Coffee</li>
+		</ol>
+		
+	  </li>
+        </ul>
+        </body>
+    </html>
