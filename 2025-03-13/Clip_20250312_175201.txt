@@ -1,0 +1,3 @@
+  curl -F'file=@yourfile.png' https://envs.sh
+You can also POST remote URLs:
+    curl -F'url=http://example.com/image.jpg' https://envs.sh
