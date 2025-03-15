@@ -1,0 +1,1 @@
+https://github.com/FreeterApp/Freeter/releases/download/v2.5.0-beta/Freeter-2.5.0-beta-win-x64.zip
