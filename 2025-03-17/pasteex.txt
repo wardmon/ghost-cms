@@ -1,0 +1,47 @@
+npm install @codesandbox/sandpack-react<mds-form>
+    <mds-input label="Default"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input placeholder="First Name" label="Placeholder"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input disabled label="Disabled"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input error label="Error"></mds-input>
+</mds-form><mds-form>
+    <mds-input label="Default"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input placeholder="First Name" label="Placeholder"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input disabled label="Disabled"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input error label="Error"></mds-input>
+</mds-form>    "codehooks-crudlify": "^1.0.5",
+    "codehooks-js": "^1.0.7",
+    "yup": "^0.32.11"import app from 'codehooks-js';
+import { object, string, number, date } from 'yup';
+import crudlify from 'codehooks-crudlify';
+
+// database schema
+const userSchemaYup = object({
+    name: string().required(),
+    age: number().required().positive().integer(),
+    email: string().email(),
+    website: string().url().nullable(),
+    createdOn: date().default(() => new Date()),
+});
+
+const options = {
+    // schema: "yup" (default)
+    // schema: "json-schema"
+    // schema: "zod"
+}
+
+// Make REST API CRUD operations for user collection with Yup schema
+crudlify(app, {user: userSchemaYup}, options)
+
+export default app.init(); // export app to a runtime server engine0feb5a28-9d58-4447-9c46-43acc31cd637F:\Scoop\apps\git-with-openssh\current\bin\sh024  课件
