@@ -1,0 +1,23 @@
+import app from 'codehooks-js';
+import { object, string, number, date } from 'yup';
+import crudlify from 'codehooks-crudlify';
+
+// database schema
+const userSchemaYup = object({
+    name: string().required(),
+    age: number().required().positive().integer(),
+    email: string().email(),
+    website: string().url().nullable(),
+    createdOn: date().default(() => new Date()),
+});
+
+const options = {
+    // schema: "yup" (default)
+    // schema: "json-schema"
+    // schema: "zod"
+}
+
+// Make REST API CRUD operations for user collection with Yup schema
+crudlify(app, {user: userSchemaYup}, options)
+
+export default app.init(); // export app to a runtime server engine
