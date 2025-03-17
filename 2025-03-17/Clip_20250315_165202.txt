@@ -1,0 +1,12 @@
+<mds-form>
+    <mds-input label="Default"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input placeholder="First Name" label="Placeholder"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input disabled label="Disabled"></mds-input>
+</mds-form>
+<mds-form>
+    <mds-input error label="Error"></mds-input>
+</mds-form>
