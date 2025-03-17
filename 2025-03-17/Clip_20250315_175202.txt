@@ -1,0 +1,3 @@
+    "codehooks-crudlify": "^1.0.5",
+    "codehooks-js": "^1.0.7",
+    "yup": "^0.32.11"
