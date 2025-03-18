@@ -1,0 +1,6 @@
+cat << EOF | mo
+Here are the items in the array:
+{{#ARRAY}}
+    * {{.}}
+{{/ARRAY}}
+EOF
