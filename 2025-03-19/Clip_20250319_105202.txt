@@ -1,0 +1,3 @@
+$Xml = [xml]"<r><data/></r>"
+$Path = (join-path $pwd 'File.xml')
+$Xml.Save($Path)
