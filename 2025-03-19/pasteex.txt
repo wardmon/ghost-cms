@@ -1,0 +1,19 @@
+https://dev-radar.com/$Files = Get-ChildItem -File
+$Files | Sort-Object LastWriteTime -DescendingInstall-Module Pester -Scope CurrentUser -MinimumVersion 5.0.2Get-Help Out-File您好！我的手机号码是：13533881690，期待您的电话。
+我们现在遇到的问题如下：
+在进行业务运营验证程序时没能通过
+1， 信息不一致或与您 Google Ads 账号中的信息不符。
+ 
+
+您在验证表单中提交的信息与您提交的文件中的信息不符。我们发现的一些常见的不一致情况包括：
+
+提交的组织名称与已提交的注册文件中的组织名称不完全一致。
+提交的姓名与已提交的由政府签发的带照片身份证件上的姓名不完全一致。（我 提交的姓名是梁裕华，然后上传了 梁裕华的身份证，为什么还提示不一致？）
+2.我们发现的一些常见的不一致情况包括：
+• 验证表单中提到的详细信息（如披露信息中显示的名称、公司地址等）与 Google Ads 账号中的名称不一致。
+• 提供的网站无效或与您的 Google Ads 账号没有关联（即网站与您账号中的任何广告都没有关联）。( 提供的网站是：www.cnepearls.com, 我 Google Ads 账号 也是推广这个网站，为什么会提示  没有关联 ？  )
+希望能得到你们的帮助。
+谢谢！
+$Xml = [xml]"<r><data/></r>"
+$Path = (join-path $pwd 'File.xml')
+$Xml.Save($Path)Get-Info -ComputerName localhost
