@@ -1,0 +1,1 @@
+Install-Module Pester -Scope CurrentUser -MinimumVersion 5.0.2
