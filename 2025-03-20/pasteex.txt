@@ -1,0 +1,6 @@
+Google Payments 账号
+付款账号 ID 
+2487-0930-7794-6070
+付款账号别名
+AdWords 445-963-3108
+Invoke-Generate '[person]' -Count 3Invoke-Generatetarcltd.com
