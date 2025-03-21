@@ -1,0 +1,33 @@
+dnsconf:
+    - name: ""
+      ipv4:
+        enable: true
+        gettype: url
+        url: https://ddns.oray.com/checkip, https://ip.3322.net, https://4.ipw.cn
+        netinterface: WLAN 2
+        cmd: ""
+        domains:
+            - fn.110416.xyz
+      ipv6:
+        enable: false
+        gettype: netInterface
+        url: https://api64.ipify.org, https://speed.neu6.edu.cn/getIP.php, https://v6.ident.me, https://6.ipw.cn
+        netinterface: ""
+        cmd: ""
+        ipv6reg: ""
+        domains:
+            - ""
+      dns:
+        name: cloudflare
+        id: ""
+        secret: BiMgeLI-NZXxjoiYzKBimZlmT6ou9U1e6xe_Be9e
+      ttl: ""
+user:
+    username: 444395922@qq.com
+    password: $2a$10$SAAT9APjHUB0H4Chzoy9UOdL4JUCsCfPjq/oIHXM7zu7.ed8NsJ4i
+webhook:
+    webhookurl: ""
+    webhookrequestbody: ""
+    webhookheaders: ""
+notallowwanaccess: true
+lang: en
