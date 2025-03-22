@@ -1,0 +1,3 @@
+npx create-cloudflare@latestdb_configcurl -X GET "https://bfac51da36551f6280c66389b45008ab.r2.cloudflarestorage.com" \
+-H "Authorization: Bearer JQ2FKDkX5Z8-ahKSP0Jnyx-s2oqg64yglt7zHt0-"r2.cloudflarestorage.combfac51da36551f6280c66389b45008ab.r2.cloudflarestorage.compip install boto3db_configcurl -X GET "https://bfac51da36551f6280c66389b45008ab.r2.cloudflarestorage.com" \
+-H "Authorization: Bearer JQ2FKDkX5Z8-ahKSP0Jnyx-s2oqg64yglt7zHt0-"r2.cloudflarestorage.combfac51da36551f6280c66389b45008ab.r2.cloudflarestorage.compip install boto3T025-Q822-X577-B473D:\chocolatey
