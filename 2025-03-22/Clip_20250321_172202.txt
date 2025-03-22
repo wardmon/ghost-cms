@@ -1,0 +1,2 @@
+curl -X GET "https://bfac51da36551f6280c66389b45008ab.r2.cloudflarestorage.com" \
+-H "Authorization: Bearer JQ2FKDkX5Z8-ahKSP0Jnyx-s2oqg64yglt7zHt0-"
