@@ -1,0 +1,2 @@
+[InternetShortcut]
+URL=https://cn.bing.com//search?q=Dim%20WShell%0ASet%20WShell%20%3D%20CreateObject(%22WScript.Shell%22)%0AWShell.Run%20%22c%3A%5Cx%5Cmyapp.exe%22%2C%200%0ASet%20WShell%20%3D%20Nothing
