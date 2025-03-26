@@ -1,0 +1,1 @@
+https://github.com/winpython/winpython/releases/download/2.2.20191022/Winpython32-3.8.0.0.exe
