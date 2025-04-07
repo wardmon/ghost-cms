@@ -1,0 +1,1 @@
+F:\Scoop\apps\git-with-openssh\current\bin\bash.exe -c 'dufs --port 9999 -A'
